@@ -1,8 +1,12 @@
 import type { Tables, TablesInsert, TablesUpdate, Enums } from "./database.types";
+import type { User as CoreUser, KnowledgeContent as CoreKnowledgeContent } from "@phoenix/core";
 
 // Table Row Types
 export type User = Tables<"users">;
 export type KnowledgeContent = Tables<"knowledge_content">;
+
+// Core type exports for consistency
+export { CoreUser, CoreKnowledgeContent };
 
 // Insert Types
 export type UserInsert = TablesInsert<"users">;

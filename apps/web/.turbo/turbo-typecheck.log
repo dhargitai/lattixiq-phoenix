@@ -1,0 +1,4 @@
+
+> @phoenix/web@0.1.0 typecheck /Users/diatigrah/Projects/lattixiq-pheonix/apps/web
+> tsc --noEmit
+
