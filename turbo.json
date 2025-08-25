@@ -1,0 +1,50 @@
+{
+  "$schema": "https://turbo.build/schema.v2.json",
+  "remoteCache": {
+    "signature": true
+  },
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "dist/**", "build/**"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "outputs": [],
+      "dependsOn": ["^build"]
+    },
+    "typecheck": {
+      "outputs": [],
+      "dependsOn": ["^build"]
+    },
+    "test": {
+      "outputs": [],
+      "dependsOn": ["^build"]
+    },
+    "test:unit": {
+      "outputs": [],
+      "dependsOn": ["^build"]
+    },
+    "test:integration": {
+      "outputs": [],
+      "dependsOn": ["^build"]
+    },
+    "test:e2e": {
+      "outputs": [],
+      "dependsOn": ["^build"]
+    },
+    "format": {
+      "outputs": []
+    },
+    "format:check": {
+      "outputs": []
+    },
+    "embeddings:generate": {
+      "outputs": [],
+      "dependsOn": ["^build"]
+    }
+  }
+}

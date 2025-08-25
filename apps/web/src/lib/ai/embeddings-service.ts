@@ -48,27 +48,27 @@ export function prepareTextForEmbedding(content: KnowledgeContent): string {
   // Combine all relevant text fields with appropriate weighting
   const parts = [
     content.title ? `Title: ${content.title}` : "",
-    content.main_category ? `Main Category: ${content.main_category}` : "",
+    content.mainCategory ? `Main Category: ${content.mainCategory}` : "",
     content.subcategory ? `Subcategory: ${content.subcategory}` : "",
     // Super model emphasis - important for matching
-    content.super_model
+    content.superModel
       ? "Super Model: This is a foundational super model with broad applicability across many domains"
       : "",
     content.type ? `Type: ${content.type}` : "",
     content.definition ? `Definition: ${content.definition}` : "",
-    content.classic_example ? `Classic Example: ${content.classic_example}` : "",
-    content.modern_example ? `Modern Example: ${content.modern_example}` : "",
+    content.classicExample ? `Classic Example: ${content.classicExample}` : "",
+    content.modernExample ? `Modern Example: ${content.modernExample}` : "",
     content.pitfall ? `Pitfall: ${content.pitfall}` : "",
     content.payoff ? `Payoff: ${content.payoff}` : "",
-    content.dive_deeper_mechanism ? `How It Works: ${content.dive_deeper_mechanism}` : "",
-    content.dive_deeper_origin_story ? `Origin Story: ${content.dive_deeper_origin_story}` : "",
-    content.dive_deeper_pitfalls_nuances
-      ? `Advanced Understanding: ${content.dive_deeper_pitfalls_nuances}`
+    content.diveDeeperMechanism ? `How It Works: ${content.diveDeeperMechanism}` : "",
+    content.diveDeeperOriginStory ? `Origin Story: ${content.diveDeeperOriginStory}` : "",
+    content.diveDeeperPitfallsNuances
+      ? `Advanced Understanding: ${content.diveDeeperPitfallsNuances}`
       : "",
-    content.extra_content ? `Additional Content: ${content.extra_content}` : "",
-    content.problem_category?.length ? `Problem Category: ${content.problem_category.join(", ")}` : "",
-    content.target_persona?.length ? `Target Persona: ${content.target_persona.join(", ")}` : "",
-    content.startup_phase?.length ? `Startup Phase: ${content.startup_phase.join(", ")}` : "",
+    content.extraContent ? `Additional Content: ${content.extraContent}` : "",
+    content.problemCategory?.length ? `Problem Category: ${content.problemCategory.join(", ")}` : "",
+    content.targetPersona?.length ? `Target Persona: ${content.targetPersona.join(", ")}` : "",
+    content.startupPhase?.length ? `Startup Phase: ${content.startupPhase.join(", ")}` : "",
   ];
 
   return parts.filter(Boolean).join("\n\n");

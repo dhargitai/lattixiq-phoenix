@@ -1,0 +1,31 @@
+
+> @phoenix/web@0.1.0 build /Users/diatigrah/Projects/lattixiq-pheonix/apps/web
+> next build
+
+   ▲ Next.js 15.5.0
+   - Experiments (use with caution):
+     · cpus: 4
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 1474ms
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/5) ...
+   Generating static pages (1/5) 
+   Generating static pages (2/5) 
+   Generating static pages (3/5) 
+ ✓ Generating static pages (5/5)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    5.45 kB         107 kB
+└ ○ /_not-found                            992 B         102 kB
++ First Load JS shared by all             101 kB
+  ├ chunks/699-a6e31c756a77a2ff.js       45.3 kB
+  ├ chunks/acf35fb8-4e7197f2c6ec5d78.js  54.2 kB
+  └ other shared chunks (total)          1.83 kB
+
+
+○  (Static)  prerendered as static content
+

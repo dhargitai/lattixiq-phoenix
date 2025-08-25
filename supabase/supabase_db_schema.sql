@@ -77,7 +77,12 @@ ALTER TYPE "public"."subcategory" OWNER TO "postgres";
 
 CREATE TYPE "public"."subscription_status" AS ENUM (
     'free',
-    'premium'
+    'active',
+    'canceled',
+    'past_due',
+    'trialing',
+    'incomplete',
+    'incomplete_expired'
 );
 
 ALTER TYPE "public"."subscription_status" OWNER TO "postgres";
