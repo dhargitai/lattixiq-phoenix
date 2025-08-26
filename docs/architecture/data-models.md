@@ -1,6 +1,40 @@
 # **Data Models**
 
-The Phoenix Framework utilizes a sophisticated data model that combines user management, decision tracking, and an advanced knowledge management system with semantic search capabilities.
+The Phoenix Framework utilizes a sophisticated data model that combines user management, decision tracking, an advanced knowledge management system with semantic search capabilities, and a comprehensive session management system powered by the Phoenix Core Engine.
+
+## **Phoenix Core Engine Data Models** 🚀
+
+The Phoenix Core Engine introduces comprehensive session management, conversation branching, and AI orchestration capabilities. For complete details, see [Phoenix Core Engine Architecture](./phoenix-core-engine.md).
+
+### **Sessions**
+- **Purpose:** Track Phoenix Framework decision sprint sessions with phase progression and configuration
+- **Key Features:** Multi-phase state tracking, conversation branching support, AI model preferences
+- **Schema:** `sessions` table with phase_states JSONB, config JSONB, and activity tracking
+
+### **Messages**  
+- **Purpose:** Store conversation history with full branching support for exploration and rollback
+- **Key Features:** Parent-child message relationships, active branch tracking, performance metrics
+- **Schema:** `messages` table with parent_message_id for branching, is_active_branch flags
+
+### **Message Embeddings**
+- **Purpose:** Vector embeddings for messages enabling semantic search and problem understanding  
+- **Key Features:** 1536-dimensional vectors, HNSW indexing, sub-second search performance
+- **Schema:** `message_embeddings` table with vector(1536) using pgvector extension
+
+### **Session Artifacts**
+- **Purpose:** Store structured artifacts generated during sessions (problem briefs, commitment memos, etc.)
+- **Key Features:** Versioning system, artifact evolution tracking, links to creating messages
+- **Schema:** `session_artifacts` table with version control and current artifact flags
+
+### **Phase Transitions** 
+- **Purpose:** Comprehensive log of phase transitions with validation results and reasoning
+- **Key Features:** Detailed validation scoring, transition triggers, audit trail
+- **Schema:** `phase_transitions` table with validation_results JSONB and reasoning
+
+### **Framework Selections**
+- **Purpose:** Track which knowledge frameworks were selected, scored, and applied during sessions  
+- **Key Features:** Transparent scoring breakdowns, ranking system, application tracking
+- **Schema:** `framework_selections` table with score_breakdown JSONB and application notes
 
 ## **User**
 
