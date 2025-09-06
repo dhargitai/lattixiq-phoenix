@@ -47,6 +47,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 **/.turbo
+**/node_modules
 **/dist
+**/.next
 **/build
 .claude
