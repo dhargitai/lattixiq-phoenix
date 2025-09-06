@@ -96,12 +96,30 @@ export class PerformanceTracker {
   }
 
   setMetric(key: keyof PerformanceMetrics, value: number): void {
-    this.metrics[key] = value;
+    (this.metrics as any)[key] = value;
+  }
+
+  /**
+   * Record AI model call metrics
+   */
+  recordAICall(modelType: string, metrics: PerformanceMetrics): void {
+    this.setMetric('aiGenerationTime', metrics.duration || 0);
+    this.setMetric('tokensUsed', (this.metrics.tokensUsed || 0) + (metrics.tokensUsed || 0));
+    this.setMetric('cost', (this.metrics.cost || 0) + (metrics.cost || 0));
+    
+    // Store in completed entries for detailed reporting
+    this.completedEntries.push({
+      operation: `ai_call_${modelType}`,
+      startTime: Date.now() - (metrics.duration || 0),
+      endTime: Date.now(),
+      duration: metrics.duration,
+      metadata: { modelType, ...metrics },
+    });
   }
 
   incrementMetric(key: keyof PerformanceMetrics, value: number = 1): void {
-    const current = this.metrics[key] || 0;
-    this.metrics[key] = current + value;
+    const current = (this.metrics as any)[key] || 0;
+    (this.metrics as any)[key] = current + value;
   }
 
   getMetrics(): PerformanceMetrics {
@@ -249,7 +267,7 @@ export class MetricsAggregator {
         .filter(v => v !== undefined) as number[];
       
       if (values.length > 0) {
-        avgMetrics[key] = values.reduce((sum, v) => sum + v, 0) / values.length;
+        (avgMetrics as any)[key] = values.reduce((sum, v) => sum + v, 0) / values.length;
       }
     });
     
@@ -282,7 +300,7 @@ export class MetricsAggregator {
         
         if (values.length > 0) {
           const index = Math.floor((percentile / 100) * values.length);
-          percentileMetrics[key] = values[Math.min(index, values.length - 1)];
+          (percentileMetrics as any)[key] = values[Math.min(index, values.length - 1)];
         }
       });
       

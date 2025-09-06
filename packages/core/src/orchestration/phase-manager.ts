@@ -3,7 +3,6 @@ import type {
   ValidationResult,
   ValidationElement,
   Session,
-  Message,
   SessionArtifact,
   PhaseTransition,
   PhaseContext,
@@ -350,8 +349,8 @@ export class PhaseManager {
         return !!artifactContent.reasoning;
       
       case 'frameworks_selected':
-        return context.selectedFrameworks && 
-               context.selectedFrameworks.length > 0;
+        return !!(context.selectedFrameworks && 
+               context.selectedFrameworks.length > 0);
       
       case 'relevance_scores':
         return context.selectedFrameworks?.every(f => f.relevanceScore > 0) || false;

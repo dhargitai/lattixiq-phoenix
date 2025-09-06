@@ -174,10 +174,13 @@ export interface SessionConfig {
   // Model preferences
   defaultModel?: AIModelType;
   phaseModelOverrides?: Partial<Record<PhoenixPhase, AIModelType>>;
+  modelPreferences?: AIProviderConfig;
   
   // Feature flags
   enableBranching?: boolean;
   enableFrameworkRecommendations?: boolean;
+  enableConversationBranching?: boolean;
+  performanceTracking?: boolean;
   
   // Timeouts and limits
   responseTimeout?: number;
@@ -465,6 +468,33 @@ export interface FrameworkScoreBreakdown {
   reasoning: string;
 }
 
+// Type alias for backward compatibility
+export type ScoreBreakdown = FrameworkScoreBreakdown;
+
+/**
+ * Framework selection configuration options
+ */
+export interface FrameworkSelectionOptions {
+  /** Maximum number of frameworks to select */
+  maxFrameworks?: number;
+  /** Minimum similarity score threshold (0.0-1.0) */
+  minSimilarityScore?: number;
+  /** Target persona for filtering */
+  targetPersona?: TargetPersona[];
+  /** Startup phase for filtering */
+  startupPhase?: StartupPhase[];
+  /** Problem categories for filtering */
+  problemCategories?: string[];
+  /** Content types to include */
+  contentTypes?: KnowledgeContentType[];
+  /** Language for content */
+  language?: string;
+  /** Include super models in selection */
+  includeSuperModels?: boolean;
+  /** Diversity weight in scoring (0.0-1.0) */
+  diversityWeight?: number;
+}
+
 // ============================================================================
 // PHASE HANDLER TYPES
 // ============================================================================
@@ -495,9 +525,9 @@ export interface PhaseHandler {
 }
 
 /**
- * Context available to phase handlers
+ * Context available to phase handlers (legacy)
  */
-export interface PhaseContext {
+export interface PhaseContextLegacy {
   session: Session;
   messages: Message[];
   artifacts: SessionArtifact[];
@@ -526,32 +556,26 @@ export interface PhaseResponse {
  */
 export interface ISessionManager {
   createSession(userId: string, config?: SessionConfig): Promise<Session>;
-  loadSession(sessionId: string): Promise<Session>;
+  getSession(sessionId: string): Promise<Session | null>;
   updateSession(sessionId: string, updates: Partial<Session>): Promise<Session>;
-  addMessage(sessionId: string, message: Omit<Message, 'id' | 'createdAt'>): Promise<Message>;
-  branchFromMessage(messageId: string): Promise<Session>;
-  saveArtifact(artifact: Omit<SessionArtifact, 'id' | 'createdAt' | 'updatedAt'>): Promise<SessionArtifact>;
-  getArtifacts(sessionId: string, type?: ArtifactType): Promise<SessionArtifact[]>;
+  addMessage(sessionId: string, message: Omit<Message, 'id' | 'createdAt'>): Promise<string>;
+  getConversationMessages(sessionId: string, messageId?: string): Promise<CoreMessage[]>;
+  branchFromMessage(sessionId: string, messageId: string): Promise<{ newBranchId: string; parentMessageId: string }>;
+  saveArtifact(sessionId: string, artifact: SessionArtifact): Promise<SessionArtifact>;
+  getSessionArtifacts(sessionId: string, type?: ArtifactType): Promise<SessionArtifact[]>;
+  healthCheck(): Promise<{ available: boolean; error?: string }>;
 }
 
 /**
  * Framework selector interface
  */
 export interface IFrameworkSelector {
-  embedProblem(problemText: string): Promise<number[]>;
-  findRelevantFrameworks(
-    problemEmbedding: number[], 
-    context: PhaseContext,
-    options?: FrameworkSearchOptions
-  ): Promise<FrameworkMatch[]>;
-  scoreFrameworks(
-    matches: FrameworkMatch[], 
-    context: PhaseContext
-  ): Promise<ScoredFramework[]>;
-  curateFrameworks(
-    scored: ScoredFramework[], 
-    maxCount: number
+  selectFrameworks(
+    problemStatement: string,
+    sessionId: string,
+    options?: FrameworkSelectionOptions
   ): Promise<FrameworkSelection[]>;
+  healthCheck(): Promise<{ available: boolean; error?: string }>;
 }
 
 /**
@@ -585,9 +609,43 @@ export interface ScoredFramework extends FrameworkMatch {
  * AI router interface
  */
 export interface IAIRouter {
-  selectModel(phase: PhoenixPhase, override?: AIModelType): AIModelType;
-  assembleContext(session: Session, phase: PhoenixPhase, frameworks?: FrameworkSelection[]): PromptContext;
-  executeWithStreaming(model: AIModelType, context: PromptContext): AsyncGenerator<string>;
+  selectModel(
+    taskType: 'analysis' | 'quick_response' | 'deep_thinking' | 'framework_selection',
+    modelOverride?: AIModelType,
+    sessionPreferences?: Partial<AIProviderConfig>
+  ): AIModel;
+  
+  assembleContext(
+    messages: CoreMessage[],
+    artifacts?: SessionArtifact[],
+    frameworks?: FrameworkSelection[],
+    phaseContext?: PhaseContext
+  ): {
+    systemPrompt: string;
+    contextMessages: CoreMessage[];
+    metadata: Record<string, unknown>;
+  };
+  
+  generateResponse(
+    prompt: string,
+    model: AIModel,
+    context?: PhaseContext
+  ): Promise<AIResponse>;
+  
+  generateStreamingResponse(
+    messages: CoreMessage[],
+    model: AIModel,
+    context?: PhaseContext
+  ): Promise<StreamingResponse>;
+  
+  setModelOverride(sessionId: string, modelType: AIModelType): void;
+  clearModelOverride(sessionId: string): void;
+  getPerformanceMetrics(): PerformanceMetrics;
+  healthCheck(): Promise<{
+    openai: boolean;
+    google: boolean;
+    errors: string[];
+  }>;
 }
 
 /**
@@ -610,4 +668,174 @@ export interface ContextMessage {
   role: MessageRole;
   content: string;
   metadata?: Record<string, any>;
+}
+
+// ============================================================================
+// ADDITIONAL AI ROUTER TYPES FOR IMPLEMENTATION
+// ============================================================================
+
+/**
+ * CoreMessage type from AI SDK - alias for compatibility
+ */
+export interface CoreMessage {
+  id?: string;
+  sessionId?: string;
+  role: 'user' | 'assistant' | 'system';
+  content: string;
+  model?: string;
+  parentMessageId?: string;
+  phaseNumber?: number;
+  createdAt?: Date;
+}
+
+/**
+ * AI Model configuration interface
+ */
+export interface AIModel {
+  type: AIModelType;
+  provider: any; // AI SDK provider instance
+  config: AIModelConfig;
+}
+
+/**
+ * AI Model configuration
+ */
+export interface AIModelConfig {
+  temperature: number;
+  maxTokens: number;
+  timeoutMs: number;
+}
+
+/**
+ * AI Provider configuration
+ */
+export interface AIProviderConfig {
+  preferredModel?: AIModelType;
+  fallbackModel?: AIModelType;
+  timeout?: number;
+}
+
+/**
+ * AI Response interface
+ */
+export interface AIResponse {
+  content: string;
+  model: AIModelType;
+  metrics: PerformanceMetrics;
+}
+
+/**
+ * Streaming Response interface
+ */
+export interface StreamingResponse {
+  textStream: AsyncIterable<string>;
+  finishReason: any;
+  usage: any;
+  model: AIModelType;
+  operationId: string;
+  onFinish?: (result: any) => Promise<void>;
+}
+
+/**
+ * Enhanced performance metrics for AI operations
+ */
+export interface PerformanceMetrics {
+  duration?: number;
+  tokensUsed?: number;
+  tokensInput?: number;
+  tokensOutput?: number;
+  cost?: number;
+  modelUsed?: AIModelType;
+  operationId?: string;
+  totalTime?: number;
+  analysisTime?: number;
+  searchTime?: number;
+  scoringTime?: number;
+  curationTime?: number;
+  promptTime?: number;
+  aiGenerationTime?: number;
+  toolsFound?: number;
+  toolsSelected?: number;
+  operation?: string;
+}
+
+/**
+ * Enhanced phase context for AI router
+ */
+export interface PhaseContext {
+  sessionId: string;
+  userId: string;
+  currentPhase: PhoenixPhase;
+  phaseState: Record<string, any>;
+  messages: CoreMessage[];
+  artifacts: SessionArtifact[];
+  config: SessionConfig;
+  createdAt: Date;
+  updatedAt: Date;
+  frameworkSelections?: FrameworkSelection[];
+}
+
+/**
+ * Phoenix Orchestrator interface
+ */
+export interface IPhoenixOrchestrator {
+  processMessage(
+    sessionId: string,
+    message: string,
+    config?: MessageProcessingConfig
+  ): Promise<OrchestrationResult>;
+  
+  branchConversation(
+    sessionId: string,
+    parentMessageId: string,
+    newMessage: string,
+    config?: Omit<MessageProcessingConfig, 'parentMessageId'>
+  ): Promise<OrchestrationResult>;
+  
+  createSession(userId: string, options?: OrchestrationOptions): Promise<Session>;
+  getPerformanceMetrics(): PerformanceMetrics;
+  healthCheck(): Promise<{
+    overall: boolean;
+    services: Record<string, boolean>;
+    errors: string[];
+  }>;
+}
+
+/**
+ * Message processing configuration
+ */
+export interface MessageProcessingConfig {
+  maxProcessingTimeMs?: number;
+  enableFrameworkSelection?: boolean;
+  modelOverride?: AIModelType;
+  enableBranching?: boolean;
+  parentMessageId?: string;
+}
+
+/**
+ * Orchestration result
+ */
+export interface OrchestrationResult {
+  sessionId: string;
+  messageId: string;
+  content: string;
+  currentPhase: PhoenixPhase;
+  previousPhase?: PhoenixPhase;
+  phaseTransition?: PhaseTransition;
+  frameworkSelections: FrameworkSelection[];
+  artifacts: SessionArtifact[];
+  metrics: PerformanceMetrics;
+  conversationBranch?: {
+    parentMessageId: string;
+    branchMessageId: string;
+  };
+}
+
+/**
+ * Orchestration options
+ */
+export interface OrchestrationOptions {
+  enableConversationBranching?: boolean;
+  modelPreferences?: AIProviderConfig;
+  performanceTracking?: boolean;
 }
