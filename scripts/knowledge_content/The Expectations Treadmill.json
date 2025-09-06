@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "The Expectations Treadmill",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Social & Behavioral Psychology",
+  "hook": "Ever wonder why that promotion, new car, or latest iPhone didn't make you as happy as you thought it would?",
+  "definition": "The principle that satisfaction depends on the gap between objective conditions and subjective expectations, not absolute improvements.",
+  "analogy_or_metaphor": "Like running on a treadmill—no matter how fast you run, you stay in the same place because the belt keeps moving beneath you.",
+  "key_takeaway": "**Satisfaction = Reality - Expectations. As reality improves, expectations rise to match.**",
+  "classic_example": "Studies show that lottery winners return to their baseline happiness levels within a few years, despite their dramatically improved financial situation.",
+  "modern_example": "Smartphone users constantly demand better cameras, faster processors, and new features—yesterday's amazing phone becomes today's basic expectation.",
+  "pitfall": "Assuming that achieving goals or acquiring better things will create lasting satisfaction, leading to endless pursuit without fulfillment.",
+  "payoff": "Understanding this pattern helps you manage expectations realistically and focus on sustainable sources of satisfaction rather than chasing temporary highs.",
+  "visual_metaphor": "A person running on a treadmill with a carrot dangling in front of them—no matter how fast they run, the carrot stays the same distance away.",
+  "dive_deeper_mechanism": "The expectations treadmill operates through hedonic adaptation—our psychological tendency to quickly adjust to positive changes and recalibrate our baseline expectations. When objective conditions improve, our brains literally rewire to treat the new standard as normal. This evolutionary mechanism likely developed to keep us motivated and striving for better conditions, but in modern abundance, it creates a cycle where satisfaction remains elusive. The formula 'Satisfaction = Reality - Expectations' means that raising reality without managing expectations yields diminishing returns to happiness.",
+  "dive_deeper_origin_story": "The concept emerged from the groundbreaking work of psychologists Philip Brickman and Donald T. Campbell in the 1970s, who coined the term 'hedonic treadmill.' They observed that people tend to return to a stable level of happiness despite major positive or negative life events. Yuval Noah Harari popularized a similar idea in 'Sapiens,' noting how human satisfaction depends more on the gap between conditions and expectations than absolute improvements. This insight revolutionized our understanding of why material progress doesn't automatically translate to increased happiness.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That the treadmill means we're doomed to never be happier—in reality, understanding it helps us find more sustainable sources of satisfaction. **Nuance:** The treadmill isn't absolute; some experiences (relationships, meaningful work, personal growth) show less adaptation than material gains. **Pitfall:** Assuming all improvements are pointless—while hedonic adaptation is real, temporary boosts in satisfaction still have value, and some changes (health improvements, escaping poverty) do create lasting benefits.",
+  "source_file": "The Expectations Treadmill.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "fundraising",
+    "team_and_culture",
+    "operations",
+    "pricing"
+  ]
+}

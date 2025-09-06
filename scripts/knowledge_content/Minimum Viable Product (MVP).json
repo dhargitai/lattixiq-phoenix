@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Minimum Viable Product (MVP)",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever spent months building something perfect, only to find nobody wanted it? There's a smarter way to test ideas.",
+  "definition": "The simplest version of a product that allows you to test your most critical assumptions and gather maximum validated learning about customers with the least effort.",
+  "analogy_or_metaphor": "Like a rough sketch before painting a masterpiece—you need to see if the composition works before investing in expensive paints and canvas.",
+  "key_takeaway": "**Build the smallest thing that tests your biggest assumption.**",
+  "classic_example": "When Scott Cook founded Intuit, he didn't build accounting software first. He called random people from phone books asking if they found paying bills by hand frustrating. Only after confirming this pain point did he start building.",
+  "modern_example": "Dropbox's first MVP wasn't even a working product—it was a simple video showing how file syncing would work. This validated customer demand before writing a single line of code.",
+  "pitfall": "Building full-featured products based on untested assumptions wastes time, money, and momentum while competitors move faster.",
+  "payoff": "MVPs let you fail fast and cheap, pivot based on real feedback, and build only what customers actually want.",
+  "visual_metaphor": "A simple paper airplane next to a complex fighter jet blueprint—sometimes the simplest version teaches you the most about flight.",
+  "dive_deeper_mechanism": "MVPs work by forcing you to identify and test your leap-of-faith assumptions—the critical beliefs your business depends on. Instead of building in isolation, you create the minimum necessary to get real customer feedback. This shifts focus from 'Can we build it?' to 'Should we build it?' The learning loop of Build-Measure-Learn becomes faster and cheaper, allowing rapid iteration based on actual market response rather than internal speculation.",
+  "dive_deeper_origin_story": "Eric Ries coined the term in 'The Lean Startup,' but the concept emerged from his experience at startups like IMVU, where traditional product development led to building features nobody wanted. He combined Steve Blank's 'Customer Development' methodology with lean manufacturing principles, creating a systematic approach to startup validation. The breakthrough insight was that startups exist to learn, not just to build, and the MVP is the vehicle for that learning.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** MVP means 'cheap and buggy.' **Reality:** It means deliberately minimal but still functional for learning. The 'viable' part is crucial—it must provide enough value that customers will engage with it. Another common mistake is building an MVP and then not actually measuring or learning from it. The product is just the beginning; the real value comes from the validated learning cycle that follows.",
+  "extra_content": "## The MVP Build-Measure-Learn Framework\n\n### Step 1: Identify Your Leap-of-Faith Assumptions\n- **Problem Hypothesis**: What customer problem are you solving?\n- **Solution Hypothesis**: Will customers use your proposed solution?\n- **Market Hypothesis**: Is there a significant market for this?\n\n### Step 2: Design Your MVP Test\n- **Smoke Test**: Landing page with signup to test demand\n- **Concierge MVP**: Manually deliver the service to early customers\n- **Wizard of Oz**: Fake the automation while manually fulfilling backend processes\n- **Feature Fake**: Show the feature without building it (like Dropbox's video)\n\n### Step 3: Define Success Metrics\n- **Actionable Metrics**: Focus on cohort-based, split-test friendly measurements\n- **Leading Indicators**: Early signals that predict future success\n- **Vanity vs. Value**: Distinguish between impressive numbers and meaningful progress\n\n### Step 4: The Learning Loop\n1. **Build**: Create the minimum feature set needed to test assumptions\n2. **Measure**: Collect data on customer behavior and feedback\n3. **Learn**: Analyze whether assumptions were validated or invalidated\n4. **Decide**: Persevere (optimize) or Pivot (change direction)\n\n### Common MVP Types by Industry\n- **Software**: Single-feature prototype or beta version\n- **Physical Products**: 3D printed prototype or crowdfunding campaign\n- **Services**: Manual delivery to first customers\n- **Marketplaces**: Start with one side and manually recruit the other\n\n### Pivot Triggers\n- Customer acquisition cost exceeds customer lifetime value\n- Low engagement or retention rates despite marketing efforts\n- Customers use your product differently than intended\n- Market feedback consistently points toward different problem/solution",
+  "source_file": "Minimum Viable Product (MVP).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pivot"
+  ]
+}

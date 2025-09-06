@@ -1,0 +1,30 @@
+{
+  "knowledge_piece_name": "Video MVP",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder how Airbnb proved people would stay in strangers' homes before building their platform? They created a simple video showing the concept in action.",
+  "definition": "A video that demonstrates the functionality and value proposition of a future product before it's built, using the audience's response to validate demand and guide development decisions.",
+  "analogy_or_metaphor": "Like a movie trailer for a product that doesn't exist yet - it shows the story and benefits to see if audiences are interested enough to 'buy tickets' (sign up, pre-order, or engage).",
+  "key_takeaway": "**Test your product story before you write the code.**",
+  "classic_example": "Dropbox's famous demo video showed file syncing across devices before the technology was fully built, generating 75,000 signups overnight from people who wanted the solution.",
+  "modern_example": "A fitness app founder creates a 2-minute video showing how their AI personal trainer would work, measuring success by how many viewers sign up for early access versus building the AI first.",
+  "pitfall": "Building complex products without knowing if customers actually want the solution, wasting months of development on features nobody needs.",
+  "payoff": "Validating demand and gathering user feedback before major development investment, ensuring you build what people actually want.",
+  "visual_metaphor": "A film camera projecting images of a future product onto a screen, with a crowd of people either applauding or walking away.",
+  "dive_deeper_mechanism": "Video MVPs work by leveraging our brain's preference for visual storytelling over abstract descriptions. When people see a product in action - even simulated action - they can better imagine using it themselves. The video bypasses the 'feature fatigue' that comes from reading specifications and instead demonstrates value through narrative. The key insight is that customer behavior in response to the video (signups, shares, comments) serves as a reliable proxy for actual purchase intent, giving you data-driven validation before committing resources to full development.",
+  "dive_deeper_origin_story": "The Video MVP approach gained prominence through Eric Ries's Lean Startup methodology, but was popularized by Drew Houston's Dropbox demo in 2008. Frustrated by the technical complexity of building file synchronization, Houston created a simple screencast showing files magically appearing across different computers. The video looked polished but was actually smoke and mirrors - Houston manually moved files to create the illusion of automatic sync. When the video generated massive interest and signups, he knew he had validated a real problem worth solving, leading to Dropbox's eventual billion-dollar success.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception**: The video needs to be professionally produced and polished. **Reality**: Simple, authentic demonstrations often perform better than glossy marketing videos because they feel more genuine and focus on functionality over flash. **Another pitfall**: Using fake metrics - some teams get excited by video views or likes, but the only metrics that matter are concrete actions that indicate purchase intent (email signups, pre-orders, demo requests). The video should clearly show the problem being solved, not just features being demonstrated.",
+  "source_file": "Video MVP.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

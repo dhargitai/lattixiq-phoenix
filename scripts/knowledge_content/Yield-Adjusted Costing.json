@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Yield-Adjusted Costing",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "Ever wonder why that $10 gadget actually costs the company $15 to make? Welcome to the hidden world of manufacturing reality.",
+  "definition": "A financial model that calculates the true per-unit cost by dividing total production costs by the yield rate (percentage of good units produced), revealing the real economic impact of defects and failures.",
+  "analogy_or_metaphor": "It's like baking cookies where half burn in the oven - you can't just count the cost of flour and sugar for the good cookies. You need to factor in all the wasted ingredients from the burnt ones too.",
+  "key_takeaway": "**The real cost of anything is total investment divided by successful outcomes.**",
+  "classic_example": "A semiconductor factory produces 1000 chips at $100,000 total cost, but only 800 pass quality tests. The yield-adjusted cost per good chip is $125 ($100,000 ÷ 800), not the naive $100.",
+  "modern_example": "A software development team spends $50,000 on a sprint but only 60% of features work properly on release. The real cost per working feature is significantly higher than the budget divided by planned features.",
+  "pitfall": "Ignoring yield-adjusted costs leads to underpricing products, overestimating profits, and making poor investment decisions based on incomplete financial pictures.",
+  "payoff": "Understanding true costs enables accurate pricing, identifies improvement opportunities, and drives strategic investments in quality that actually increase profitability.",
+  "visual_metaphor": "A factory conveyor belt with dollar signs, where some products fall off or get marked with red X's, while a calculator shows the true cost per surviving product at the end.",
+  "dive_deeper_mechanism": "Yield-adjusted costing works by incorporating probabilistic quality outcomes into financial calculations. Unlike traditional cost accounting that assumes perfect production, this model recognizes that manufacturing is inherently variable. The psychological power lies in making invisible costs visible - when managers see that a 70% yield effectively increases costs by 43%, it creates urgency for improvement. The model forces a shift from optimistic planning to realistic economics, revealing that quality isn't just a nice-to-have but a fundamental cost driver.",
+  "dive_deeper_origin_story": "While manufacturers have always known about defects, formal yield-adjusted costing emerged from the electronics industry in the 1980s when semiconductor production became increasingly complex. Engineers like those described in 'The Hardware Hacker' realized that traditional accounting missed the true economics of high-tech manufacturing. The breakthrough came when financial analysts started treating yield as a multiplier rather than just a loss category, fundamentally changing how companies viewed quality investments and process improvements.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Yield-adjusted costing is just about manufacturing defects. **Reality:** It applies to any process with variable success rates, from software development to marketing campaigns. **Another pitfall:** Using estimated rather than actual yield data, which defeats the purpose of revealing true costs. **Critical nuance:** Yield can be measured at individual stages (First-Time Yield) or across entire processes (Rolled Throughput Yield) - using the wrong measurement can dramatically skew investment decisions.",
+  "extra_content": "## Yield-Adjusted Costing Calculation Framework\n\n### Basic Formula\n**Yield-Adjusted Cost per Unit = Total Production Costs ÷ (Total Units Started × Yield Rate)**\n\n### Step-by-Step Implementation\n\n**Step 1: Data Collection**\n- Total production costs (materials, labor, overhead, equipment)\n- Total units started in production\n- Number of units passing quality standards\n- Costs of rework, scrap, and waste\n\n**Step 2: Calculate Yield Rate**\n- **First-Time Yield** = Good Units ÷ Total Units Started\n- **Rolled Throughput Yield** = Product of individual stage yields\n\n**Step 3: Apply the Formula**\n- Example: $100,000 total cost, 1000 units started, 750 good units\n- Yield Rate = 750 ÷ 1000 = 0.75 (75%)\n- Yield-Adjusted Cost = $100,000 ÷ 750 = $133.33 per good unit\n\n### Multi-Stage Process Calculation\nFor processes with multiple stages:\n1. Calculate yield at each stage\n2. Multiply stage yields for overall yield: Stage 1 (90%) × Stage 2 (85%) × Stage 3 (95%) = 72.7% overall\n3. Apply overall yield to total accumulated costs\n\n### Decision Framework\n**Investment Priority Matrix:**\n- High impact, low cost improvements: Implement immediately\n- High impact, high cost: Conduct ROI analysis\n- Low impact: Monitor but don't prioritize\n\n**ROI Calculation for Yield Improvements:**\n- Current Cost per Unit = Total Costs ÷ Current Good Units\n- Projected Cost per Unit = Total Costs ÷ Projected Good Units (after improvement)\n- Savings per Unit = Current Cost - Projected Cost\n- ROI = (Annual Savings - Investment Cost) ÷ Investment Cost\n\n### Practical Application Checklist\n- [ ] Collect actual yield data (not estimates)\n- [ ] Include all associated costs (rework, scrap, opportunity cost)\n- [ ] Calculate yield at critical process stages\n- [ ] Compare yield-adjusted costs to selling prices\n- [ ] Identify yield improvement opportunities\n- [ ] Develop investment business cases based on cost impact\n- [ ] Monitor yield trends and cost implications over time",
+  "source_file": "Yield-Adjusted Costing.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "operations",
+    "pricing",
+    "product-market_fit"
+  ]
+}

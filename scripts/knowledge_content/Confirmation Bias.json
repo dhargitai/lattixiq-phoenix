@@ -1,0 +1,42 @@
+{
+  "knowledge_piece_name": "Confirmation Bias",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever notice how after you buy a new car, you suddenly see that same model everywhere? Your brain isn't just playing tricks—it's showing you confirmation bias in action.",
+  "definition": "Confirmation bias is the tendency to search for, interpret, and recall information in ways that confirm our pre-existing beliefs while giving disproportionately less consideration to alternative possibilities.",
+  "analogy_or_metaphor": "It's like wearing tinted glasses that only let you see certain colors—you're still looking at the same world, but you're only seeing the parts that match the lens you're wearing.",
+  "key_takeaway": "**What we believe is what we choose to see.**",
+  "classic_example": "In Wason's famous 1960 experiment, participants were asked to discover a rule governing number sequences. Given '2-4-6' as an example, most guessed 'even numbers ascending by 2' and only tested sequences that confirmed this guess (like 8-10-12), never testing sequences that might disprove it (like 1-3-5).",
+  "modern_example": "Scrolling through social media and only engaging with posts that support your political views, while scrolling past or dismissing articles that challenge your perspective, creating an echo chamber that reinforces your existing beliefs.",
+  "pitfall": "Ignoring confirmation bias leads to overconfidence in flawed beliefs, poor decision-making, and resistance to necessary change, keeping you trapped in false assumptions.",
+  "payoff": "Recognizing confirmation bias helps you actively seek disconfirming evidence, make more objective decisions, and update your beliefs based on reality rather than wishful thinking.",
+  "visual_metaphor": "A person wearing rose-colored glasses standing in front of a rainbow, but only able to see the red and pink bands while the other colors appear invisible or faded.",
+  "dive_deeper_mechanism": "Confirmation bias operates as an automatic, unconscious information-processing shortcut that helps reduce cognitive load. Our brains are constantly bombarded with vast amounts of information and cannot process it all impartially. This bias filters information through existing beliefs, which is more mentally efficient and less taxing. Evolutionarily, this quick decision-making based on prior knowledge often enhanced survival by avoiding the costly delay of thoroughly analyzing every new piece of information. It also serves a psychological protective function, maintaining self-esteem and competence by avoiding the discomfort of admitting errors or false beliefs.",
+  "dive_deeper_origin_story": "The formal study of confirmation bias began with British psychologist Peter Cathcart Wason in 1960. In his groundbreaking experiment, Wason presented participants with the number sequence '2-4-6' and asked them to discover the rule governing it. Most participants hypothesized 'ascending even numbers' and only tested confirming cases like '8-10-12' or '14-16-18.' They rarely tested potentially falsifying sequences like '1-3-5' or '10-8-6,' which would have revealed that the actual rule was simply 'ascending numbers.' This elegant experiment demonstrated how people naturally seek confirmation rather than falsification, fundamentally shaping our understanding of human reasoning.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** People often think confirmation bias is deliberate cherry-picking of evidence, but it's usually an unconscious, automatic process that happens without awareness. **Reality:** It's a fundamental feature of how our brains process information, not a character flaw. **Another Pitfall:** Believing that simply being aware of confirmation bias eliminates it. **The Truth:** Even when we know about this bias, it continues to influence our thinking. The key is building systematic practices—like actively seeking disconfirming evidence and considering alternative explanations—rather than relying on awareness alone.",
+  "source_file": "Falsification - Confirmation Bias.md",
+  "super_model": true,
+  "target_persona": [
+    "founder",
+    "executive",
+    "investor"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "hiring",
+    "fundraising",
+    "co-founder_conflict",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "pricing",
+    "risk_management"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Three Levers of Value Proposition",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "Ever wonder why some products instantly click with customers while others struggle for attention? It comes down to three simple levers.",
+  "definition": "The Three Levers of Value Proposition states that a product's value proposition is strongest when it helps customers save Time, save Money, or make Money.",
+  "analogy_or_metaphor": "Think of these three levers like the primary colors of business value—every compelling product offering can be mixed from these fundamental elements, and the most powerful products hit multiple levers simultaneously.",
+  "key_takeaway": "**Every winning product must clearly answer: Does this save time, save money, or make money?**",
+  "classic_example": "FedEx revolutionized shipping by focusing on the time lever with 'When it absolutely, positively has to be there overnight'—customers paid premium prices for time savings.",
+  "modern_example": "Uber hits all three levers: saves time (no waiting for taxis), saves money (often cheaper than traditional cabs), and helps drivers make money (flexible income opportunity).",
+  "pitfall": "Products that fail to clearly deliver on any of these three levers struggle to communicate their value and justify their price to customers.",
+  "payoff": "Products that master one or more levers create obvious, measurable value that customers can easily understand and are willing to pay for.",
+  "visual_metaphor": "Three interlocking gears labeled 'Save Time,' 'Save Money,' and 'Make Money,' showing how they can work independently or together to drive customer value.",
+  "dive_deeper_mechanism": "This framework works because it aligns with fundamental human motivations—efficiency (time), security (money saved), and opportunity (money earned). These represent the core economic drivers behind most purchasing decisions. The brain processes these benefits quickly because they directly relate to survival and prosperity instincts that have evolved over millennia.",
+  "dive_deeper_origin_story": "While the exact origin is unclear, this framework gained prominence in the startup and SaaS world as entrepreneurs sought simple ways to articulate value propositions. It reflects decades of marketing wisdom distilled into an actionable format, popularized by business coaches and authors like Arvid Kahl who observed that successful products consistently delivered on these three outcomes.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** You must hit all three levers to succeed. **Reality:** Many successful products excel at just one lever—the key is being exceptional at that one thing rather than mediocre at all three. Also, different customer segments may prioritize different levers, so your messaging should emphasize the most relevant lever for each audience.",
+  "extra_content": "## Value Proposition Assessment Framework\n\n### Step 1: Identify Your Primary Lever\n- **Time Saver:** List specific time-consuming tasks your product eliminates or accelerates\n- **Money Saver:** Calculate exact cost reductions, efficiency gains, or waste elimination\n- **Money Maker:** Quantify revenue opportunities, profit increases, or income generation\n\n### Step 2: Quantify the Impact\n- Use specific numbers: \"Save 3 hours per week\" not \"Save time\"\n- Calculate dollar amounts: \"Reduce costs by $500/month\" not \"Save money\"\n- Project earnings: \"Generate additional $2,000/month\" not \"Make money\"\n\n### Step 3: Message Hierarchy\n1. Lead with your strongest lever in headlines\n2. Support with secondary levers as additional benefits\n3. Use customer testimonials that speak to specific lever outcomes\n\n### Step 4: Validation Questions\n- **For Time:** How much time does this actually save? Can customers measure it?\n- **For Money Saved:** What's the ROI? How quickly do customers break even?\n- **For Money Made:** What's the realistic income potential? Are there success stories?\n\n### Implementation Example\n**Product:** Project management software\n- **Primary Lever:** Save Time (\"Reduce project coordination time by 50%\")\n- **Secondary Lever:** Save Money (\"Eliminate $3,000/month in project delays\")\n- **Supporting Evidence:** Customer case studies showing specific time and cost savings",
+  "source_file": "Three Levers of Value Proposition (TMM).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

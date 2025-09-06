@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Kanban for Validated Learning",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever finished a project only to realize it solved the wrong problem? What if your workflow could force you to learn from every task?",
+  "definition": "A workflow management method that defines a task as 'done' only after it has generated validated learning, forcing teams to focus on the outcome of their work, not just the output.",
+  "analogy_or_metaphor": "Like a scientific experiment lab where no hypothesis is considered complete until it's been tested and the results documented—not just when the experiment is run.",
+  "key_takeaway": "**True completion means proven learning, not just finished tasks.**",
+  "classic_example": "Toyota's production system used visual cards to signal when inventory was needed, ensuring each step added real value to the manufacturing process rather than creating wasteful stockpiles.",
+  "modern_example": "A startup team building a new app feature moves it to 'Done' only after user testing confirms it actually improves engagement metrics, not just when the code is written.",
+  "pitfall": "Without validated learning, teams create busy work and outputs that don't deliver real value, leading to wasted resources and false progress.",
+  "payoff": "By requiring validation at each step, you ensure every effort contributes to genuine progress and customer value, accelerating meaningful innovation.",
+  "visual_metaphor": "A conveyor belt with checkpoint stations where each item must pass a quality test before moving forward—incomplete items loop back for refinement.",
+  "dive_deeper_mechanism": "This method works by exploiting our natural tendency to declare work 'finished' too early. By requiring validated learning as the final step, it forces teams to confront whether their assumptions were correct. The visual workflow creates transparency, while work-in-progress limits prevent teams from starting new tasks before completing the learning loop on existing ones. This creates a culture where evidence trumps effort.",
+  "dive_deeper_origin_story": "Kanban originated at Toyota in the 1940s when Taiichi Ohno noticed how supermarkets restocked shelves only when items were actually purchased—a pull system based on real demand. David Anderson later adapted this visual system for knowledge work in the 2000s. Eric Ries then revolutionized startup methodology with 'validated learning'—the idea that progress means learning what customers actually want, not just building features. Combining these concepts creates a workflow that ensures every task teaches you something valuable.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** People think any feedback counts as 'validated learning.' **Reality:** True validation requires measurable evidence that tests a specific hypothesis—not just opinions or feelings. **Another Pitfall:** Teams often skip the learning step when under pressure, defeating the entire purpose. The system only works when the validation stage is treated as non-negotiable, even if it means admitting a task didn't achieve its intended outcome.",
+  "extra_content": "## Kanban for Validated Learning Framework\n\n### 1. Board Setup\n- **Columns:** Backlog → In Progress → Done → Validated Learning → Archive\n- **WIP Limits:** Set maximum cards per column (typically 3-5 for In Progress)\n- **Card Requirements:** Each card must include a testable hypothesis or success metric\n\n### 2. Implementation Steps\n1. **Define Learning Goals:** Before starting any task, write down what you expect to learn or achieve\n2. **Set Success Criteria:** Establish measurable indicators that will confirm or refute your hypothesis\n3. **Execute Task:** Complete the work as defined in the card\n4. **Gather Evidence:** Collect data, feedback, or metrics to test your hypothesis\n5. **Validate Learning:** Analyze results and document what was actually learned\n6. **Make Decision:** Based on validation, decide to proceed, pivot, or stop\n\n### 3. Validation Methods\n- **A/B Testing:** Compare different approaches with measurable outcomes\n- **Customer Interviews:** Structured conversations to test assumptions\n- **Metrics Analysis:** Use data to confirm or deny hypotheses\n- **Prototype Testing:** Build minimum viable versions to test core assumptions\n\n### 4. Review Cadence\n- **Daily Standups:** Focus on learning blockers, not just task progress\n- **Weekly Reviews:** Analyze validation results and adjust future hypotheses\n- **Monthly Retrospectives:** Improve the validation process itself\n\n### 5. Success Indicators\n- Percentage of tasks that generate actionable insights\n- Reduction in rework due to better validation upfront\n- Faster decision-making based on evidence rather than assumptions\n- Increased team confidence in strategic direction",
+  "source_file": "Kanban (for Validated Learning).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "operations",
+    "team_and_culture"
+  ]
+}

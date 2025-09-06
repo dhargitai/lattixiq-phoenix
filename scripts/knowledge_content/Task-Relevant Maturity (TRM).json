@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Task-Relevant Maturity (TRM)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wondered why your star performer suddenly struggles when given a new project? It's not incompetence—it's TRM.",
+  "definition": "Task-Relevant Maturity (TRM) is a measure of an individual's readiness to perform a specific task, combining both their ability and willingness to execute that particular responsibility.",
+  "analogy_or_metaphor": "Think of TRM like a driver's license—being an excellent driver doesn't automatically qualify you to pilot a plane. Each new task requires its own maturity level.",
+  "key_takeaway": "**Competence in one area doesn't guarantee competence in another—readiness is always task-specific.**",
+  "classic_example": "A brilliant software engineer who becomes a team lead may struggle initially with people management, despite being technically excellent. Their TRM for coding is high, but their TRM for leadership starts low.",
+  "modern_example": "A social media manager who excels at Instagram but freezes when asked to create TikTok content. Same skill set, different platform—different TRM level required.",
+  "pitfall": "Assuming someone's general competence means they're ready for any task leads to frustration, failed projects, and damaged confidence.",
+  "payoff": "Recognizing TRM helps you provide the right level of support and supervision, setting people up for success rather than failure.",
+  "visual_metaphor": "A thermometer with different temperature zones, where each task requires its own specific 'readiness temperature' to succeed.",
+  "dive_deeper_mechanism": "TRM operates on two dimensions: ability (can they do it?) and willingness (will they do it?). High ability with low willingness might indicate fear or lack of confidence. Low ability with high willingness suggests enthusiasm but need for training. The key insight is that TRM is dynamic—it changes as people gain experience and confidence with specific tasks. This is why someone can be a high performer overall but still need close guidance on new responsibilities.",
+  "dive_deeper_origin_story": "The concept comes from Andy Grove's 'High Output Management,' where the former Intel CEO observed that even experienced managers struggled when given new types of challenges. Grove noticed that traditional performance reviews missed this crucial distinction—they measured past performance rather than readiness for future tasks. This insight revolutionized how Silicon Valley companies approached promotion and task assignment.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** TRM is permanent or reflects overall intelligence. **Reality:** TRM is fluid and task-specific—a CEO might have low TRM for using new software, while an intern might have high TRM for social media marketing. **Another Pitfall:** Confusing TRM with seniority. Just because someone has been with the company longer doesn't mean they have higher TRM for every new challenge that emerges.",
+  "source_file": "Task-Relevant Maturity (TRM).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

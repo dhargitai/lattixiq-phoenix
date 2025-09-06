@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Minivation",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever seen a brilliant product fail not because it was bad, but because the company didn't dare charge what it was worth?",
+  "definition": "Minivation is a product failure framework describing innovations that are underpriced or have targets set too low, failing to capture their full market or revenue potential despite creating genuine value.",
+  "analogy_or_metaphor": "It's like selling a Rolex for the price of a Casio—you've created something valuable but left most of the money on the table due to lack of ambition or poor value assessment.",
+  "key_takeaway": "**Great products can fail not from being worthless, but from being undervalued.**",
+  "classic_example": "Amazon's Fire Phone packed premium features like Dynamic Perspective 3D display and instant tech support, but the company failed to position and price it appropriately in the premium smartphone market, leading to massive losses despite genuine innovation.",
+  "modern_example": "A SaaS startup creates an AI tool that saves companies $50,000 per year but prices it at $99/month because they're afraid customers won't pay more, leaving $40,000+ in annual value uncaptured per client.",
+  "pitfall": "Undervaluing your innovation leads to leaving massive revenue on the table, potentially making a great product appear unsuccessful and limiting resources for future development.",
+  "payoff": "Properly valuing your innovation maximizes revenue potential, attracts quality customers who appreciate the value, and provides resources to continue innovating.",
+  "visual_metaphor": "A treasure chest overflowing with gold coins, but with a tiny price tag attached—representing valuable innovation being sold for far less than its worth.",
+  "dive_deeper_mechanism": "Minivation occurs when companies focus too heavily on customer acquisition over value capture, often stemming from fear of pricing themselves out of the market. This creates a psychological trap where companies underestimate their own value proposition. The mechanism typically involves three components: feature over-engineering without corresponding price positioning, competitive benchmarking against inferior products, and internal lack of confidence in the innovation's true worth. Companies fall into this trap because they conflate being customer-friendly with being underpriced, not realizing that proper pricing can actually signal quality and attract the right customer segments.",
+  "dive_deeper_origin_story": "The term 'Minivation' was coined by pricing strategist Madhavan Ramanujam in his analysis of product failures. It emerged from studying companies like Amazon, which despite having massive resources and innovative capabilities, sometimes failed to properly monetize their innovations. Ramanujam observed that many product failures weren't due to poor products, but poor pricing strategies that didn't match the value created. The concept became particularly relevant in the tech industry, where the race to acquire users often overshadowed the need to capture appropriate value from innovations.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Minivation only applies to overpriced products. **Reality:** It specifically refers to *underpriced* innovations that fail to capture their value. **Another Misconception:** Lower prices always mean more customers and success. **Reality:** Underpricing can signal low quality, attract price-sensitive customers who don't value the innovation, and create unsustainable business models. **Key Nuance:** Minivation is different from simple feature shock—it's specifically about the disconnect between innovation value and pricing strategy, not just cramming too many features into a product.",
+  "source_file": "Minivation.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

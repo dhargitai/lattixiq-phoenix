@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The Happiness Set-Point",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Motivation & Human Drives",
+  "hook": "Ever wonder why lottery winners aren't much happier a year later, or why that promotion's joy faded so quickly?",
+  "definition": "The happiness set-point theory suggests that each person has a genetically determined baseline level of happiness to which they consistently return, regardless of positive or negative life events.",
+  "analogy_or_metaphor": "Think of happiness like a thermostat in your home—no matter how much you crank up the heat or blast the AC, it always returns to the preset temperature.",
+  "key_takeaway": "**Your happiness level is surprisingly resistant to external changes.**",
+  "classic_example": "Studies of lottery winners show that after an initial spike in reported happiness, they return to roughly the same happiness levels they had before winning within 12-18 months.",
+  "modern_example": "Getting that dream job or buying the latest iPhone brings temporary joy, but within weeks you're back to your usual mood, already eyeing the next upgrade or promotion.",
+  "pitfall": "Chasing external achievements and acquisitions in hopes they'll make you permanently happier leads to disappointment and endless striving.",
+  "payoff": "Understanding your happiness set-point helps you focus on sustainable practices like gratitude, relationships, and meaning rather than quick fixes.",
+  "visual_metaphor": "A rubber band being stretched in different directions but always snapping back to its original shape and position.",
+  "dive_deeper_mechanism": "The happiness set-point operates through hedonic adaptation—our psychological tendency to quickly adjust to positive or negative changes in our circumstances. Your brain has evolved to return to baseline emotional states because constantly high or low emotions would be evolutionarily disadvantageous. This mechanism involves neurotransmitter regulation, where initial dopamine spikes from positive events naturally decline as the brain recalibrates. Genetic factors account for roughly 50% of your happiness level, with life circumstances contributing only about 10%, and intentional activities making up the remaining 40%.",
+  "dive_deeper_origin_story": "The concept emerged from twin studies conducted by researchers like David Lykken and Auke Tellegen in the 1990s, who found that identical twins raised apart had remarkably similar happiness levels despite vastly different life experiences. This research was reinforced by longitudinal studies tracking people through major life events—marriages, divorces, job changes, even accidents resulting in paralysis—showing that most people returned to their baseline happiness within 1-2 years. The term gained widespread attention through psychologist Sonja Lyubomirsky's research on the 'happiness pie,' which quantified the relative contributions of genetics, circumstances, and intentional activities to well-being.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** The set-point is completely fixed and unchangeable. **Reality:** While genetic predisposition is strong, the set-point can shift slightly over time through consistent practices, major life transitions, or significant personal growth. **Another Pitfall:** Assuming all positive events are equally temporary—research shows that experiences (travel, learning) tend to provide more lasting satisfaction than material purchases because they become part of your identity rather than objects you adapt to.",
+  "source_file": "The Happiness Set-Point.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "co-founder_conflict",
+    "hiring"
+  ]
+}

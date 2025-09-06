@@ -1,0 +1,36 @@
+{
+  "knowledge_piece_name": "Power Law Distribution",
+  "super_model": true,
+  "main_category": "Core Sciences & Mathematics",
+  "subcategory": "Mathematics & Statistics",
+  "hook": "Ever wonder why one YouTube video gets 100 million views while most get under 1,000? Welcome to the power law.",
+  "definition": "The principle that outcomes are not evenly distributed—a small number of inputs account for the majority of results.",
+  "analogy_or_metaphor": "Like a city's population where New York City has 8 million people while thousands of small towns have fewer than 1,000—the distribution is wildly uneven, not a smooth bell curve.",
+  "key_takeaway": "**In any system, a few things matter exponentially more than everything else combined.**",
+  "classic_example": "Venture capital portfolios where one investment (like Facebook or Google) generates more returns than all other investments combined, even if 9 out of 10 startups fail.",
+  "modern_example": "Your social media followers: 80% of your engagement comes from 20% of your posts, and within that 20%, one viral post might generate more reach than months of regular content.",
+  "pitfall": "Spreading effort equally across all opportunities, missing the few that could generate exponential returns while over-investing in the many that won't.",
+  "payoff": "Recognizing power laws helps you identify and double down on the few high-impact opportunities while avoiding the trap of treating all options as equally valuable.",
+  "visual_metaphor": "A bar chart where one towering bar dwarfs all others—like a skyscraper standing next to a row of single-story houses.",
+  "dive_deeper_mechanism": "Power laws emerge from systems with positive feedback loops and preferential attachment. Success breeds more success: popular videos get recommended more, leading companies attract better talent, and wealthy individuals have more investment opportunities. This creates a 'rich get richer' dynamic where small initial advantages compound exponentially over time. Unlike normal distributions where most outcomes cluster around the average, power law distributions have no meaningful 'average'—the extreme outliers dominate the entire system.",
+  "dive_deeper_origin_story": "The power law was first described by Italian economist Vilfredo Pareto in 1896 when he noticed that 80% of Italy's land was owned by 20% of the population. This 80/20 pattern, now called the Pareto Principle, appeared everywhere he looked. The mathematical formulation was later refined by physicist Albert-László Barabási, who discovered that many networks—from the internet to Hollywood—follow power law distributions where a few nodes have exponentially more connections than the rest.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** The 80/20 rule applies exactly everywhere. **Reality:** The specific ratio varies—it could be 90/10 or 99/1 in extreme cases. The key insight is disproportionality, not the exact percentages. **Myth:** Power laws mean you should ignore everything except the top performers. **Reality:** You often can't predict which few will become the exponential winners, so you need a portfolio approach while being ready to heavily invest in the clear winners once they emerge.",
+  "source_file": "Power Law Distribution.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "investor"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "fundraising",
+    "hiring",
+    "competitive_strategy",
+    "go-to-market",
+    "risk_management"
+  ]
+}

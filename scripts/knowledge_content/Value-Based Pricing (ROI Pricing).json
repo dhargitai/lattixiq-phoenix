@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Value-Based Pricing (ROI Pricing)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some customers happily pay $10,000 for software that costs $100 to build? It's not about cost—it's about value.",
+  "definition": "A pricing strategy that sets a product's cost by calculating the quantifiable value and return on investment it delivers to the customer, rather than marking up production costs.",
+  "analogy_or_metaphor": "Like a locksmith charging for opening your car door—you're not paying for the 30 seconds of work, but for the years of expertise and the immediate value of getting back into your locked car.",
+  "key_takeaway": "**Price based on the value you create, not the cost to create it.**",
+  "classic_example": "IBM's early mainframe computers were priced based on the massive productivity gains and cost savings they delivered to large corporations, not on manufacturing costs.",
+  "modern_example": "A marketing automation software that costs $500/month but generates $5,000 in additional revenue—customers gladly pay because the 10x ROI is crystal clear.",
+  "pitfall": "Pricing based only on costs ignores the true value delivered, leaving money on the table and potentially undervaluing your offering in customers' minds.",
+  "payoff": "Capturing fair compensation for the value created while making the purchase decision easier for customers who can clearly see their return on investment.",
+  "visual_metaphor": "A balance scale with dollar signs on one side (price) and a stack of benefits/savings on the other side (value), with the value side clearly heavier.",
+  "dive_deeper_mechanism": "Value-based pricing works because it aligns the seller's incentives with the buyer's outcomes. Instead of focusing on internal costs (which customers don't care about), it quantifies external benefits (which customers desperately need). This approach leverages the psychological principle that people make decisions based on perceived value, not absolute price. When customers can clearly see that paying $X will generate $5X in return, the decision becomes rational rather than emotional. The key is identifying and quantifying specific, measurable benefits: time saved, revenue generated, costs reduced, or risks mitigated.",
+  "dive_deeper_origin_story": "Value-based pricing emerged from management consulting in the 1980s when firms like McKinsey realized they could charge based on the millions they helped clients save or earn, rather than hourly rates. The concept gained momentum in software as companies discovered that enterprise customers would pay premium prices for solutions that delivered clear ROI. It became widespread during the SaaS boom when recurring revenue models made value measurement more transparent and trackable over time.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Value-based pricing means charging whatever you want. **Reality:** It requires rigorous quantification of actual benefits and often involves sharing risk with customers. **Pitfall:** Overestimating value or promising unrealistic returns destroys trust and relationships. **Nuance:** Works best for B2B solutions with measurable outcomes; harder to apply to consumer products or commodities where emotional factors dominate purchasing decisions.",
+  "source_file": "Value-Based Pricing (ROI Pricing).md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

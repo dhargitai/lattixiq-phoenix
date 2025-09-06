@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Minimum Viable Lead Capture Form",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever abandon a sign-up form because it asked for your phone number, company size, and life story before you could even see the product?",
+  "definition": "A design principle for web forms that captures only the most essential, non-observable qualifying information needed to initiate meaningful sales conversations while minimizing friction that drives prospects away.",
+  "analogy_or_metaphor": "Like a bouncer at an exclusive club who only asks for ID instead of conducting a full background check—get the essentials to let people in, then learn more once they're engaged.",
+  "key_takeaway": "**Capture the minimum viable information to qualify leads, not everything you wish you knew about them.**",
+  "classic_example": "Traditional lead forms asking for name, email, phone, company, role, budget, timeline, and pain points—resulting in 2% conversion rates as prospects abandon the lengthy process.",
+  "modern_example": "SaaS companies like Slack asking only for email and workspace name on signup, then gathering additional qualifying information through progressive profiling during onboarding and product usage.",
+  "pitfall": "Over-engineering lead capture forms with excessive fields creates friction that drives away qualified prospects, reducing overall lead volume and pipeline health.",
+  "payoff": "Streamlined forms dramatically increase conversion rates while still capturing enough information to prioritize follow-up, resulting in higher quality pipeline volume.",
+  "visual_metaphor": "A simple funnel with only the essential gates open at the top, allowing maximum flow while still filtering for basic qualification criteria.",
+  "dive_deeper_mechanism": "The principle works by balancing two competing forces: the sales team's desire for qualification data and the prospect's resistance to providing information before seeing value. It leverages the psychological principle that people are more willing to share information progressively after initial engagement rather than upfront. The 'minimum viable' aspect focuses on capturing only information that cannot be observed through other means (like behavioral data, company research, or progressive profiling) and is absolutely necessary for initial qualification and follow-up prioritization.",
+  "dive_deeper_origin_story": "This concept emerged from the broader 'minimum viable product' philosophy in lean startup methodology, adapted specifically for lead generation. As conversion rate optimization became more sophisticated, marketers discovered that reducing form fields from 11 to 4 could increase conversions by 120%, but the key insight was determining which 4 fields provided the most qualifying value. The principle gained prominence as marketing automation platforms enabled progressive profiling, allowing companies to gather comprehensive prospect data over time rather than demanding it upfront.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** More form fields equal better lead quality. **Reality:** Excessive fields often filter out engaged prospects who simply don't want to fill out lengthy forms, while determined but unqualified leads will complete any form. **Nuance:** The 'minimum viable' threshold varies by industry, deal size, and sales process complexity—a $100K enterprise software sale justifies more qualification questions than a $50/month SaaS signup. **Critical Balance:** You need enough information to prioritize follow-up effectively, but not so much that you create unnecessary friction for genuinely interested prospects.",
+  "extra_content": "## Minimum Viable Lead Capture Framework\n\n### Step 1: Information Audit\n**Categorize all desired prospect information into four buckets:**\n- **Essential for follow-up:** Contact information, basic context needed for first conversation\n- **Observable through research:** Company size, industry, technology stack, recent news\n- **Discoverable through behavior:** Budget indicators, urgency level, decision-making authority\n- **Progressive profiling opportunities:** Detailed pain points, current solutions, evaluation timeline\n\n### Step 2: Form Field Prioritization Matrix\n**Evaluate each potential form field using these criteria:**\n- **Cannot be researched:** Information not available through LinkedIn, company websites, or databases\n- **Critical for qualification:** Directly impacts sales follow-up prioritization or approach\n- **Low friction:** Easy for prospects to provide without significant thought or hesitation\n- **Legal/compliance requirement:** Necessary for regulatory or business policy reasons\n\n### Step 3: Progressive Profiling Strategy\n**Design a multi-touch information gathering approach:**\n- **Initial form:** 2-4 fields maximum (typically name, email, company, role)\n- **Thank you page:** 1-2 additional qualifying questions\n- **Email nurturing:** Gradual information requests tied to value delivery\n- **Sales conversation:** Discovery questions for remaining qualification needs\n\n### Step 4: Conversion Impact Testing\n**Systematic optimization approach:**\n- **Baseline measurement:** Current form conversion rate and lead quality metrics\n- **Field reduction testing:** Remove one field at a time, measure impact\n- **Alternative phrasing:** Test different ways to ask for the same information\n- **Value proposition alignment:** Ensure form complexity matches perceived offer value\n\n### Implementation Example\n**Before (Traditional Form):**\n- First Name, Last Name, Email, Phone, Company, Title, Company Size, Industry, Budget Range, Timeline, Current Solution, Pain Points\n- **Result:** 2% conversion rate\n\n**After (MVP Form):**\n- Email, Company Name\n- **Follow-up strategy:** Phone number requested on thank you page, role discovered through LinkedIn research, pain points identified through sales conversation\n- **Result:** 8% conversion rate with equivalent lead quality",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "operations"
+  ]
+}

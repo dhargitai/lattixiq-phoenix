@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Law of Crappy People",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why that incompetent manager got promoted again while the best performers stay stuck? Welcome to organizational gravity.",
+  "definition": "The organizational tendency where talent levels for any given title will converge downward to match the worst-performing person holding that title, as others benchmark against this low standard.",
+  "analogy_or_metaphor": "Like water finding its lowest level, organizational standards flow downward to match the weakest link in each role, creating a gravitational pull toward mediocrity.",
+  "key_takeaway": "**Bad performers in leadership roles don't just fail—they reset the bar for everyone else.**",
+  "classic_example": "A company promotes its worst-performing salesperson to sales manager because they've been there longest. Soon, other salespeople see this low standard and either leave or lower their own performance expectations.",
+  "modern_example": "A tech startup keeps a mediocre engineering manager because 'they know the codebase.' New engineers quickly realize that subpar code reviews and missed deadlines are acceptable, leading the entire team's standards to decline.",
+  "pitfall": "Tolerating poor performers in visible roles creates a cascade effect where your best people leave and remaining employees lower their standards to match the accepted mediocrity.",
+  "payoff": "Maintaining high standards at every level, especially in leadership positions, creates positive peer pressure that elevates everyone's performance and attracts top talent.",
+  "visual_metaphor": "A chain where the weakest link is highlighted and pulling down all the other links to its level, with arrows showing the downward pressure affecting the entire chain's strength.",
+  "dive_deeper_mechanism": "This phenomenon works through social proof and psychological benchmarking. Employees naturally calibrate their efforts based on what they observe being rewarded or tolerated in their organization. When poor performers are promoted or retained in visible positions, it sends a powerful signal about what level of performance is actually acceptable, regardless of stated standards. People unconsciously adjust their effort to match this observed reality rather than the official expectations, creating a downward spiral of mediocrity.",
+  "dive_deeper_origin_story": "Ben Horowitz identified this pattern while building companies in Silicon Valley, observing how one poor hire in a leadership position could systematically destroy team performance. The concept builds on the Peter Principle (people rise to their level of incompetence) but focuses specifically on how the worst performer in each role becomes the de facto standard. Horowitz realized that unlike individual incompetence, this creates a contagion effect that spreads throughout the organization.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That this only applies to obvious underperformers. **Reality:** Even keeping 'adequate but not great' people in key roles can trigger this effect. **Nuance:** The law is especially dangerous in leadership positions because these roles have the highest visibility and influence. It's also important to note that this isn't about perfection—it's about maintaining consistent standards and not allowing the bar to be lowered by the weakest performers in each category.",
+  "source_file": "Law of Crappy People.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

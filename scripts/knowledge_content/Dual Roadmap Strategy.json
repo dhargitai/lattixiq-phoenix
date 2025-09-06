@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Dual Roadmap Strategy",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why Apple announces features \"coming later this year\" while keeping detailed timelines internal? Welcome to dual roadmap thinking.",
+  "definition": "A strategic approach where organizations maintain two roadmaps: a detailed, comprehensive internal roadmap for planning and coordination, and a simplified, high-level public roadmap for managing external expectations.",
+  "analogy_or_metaphor": "Like a restaurant kitchen with detailed prep schedules and recipes (internal) while the menu simply says \"chef's special\" (public) - both serve their purpose perfectly.",
+  "key_takeaway": "**Two roadmaps serve two audiences: detailed plans guide your team, simplified versions manage expectations.**",
+  "classic_example": "Software companies maintaining internal sprint planning with specific dates and dependencies, while sharing quarterly themes and general feature categories with customers.",
+  "modern_example": "A SaaS startup telling investors about their 18-month technical architecture plan, while their public roadmap shows \"Q2: Enhanced Analytics\" and \"Q3: Mobile Improvements.\"",
+  "pitfall": "Single roadmaps either overwhelm customers with too much detail or leave teams without sufficient planning structure, leading to missed expectations or poor execution.",
+  "payoff": "Dual roadmaps enable precise internal coordination while maintaining flexibility in customer communications, reducing pressure and improving delivery reliability.",
+  "visual_metaphor": "An iceberg diagram showing a small tip labeled 'Public Roadmap' above water, with a massive detailed structure labeled 'Internal Roadmap' below the surface.",
+  "dive_deeper_mechanism": "Dual roadmaps work because they acknowledge that different stakeholders need different levels of information. Internal teams require granular details for coordination, resource allocation, and dependency management. External audiences need enough information to make decisions without the cognitive overload of technical complexities. This separation allows for agile internal planning while maintaining stable external commitments. The strategy leverages information asymmetry constructively - keeping detailed execution plans internal prevents premature optimization based on external feedback while still providing transparency about direction and priorities.",
+  "dive_deeper_origin_story": "The concept emerged from software development practices in the early 2000s when tech companies realized that sharing detailed development timelines created more problems than solutions. Companies like Google and Microsoft pioneered this approach after experiencing customer backlash from missed feature deadlines and competitive disadvantages from revealing detailed plans. The practice became formalized with the rise of agile methodologies, where internal sprints required detailed planning but external communications needed to remain flexible. Arvid Kahl popularized the explicit 'dual roadmap' terminology in the bootstrapped startup community, emphasizing how resource-constrained companies could manage expectations without sacrificing planning rigor.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Dual roadmaps mean hiding information from customers. **Reality:** It's about providing the right level of detail for each audience. **Pitfall #1:** Making the public roadmap so vague it provides no value - customers need enough specificity to make informed decisions. **Pitfall #2:** Internal and external roadmaps becoming misaligned, creating confusion when team members reference different versions publicly. **Nuance:** The 'dual' doesn't mean completely separate - successful companies maintain clear connections between internal details and external communications, ensuring consistency in messaging while varying the granularity.",
+  "source_file": "Dual Roadmap Strategy.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "product-market_fit",
+    "competitive_strategy"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Grandfathering Strategy",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever notice how some customers pay less for the exact same service you're getting? Welcome to the world of grandfathering.",
+  "definition": "Grandfathering is the practice of allowing existing customers to remain on legacy pricing or features after they've been discontinued for new customers.",
+  "analogy_or_metaphor": "Like a rent-controlled apartment in Manhattan - you get to keep your old deal while new tenants pay market rates.",
+  "key_takeaway": "**Honor the past to protect the future - grandfather existing customers when making changes.**",
+  "classic_example": "When Netflix separated its DVD and streaming services in 2011, existing combo subscribers could keep their original pricing while new customers had to pay for each service separately.",
+  "modern_example": "Spotify's family plan users who signed up before price increases still pay the old rate, while new family subscribers pay the current higher price.",
+  "pitfall": "Ignoring grandfathering can trigger massive customer churn and damage brand loyalty when you change pricing or features.",
+  "payoff": "Implementing grandfathering preserves customer relationships during transitions and reduces the risk of losing valuable long-term customers.",
+  "visual_metaphor": "A tree with two types of branches - old growth (grandfathered customers) and new growth (current pricing) - both part of the same healthy business.",
+  "dive_deeper_mechanism": "Grandfathering works by honoring the psychological principle of loss aversion - people hate losing what they already have more than they value gaining something new. When you allow existing customers to keep their current deal, you're preventing them from experiencing a loss, which maintains their satisfaction and loyalty. It also leverages the endowment effect, where people value things more highly simply because they own them. The strategy recognizes that customer acquisition is typically more expensive than retention, making it economically rational to preserve existing relationships even at lower margins.",
+  "dive_deeper_origin_story": "The term 'grandfathering' originated from voting laws in the post-Civil War American South. In the 1890s, several states implemented literacy tests and poll taxes to prevent Black citizens from voting, but included 'grandfather clauses' that exempted anyone whose grandfather had been eligible to vote before the Civil War - effectively allowing white voters to bypass the new restrictions while maintaining existing voting rights. The business world adopted this concept in the 20th century as companies began using similar 'legacy protection' strategies during service transitions.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Grandfathering always costs money. **Reality:** While grandfathered customers may pay less, they often have higher lifetime value and lower acquisition costs. **Another pitfall:** Keeping grandfathered plans indefinitely without any migration strategy can create operational complexity and make it difficult to sunset outdated systems. Smart companies set sunset dates or create incentives for voluntary migration to current plans over time.",
+  "source_file": "Grandfathering Strategy.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "operations",
+    "competitive_strategy"
+  ]
+}

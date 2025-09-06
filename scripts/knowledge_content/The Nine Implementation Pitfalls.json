@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The Nine Implementation Pitfalls",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why 72% of new business initiatives fail? It's not the strategy—it's the implementation.",
+  "definition": "A diagnostic framework identifying nine common failure modes that derail business implementation efforts, from relying on single points of failure to lacking executive support.",
+  "analogy_or_metaphor": "Like a pilot's pre-flight checklist that prevents crashes, these pitfalls are the critical failure points that must be checked off before launching any new business process.",
+  "key_takeaway": "**Implementation success depends more on avoiding common pitfalls than on perfect strategy.**",
+  "classic_example": "The launch of New Coke in 1985, which failed not due to product quality but because Coca-Cola relied on a single decision-maker, ignored cross-functional input, and attempted a 'big bang' rollout without proper testing.",
+  "modern_example": "A tech startup's pricing strategy overhaul that fails because they assign it to one product manager, skip involving sales and marketing teams, and try to change everything at once without C-suite buy-in.",
+  "pitfall": "Ignoring these implementation pitfalls leads to project failures, wasted resources, and team demoralization even when the underlying strategy is sound.",
+  "payoff": "Using this checklist helps you identify and address failure points before they derail your initiative, dramatically increasing your chances of successful implementation.",
+  "visual_metaphor": "A nine-rung ladder where each missing rung represents a pitfall—skip any rung and the entire climb to success becomes impossible.",
+  "dive_deeper_mechanism": "These pitfalls work by creating single points of failure, communication breakdowns, and resistance to change. When you rely on one person, that creates a bottleneck and knowledge silo. Without cross-functional teams, you miss critical perspectives and create implementation blind spots. Big bang approaches overwhelm systems and people, while lack of executive support signals that the initiative isn't truly important, encouraging passive resistance throughout the organization.",
+  "dive_deeper_origin_story": "This framework emerged from extensive consulting work by pricing experts Madhavan Ramanujam and Georg Tacke, who observed consistent patterns of failure across hundreds of monetization and business process implementations. They noticed that companies with sound strategies were failing repeatedly due to predictable implementation mistakes, leading them to codify these nine critical failure modes into a diagnostic checklist.",
+  "dive_deeper_pitfalls_nuances": "**Common misunderstanding:** People think having a good strategy guarantees success. **Reality:** Implementation kills more good strategies than bad strategies kill themselves. **Nuance:** These pitfalls are interconnected—avoiding one while falling into others still leads to failure. You need to address all nine systematically, not just the ones that seem most obvious to your situation.",
+  "source_file": "The Nine Implementation Pitfalls.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "operations",
+    "team_and_culture",
+    "go-to-market"
+  ]
+}

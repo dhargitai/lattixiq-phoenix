@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Asymmetric Design for Assembly (Poka-yoke)",
+  "main_category": "Core Sciences & Mathematics",
+  "subcategory": "Physics & Engineering",
+  "hook": "Ever tried to plug in a USB cable upside down? That frustration exists because early USB wasn't designed with asymmetric assembly—but there's a brilliant engineering principle that prevents such mistakes.",
+  "definition": "A design principle that intentionally introduces physical asymmetry into components, making it impossible to assemble or insert parts incorrectly.",
+  "analogy_or_metaphor": "Like a key that only fits one way in a lock, asymmetric design creates physical constraints that guide correct assembly—your hand naturally knows which way is right.",
+  "key_takeaway": "**Smart design prevents human error by making mistakes physically impossible.**",
+  "classic_example": "Computer memory modules (RAM) have asymmetric notches that prevent insertion in the wrong orientation, ensuring proper electrical connections and preventing damage.",
+  "modern_example": "Modern smartphone chargers with USB-C connectors that work both ways, or laptop power adapters with magnetic connections that only attach correctly—the design itself guides proper use.",
+  "pitfall": "Ignoring asymmetric design leads to assembly errors, damaged components, increased manufacturing defects, and frustrated end users dealing with confusing products.",
+  "payoff": "Implementing poka-yoke design reduces manufacturing errors, eliminates user frustration, decreases support costs, and creates products that feel intuitive and professional.",
+  "visual_metaphor": "A puzzle piece with a unique shape that only fits in one specific spot, with clear visual indicators showing the correct orientation.",
+  "dive_deeper_mechanism": "Asymmetric design works by leveraging physical constraints to eliminate decision-making from the assembly process. Instead of relying on human attention and memory—both fallible under pressure—the design creates mechanical barriers that make incorrect assembly physically impossible. This taps into our spatial reasoning abilities, which are more reliable than our cognitive processing under stress. The principle works because it shifts the burden of correctness from the human operator to the design itself.",
+  "dive_deeper_origin_story": "The term 'poka-yoke' was coined by Shigeo Shingo at Toyota in the 1960s, originally called 'baka-yoke' (fool-proofing) until a worker pointed out the offensive nature of calling workers 'fools.' Shingo realized that errors weren't due to worker carelessness but inadequate systems design. The concept revolutionized manufacturing quality control by recognizing that preventing mistakes is far more effective than catching them after they occur. It became a cornerstone of lean manufacturing and Total Quality Management.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Poka-yoke is only about preventing assembly errors. **Reality:** True poka-yoke encompasses three levels—contact methods (physical prevention), fixed-value methods (detecting when steps are skipped), and motion-step methods (ensuring correct sequence). **Another Pitfall:** Over-constraining design can make products difficult to use correctly—the asymmetry must be intuitive, not arbitrary. The best poka-yoke solutions feel natural and obvious, not forced or clunky.",
+  "source_file": "Asymmetric Design for Assembly (Poka-yoke).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "operations",
+    "team_and_culture"
+  ]
+}

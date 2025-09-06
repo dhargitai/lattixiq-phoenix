@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The Average Trap",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever wonder why most products feel like they're built for nobody in particular? Welcome to the Average Trap.",
+  "definition": "The Average Trap is the misleading practice of making business decisions based on average customer data, which often results in products designed for a statistical phantom—an 'average customer' who doesn't actually exist.",
+  "analogy_or_metaphor": "It's like designing a shoe for the 'average foot size' and wondering why most people find it uncomfortable—you're building for a mathematical concept, not real people.",
+  "key_takeaway": "**The average customer is often nobody—design for real segments, not statistical ghosts.**",
+  "classic_example": "A restaurant chain using average spending data ($25 per customer) to set their menu prices, missing that they actually have two distinct segments: budget diners spending $15 and premium diners spending $35.",
+  "modern_example": "Netflix initially tried to create shows for the 'average viewer' until they realized their audience consisted of distinct tribes—binge-watchers who love dark dramas, families seeking wholesome content, and comedy fans—each requiring different content strategies.",
+  "pitfall": "Building products for averages creates offerings that satisfy no one fully, leading to mediocre market performance and confused positioning.",
+  "payoff": "Analyzing data distributions reveals distinct customer segments, enabling targeted products that deeply satisfy specific groups and command premium pricing.",
+  "visual_metaphor": "A bell curve with ghostly figures at the average point, while real, solid people cluster in distinct groups at different points along the curve.",
+  "dive_deeper_mechanism": "The Average Trap exploits our brain's natural tendency to seek simple patterns and single numbers for complex decisions. Averages feel scientific and objective, triggering our preference for concrete metrics over messy distributions. This bias is reinforced by traditional business training that emphasizes summary statistics, making executives comfortable with averages while feeling overwhelmed by the complexity of segmented data analysis.",
+  "dive_deeper_origin_story": "The concept gained prominence through pricing consultant Madhavan Ramanujam's work with companies like Ryanair. He observed that traditional airlines bundled services based on what the 'average traveler' wanted, while Ryanair's success came from recognizing two distinct segments: price-sensitive customers who wanted bare-bones travel and convenience-seekers willing to pay for extras. This insight led to their revolutionary unbundling strategy that transformed European air travel.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Averages provide objective, unbiased insights. **Reality:** Averages can mask critical variations and create false confidence in non-existent market needs. **Nuance:** The trap isn't using averages for descriptive purposes, but using them for decision-making without understanding the underlying distribution. Sometimes bimodal or multimodal distributions reveal that your 'single market' is actually multiple distinct opportunities requiring different strategies.",
+  "source_file": "The Average Trap.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

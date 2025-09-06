@@ -1,0 +1,36 @@
+{
+  "knowledge_piece_name": "Correlation vs. Causation Fallacy",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Logical Fallacies",
+  "hook": "Ever notice how ice cream sales and drowning deaths both peak in summer? Clearly, ice cream causes drowning, right?",
+  "definition": "The critical error of assuming that because two things occur together or correlate statistically, one must be the direct cause of the other.",
+  "analogy_or_metaphor": "It's like seeing footprints and puddles after rain and concluding that footprints cause puddles—when actually, both are caused by people walking outside during wet weather.",
+  "key_takeaway": "**Correlation shows relationship; causation proves one thing directly creates another.**",
+  "classic_example": "The famous study showing that countries with more chocolate consumption have more Nobel Prize winners. While true, it doesn't mean chocolate makes you smarter—wealth enables both luxury food purchases and better education systems.",
+  "modern_example": "A startup notices users who engage with their app's social features spend more money. They assume social features drive purchases and invest heavily in expanding them, when actually, users who are already highly engaged (and likely to spend) are simply more likely to use all features.",
+  "pitfall": "Acting on false correlations leads to wasted resources, wrong strategic decisions, and missed opportunities to address the real underlying causes.",
+  "payoff": "Distinguishing correlation from causation helps you identify true leverage points, make data-driven decisions, and avoid costly mistakes based on misleading patterns.",
+  "visual_metaphor": "Two parallel train tracks that run side by side for miles—they're perfectly correlated but neither track causes the other; they're both laid by the same underlying railroad company.",
+  "dive_deeper_mechanism": "This fallacy exploits our brain's pattern-seeking nature, which evolved to quickly identify threats and opportunities. When we see two events happening together repeatedly, our minds automatically assume a causal link to help us predict and control our environment. This mental shortcut works well for obvious cause-and-effect relationships but fails with complex systems where multiple variables interact, confounding factors exist, or a third variable influences both observed phenomena.",
+  "dive_deeper_origin_story": "The formal distinction between correlation and causation was crystallized by statistician Karl Pearson in the early 1900s when he developed the correlation coefficient. However, the concept gained widespread attention through epidemiologist Austin Bradford Hill's 1965 criteria for establishing causation in medical research, following decades of tobacco companies arguing that the correlation between smoking and lung cancer didn't prove causation. Hill's nine criteria became the gold standard for moving beyond correlation to establish true causal relationships.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** People often think that strong correlations (close to +1 or -1) are more likely to be causal. **Reality:** Correlation strength has no bearing on causation—you can have perfect correlation with zero causation. **Another Pitfall:** Assuming that finding a mechanism proves causation. Even if you can explain how A might cause B, you still need to rule out confounding variables and reverse causation (where B actually causes A, not the other way around).",
+  "source_file": "Correlation vs. Causation Fallacy.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "investor"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "fundraising",
+    "competitive_strategy",
+    "risk_management"
+  ]
+}

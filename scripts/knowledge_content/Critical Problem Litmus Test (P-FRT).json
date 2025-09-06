@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Critical Problem Litmus Test (P-FRT)",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wondered why some brilliant solutions fail while mediocre ones succeed? The difference often lies in solving the right problem.",
+  "definition": "A systematic validation framework that tests whether a problem is worth solving by evaluating three critical dimensions: Pain (severity), Frequency (how often it occurs), and Time (resources consumed).",
+  "analogy_or_metaphor": "Like a doctor's triage system - not every symptom needs emergency surgery, but the combination of severity, frequency, and impact determines priority.",
+  "key_takeaway": "**A problem worth solving must hurt enough, happen enough, and cost enough to justify a solution.**",
+  "classic_example": "Henry Ford didn't just build a faster horse - he identified that transportation was painful (slow), frequent (daily need), and time-consuming (hours of travel), making the automobile a critical solution.",
+  "modern_example": "Uber succeeded because taxi problems were painful (unreliable service), frequent (daily commutes), and time-consuming (long waits and inefficient routes) - hitting all three P-FRT criteria.",
+  "pitfall": "Solving problems that fail the P-FRT test leads to products nobody wants, wasted resources, and business failure despite technical excellence.",
+  "payoff": "Using P-FRT ensures you focus energy on problems people will actually pay to solve, dramatically increasing your chances of building something valuable.",
+  "visual_metaphor": "Three interconnected gears labeled P-F-T, where all three must turn together to power the 'Solution Engine' - if any gear is missing or too small, the engine won't run.",
+  "dive_deeper_mechanism": "The P-FRT framework works because it mirrors how humans naturally prioritize problems in their lives. Pain creates emotional urgency, frequency creates top-of-mind awareness, and time consumption creates economic justification. When all three align, people actively seek solutions and are willing to pay for them. This taps into loss aversion psychology - we're more motivated to eliminate recurring pain than to gain convenience.",
+  "dive_deeper_origin_story": "The concept evolved from lean startup methodology and customer development practices pioneered by entrepreneurs like Steve Blank and Eric Ries. Arvid Kahl formalized the P-FRT framework while building his own SaaS businesses, discovering that successful products consistently solved problems that scored high on all three dimensions, while failures typically missed one or more criteria.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake #1:** Assuming your own pain represents market pain - what frustrates you might not bother others. **Common mistake #2:** Confusing 'nice-to-have' problems with critical ones - true P-FRT problems make people actively search for solutions, not just consider them when presented. The framework isn't about perfect scoring but about minimum viability across all three dimensions.",
+  "extra_content": "## The P-FRT Validation Process\n\n### Step 1: Pain Assessment (0-10 Scale)\n- **0-3:** Minor annoyance, people adapt or ignore\n- **4-6:** Noticeable problem, but workarounds exist\n- **7-10:** Critical pain point, actively seeking solutions\n\n**Validation questions:**\n- \"How frustrated are you when this problem occurs?\"\n- \"What workarounds have you tried?\"\n- \"Have you searched for solutions online?\"\n\n### Step 2: Frequency Evaluation\n- **Daily:** High priority, top-of-mind\n- **Weekly:** Regular consideration\n- **Monthly:** Periodic concern\n- **Rarely:** Low priority unless extremely painful\n\n**Validation questions:**\n- \"How often does this problem occur?\"\n- \"When was the last time you experienced this?\"\n- \"Do you anticipate this happening again soon?\"\n\n### Step 3: Time Impact Analysis\n- **Direct time:** Hours spent dealing with the problem\n- **Opportunity cost:** What else could be done with that time\n- **Workflow disruption:** How it affects other activities\n\n**Validation questions:**\n- \"How much time does this problem cost you?\"\n- \"What important tasks get delayed because of this?\"\n- \"How does this impact your productivity/revenue?\"\n\n### Scoring Matrix\n| Pain Level | Frequency | Time Impact | P-FRT Score | Action |\n|------------|-----------|-------------|-------------|--------|\n| 7-10 | Daily | >2hrs/week | Critical | Build immediately |\n| 5-8 | Weekly | 1-4hrs/week | High | Strong candidate |\n| 4-7 | Monthly | 30min-2hrs/week | Medium | Validate further |\n| <4 | Rarely | <30min/week | Low | Avoid |\n\n### Customer Interview Script\n1. **Context Setting:** \"Tell me about your typical [workflow/day/process]\"\n2. **Problem Discovery:** \"What's the most frustrating part of [their process]?\"\n3. **P-FRT Validation:** Apply the three questions above\n4. **Solution Interest:** \"If there was a way to solve this, what would that be worth to you?\"\n5. **Current Alternatives:** \"What are you doing about this now?\"\n\n### Red Flags to Watch For\n- People can't quantify the time impact\n- \"It would be nice to have\" language instead of urgent need\n- Long pauses when asked about pain level\n- No current attempts to solve the problem\n- Different people describe completely different pain points",
+  "source_file": "Critical Problem Litmus Test (P-FRT).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pivot"
+  ]
+}

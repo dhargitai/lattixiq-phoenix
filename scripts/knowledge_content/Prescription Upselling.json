@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Prescription Upselling",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever wonder why doctors don't ask 'Do you want medicine?' They just tell you how to take it. Smart salespeople use the same psychology.",
+  "definition": "A sales technique where instead of asking if a customer wants to buy, you provide detailed, personalized instructions on how to use a product, assuming they have already decided to purchase.",
+  "analogy_or_metaphor": "Like a doctor writing a prescription - they don't ask if you want treatment, they tell you exactly how to take the medicine to get better. The assumption of need makes resistance feel almost rude.",
+  "key_takeaway": "**Skip the 'if' and go straight to the 'how' - assumption sells better than persuasion.**",
+  "classic_example": "A gym salesperson saying 'Here's your workout schedule for the first month and how to book your personal training sessions' instead of asking 'Would you like to join our gym?'",
+  "modern_example": "A software demo where the presenter says 'Once you're set up, you'll want to configure these three integrations first' rather than 'Are you interested in our premium features?'",
+  "pitfall": "Without this framing, you're constantly fighting customer hesitation and decision fatigue, leading to lower conversion rates and smaller transaction sizes.",
+  "payoff": "By assuming the sale and focusing on usage, you increase conversions, boost average order values, and position yourself as a trusted advisor rather than a pushy salesperson.",
+  "visual_metaphor": "A doctor's prescription pad with detailed dosage instructions, but instead of medicine, it lists product features and usage steps - showing how assumption of need drives compliance.",
+  "dive_deeper_mechanism": "This technique works because it exploits several psychological principles simultaneously. First, it bypasses the cognitive burden of decision-making by removing the yes/no choice, reducing decision fatigue. Second, it leverages the 'assumption close' principle - when someone gives you detailed instructions, your brain defaults to compliance mode rather than resistance mode. Third, it positions the seller as an expert advisor rather than a vendor, triggering our evolutionary tendency to defer to authority. Finally, personalized instructions increase perceived value because they demonstrate that the product has been specifically tailored to the customer's needs, making it feel essential rather than optional.",
+  "dive_deeper_origin_story": "While upselling has existed since ancient marketplaces, the 'prescription' approach evolved from consultative selling methods developed in the mid-20th century. The concept gained modern prominence through Alex Hormozi, who noticed that his most successful sales calls resembled medical consultations more than traditional pitches. He observed that when salespeople acted like doctors - diagnosing problems and prescribing solutions with confidence - customers responded with trust rather than skepticism. This insight led to formalizing the technique where detailed usage instructions replace traditional closing questions, transforming the sales conversation from 'convincing' to 'consulting.'",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That prescription upselling means being pushy or assumptive without basis. **Reality:** It only works when you've genuinely understood the customer's needs first - it's assumption based on consultation, not blind presumption. **Another Pitfall:** Using this technique without having the expertise to back it up will backfire when customers ask follow-up questions. **Key Nuance:** The 'prescription' must feel genuinely helpful and personalized, not like a generic script. If customers sense you're just assuming the sale without understanding their situation, it creates resistance rather than compliance.",
+  "source_file": "Prescription Upselling.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "pricing"
+  ]
+}

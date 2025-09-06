@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Value-Aligned Pricing & Thresholding",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why Netflix charges monthly instead of per movie, or why Uber prices by distance? The secret lies in matching what you pay to what you get.",
+  "definition": "A pricing strategy that scales cost with the value or benefit a customer receives, while keeping prices under psychological spending thresholds that make purchase decisions feel automatic rather than deliberate.",
+  "analogy_or_metaphor": "Like a utility bill that grows with your usage, but stays small enough that you don't question paying it each month—you get exactly what you use, priced so reasonably you barely think twice.",
+  "key_takeaway": "**Price with value, price under thresholds—make buying feel both fair and effortless.**",
+  "classic_example": "Disney's pricing strategy: they could charge much more for Disneyland admission because the experience is unique and infrequent, but they carefully calibrate prices to stay under family vacation budget thresholds while capturing the immense value families receive.",
+  "modern_example": "SaaS companies like Slack pricing per active user rather than flat rates—teams pay more as they grow and get more value, but individual cost per user stays low enough that adding team members feels automatic rather than requiring budget approval.",
+  "pitfall": "Ignoring value alignment leads to customer resentment (flat fees for variable value) or missed revenue (underpricing high-value usage), while exceeding psychological thresholds triggers budget scrutiny that kills deals.",
+  "payoff": "Customers feel they're getting fair value while you capture revenue that scales with their success, creating loyalty and reducing price sensitivity—they're happy to pay more because they're getting more.",
+  "visual_metaphor": "A staircase where each step up represents more value received, with price rising proportionally but each step height staying comfortably low—easy to climb without thinking twice about the next step.",
+  "dive_deeper_mechanism": "This model works by leveraging two psychological principles: fairness perception (people accept higher costs when they receive proportionally more value) and cognitive ease (prices under discretionary thresholds bypass deliberate budget analysis). The brain treats small, frequent, value-aligned costs as 'fair taxes' rather than 'purchasing decisions,' reducing friction and increasing willingness to pay.",
+  "dive_deeper_origin_story": "Charlie Munger and Warren Buffett discovered this principle through See's Candy, where they found they could raise prices faster than inflation because customers valued the unique experience. The concept crystallized when they observed Disney's 'untapped pricing power'—families would pay significantly more for Disneyland because the experience was irreplaceable and infrequent, yet Disney kept prices just reasonable enough to avoid triggering serious budget deliberation.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Assuming all value can be quantified—some benefits (convenience, status, peace of mind) resist direct measurement but still justify premium pricing. **Common Mistake #2:** Setting thresholds based on your own spending patterns rather than your target customer's—a $50 threshold might be automatic for executives but require approval for small business owners. The key is understanding your customer's discretionary spending ceiling, not your own assumptions about 'reasonable' prices.",
+  "source_file": "Value-Aligned Pricing and Thresholding.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "CPR Problem Unbundling Framework",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Your coworker keeps missing deadlines. Do you address this specific instance, the recurring pattern, or how it's affecting your trust in them?",
+  "definition": "A systematic approach to deconstructing complex, recurring problems by categorizing them at three distinct levels: Content (single instance), Pattern (recurring behavior), or Relationship (impact on trust and connection).",
+  "analogy_or_metaphor": "Like a doctor diagnosing illness - they don't just treat the symptom (content), but identify if it's part of a chronic condition (pattern) or affecting the patient's overall health and trust in treatment (relationship).",
+  "key_takeaway": "**Address the right level of the problem - not just what happened, but what keeps happening and how it affects trust.**",
+  "classic_example": "A manager notices an employee submitted a report late (Content level). Upon reflection, they realize this employee has missed three deadlines this month (Pattern level), which is making the manager question the employee's reliability and commitment (Relationship level).",
+  "modern_example": "Your partner leaves dishes in the sink again. You could address just today's dishes (Content), the fact they never clean up after themselves (Pattern), or discuss how this makes you feel like they don't respect shared responsibilities (Relationship).",
+  "pitfall": "Addressing only the surface-level content leads to recurring conflicts and unresolved underlying issues that erode trust over time.",
+  "payoff": "Identifying the correct level helps you have the right conversation, resolve root causes, and strengthen relationships rather than just treating symptoms.",
+  "visual_metaphor": "Three nested circles: the smallest circle contains a single incident (Content), surrounded by a medium circle showing repeated incidents (Pattern), all within a large circle representing the relationship impact and trust level.",
+  "dive_deeper_mechanism": "The CPR framework works by forcing you to step back and analyze whether you're dealing with an isolated incident, a behavioral pattern, or a relationship issue. Most people get stuck addressing content-level problems repeatedly while the pattern and relationship deteriorate. The framework prevents this by making you consciously choose the appropriate level. Content issues need immediate solutions, pattern issues need systematic change, and relationship issues need trust-rebuilding conversations.",
+  "dive_deeper_origin_story": "Developed by Kerry Patterson and colleagues at VitalSmarts as part of their Crucial Conversations methodology. The framework emerged from studying thousands of difficult conversations and identifying why most people fail to resolve recurring issues. They discovered that people typically focus on the most recent incident (content) while ignoring the underlying patterns and relationship damage, leading to cycles of unproductive confrontations.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Jumping straight to relationship-level discussions when the problem is actually content or pattern-based, which can seem like an overreaction. **Key nuance:** You can address multiple levels in one conversation, but you must be clear about which level you're focusing on. **Timing matters:** Content issues should be addressed quickly, pattern issues need more preparation and data, while relationship issues require the most careful approach and safe environment.",
+  "extra_content": "## The CPR Unbundling Process\n\n### Step 1: Identify the Problem Level\n**Ask yourself these diagnostic questions:**\n- **Content Level:** Is this a one-time occurrence that needs immediate attention?\n- **Pattern Level:** Have I seen this behavior repeatedly? Is there a trend?\n- **Relationship Level:** Is this affecting trust, respect, or my willingness to work with this person?\n\n### Step 2: Choose Your Focus\n**Decision Criteria:**\n- **Start with Content** if this is truly isolated and won't likely recur\n- **Address Pattern** if you've seen the behavior 2+ times and it's becoming predictable\n- **Focus on Relationship** if the pattern has created trust issues or emotional distance\n\n### Step 3: Frame Your Conversation\n**Content-Level Script:**\n\"I'd like to talk about [specific incident] and how we can resolve it.\"\n\n**Pattern-Level Script:**\n\"I've noticed a pattern with [behavior] and I'd like to understand what's happening and how we can change it.\"\n\n**Relationship-Level Script:**\n\"I want to talk about how [pattern] is affecting our [working relationship/trust/team dynamic].\"\n\n### Step 4: Avoid Level Mixing\n- Don't bring up past incidents when addressing content\n- Don't make relationship accusations when addressing patterns\n- Don't skip to relationship level without first establishing the pattern\n\n### Step 5: Progressive Addressing\nIf lower levels don't work:\n- Content → Pattern: \"We've now had this same content conversation three times...\"\n- Pattern → Relationship: \"This pattern is starting to affect how I/others view our collaboration...\"",
+  "source_file": "CPR Problem Unbundling Framework.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "co-founder_conflict",
+    "team_and_culture",
+    "operations",
+    "hiring"
+  ]
+}

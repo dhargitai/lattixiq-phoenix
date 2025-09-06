@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "User Context Blind Spot",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever wondered why your brilliant product design got butchered in manufacturing? The factory understood every spec except the one thing that mattered most.",
+  "definition": "The cognitive bias where designers incorrectly assume manufacturing partners share the same understanding of a product's purpose and user experience.",
+  "analogy_or_metaphor": "It's like giving someone a recipe without explaining what dish you're trying to make - they might follow every step perfectly but miss the essence that makes it delicious.",
+  "key_takeaway": "**Context isn't automatically transferred - it must be explicitly communicated.**",
+  "classic_example": "Henry Ford's assembly line workers initially struggled because they only knew their individual tasks, not how their work contributed to the final automobile's performance and quality.",
+  "modern_example": "A startup designs an elegant smartphone app interface, but the overseas development team delivers pixel-perfect screens that completely miss the user flow because they never understood the target customer's daily frustrations.",
+  "pitfall": "Assuming shared understanding leads to products that meet technical specifications but fail user needs, resulting in costly redesigns and market failures.",
+  "payoff": "Explicitly sharing user context creates alignment between all stakeholders, resulting in products that not only work but truly serve their intended purpose.",
+  "visual_metaphor": "A blueprint with a missing legend - all the technical details are there, but without the key to understanding what each symbol means in the real world.",
+  "dive_deeper_mechanism": "This bias emerges from the curse of knowledge - once we deeply understand something, we forget what it's like not to know it. Designers live and breathe their product's purpose, user stories, and intended experience. They assume this context is obvious when communicating specifications. Meanwhile, manufacturing partners focus on technical execution without the emotional and contextual framework that drives design decisions. The brain's tendency to fill gaps with familiar patterns means manufacturers will interpret ambiguous specs through their own lens, not the user's.",
+  "dive_deeper_origin_story": "Hardware hacker Andrew Huang documented this phenomenon extensively while working with Chinese manufacturers. He discovered that even detailed technical specifications could result in products that worked perfectly but missed the mark entirely. In one case involving Kingston memory cards, different manufacturing partners produced technically identical products with vastly different quality outcomes because they lacked context about end-user expectations and brand standards. This led to some cards working flawlessly while others exhibited 'abnormal operation under certain circumstances' despite meeting all written specifications.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Technical specifications alone ensure quality outcomes. **Reality:** Specifications define the 'what' but not the 'why' - without understanding user context, manufacturers optimize for different priorities than intended. **Common mistake:** Assuming that detailed documentation eliminates the need for context sharing. In fact, the more detailed the specs, the more important it becomes to explain the underlying user needs that drive those specifications.",
+  "source_file": "User Context Blind Spot.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "operations"
+  ]
+}

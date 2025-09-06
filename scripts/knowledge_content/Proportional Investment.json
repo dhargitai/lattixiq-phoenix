@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Proportional Investment",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever noticed how some teams spend weeks perfecting a feature only 3 people use, while ignoring the bug that crashes the app daily?",
+  "definition": "The principle of making an investment in fixing a problem that is proportional to its severity and impact.",
+  "analogy_or_metaphor": "It's like being a doctor in an emergency room—you don't spend an hour bandaging a paper cut while someone else is having a heart attack.",
+  "key_takeaway": "**Match your effort to the problem's true impact.**",
+  "classic_example": "In The Lean Startup, Eric Ries describes how IMVU initially built low-quality MVPs for early adopters but failed to recognize when they needed to invest more in quality to attract mainstream customers—a costly misalignment of investment with market needs.",
+  "modern_example": "A software team spending three weeks optimizing a rarely-used admin feature while their checkout process has a 30% failure rate that's costing thousands in lost sales daily.",
+  "pitfall": "Misallocating resources leads to wasted time on trivial issues while critical problems compound and create bigger crises.",
+  "payoff": "Strategic resource allocation ensures you solve the problems that actually move the needle, maximizing impact per unit of effort.",
+  "visual_metaphor": "A balance scale with problem severity on one side and resource investment on the other, perfectly aligned in equilibrium.",
+  "dive_deeper_mechanism": "This principle works by forcing explicit evaluation of problem impact versus solution cost. Our brains naturally focus on problems that are visible, recent, or easy to solve rather than those with the highest business impact. Proportional investment creates a systematic filter that overcomes these cognitive biases by requiring leaders to quantify both the true cost of problems and the investment needed to solve them. It prevents the common trap of perfectionism on minor issues while ensuring critical problems receive adequate attention.",
+  "dive_deeper_origin_story": "The concept gained prominence through Eric Ries's work on The Lean Startup methodology, where he observed that startups often failed by either under-investing in quality when scaling to mainstream customers or over-investing in perfecting features that didn't matter. Ries learned this lesson the hard way at IMVU, where early success with a 'good enough' product blinded the team to the need for higher quality when targeting different customer segments. The principle became a cornerstone of lean thinking: invest proportionally to maximize learning and business impact.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** That all problems should get equal attention or that 'good enough' always stays good enough. **Reality:** Problem severity and required investment levels change as your context evolves—what works for early adopters may be inadequate for mainstream customers. **Another trap:** Confusing effort with impact—spending more time doesn't always mean better results. The key is matching the *right type* of investment to the problem's nature, not just the amount.",
+  "source_file": "Proportional Investment.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "operations",
+    "risk_management",
+    "team_and_culture",
+    "product-market_fit"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Get Out of the Building",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever spent months perfecting a product only to discover customers didn't want it? There's a cure for this expensive delusion.",
+  "definition": "An actionable directive for entrepreneurs to stop making plans based on assumptions and instead engage directly with the real world to gather facts about customers, markets, and suppliers.",
+  "analogy_or_metaphor": "It's like being a detective who solves cases by reading mystery novels instead of examining evidence at the crime scene.",
+  "key_takeaway": "**Facts live outside your building, not inside your head.**",
+  "classic_example": "Scott Cook of Intuit didn't start with market research or whiteboard analysis. Instead, he randomly called people from phone books in Palo Alto and Winnetka, asking if they found paying bills by hand frustrating. These conversations confirmed his leap-of-faith assumption and led to one of the most successful financial software companies.",
+  "modern_example": "A startup founder spends six months building the 'perfect' meal-planning app based on what they think busy parents need, only to discover through actual conversations that parents want recipe variety, not meal planning—they could have learned this in a week of coffee shop interviews.",
+  "pitfall": "Building products based on internal assumptions leads to expensive failures and wasted months developing features nobody wants.",
+  "payoff": "Direct customer contact reveals the real problems worth solving, saving time and money while building products people actually need.",
+  "visual_metaphor": "A person stepping through an open office door into sunlight, leaving behind a desk covered with charts and assumptions, walking toward real people in the outside world.",
+  "dive_deeper_mechanism": "The principle works because humans are notoriously bad at predicting behavior—including their own. When we stay inside our building (literally or metaphorically), we rely on assumptions, market research, and our own biases. But customers are 'breathing, thinking, buying individuals' whose actual behavior often contradicts what surveys or focus groups suggest. Direct contact forces you to confront reality rather than comfortable delusions, turning abstract 'markets' into concrete people with specific, measurable problems.",
+  "dive_deeper_origin_story": "The phrase was popularized by Steve Blank, a serial entrepreneur who noticed that most startup failures came from building products nobody wanted. He formalized this insight in Customer Development methodology, emphasizing that all the facts entrepreneurs need—about customers, markets, suppliers, and channels—exist only 'outside the building.' Eric Ries later integrated this principle into Lean Startup methodology, making it a cornerstone of modern entrepreneurship.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake 1:** Asking customers what features they want instead of what problems they have. Customers are terrible at predicting what they'll use. **Common mistake 2:** Only talking to early adopters or tech-savvy users when your real market is mainstream customers. Scott Cook deliberately called random people, not computer enthusiasts. **Key nuance:** 'Getting out of the building' doesn't just mean physical meetings—it means any direct contact with reality, including phone calls, online surveys, or observing actual behavior rather than relying on internal assumptions.",
+  "source_file": "Get Out of the Building.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pivot"
+  ]
+}

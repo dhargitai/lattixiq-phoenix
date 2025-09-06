@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Decoy Offer",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why movie theaters sell small popcorn for $6 when large is only $7? You just met the decoy.",
+  "definition": "A pricing strategy where a deliberately inferior, cheaper option is presented alongside a premium offer to make the premium option appear more attractive and valuable by comparison.",
+  "analogy_or_metaphor": "It's like a wingman at a bar - the decoy isn't meant to win, it's there to make the real offer look irresistible.",
+  "key_takeaway": "**The decoy doesn't sell itself; it sells what you really want to offer.**",
+  "classic_example": "Movie theaters offering small popcorn for $6, medium for $6.50, and large for $7 - the medium exists solely to make the large seem like an obvious choice.",
+  "modern_example": "A software company offers a 'Basic' plan with severe limitations for $29, knowing most customers will upgrade to the $49 'Professional' plan that suddenly looks like incredible value.",
+  "pitfall": "Without strategic contrast, customers struggle to perceive value and default to the cheapest option or walk away entirely.",
+  "payoff": "The decoy creates instant clarity about value, guiding customers toward your preferred high-margin offer while making them feel smart about their choice.",
+  "visual_metaphor": "Three doors of different sizes - a tiny cramped door, a medium awkward door, and a perfectly proportioned large door that suddenly looks obviously right.",
+  "dive_deeper_mechanism": "The Decoy Offer exploits the psychological principle of asymmetric dominance, where our brains struggle with absolute value judgments but excel at relative comparisons. When presented with a clearly inferior option at a slightly lower price, customers experience what behavioral economists call 'contrast bias' - the premium offer suddenly appears not just better, but obviously better. This mental shortcut helps customers overcome decision paralysis by creating a clear 'winner' in the comparison set.",
+  "dive_deeper_origin_story": "The Decoy Effect was formally identified by marketing professor Joel Huber in 1982, but it gained widespread recognition through Dan Ariely's experiments at MIT. Ariely tested subscription offers for The Economist: web-only for $59, print-only for $125, and web+print for $125. The print-only option (the decoy) made the combined offer look like a steal - 84% chose it versus 16% for web-only when the decoy was present, but without the decoy, 68% chose web-only. Alex Hormozi popularized this in the business world, using it to scale Gym Launch to $476,000 monthly revenue in just three months.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Making the decoy too obviously bad - it should be plausible enough that some people might consider it, not laughably inferior. **Nuance:** The decoy works best when it's dominated on just one key dimension while being similar on others - price should be close enough to create the contrast effect. **Warning:** Overusing decoys can damage trust if customers feel manipulated, so the premium offer must genuinely deliver superior value, not just appear to through artificial contrast.",
+  "source_file": "Decoy Offer.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

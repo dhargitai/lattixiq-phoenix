@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "The Credit-Growth Feedback Loop",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "Ever wonder how entrepreneurs build million-dollar companies with nothing but an idea? The secret isn't magic—it's trust in tomorrow.",
+  "definition": "A self-reinforcing cycle where trust in future growth enables access to credit, which funds actual growth, which validates the initial trust and attracts even more credit.",
+  "analogy_or_metaphor": "Like a campfire that feeds on itself—each flame provides the heat to ignite more fuel, which creates bigger flames, which can ignite even more fuel.",
+  "key_takeaway": "**Modern economies run on borrowed trust in imaginary futures.**",
+  "classic_example": "Mrs. McDoughnut's bakery from Harari's example: She borrows money for a bakery that doesn't exist yet, builds it with credit, starts selling bread, repays the loan with profits, and now the bank trusts her enough to lend for expansion.",
+  "modern_example": "A tech startup raises seed funding based on a prototype, uses that money to build a product and gain users, then raises Series A based on proven traction, creating a cycle where each funding round validates the previous investment and enables the next.",
+  "pitfall": "When trust evaporates (like in 2008), the feedback loop reverses—credit dries up, growth stalls, which reduces trust further, creating a downward spiral that can collapse entire economies.",
+  "payoff": "Understanding this loop helps you recognize investment opportunities, time market cycles, and build businesses that inspire the trust necessary to access growth capital.",
+  "visual_metaphor": "A spiral staircase made of golden coins, where each step up represents both borrowed money and achieved growth, with the staircase getting wider and more solid as it rises higher.",
+  "dive_deeper_mechanism": "The loop works because money in modern economies represents future value, not just present assets. Banks create money by lending (literally creating 90% of money supply through fractional reserve banking), but this only works if borrowers actually create the future value they promise. It's a collective agreement to trade present resources for anticipated future abundance. The psychological foundation is our unique human ability to believe in shared fictions—like the idea that a piece of paper or digital number has value because we collectively agree it does.",
+  "dive_deeper_origin_story": "This system emerged gradually from medieval European banking. The Medici bank in 15th-century Florence pioneered lending based on future trade profits rather than existing gold reserves. The real breakthrough came during the Scientific Revolution when credit began funding exploration and industrial ventures. Harari's bakery example illustrates how this 'imaginary money' based on future trust became the engine of modern economic growth, replacing the ancient limitation where money could only represent things that already existed.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** People think this system is inherently fraudulent because most money doesn't exist as physical currency. **Reality:** It's not fraud—it's a sophisticated social technology that allows societies to mobilize future productivity today. **The real danger:** The system depends entirely on collective confidence. When trust breaks down (bank runs, market crashes), the feedback loop can reverse catastrophically, which is why central banks exist as 'lenders of last resort' to maintain confidence during crises.",
+  "source_file": "The Credit-Growth Feedback Loop.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "investor"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "fundraising",
+    "competitive_strategy",
+    "risk_management"
+  ]
+}

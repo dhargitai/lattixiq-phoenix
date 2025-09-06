@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Memetics (Ideas as Replicators)",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Social & Behavioral Psychology",
+  "hook": "Ever wonder why some TikTok dances go viral while others die in obscurity? Ideas spread like living organisms—and the successful ones follow specific rules.",
+  "definition": "Memetics treats ideas, behaviors, and cultural practices as self-replicating units called 'memes' that compete for survival in human minds, spreading through imitation and transmission just like biological genes.",
+  "analogy_or_metaphor": "Ideas are like viruses of the mind—they need hosts (people) to survive, mutate as they spread from person to person, and the most 'infectious' ones dominate the cultural landscape.",
+  "key_takeaway": "**Ideas that spread easily aren't necessarily the best ideas—they're just the most contagious.**",
+  "classic_example": "The concept of money itself is a successful meme—a shared fiction that billions believe in and pass on, despite having no biological reality, because it's incredibly useful for cooperation.",
+  "modern_example": "The 'ice bucket challenge' spread rapidly because it combined easy replication (simple action), social proof (nomination system), emotional appeal (good cause), and built-in transmission mechanism (tagging others).",
+  "pitfall": "Falling for ideas simply because they're popular or widespread, without evaluating their actual merit or truth—viral doesn't mean valuable.",
+  "payoff": "Understanding memetics helps you design compelling content, resist manipulation, and recognize why certain beliefs or trends dominate culture regardless of their validity.",
+  "visual_metaphor": "A branching network diagram showing an idea starting as a single node and multiplying exponentially through connected human figures, with some branches dying out and others growing stronger.",
+  "dive_deeper_mechanism": "Successful memes possess key survival traits: they're easy to remember (simple), emotionally engaging (sticky), socially beneficial to share (rewarding), and adaptable across contexts (flexible). Like biological evolution, ideas that help their hosts survive socially—by providing status, belonging, or practical advantage—get transmitted more often. The human brain acts as both copying machine and editing room, unconsciously modifying ideas to make them more personally relevant or socially acceptable.",
+  "dive_deeper_origin_story": "Biologist Richard Dawkins coined 'meme' in his 1976 book 'The Selfish Gene,' combining 'gene' with the Greek 'mimeme' (meaning imitated thing). He observed that just as genes use bodies to replicate themselves, ideas use minds to spread. The concept gained new relevance with the internet, where we can actually track how ideas mutate and spread in real-time, from email forwards to viral videos.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** All internet content is a 'meme'—actually, only ideas that successfully replicate and evolve qualify. **Nuance:** The most harmful ideas often spread fastest because they trigger strong emotional responses (fear, outrage, tribal loyalty), while nuanced, balanced information spreads more slowly. **Critical Point:** Memetic success doesn't indicate truth or value—conspiracy theories and misinformation often have superior spreading mechanisms compared to facts.",
+  "source_file": "Memetics (Ideas as Replicators).md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "team_and_culture",
+    "competitive_strategy"
+  ]
+}

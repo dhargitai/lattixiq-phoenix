@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Approval Seeking (Anti-Pattern)",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever find yourself asking questions you already know the answer to, just to hear someone say you're right?",
+  "definition": "The unconscious tendency to fish for compliments and validation instead of seeking honest feedback and truth, leading to poor decision-making based on feel-good responses rather than actionable facts.",
+  "analogy_or_metaphor": "Like a GPS that only shows you routes people think you'd enjoy hearing about, rather than the fastest way to your actual destination.",
+  "key_takeaway": "**You want the truth, not a gold star.**",
+  "classic_example": "A startup founder asking potential customers 'Do you think this is a great idea?' instead of 'What's the biggest problem you face in this area?' - collecting useless compliments instead of market insights.",
+  "modern_example": "Posting on social media asking 'Should I take this job?' when you've already decided, just to collect supportive comments that validate your choice instead of seeking genuine advice about potential downsides.",
+  "pitfall": "Collecting validation instead of facts leads to blind spots, poor decisions, and missed opportunities for real improvement.",
+  "payoff": "Seeking truth over approval accelerates learning, improves decision-making, and builds genuine confidence based on reality.",
+  "visual_metaphor": "A person holding two mirrors - one showing a flattering reflection (approval) and another showing reality (truth), with arrows pointing away from the flattering mirror toward the honest one.",
+  "dive_deeper_mechanism": "This pattern exploits our fundamental need for social acceptance, which evolved as a survival mechanism. When we seek approval instead of truth, our brain releases dopamine from the validation, creating an addictive cycle. The mechanism works by filtering information through an emotional need rather than rational analysis - we unconsciously frame questions and interpret responses in ways that maximize praise and minimize criticism. This creates a feedback loop where we become increasingly divorced from reality because we're optimizing for feeling good rather than being accurate.",
+  "dive_deeper_origin_story": "The term gained prominence through Rob Fitzpatrick's 'The Mom Test' (2013), where he observed countless entrepreneurs falling into this trap. Fitzpatrick noticed that founders would ask their mothers (or friends) questions like 'Do you think my app idea is good?' - questions designed to elicit supportive responses rather than honest market feedback. He coined the 'mom test' as the standard: if you can ask your mom and get useful, non-biased information, you're asking the right questions. The underlying psychology traces back to schema therapy research on approval-seeking schemas and decades of research on people-pleasing behaviors.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That all approval seeking is bad - in reality, some social validation supports healthy relationships and cooperation. **Critical Nuance:** There's a difference between approval seeking (wanting validation) and people-pleasing (feeling responsible for others' happiness). **Hidden Pitfall:** Some people overcompensate by becoming contrarian or deliberately seeking disapproval, which is equally counterproductive. **Subtle Trap:** You can fall into this pattern even when asking seemingly objective questions if you're unconsciously hoping for a specific answer rather than genuinely wanting to learn.",
+  "source_file": "Approval Seeking (Anti-Pattern).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "fundraising",
+    "co-founder_conflict",
+    "team_and_culture",
+    "competitive_strategy"
+  ]
+}

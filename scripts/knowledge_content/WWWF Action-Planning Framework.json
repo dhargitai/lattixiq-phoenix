@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "WWWF Action-Planning Framework",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever leave a meeting feeling great about the discussion, only to realize weeks later that nothing actually changed?",
+  "definition": "WWWF is a framework for turning conversations into concrete action by clarifying Who will do What, by When, and how you'll Follow up.",
+  "analogy_or_metaphor": "Think of it like a GPS for conversations—you need to know your destination (what), who's driving (who), when you'll arrive (when), and how to check if you're still on track (follow up).",
+  "key_takeaway": "**Great conversations without clear action plans are just expensive therapy sessions.**",
+  "classic_example": "After a team meeting about improving customer service, using WWWF means specifying: Sarah will revise the complaint response template (What) by Friday (When), and the team will review progress in next Tuesday's meeting (Follow up).",
+  "modern_example": "After a difficult conversation with your partner about household chores, you apply WWWF: You'll handle dishes and laundry (Who/What), starting Monday (When), and you'll check in next Sunday evening to see how it's working (Follow up).",
+  "pitfall": "Without WWWF, conversations become circular—you'll have the same discussion repeatedly because nothing concrete was established.",
+  "payoff": "Using WWWF transforms talk into results, prevents misunderstandings, and creates accountability that actually drives change.",
+  "visual_metaphor": "A checklist with four boxes: a person icon (Who), a task icon (What), a calendar (When), and a circular arrow (Follow up).",
+  "dive_deeper_mechanism": "WWWF works because it addresses the fundamental gap between intention and execution. Our brains are wired to feel satisfied after good conversations, creating a false sense of completion. The framework forces explicit commitment and creates psychological accountability through specific deadlines and follow-up mechanisms. The 'Follow up' component is crucial—it acknowledges human imperfection and creates a safety net to catch and correct course deviations early.",
+  "dive_deeper_origin_story": "The WWWF framework emerged from research into why organizational change initiatives fail. Kerry Patterson and his colleagues at VitalSmarts discovered that most important conversations end without clear action commitments, leading to repeated discussions about the same issues. They found that high-performing teams and individuals consistently used some form of action planning, which they codified into the WWWF structure for 'Crucial Conversations.'",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Making WWWF feel bureaucratic in personal conversations. The key is adapting the language—instead of 'checking up' on your boss, frame it as 'checking in' to see how things are progressing. **Nuance to remember:** WWWF isn't just about accountability; it's about preventing the emotional frustration that comes from assuming someone understood your expectations when they didn't.",
+  "extra_content": "## The WWWF Implementation Method\n\n### Step 1: Summarize for Understanding\nBefore moving to action, recap the conversation:\n- \"Let me make sure I understand what we've discussed...\"\n- \"This has been helpful—I want to recap to ensure we're aligned\"\n- Confirm mutual understanding before proceeding\n\n### Step 2: Identify Specific Actions\nFor each commitment, clarify:\n- **Who**: Name the specific person responsible (avoid vague \"we\" or \"the team\")\n- **What**: Define the exact deliverable or behavior change\n- **When**: Set a specific date and time, not \"soon\" or \"next week\"\n\n### Step 3: Establish Follow-up Mechanisms\nChoose appropriate follow-up based on relationship:\n- **With direct reports**: Schedule check-in meetings\n- **With peers/bosses**: Frame as collaborative check-ins, not oversight\n- **Personal relationships**: Casual but scheduled conversations\n\n### Sample WWWF Scripts\n\n**Professional Context:**\n\"Great discussion. To summarize: I'll research the vendor options (What) and have a recommendation to you by Thursday (When). Should we schedule 15 minutes Friday morning to review it together (Follow up)?\"\n\n**Personal Context:**\n\"I'm glad we talked through this. So I'll start doing the grocery shopping on Sundays (What/When), and you'll handle the meal planning by Saturday night (What/When). Let's check in next Sunday to see how this new system is working (Follow up).\"\n\n### Follow-up Conversation Framework\n1. **Check progress**: \"How are things going with [specific commitment]?\"\n2. **Address obstacles**: \"What's getting in the way?\"\n3. **Adjust if needed**: \"What do we need to change to make this work?\"\n4. **Recommit or revise**: \"Are we still on track, or should we adjust our approach?\"",
+  "source_file": "WWWF Action-Planning Framework.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "operations",
+    "co-founder_conflict"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "The Customer-to-Lead-Getter Funnel",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "What if every customer you gained could become a mini marketing team of one, actively bringing you more customers?",
+  "definition": "The Customer-to-Lead-Getter Funnel is a systematic approach that transforms satisfied customers into active referral sources by providing ongoing value, building goodwill, and creating incentive structures that encourage them to bring in new business.",
+  "analogy_or_metaphor": "Think of it like planting seeds in a garden - each satisfied customer is a seed that, when properly nurtured with value and care, grows into a tree that bears fruit (new leads) season after season.",
+  "key_takeaway": "**Every customer is a potential lead magnet waiting to be activated through value and incentives.**",
+  "classic_example": "Traditional referral programs where companies offer discounts or rewards for successful referrals, like Dropbox's famous 'get extra storage for every friend you invite' program that fueled their explosive growth.",
+  "modern_example": "A fitness coach who provides free weekly workout tips to past clients, then occasionally sends a '9-word email' asking 'Are you still looking to tone up?' - turning previous customers into a warm audience that generates new leads through engagement and word-of-mouth.",
+  "pitfall": "Treating customers as one-time transactions instead of ongoing relationships leaves massive untapped potential for organic growth on the table.",
+  "payoff": "Activating your customer base as lead generators creates a self-sustaining growth engine that reduces acquisition costs and increases lifetime value.",
+  "visual_metaphor": "A funnel with a circular arrow showing customers flowing out one end and cycling back as lead-bringers at the top, creating a continuous loop of growth.",
+  "dive_deeper_mechanism": "This model works by leveraging the psychological principles of reciprocity and social proof. When customers receive ongoing value after their purchase, they feel indebted (reciprocity) and want to share good experiences with others (social proof). The key is maintaining engagement through regular value delivery - keeping the relationship warm so when you do ask for referrals, it feels natural rather than transactional. The '9-word email' technique works because it's personal, non-pushy, and simply reactivates dormant interest rather than trying to create new demand.",
+  "dive_deeper_origin_story": "This concept evolved from Alex Hormozi's experience scaling multiple businesses and observing that the most profitable companies had systematic ways of turning customers into advocates. The specific '9-word email' technique was popularized by Dean Jackson, who discovered that simple, question-based emails without images or links had remarkably high engagement rates because they felt personal and conversational rather than marketing-heavy.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Asking for referrals too early before building sufficient goodwill - this feels transactional and pushy. **Common Mistake #2:** Providing value inconsistently, which breaks the relationship momentum. The key nuance is that this isn't about creating a formal referral program with rewards, but about systematically nurturing relationships so referrals happen naturally through ongoing engagement and value delivery.",
+  "source_file": "The \"Customer-to-Lead-Getter\" Funnel.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "operations"
+  ]
+}

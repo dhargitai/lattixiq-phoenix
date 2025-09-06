@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Commitment & Advancement",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever notice how some people say they're 'very interested' but then vanish forever? Here's how to separate genuine intent from polite conversation.",
+  "definition": "A framework for validating genuine interest by asking for a tangible next step (commitment) that moves the process forward (advancement), rather than accepting vague expressions of interest.",
+  "analogy_or_metaphor": "Like a dance where both partners must actually move forward together—if only one person is stepping, it's not really dancing.",
+  "key_takeaway": "**True interest is measured by actions, not words.**",
+  "classic_example": "A sales professional asking a potential client to schedule a follow-up meeting with their team, rather than accepting 'This looks interesting, let me think about it' as a positive signal.",
+  "modern_example": "When networking, instead of collecting business cards from people who say 'Let's definitely grab coffee,' asking 'Are you free next Tuesday at 2pm?' to see who actually commits to a specific time.",
+  "pitfall": "Accepting enthusiasm without commitment leads to wasted time chasing phantom opportunities and false validation.",
+  "payoff": "Demanding commitment creates clarity, saves time, and focuses energy on genuine prospects who are ready to move forward.",
+  "visual_metaphor": "A bridge with two people on opposite sides—one person extends a plank (commitment) while the other steps forward (advancement), both moving toward the middle together.",
+  "dive_deeper_mechanism": "The framework works by exploiting the psychological principle that people reveal their true priorities through their actions, not their words. When someone makes a concrete commitment—investing time, effort, or resources—they demonstrate genuine interest because commitment creates psychological ownership and accountability. The 'advancement' component ensures that each commitment moves the process forward measurably, preventing circular conversations that feel productive but accomplish nothing. This creates a filtering mechanism that naturally separates serious prospects from those who are merely curious or being polite.",
+  "dive_deeper_origin_story": "While popularized in Rob Fitzpatrick's 'The Mom Test,' the concept draws from decades of negotiation research and behavioral psychology. The principle emerged from observing that traditional sales approaches often misread politeness for interest. Fitzpatrick formalized this after witnessing countless entrepreneurs waste months pursuing 'interested' customers who never actually bought anything. The framework gained prominence in the lean startup movement as a way to validate market demand through actions rather than surveys or focus groups, recognizing that what people say they'll do and what they actually do are often completely different.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** That any small action counts as meaningful commitment. **Reality:** The commitment must be proportional to the stakes and genuinely costly to the person making it. A CEO agreeing to a 15-minute call isn't the same commitment as a department head agreeing to pilot your software with their team. **Another pitfall:** Confusing advancement with commitment—moving to the next step isn't valuable unless both parties are genuinely invested in the outcome. Some people will take meetings or provide feedback simply to be helpful, not because they're serious prospects.",
+  "source_file": "Commitment and Advancement.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "fundraising",
+    "hiring",
+    "go-to-market",
+    "operations"
+  ]
+}

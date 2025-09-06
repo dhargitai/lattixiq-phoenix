@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Pivot or Persevere Meeting",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some startups burn through millions before realizing their idea won't work? It's because they skip the hardest meeting of all.",
+  "definition": "A recurring meeting where teams analyze experimental data against predefined success criteria to make evidence-based decisions about whether to continue their current strategy (persevere) or change direction (pivot).",
+  "analogy_or_metaphor": "Like a pilot's regular navigation check - you don't wait until you're completely lost to look at your instruments and decide if you need to change course.",
+  "key_takeaway": "**Regular, data-driven decision points prevent costly persistence in failing strategies.**",
+  "classic_example": "Wealthfront's team regularly analyzed their innovation accounting metrics and made strategic pivots based on market feedback rather than emotional attachment to their original vision.",
+  "modern_example": "A SaaS startup runs monthly pivot-or-persevere meetings, comparing user engagement data against their hypothesis that customers want automated reporting - when metrics consistently fall short, they pivot to manual consulting services instead.",
+  "pitfall": "Without structured decision points, teams fall prey to sunk-cost fallacy and confirmation bias, burning resources on strategies that aren't working.",
+  "payoff": "Regular pivot-or-persevere meetings enable rapid course corrections, preventing wasted resources and accelerating the path to product-market fit.",
+  "visual_metaphor": "A ship's compass with two arrows - one pointing toward 'pivot' (new direction) and one toward 'persevere' (current course), surrounded by data charts and metrics gauges.",
+  "dive_deeper_mechanism": "The meeting works by forcing objective evaluation at regular intervals, counteracting human psychological tendencies like loss aversion and confirmation bias. It institutionalizes the scientific method in business decision-making - teams form hypotheses, test them through minimum viable products, measure results through innovation accounting, and make evidence-based decisions. The structured approach prevents both premature abandonment of promising strategies and costly persistence in failing ones.",
+  "dive_deeper_origin_story": "Eric Ries popularized this concept in 'The Lean Startup' (2011) after witnessing countless startups fail not from lack of passion or resources, but from inability to objectively assess their progress. Drawing from Toyota's lean manufacturing principles and the scientific method, Ries formalized what successful entrepreneurs had been doing intuitively - creating systematic decision points where emotion gives way to evidence.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** It's not just pivot vs. persevere - there are actually four options: pivot, persevere, scale (if succeeding beyond expectations), or kill (if fundamentally flawed). **Timing trap:** Too frequent meetings lead to premature decisions based on insufficient data; too infrequent meetings waste resources on obviously failing strategies. **Metrics matter:** Without clear success/failure criteria defined BEFORE experiments begin, the meeting becomes a subjective debate rather than an objective assessment.",
+  "extra_content": "## The Pivot or Persevere Meeting Framework\n\n### Pre-Meeting Setup\n1. **Define Success Metrics**: Establish clear, measurable criteria for success and failure before running experiments\n2. **Set Meeting Cadence**: Schedule regular meetings (typically every 4-8 weeks for startups, longer for established companies)\n3. **Assign Roles**: Designate a meeting facilitator and ensure all key stakeholders attend\n\n### Meeting Structure\n\n#### Phase 1: Data Review (15-20 minutes)\n- Present actual results vs. predicted outcomes\n- Review key metrics from innovation accounting\n- Analyze customer feedback and market signals\n- Assess resource expenditure and runway\n\n#### Phase 2: Objective Assessment (20-30 minutes)\n- Compare results against pre-defined success/failure criteria\n- Identify which hypotheses have been validated or invalidated\n- Discuss learnings and insights gained\n- Address any data quality or measurement issues\n\n#### Phase 3: Decision Making (15-20 minutes)\nEvaluate four possible outcomes:\n- **Persevere**: Continue current strategy with minor optimizations\n- **Pivot**: Make fundamental changes to product, market, or business model\n- **Scale**: Accelerate investment if metrics exceed expectations\n- **Kill**: Discontinue if fundamentally flawed\n\n#### Phase 4: Action Planning (10-15 minutes)\n- If persevering: Define optimization experiments\n- If pivoting: Outline new hypothesis and validation plan\n- If scaling: Plan resource allocation and growth strategy\n- If killing: Plan wind-down and resource reallocation\n- Set next meeting date and interim checkpoints\n\n### Key Questions Framework\n1. **Progress Assessment**: Are we making sufficient progress toward our goals?\n2. **Hypothesis Validation**: Does the data support our current assumptions?\n3. **Learning Evaluation**: What have we learned that changes our understanding?\n4. **Resource Analysis**: Is our current approach the best use of resources?\n5. **Risk Assessment**: What are the risks of continuing vs. changing course?\n\n### Decision Criteria Guidelines\n- Use quantitative metrics wherever possible\n- Consider both leading and lagging indicators\n- Factor in market timing and competitive landscape\n- Assess team capacity and morale\n- Evaluate alignment with overall strategic vision",
+  "source_file": "Pivot or Persevere Meeting.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pivot",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

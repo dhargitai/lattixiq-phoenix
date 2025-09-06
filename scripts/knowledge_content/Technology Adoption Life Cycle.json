@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Technology Adoption Life Cycle",
+  "super_model": true,
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some brilliant technologies fail while others take over the world? The answer lies in understanding that not everyone adopts innovation at the same pace.",
+  "definition": "The Technology Adoption Life Cycle segments any market into five distinct groups based on their psychological readiness to embrace new technology: Innovators, Early Adopters, Early Majority, Late Majority, and Laggards.",
+  "analogy_or_metaphor": "Think of it like a wave rolling onto shore - the Innovators are the brave surfers riding the crest, Early Adopters catch it early, the Early Majority waits for calmer waters, the Late Majority only enters when it's safe, and Laggards wait until the wave has completely settled.",
+  "key_takeaway": "**Innovation spreads in predictable waves - success comes from riding each wave with the right message for each group.**",
+  "classic_example": "The personal computer revolution: tech enthusiasts (Innovators) built them in garages, visionary businesses (Early Adopters) saw their potential, mainstream businesses (Early Majority) adopted them for productivity, everyone else (Late Majority) got them for basic tasks, and traditionalists (Laggards) finally bought them when they became unavoidable.",
+  "modern_example": "Electric vehicles: Tesla targeted car enthusiasts and environmentalists first, then luxury buyers, now mainstream consumers are adopting as charging infrastructure improves, while skeptics wait for lower prices and proven reliability.",
+  "pitfall": "Treating all customers the same leads to innovation failure - speaking 'cutting-edge benefits' to cautious mainstream adopters kills adoption momentum.",
+  "payoff": "Understanding each group's psychology lets you sequence your strategy perfectly, turning early wins into mainstream success and avoiding the 'chasm' where most innovations die.",
+  "visual_metaphor": "A bell curve divided into five colored sections flowing left to right, with small groups of risk-takers on the left growing to large mainstream segments in the middle, then shrinking to traditionalists on the right.",
+  "dive_deeper_mechanism": "The model works because humans have fundamentally different psychological relationships with risk and change. Innovators are wired to seek novelty and can tolerate uncertainty. Early Adopters are visionaries who see competitive advantage in being first. The Early Majority are pragmatists who need proof before committing. The Late Majority are skeptics driven by social pressure. Laggards are traditionalists who resist change until absolutely necessary. Each group serves as a reference point for the next - Innovators validate the technology, Early Adopters prove its value, and so on. This creates a natural progression, but only if you understand what motivates each group and speak their language.",
+  "dive_deeper_origin_story": "The story begins in 1950s Iowa, where researchers George Beal and Joe Bohlen studied how farmers adopted new agricultural techniques. They noticed a predictable pattern - some farmers eagerly tried new seeds, others waited to see results, and some resisted until neighbors pressured them. Sociologist Everett Rogers formalized this into the 'Diffusion of Innovations' theory in 1962, creating the famous bell curve. But it was Geoffrey Moore's 1991 book 'Crossing the Chasm' that made it legendary in Silicon Valley. Moore identified a critical gap between Early Adopters (who love new things) and the Early Majority (who want proven solutions) - a 'chasm' where most technologies die. His insight: you can't just wait for adoption to naturally flow; you must actively bridge this gap with the right strategy.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** The adoption curve is smooth and automatic. **Reality:** There's a dangerous 'chasm' between Early Adopters and Early Majority where most innovations fail. Early Adopters buy into your vision; the Early Majority wants references and proof. **Myth:** All customer segments are equally valuable. **Reality:** Each group has different economic value and influence patterns - Innovators test your product, but the Early Majority pays your bills. **Myth:** You can market to all groups simultaneously. **Reality:** Messaging that excites Innovators (cutting-edge features) terrifies the Late Majority (complexity and risk), requiring completely different approaches for each segment.",
+  "source_file": "Technology Adoption Life Cycle.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

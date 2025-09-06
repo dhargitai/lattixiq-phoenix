@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Single-Piece Flow",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some drive-thru restaurants can serve you faster than others, even when they're busier? The secret lies in how they handle each order.",
+  "definition": "Single-piece flow is the ideal state where work moves through a multi-step process one unit at a time, without delays or batches between steps.",
+  "analogy_or_metaphor": "Think of it like a perfectly choreographed relay race where each runner passes the baton immediately to the next runner, versus a chaotic race where runners wait around holding multiple batons before passing them all at once.",
+  "key_takeaway": "**The fastest way to complete any single task is to move it continuously through each step without waiting.**",
+  "classic_example": "Toyota's production line where each car moves from station to station immediately after completing the previous step, synchronized with customer demand, allowing them to produce diverse models efficiently without excess inventory.",
+  "modern_example": "A top software development team that deploys code changes immediately after each feature is completed, rather than waiting weeks to bundle multiple features into a large release, resulting in faster bug detection and quicker customer feedback.",
+  "pitfall": "Working in large batches creates the 'large-batch death spiral' where delays, rework, and interruptions accumulate, making everyone want to work in even larger batches to avoid overhead.",
+  "payoff": "Single-piece flow dramatically reduces lead time, exposes quality issues immediately, eliminates waste from overproduction, and increases flexibility to respond to changing demands.",
+  "visual_metaphor": "A smooth river flowing around rocks versus a series of dams that collect water in large pools before releasing it all at once - the river reaches the ocean faster.",
+  "dive_deeper_mechanism": "Single-piece flow works by eliminating the hidden costs of batching: inventory holding costs, delayed feedback, quality issues compounding across batches, and the cognitive overhead of context switching. When work flows continuously, problems surface immediately rather than being buried in large batches, and the total time from start to finish (lead time) is minimized. The process is synchronized with actual demand (takt time), preventing overproduction and ensuring resources are used efficiently.",
+  "dive_deeper_origin_story": "Single-piece flow emerged from Toyota's revolutionary Toyota Production System (TPS) in the mid-20th century. While Henry Ford's assembly line introduced continuous flow, Toyota's Taiichi Ohno refined it into a flexible, demand-driven system. The breakthrough came when Toyota realized that producing exactly what was needed, when needed, in the quantity needed, was more efficient than Ford's mass production approach. This insight helped Toyota achieve both efficiency and flexibility, producing diverse car models without the waste of excess inventory.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Single-piece flow is slower because you're only working on one item at a time. **Reality:** It's often faster overall because it eliminates waiting time and batch delays. **Critical Nuance:** Single-piece flow only works when process steps are balanced in time and capacity - if one step takes much longer than others, bottlenecks form. **Implementation Trap:** Many organizations try to implement single-piece flow without redesigning their physical layout or rebalancing workloads, creating more problems than solutions.",
+  "extra_content": "## Single-Piece Flow Implementation Framework\n\n### **Step 1: Map Your Current Process**\n- Document each step in your workflow\n- Measure the time each step takes\n- Identify where work waits between steps\n- Calculate current batch sizes and lead times\n\n### **Step 2: Calculate Takt Time**\n**Formula:** Takt Time = Available Working Time ÷ Customer Demand\n\n*Example: If you have 8 hours (480 minutes) available and need to produce 60 units, your takt time is 8 minutes per unit.*\n\n### **Step 3: Balance the Process**\n- Ensure each step takes approximately the same time as takt time\n- Redistribute work or add resources to bottleneck steps\n- Remove or automate steps that add no value\n\n### **Step 4: Design Physical Layout**\n- Arrange workstations in sequence of the process flow\n- Minimize distance between steps\n- Create visual controls to see flow status\n\n### **Step 5: Implement Pull Systems**\n- Only start new work when the next step is ready\n- Use visual signals (kanban cards, lights) to coordinate flow\n- Set maximum work-in-process limits\n\n### **Step 6: Start Small and Scale**\n- Begin with one simple product or process\n- Perfect the flow before expanding\n- Train team members on new workflows\n\n### **Step 7: Monitor and Improve**\n- Track lead time, throughput, and quality metrics\n- Hold daily standups to identify flow interruptions\n- Continuously eliminate waste and variability\n\n### **Warning Signs to Watch For:**\n- Queues building up between steps\n- Workers frequently idle or overwhelmed\n- Quality problems discovered late\n- Overproduction beyond customer demand\n- Frequent expediting or rush jobs",
+  "source_file": "Single-Piece Flow.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "operations",
+    "team_and_culture",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

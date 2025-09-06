@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Email Address Permutation",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Need to reach someone but only have their name and company? There's a systematic way to crack the corporate email code.",
+  "definition": "A problem-solving heuristic that involves systematically generating and testing common corporate email patterns to find a contact's email address when you only know their name and company domain.",
+  "analogy_or_metaphor": "It's like being a detective with a master key collection—you know corporate emails follow predictable patterns, so you try each common 'key' (first.last@company.com, flast@company.com, etc.) until one unlocks the contact.",
+  "key_takeaway": "**Most corporate emails follow predictable patterns—decode the pattern, decode the contact.**",
+  "classic_example": "A sales professional needs to contact John Smith at Microsoft. They discover Microsoft uses the first.last@microsoft.com pattern by finding other employees' emails, then successfully reach john.smith@microsoft.com.",
+  "modern_example": "You're trying to pitch your startup to Sarah Johnson, VP of Marketing at a tech company. You find the company's HR manager's email (mike.chen@techco.com) on their careers page, confirming they use first.last format, so you confidently email sarah.johnson@techco.com.",
+  "pitfall": "Without this systematic approach, you're stuck sending generic contact form messages that rarely reach decision-makers, significantly reducing your chances of meaningful business connections.",
+  "payoff": "Mastering email permutation gives you direct access to key contacts, bypassing gatekeepers and dramatically increasing your outreach success rate in sales, partnerships, and networking.",
+  "visual_metaphor": "A combination lock with email format patterns (first.last@, flast@, f.last@) as the dial combinations, with the correct pattern clicking into place to reveal the contact.",
+  "dive_deeper_mechanism": "This heuristic works because corporate IT departments standardize email formats for consistency and management ease. Most organizations choose one of about 8-10 common patterns and apply it uniformly. The human brain's pattern recognition abilities, combined with validation tools like social media APIs, make this systematic approach highly effective. It leverages the principle that systems create predictable outputs—once you understand the system (email format), you can reliably generate the correct output (specific email addresses).",
+  "dive_deeper_origin_story": "Email permutation emerged from early sales development and recruiting practices in Silicon Valley during the 2000s tech boom. As LinkedIn grew but didn't yet provide easy contact information, resourceful salespeople and recruiters developed systematic methods to reach prospects directly. The technique was popularized by sales development pioneers who shared 'email hacking' spreadsheets and tools. Companies like TalentBin (mentioned in the source) built entire business models around perfecting and automating these permutation techniques for recruiters and sales teams.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** That this is 'hacking' or somehow unethical. **Reality:** You're simply using publicly available information and standard formatting conventions—it's no different than guessing someone's phone number based on area code patterns. **Another pitfall:** Assuming all companies follow the same pattern. Large corporations might have multiple formats for different divisions, while startups might use creative or inconsistent patterns. Always validate your guess with multiple data points before committing to outreach campaigns.",
+  "extra_content": "## The Email Permutation Method\n\n### Step 1: Identify the Company Domain\n- Check the company website footer\n- Look at job postings for contact information\n- Search for press releases with media contacts\n\n### Step 2: Find Pattern Examples\n**Sources to check:**\n- Company careers page (HR contacts)\n- Press releases (media contact emails)\n- LinkedIn posts from employees\n- Company blog author bylines\n- Social media profiles of known employees\n\n### Step 3: Common Corporate Email Patterns\nTest these patterns in order of probability:\n1. `first.last@domain.com` (most common)\n2. `flast@domain.com` \n3. `firstlast@domain.com`\n4. `first_last@domain.com`\n5. `f.last@domain.com`\n6. `lastfirst@domain.com`\n7. `first@domain.com` (smaller companies)\n8. `last@domain.com` (rare)\n\n### Step 4: Validation Methods\n**Manual validation:**\n- Gmail/Outlook social plugins (Rapportive, FullContact)\n- LinkedIn sales navigator email finder\n- Social media profile matching\n\n**Tool-assisted validation:**\n- Email verification services (Hunter.io, Voila Norbert)\n- CRM integrations (SalesLoft, Outreach)\n- Browser extensions (Lusha, LeadIQ)\n\n### Step 5: Quick Permutation Spreadsheet Formula\n\n=CONCATENATE(A2,\".\",B2,\"@\",C2)\n=CONCATENATE(LEFT(A2,1),B2,\"@\",C2)\n=CONCATENATE(A2,B2,\"@\",C2)\n\nWhere A2=first name, B2=last name, C2=domain\n\n### Verification Checklist\n✅ Email doesn't bounce\n✅ Social profiles match the person\n✅ Job title/company matches LinkedIn\n✅ Recent activity suggests active email use",
+  "source_file": "Email Address Permutation.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "go-to-market",
+    "operations"
+  ]
+}

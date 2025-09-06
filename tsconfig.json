@@ -8,7 +8,8 @@
       "@phoenix/ui": ["./packages/ui/src"],
       "@phoenix/ui/*": ["./packages/ui/src/*"],
       "@phoenix/config": ["./packages/config"],
-      "@phoenix/config/*": ["./packages/config/*"]
+      "@phoenix/config/*": ["./packages/config/*"],
+      "@/*": ["./*"]
     }
   },
   "references": [

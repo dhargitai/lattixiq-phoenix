@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Issue-Specific Trust",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Social & Behavioral Psychology",
+  "hook": "Your coworker missed an important deadline, but you'd still trust them to recommend a great restaurant. Why does trust work this way?",
+  "definition": "Issue-specific trust is the recognition that trustworthiness varies by context and domain, rather than being a fixed character trait that applies universally to a person.",
+  "analogy_or_metaphor": "Trust is like a toolbox—you might trust someone with a hammer but not with delicate electronics. Each tool requires different skills, and competence in one doesn't guarantee competence in another.",
+  "key_takeaway": "**Trust smartly by evaluating people's reliability in specific domains, not as blanket judgments.**",
+  "classic_example": "In scientific peer review, researchers trust colleagues' expertise in their specialized field while remaining appropriately skeptical of their claims outside that domain of knowledge.",
+  "modern_example": "You trust your friend's movie recommendations because they share your taste, but you wouldn't ask them to manage your investments just because they're generally trustworthy.",
+  "pitfall": "Treating trust as all-or-nothing leads to either naive vulnerability or unnecessary suspicion, damaging relationships and missing opportunities for effective collaboration.",
+  "payoff": "Understanding issue-specific trust enables precise relationship management, faster conflict resolution, and more effective teamwork by calibrating trust appropriately for each situation.",
+  "visual_metaphor": "A key ring with different keys for different doors—each relationship has multiple 'trust keys' that open different areas of reliability and competence.",
+  "dive_deeper_mechanism": "Issue-specific trust works by separating trustworthiness into three components that vary by context: ability (competence in this specific area), benevolence (good intentions toward you in this situation), and integrity (consistency between values and actions in this domain). Our brains naturally want to create coherent stories about people, leading us to overgeneralize from one experience. However, research shows that someone's reliability in one area doesn't predict their reliability in unrelated areas. By consciously evaluating trust domain-by-domain, we make more accurate assessments and avoid the cognitive trap of halo effects or fundamental attribution errors.",
+  "dive_deeper_origin_story": "The concept emerged from organizational psychology research in the 1990s, particularly Roger Mayer, James Davis, and David Schoorman's influential 1995 model of organizational trust. They discovered that traditional views of trust as a personality trait were inadequate for explaining workplace dynamics. Their research revealed that people naturally assess trustworthiness differently depending on the task at hand—you might trust a colleague's technical expertise while questioning their people management skills. This framework was later adopted by conflict resolution experts like the authors of 'Crucial Conversations,' who found that focusing on issue-specific trust allowed people to rebuild relationships incrementally after disputes, rather than writing off entire relationships due to single failures.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** People often think issue-specific trust means being calculating or cold in relationships. **Reality:** It actually enables warmer, more resilient relationships by preventing single failures from destroying overall trust. **Another Pitfall:** Some assume this model requires constant evaluation and suspicion. **Truth:** It's about appropriate calibration—recognizing that your tech-savvy teenager might be trusted with computer problems but not financial decisions, which is natural wisdom, not overthinking.",
+  "source_file": "Issue-Specific Trust.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "co-founder_conflict",
+    "team_and_culture",
+    "operations"
+  ]
+}

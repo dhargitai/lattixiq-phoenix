@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Technology vs. Market Trajectories",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Why do successful companies with superior technology often get blindsided by inferior alternatives? The answer lies in misreading market demand trajectories.",
+  "definition": "A framework that plots technological improvement rates against market demand improvement rates, revealing how performance oversupply creates vulnerabilities for established players.",
+  "analogy_or_metaphor": "Like a race car that's built for Formula 1 speeds trying to navigate city traffic—its superior performance becomes irrelevant when the environment doesn't demand it.",
+  "key_takeaway": "**When technology outpaces market needs, disruption enters from below.**",
+  "classic_example": "Disk drive manufacturers who kept improving recording density and capacity while customers began valuing smaller, cheaper drives for personal computers over maximum performance.",
+  "modern_example": "Tesla disrupting luxury car makers not with superior traditional metrics (top speed, acceleration) but by redefining what customers valued (sustainability, software features, charging network).",
+  "pitfall": "Continuing to optimize for performance attributes the market no longer values, creating an opening for simpler, cheaper alternatives to gain a foothold.",
+  "payoff": "Understanding trajectory mismatches helps you spot disruption opportunities and avoid being disrupted by seemingly inferior competitors.",
+  "visual_metaphor": "Two ascending curves: a steep technology curve shooting high above a gentler market demand curve, with a gap between them that represents the disruption opportunity zone.",
+  "dive_deeper_mechanism": "The model works because markets evolve through predictable phases—functionality, reliability, convenience, then price. When technology advances faster than market needs in any phase, it creates 'performance oversupply.' This opens space for simpler solutions to enter at the bottom and gradually improve, eventually capturing mainstream customers who realize they were overpaying for unused performance.",
+  "dive_deeper_origin_story": "Clayton Christensen developed this framework while studying the disk drive industry at Harvard Business School in the 1990s. He noticed that leading companies with the best technology kept losing to seemingly inferior competitors. The breakthrough insight came from plotting technology improvement rates against what customers actually demanded over time, revealing systematic patterns of disruption across multiple industries.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Disruption always means better technology. **Reality:** Disruptive technologies are initially worse on traditional metrics but better on new dimensions (cost, convenience, accessibility). **Another pitfall:** Assuming all customers want maximum performance. **Truth:** Most customers have 'good enough' thresholds and will choose simpler, cheaper options once their basic needs are met.",
+  "source_file": "Technology vs. Market Trajectories.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

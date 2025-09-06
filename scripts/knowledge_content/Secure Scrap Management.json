@@ -1,0 +1,30 @@
+{
+  "knowledge_piece_name": "Secure Scrap Management",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder how a $0.50 chip gets repackaged and sold as a $50 security chip? Welcome to the world of scrap salvage fraud.",
+  "definition": "A supply chain security practice that involves strictly controlling and auditing the disposal of defective or scrap materials to prevent them from being salvaged and reintroduced into the market as counterfeit goods.",
+  "analogy_or_metaphor": "Like a secure shredding service for documents, but for physical products—ensuring that defective parts can't be dumpster-dived and given fake identities.",
+  "key_takeaway": "**Your trash becomes someone else's counterfeit treasure without proper scrap control.**",
+  "classic_example": "The counterfeit ST19CF68 chips discovered in 2007, where cheap Fairchild 74LCX244 buffer chips were repackaged and sold as expensive STMicroelectronics smartcard processors, fooling buyers until microscopic analysis revealed the fraud.",
+  "modern_example": "A smartphone manufacturer's defective camera modules ending up in gray market phones sold as 'genuine refurbished' devices, or discarded luxury handbag materials being sewn into fake designer bags sold online.",
+  "pitfall": "Without secure scrap management, your defective products become raw materials for sophisticated counterfeits that damage your brand and put customers at risk.",
+  "payoff": "Proper scrap control protects your brand integrity, prevents revenue loss to counterfeiters, and ensures customer safety by keeping substandard materials out of circulation.",
+  "visual_metaphor": "A locked dumpster with a security guard and audit trail, showing materials going in but nothing coming back out unauthorized.",
+  "dive_deeper_mechanism": "Secure scrap management works by creating an unbroken chain of custody for defective materials from production line to final destruction. It leverages the principle that counterfeiting often relies on salvaging legitimate components or materials that were discarded improperly. By treating waste as a security vulnerability rather than just an operational cost, companies can close a major loophole that sophisticated counterfeiters exploit. The practice recognizes that in today's global supply chains, even your garbage has value to bad actors.",
+  "dive_deeper_origin_story": "The concept gained prominence in the electronics industry after numerous incidents like the 2007 ST19CF68 counterfeit chip case documented by hardware hacker Andrew Huang. He discovered that what appeared to be expensive smartcard processors were actually cheap buffer chips that had been remarketed with fraudulent labeling. This revelation highlighted how counterfeiters were becoming increasingly sophisticated, not just copying products but salvaging and repurposing legitimate components. The practice became formalized as companies realized their own discarded materials were being weaponized against them.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Only high-value items need secure scrap management. **Reality:** Even cheap components can be repackaged as expensive ones, making all scrap potentially valuable to counterfeiters. **Another pitfall:** Companies often focus only on finished product security while ignoring component-level scrap, but sophisticated counterfeiters work at the component level where detection is harder and profits are higher.",
+  "source_file": "Secure Scrap Management.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "operations",
+    "risk_management"
+  ]
+}

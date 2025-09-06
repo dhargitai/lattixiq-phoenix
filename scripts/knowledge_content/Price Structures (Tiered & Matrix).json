@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Price Structures (Tiered & Matrix)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why Netflix charges differently than your gym membership? Both use price structures, but one captures way more value.",
+  "definition": "A framework for implementing monetization by creating different price levels based on one or more variables, where tiered structures use one dimension (like usage volume) and matrix structures use two dimensions (like usage volume plus wallet share).",
+  "analogy_or_metaphor": "Think of it like a parking garage: tiered pricing is like charging more for higher floors (one variable), while matrix pricing is like charging based on both floor level AND car size (two variables).",
+  "key_takeaway": "**Strategic pricing structures capture more value by matching price to customer segments and usage patterns.**",
+  "classic_example": "Software licensing has long used tiered pricing - basic, professional, and enterprise versions with increasing features and capabilities at each level.",
+  "modern_example": "Spotify uses tiered pricing (free, premium, family), while cloud services like AWS use matrix pricing based on both usage volume AND service types (compute, storage, bandwidth).",
+  "pitfall": "Using simple flat pricing leaves money on the table and fails to capture the different values customers place on your offering.",
+  "payoff": "Well-designed price structures maximize revenue by capturing consumer surplus while serving different customer segments effectively.",
+  "visual_metaphor": "A stepped pyramid with multiple levels (tiered) or a grid with rows and columns intersecting at different price points (matrix).",
+  "dive_deeper_mechanism": "Price structures work by recognizing that customers have different willingness to pay based on their usage patterns, company size, or value received. Tiered structures segment customers along one dimension, typically usage or features, allowing you to capture more value from heavy users while still serving price-sensitive customers. Matrix structures add a second dimension, often related to customer characteristics like company size or market segment, creating a more sophisticated value capture mechanism that can dramatically increase average revenue per customer.",
+  "dive_deeper_origin_story": "Price discrimination theory emerged from economics in the early 20th century, but modern tiered pricing was popularized by software companies in the 1980s who realized they could serve both individual users and enterprises with the same core product at different price points. The matrix approach gained prominence with cloud computing, where providers like Amazon Web Services needed to price across multiple variables simultaneously - usage, service types, and customer tiers.",
+  "dive_deeper_pitfalls_nuances": "Common mistake: Creating too many tiers that confuse customers rather than guide them. The 'Goldilocks effect' suggests 3-4 tiers work best. Another pitfall is pricing tiers too close together, reducing the incentive to upgrade. Matrix pricing can become overly complex, requiring sophisticated customer education and sales processes.",
+  "extra_content": "## Tiered Pricing Implementation\n\n### Basic 3-Tier Structure:\n1. **Entry Tier (20% of value)**: Loss leader or break-even to attract customers\n2. **Popular Tier (60% of value)**: Where most customers land, highest profit margin\n3. **Premium Tier (100%+ of value)**: Captures high-value customers, justifies middle tier\n\n### Matrix Pricing Framework:\n\n**Step 1: Identify Your Two Key Variables**\n- Usage dimension (volume, features, users)\n- Customer dimension (company size, industry, geography)\n\n**Step 2: Create Value Segments**\n- Map customer willingness to pay across both dimensions\n- Identify sweet spots where high usage meets high value customers\n\n**Step 3: Price Anchoring Strategy**\n- Set premium option 3-5x higher than entry to make middle option attractive\n- Use decoy pricing: make one option clearly inferior to drive toward preferred tier\n\n### Pricing Psychology Applications:\n\n**Charm Pricing**: End prices in 7, 9 for perceived value\n**Bundle Pricing**: Combine complementary services in higher tiers\n**Grandfathering**: Protect existing customers when raising prices\n**Freemium Gateway**: Use free tier to demonstrate value before conversion\n\n### Testing and Optimization:\n\n1. **A/B Testing**: Test different tier structures with customer segments\n2. **Price Sensitivity Analysis**: Survey customers on willingness to pay\n3. **Conversion Tracking**: Monitor upgrade rates between tiers\n4. **Churn Analysis**: Identify optimal price points that minimize churn\n5. **Revenue Per Customer**: Optimize for lifetime value, not just acquisition\n\n### Implementation Checklist:\n\n- [ ] Analyze customer usage patterns and segments\n- [ ] Design 3-4 clear tiers with distinct value propositions\n- [ ] Set pricing with clear upgrade incentives (2-3x multipliers)\n- [ ] Create simple comparison charts highlighting tier benefits\n- [ ] Implement tracking for conversion rates between tiers\n- [ ] Plan regular price optimization reviews (quarterly)\n- [ ] Develop customer communication for price changes",
+  "source_file": "Price Structures (Tiered and Matrix).md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "fundraising"
+  ]
+}

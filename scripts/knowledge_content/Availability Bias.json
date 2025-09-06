@@ -1,0 +1,41 @@
+{
+  "knowledge_piece_name": "Availability Bias",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever notice how after watching a plane crash on the news, flying suddenly feels way more dangerous? That's your brain playing tricks on you.",
+  "definition": "The tendency to judge the probability or frequency of events based on how easily examples come to mind, rather than actual statistical reality.",
+  "analogy_or_metaphor": "It's like having a mental spotlight that only illuminates recent memories, leaving you to judge the entire room based on what's currently lit up.",
+  "key_takeaway": "**What comes to mind easily isn't necessarily what happens most often.**",
+  "classic_example": "The 1978 study showing people overestimated tornado deaths by 50 times while underestimating stroke deaths by 100 times, simply because tornadoes get more dramatic media coverage.",
+  "modern_example": "Thinking plane crashes are common after seeing one on social media, even though you're statistically safer in a plane than driving to the airport.",
+  "pitfall": "Making decisions based on vivid recent memories rather than actual data, leading to poor risk assessment and skewed judgment.",
+  "payoff": "Recognizing when your recent experiences are clouding your judgment helps you seek out real data and make more accurate decisions.",
+  "visual_metaphor": "A news ticker scroll with sensational headlines taking up 90% of the space, while small statistical facts scroll by barely visible at the bottom.",
+  "dive_deeper_mechanism": "Availability bias exists because our brains evolved to make quick decisions based on immediately accessible information. When something is easy to recall—whether due to recency, emotional impact, or media coverage—our brain interprets this ease of retrieval as evidence that the event is more common or likely. This mental shortcut (heuristic) saved cognitive energy in simpler environments but becomes problematic in our modern world where media amplifies rare but dramatic events while ignoring common but mundane ones.",
+  "dive_deeper_origin_story": "The availability heuristic was first identified by psychologists Amos Tversky and Daniel Kahneman in the early 1970s as part of their groundbreaking research on cognitive biases. Their work culminated in Sarah Lichtenstein's famous 1978 study 'Judged Frequency of Lethal Events,' where researchers asked people to estimate death rates from 41 different causes. The results were striking: people consistently overestimated rare but memorable causes (like tornadoes or shark attacks) while dramatically underestimating common but unremarkable ones (like strokes or diabetes). This study became a cornerstone in understanding how media coverage and memorable events warp our perception of reality.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** People think availability bias only affects others or only applies to dramatic events. **Reality:** We all fall victim to it, even with mundane decisions—like overestimating traffic after one bad commute or assuming a restaurant is bad after one poor experience. **Another Nuance:** The bias isn't just about recent events; it's about memorable ones. A vivid story from years ago can influence your judgment more than boring but relevant statistics from yesterday. The key is recognizing that 'easy to remember' doesn't equal 'likely to happen.'",
+  "source_file": "Availability Bias.md",
+  "super_model": true,
+  "target_persona": [
+    "founder",
+    "executive",
+    "investor"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "hiring",
+    "fundraising",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "pricing",
+    "risk_management"
+  ]
+}

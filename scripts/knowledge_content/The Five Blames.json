@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "The Five Blames",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Social & Behavioral Psychology",
+  "hook": "Ever been in a meeting where 'Why did this happen?' quickly turned into 'Who screwed up?' That's the Five Blames in action.",
+  "definition": "The Five Blames is the dysfunctional anti-pattern of the Five Whys root cause analysis, where problem-solving sessions devolve into finger-pointing and blaming individuals rather than identifying systemic failures and solutions.",
+  "analogy_or_metaphor": "It's like being a detective who, instead of following clues to solve a case, immediately arrests the first person they meet at the crime scene.",
+  "key_takeaway": "**When root cause analysis becomes blame games, problems persist while relationships deteriorate.**",
+  "classic_example": "IGN Entertainment's early Five Whys sessions where leadership tried to tackle all their 'baggage' issues at once without proper facilitation, leading to overwhelming blame sessions rather than constructive problem-solving.",
+  "modern_example": "A software team's post-mortem meeting after a system crash where instead of examining process failures, the discussion centers on why the junior developer 'should have known better' and why the manager 'wasn't watching closely enough.'",
+  "pitfall": "Falling into the Five Blames creates a culture of fear where people hide problems, avoid responsibility, and focus on self-protection rather than improvement, making real issues harder to solve.",
+  "payoff": "Recognizing and avoiding the Five Blames allows you to facilitate productive problem-solving sessions that build trust, identify real systemic issues, and create lasting improvements.",
+  "visual_metaphor": "A magnifying glass that instead of revealing clues, reflects back pointing fingers in a circle, with each finger pointing at another person rather than at the actual evidence.",
+  "dive_deeper_mechanism": "The Five Blames occurs because humans have a fundamental attribution error bias - we tend to attribute others' failures to their character while attributing our own to circumstances. When combined with organizational pressure to find someone accountable, this natural bias transforms collaborative analysis into defensive blame-shifting. The mechanism is amplified by power dynamics, time pressure, and lack of psychological safety.",
+  "dive_deeper_origin_story": "Eric Ries documented this anti-pattern while observing organizations implementing the Five Whys technique from Toyota's Lean methodology. At IGN Entertainment, he witnessed how their enthusiasm to solve longstanding problems backfired when they skipped proper facilitation and tried to tackle too much at once. Tony Ford, their appointed Five Whys master, later reflected that without proper structure and focus, even well-intentioned root cause analysis sessions became counterproductive blame festivals.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** That passionate debate and calling people out shows commitment to solving problems. **Reality:** The Five Blames often masquerades as 'holding people accountable' but actually prevents real accountability by focusing on punishment rather than prevention. **Nuance:** The line between healthy accountability and toxic blame can be subtle - healthy sessions focus on 'what went wrong with our system' while blame sessions focus on 'who did wrong in our system.'",
+  "source_file": "The Five Blames.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "co-founder_conflict",
+    "team_and_culture",
+    "operations"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Cohort-Based Onboarding (\"Boot Camp\")",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some companies lose 30-50% of new hires to flameouts while others turn rookies into rockstars? The secret isn't who they hire—it's how they launch them.",
+  "definition": "A structured training model that onboards new employees in groups using a rigorous, university-style curriculum that builds both competence and camaraderie from day one.",
+  "analogy_or_metaphor": "Like military boot camp, but for business—you wouldn't send soldiers into battle without proper training, so why send new hires to customers without rigorous preparation?",
+  "key_takeaway": "**Great hiring without great onboarding is like buying a race car but forgetting to fuel it up.**",
+  "classic_example": "Military boot camps that transform diverse recruits into cohesive units through shared challenges, structured learning, and peer bonding over intense weeks of training.",
+  "modern_example": "A SaaS company runs monthly 2-week boot camps for new sales hires, covering product mastery, demo skills, objection handling, and CRM processes—resulting in 85% retention vs. 50% for ad-hoc training.",
+  "pitfall": "Rushing new hires to customers without proper training leads to burned leads, damaged confidence, high turnover, and wasted recruitment investments.",
+  "payoff": "Cohort onboarding creates competent, confident employees who bond with peers, understand company culture, and achieve productivity faster with lower turnover.",
+  "visual_metaphor": "A group of people in matching uniforms standing together at a graduation ceremony, with a pathway leading from 'Day 1' to 'Ready for Action'—symbolizing the journey from individual newcomers to prepared team members.",
+  "dive_deeper_mechanism": "Cohort-based onboarding works because it leverages three powerful psychological principles: social learning (people learn faster in groups), shared struggle bonding (facing challenges together builds camaraderie), and structured competency building (systematic skill development reduces anxiety). The 'boot camp' intensity creates a memorable shared experience that becomes part of company culture, while the curriculum ensures consistent knowledge transfer regardless of manager quality. The group dynamic also creates healthy peer pressure and support systems that individual training lacks.",
+  "dive_deeper_origin_story": "The concept originated from military training models where the U.S. Army discovered that soldiers trained in cohorts had better unit cohesion, lower desertion rates, and higher performance than those trained individually. Business applications emerged in the 1990s with companies like GE's famous management development programs. The model gained renewed attention in the 2000s as startups faced rapid scaling challenges and realized that their scrappy 'figure-it-out-as-you-go' approach was killing new hires and burning through precious leads and customers.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake #1:** Assuming experienced hires don't need the full program—they often carry bad habits from previous companies and need retraining in your specific methods. **Common mistake #2:** Cutting the program short to get people 'productive' faster—this creates a false economy where you save days but lose months due to poor performance and turnover. The key nuance is that boot camps work best when they're intensive but time-boxed (1-2 weeks), include both hard skills and cultural immersion, and end with clear graduation criteria rather than arbitrary time limits.",
+  "source_file": "Cohort-Based Onboarding (\"Boot Camp\").md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

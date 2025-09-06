@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Free Trial Funnel",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why Netflix asks for your credit card before your \"free\" trial? There's a psychology masterclass happening behind that simple request.",
+  "definition": "A strategic sales process that gets customer commitment by securing payment information first, then explaining the specific requirements and fees only after they've psychologically bought in.",
+  "analogy_or_metaphor": "It's like a restaurant that seats you, lets you smell the amazing food, and only then mentions the cover charge—by that point, you're already mentally committed to staying.",
+  "key_takeaway": "**Get commitment first, explain conditions second.**",
+  "classic_example": "Netflix's free trial requires a credit card upfront. They get your payment info when you're excited about the content, then explain cancellation policies after you're already signed up.",
+  "modern_example": "A fitness app offers a \"free workout plan\" but requires payment details first. Only after you've entered your card do they mention you need to complete 3 workouts weekly to avoid charges.",
+  "pitfall": "Asking for payment details without first securing emotional commitment leads to immediate objections and abandoned sign-ups.",
+  "payoff": "Getting commitment before revealing conditions dramatically increases conversion rates because people hate backing out once they've mentally bought in.",
+  "visual_metaphor": "A funnel with a wide opening (initial interest) that narrows through a commitment gate (payment info), then opens again to reveal the actual terms and conditions.",
+  "dive_deeper_mechanism": "This works because of the psychological principle of commitment and consistency. Once someone provides payment information, they've made a micro-commitment that their brain interprets as buying in. When conditions are revealed afterward, cognitive dissonance makes them rationalize staying rather than admitting they made a mistake. The 'sunk cost' of having already entered payment details creates mental ownership of the decision.",
+  "dive_deeper_origin_story": "Alex Hormozi perfected this technique through years of testing at Gym Launch. The breakthrough came when an HR software company used it on his wife Leila—they offered free onboarding if she completed training, but charged for onboarding if she didn't. This 'penalty for non-compliance' approach flipped the traditional free trial model and dramatically improved completion rates.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Revealing all terms upfront, which triggers immediate price objections. **Reality:** The sequence matters more than the offer itself. Also, this isn't about deception—all terms must be clearly stated, just in the right order. The goal is psychological buy-in before logical evaluation, not hiding information.",
+  "source_file": "The \"Free Trial Funnel\".md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "pricing",
+    "product-market_fit"
+  ]
+}

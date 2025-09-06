@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The Buying Hierarchy",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why customers who once cared most about whether your product worked suddenly only seem to care about price?",
+  "definition": "A predictable sequence of market evolution where customer priorities shift from functionality, to reliability, to convenience, and finally to price as each performance dimension reaches oversupply.",
+  "analogy_or_metaphor": "Like climbing Maslow's hierarchy of needs, but for products—once basic functionality is satisfied, customers move up to demand reliability, then convenience, and finally compete purely on price.",
+  "key_takeaway": "**Customer priorities evolve predictably: function → reliability → convenience → price.**",
+  "classic_example": "The personal computer market evolved from customers caring about basic functionality (can it run programs?) to reliability (does it crash?), then convenience (ease of use), and finally to price competition among commodity PCs.",
+  "modern_example": "Smartphones followed this pattern: early buyers wanted basic calling and texting (function), then stable performance (reliability), then user-friendly interfaces (convenience), and now many choose based primarily on price since all phones work well.",
+  "pitfall": "Missing these shifts leaves you over-engineering expensive features that customers no longer value, while competitors win with simpler, cheaper alternatives.",
+  "payoff": "Recognizing where your market sits in the hierarchy helps you focus resources on what customers actually care about next, staying ahead of commoditization.",
+  "visual_metaphor": "A ladder with four rungs labeled Function, Reliability, Convenience, and Price, with an arrow showing customers climbing upward as each lower need gets satisfied.",
+  "dive_deeper_mechanism": "The buying hierarchy works because of performance oversupply—when products exceed customer needs in one dimension, that attribute becomes table stakes and customers shift focus to the next hierarchy level. This creates predictable vulnerability windows where established players optimizing for higher-tier attributes become susceptible to disruption by those competing on newly important lower-tier attributes.",
+  "dive_deeper_origin_story": "Clayton Christensen identified this pattern while studying why successful companies fail when disrupted. He noticed that incumbents kept improving products along dimensions customers no longer prioritized, while disruptors succeeded by competing on newly important attributes. The hierarchy explained why customers seemed to suddenly change what they valued most.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** All customers move through the hierarchy at the same pace. **Reality:** Different customer segments may be at different hierarchy levels simultaneously. Early adopters might still value cutting-edge functionality while mainstream customers have moved to prioritizing convenience. Also, external shocks (regulations, technology breakthroughs) can reset the hierarchy or change the sequence.",
+  "source_file": "The Buying Hierarchy.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing",
+    "competitive_strategy"
+  ]
+}

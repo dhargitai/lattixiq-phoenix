@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Engaged Lead Concept",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some leads convert while others vanish? The difference isn't in the contact—it's in the engagement.",
+  "definition": "An engaged lead is a prospect who has actively demonstrated interest in your product or service by taking a specific action, such as providing contact information, replying to messages, or engaging with your content.",
+  "analogy_or_metaphor": "Think of leads like dating: a cold lead is someone you've never met, a warm lead is someone you've been introduced to, but an engaged lead is someone who gave you their number and texted back.",
+  "key_takeaway": "**Action creates value—engaged leads are worth infinitely more than passive contacts.**",
+  "classic_example": "A traditional sales funnel where prospects fill out a contact form requesting a product demo, showing clear intent to move forward in the buying process.",
+  "modern_example": "Someone who not only follows your social media account but also comments on your posts, shares your content, or replies to your Instagram stories with questions about your services.",
+  "pitfall": "Treating all leads equally wastes resources on uninterested prospects while missing opportunities with genuinely engaged ones.",
+  "payoff": "Focusing on engaged leads dramatically improves conversion rates and ROI by concentrating efforts on prospects who have already shown buying intent.",
+  "visual_metaphor": "A funnel with multiple entry points, but only the leads that light up (showing engagement) get prioritized and fast-tracked to the bottom.",
+  "dive_deeper_mechanism": "Engaged leads work because they represent revealed preferences—actions speak louder than demographics. When someone takes action, they're investing their most precious resource (time) and creating psychological commitment through the consistency principle. This engagement indicates genuine interest rather than passive curiosity, making them exponentially more likely to convert because they've already overcome initial resistance.",
+  "dive_deeper_origin_story": "The concept gained prominence through Alex Hormozi's '100M Leads' methodology, where he observed that businesses focusing on engagement metrics rather than just lead volume achieved dramatically better results. His framework emerged from analyzing thousands of marketing campaigns and discovering that a small percentage of highly engaged leads consistently outperformed large volumes of cold contacts.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Assuming more leads always equals more sales. **Reality:** Quality trumps quantity—100 engaged leads often convert better than 1,000 cold ones. **Another Pitfall:** Confusing engagement with interest. Someone who argues with your content might be engaged but not interested in buying. True engagement shows positive intent toward your solution, not just interaction with your content.",
+  "source_file": "Engaged Lead Concept.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

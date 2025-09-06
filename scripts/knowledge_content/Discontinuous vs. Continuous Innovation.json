@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Discontinuous vs. Continuous Innovation",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Why did the iPhone succeed while Google Glass failed? The answer lies in understanding which type of innovation you're dealing with.",
+  "definition": "Discontinuous innovations require users to significantly change their behavior or modify other products they rely on, while continuous innovations are simple upgrades that don't require behavioral change.",
+  "analogy_or_metaphor": "Think of continuous innovation like getting a sharper knife—you still cut the same way, just better. Discontinuous innovation is like switching from a knife to a food processor—it requires learning entirely new skills and changing your kitchen setup.",
+  "key_takeaway": "**The greatest innovations often fail not because they're inferior, but because they ask too much change from users.**",
+  "classic_example": "Electric cars in the early 2000s were discontinuous—they required finding new charging stations, learning different maintenance routines, and accepting range limitations that gasoline cars didn't have.",
+  "modern_example": "Netflix streaming was discontinuous innovation—it required high-speed internet, new viewing habits, and abandoning the familiar ritual of going to Blockbuster. Meanwhile, a sharper TV display is continuous—same couch, same remote, just better picture.",
+  "pitfall": "Treating discontinuous innovations like continuous ones leads to failed product launches, as you underestimate the behavioral barriers users must overcome.",
+  "payoff": "Recognizing the distinction helps you anticipate adoption challenges, plan appropriate marketing strategies, and set realistic timelines for market acceptance.",
+  "visual_metaphor": "Two paths diverging: one is a smooth, straight road (continuous) while the other has a bridge gap in the middle that requires a leap of faith (discontinuous).",
+  "dive_deeper_mechanism": "Discontinuous innovations create what Geoffrey Moore calls 'the chasm'—a gap between early adopters who embrace change and the mainstream market that resists it. This happens because discontinuous innovations require users to abandon familiar behaviors and invest time learning new ones. The human brain is wired to conserve mental energy, making behavioral change inherently difficult. Continuous innovations succeed because they leverage existing mental models and habits, while discontinuous ones must overcome cognitive inertia and the switching costs of changing established routines.",
+  "dive_deeper_origin_story": "The concept was popularized by Geoffrey Moore in his 1991 book 'Crossing the Chasm,' building on the Technology Adoption Life Cycle model. Moore observed that many promising technologies failed not due to technical flaws, but because companies misunderstood the adoption barriers. His classic example was the electric car, which he tracked across decades—from early prototypes in the 1980s through GM's EV1 in the 1990s to Tesla's eventual success in the 2010s. Tesla succeeded where others failed partly by reducing the discontinuous aspects (building charging infrastructure, making the cars look and feel familiar) while emphasizing the continuous benefits (better performance, lower operating costs).",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Assuming that better technology automatically wins. In reality, a technically superior discontinuous innovation often loses to an inferior continuous one because adoption friction matters more than features. **Nuance to Remember:** The same innovation can be continuous for one user group and discontinuous for another. Smartphones were discontinuous for older adults (requiring new interaction paradigms) but relatively continuous for younger users already comfortable with digital interfaces. **Strategic Insight:** Some products succeed by appearing continuous while being discontinuous underneath—the iPhone looked like an upgraded phone but fundamentally changed how we interact with mobile devices.",
+  "source_file": "Discontinuous vs. Continuous Innovation.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

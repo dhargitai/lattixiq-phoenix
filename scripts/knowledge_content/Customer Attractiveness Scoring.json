@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Customer Attractiveness Scoring",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder why some salespeople seem to always close the 'right' deals while others chase every lead? They're not just lucky—they're scoring prospects.",
+  "definition": "A systematic approach to ranking sales prospects by combining multiple demand signals into a numerical score, allowing sales teams to prioritize their time on the most promising opportunities first.",
+  "analogy_or_metaphor": "Like a dating app algorithm that matches compatibility scores, but for sales prospects—helping you swipe right on the customers most likely to say yes.",
+  "key_takeaway": "**Focus your limited sales energy on prospects who are most likely to buy.**",
+  "classic_example": "A enterprise software company scoring prospects based on company size, budget authority, existing pain points, and timeline—focusing on Fortune 500 companies with confirmed budgets over small startups still in research mode.",
+  "modern_example": "A SaaS startup scoring inbound leads by combining website behavior (demo requests, pricing page visits), company data (growth stage, funding), and engagement level (email opens, responses)—calling the 90+ scores first, nurturing the 60-80s, and ignoring the sub-50s.",
+  "pitfall": "Without scoring, you waste precious time on low-probability prospects while high-intent buyers go to competitors who responded faster.",
+  "payoff": "Scoring helps you close more deals in less time by concentrating your best efforts on prospects most ready to purchase.",
+  "visual_metaphor": "A thermometer with prospects arranged by temperature—red-hot leads at the top getting immediate attention, lukewarm prospects in the middle for nurturing, and cold leads at the bottom for automated follow-up.",
+  "dive_deeper_mechanism": "Customer Attractiveness Scoring works by quantifying what sales intuition knows: not all prospects are created equal. It combines leading indicators (company size, role, budget signals) with behavioral indicators (engagement, urgency, fit) into a composite score. This systematic approach prevents the common sales mistake of treating all leads equally and ensures your best salespeople spend time on deals they're most likely to win. The scoring becomes a forcing function that makes implicit prioritization decisions explicit and measurable.",
+  "dive_deeper_origin_story": "This concept evolved from B2B sales operations teams in the 2000s who noticed that top performers intuitively prioritized certain types of prospects. Sales ops leaders began reverse-engineering what made certain deals more likely to close, creating scoring models that could be taught to average performers. Companies like Salesforce and HubSpot popularized lead scoring in their CRM platforms, making this previously intuitive process systematic and scalable for sales teams of any size.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Over-weighting demographic data (company size, industry) while under-weighting behavioral signals (engagement, response time). A small company CEO who replies instantly may be more valuable than a Fortune 500 manager who never responds. **Common Mistake #2:** Creating overly complex scoring that requires constant maintenance. The best systems are simple enough that salespeople actually use them and trust the results.",
+  "source_file": "Customer Attractiveness Scoring.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "operations"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "knowledge_piece_name": "Occam's Razor",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "When you hear hoofbeats, do you think horses or zebras? Your answer reveals how you naturally solve problems.",
+  "definition": "Occam's Razor is the principle that when faced with multiple explanations for the same phenomenon, the simplest one with the fewest assumptions is most likely to be correct.",
+  "analogy_or_metaphor": "Like a sharp razor that cuts away unnecessary complexity, leaving only the essential truth behind.",
+  "key_takeaway": "**The simplest explanation that fits the facts is usually the right one.**",
+  "classic_example": "When doctors encounter flu-like symptoms, they diagnose the flu rather than rare diseases like Ebola, following the medical principle: 'When you hear hoofbeats, think horses, not zebras.'",
+  "modern_example": "Your phone battery dies faster than usual. Instead of assuming malware or hardware failure, you first check if you've been using power-hungry apps or forgot to close background processes.",
+  "pitfall": "Overcomplicating problems by inventing elaborate theories when simple explanations exist, leading to wasted time, resources, and unnecessary stress.",
+  "payoff": "Making faster, more accurate decisions by cutting through complexity and focusing on the most probable solutions first.",
+  "visual_metaphor": "A sharp razor blade cutting through tangled threads, leaving only the essential single strand behind.",
+  "dive_deeper_mechanism": "Occam's Razor works because it leverages probability and cognitive efficiency. In a world of infinite possible explanations, simpler ones require fewer independent assumptions to be true simultaneously. Since each assumption carries risk of being wrong, explanations with fewer assumptions are statistically more likely to be correct. Our brains evolved to conserve mental energy, making this principle both mathematically sound and cognitively natural.",
+  "dive_deeper_origin_story": "Named after 14th-century English philosopher William of Ockham, who advocated for the principle 'entities should not be multiplied without necessity.' The razor metaphor came later, symbolizing how the principle 'shaves away' unnecessary complexity. Interestingly, Ockham himself never used the exact phrase, but his writings consistently favored simpler explanations over elaborate ones in theological and philosophical debates.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** The simplest explanation is always correct. **Reality:** Occam's Razor suggests the simplest explanation is most *likely* correct, not guaranteed. Some phenomena genuinely require complex explanations. **Myth:** Simple means obvious or easy to understand. **Reality:** Simple means having fewer assumptions or moving parts, not necessarily being intuitive. Einstein's E=mc² is simple in form but profound in implications.",
+  "source_file": "Occam's Razor.md",
+  "super_model": true,
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "pricing",
+    "risk_management"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Three-Option Pricing (Compromise Effect)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why restaurants have those overpriced 'premium' steaks? It's not because they expect you to buy them—it's to make the mid-priced options look reasonable.",
+  "definition": "A pricing strategy that presents three tiered options (good, better, best) to leverage the human tendency to choose the middle option, effectively guiding customers toward your intended choice while making them feel they're making a rational compromise.",
+  "analogy_or_metaphor": "It's like being a choice architect—you're not forcing anyone to buy anything, but you're designing the decision landscape so people naturally gravitate toward the option that works best for both of you.",
+  "key_takeaway": "**Three options make two decisions: what to buy, and which tier feels 'just right.'**",
+  "classic_example": "Dropbox's three-tier structure (Pro, Business, Enterprise) where the majority of customers choose the middle 'Business' tier rather than the basic Pro or premium Enterprise options.",
+  "modern_example": "Netflix offering Basic, Standard, and Premium plans—most users avoid the limited Basic plan and the expensive Premium, settling on Standard which feels like the 'smart choice' while generating higher revenue than a simple two-tier system would.",
+  "pitfall": "Without strategic pricing tiers, customers default to your cheapest option or get overwhelmed by too many choices, leaving money on the table and reducing perceived value.",
+  "payoff": "Three-option pricing increases average transaction value, reduces decision paralysis, and makes customers feel smart about their 'compromise' choice while maximizing your revenue.",
+  "visual_metaphor": "Three stepping stones across a stream—the first looks too small and risky, the third too far to jump, so everyone naturally chooses the middle stone that feels 'just right.'",
+  "dive_deeper_mechanism": "The Compromise Effect exploits a cognitive bias where people perceive extreme options as riskier and middle options as more reasonable. When faced with three choices, our brains use the extremes as anchors, making the middle option appear as the 'Goldilocks choice'—not too much, not too little, but just right. This works because humans are loss-averse and seek to minimize regret by avoiding what feels like 'settling for less' (cheapest) or 'paying too much' (most expensive).",
+  "dive_deeper_origin_story": "The Compromise Effect was formally identified by psychologists Itamar Simonson and Amos Tversky in the 1990s through experiments showing that adding a third, premium option to two existing choices dramatically increased selection of the middle option. However, retailers and marketers had been using 'good, better, best' intuitively for decades—from car dealerships offering three trim levels to restaurants structuring wine lists with expensive bottles to make mid-range wines seem reasonable.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Thinking the premium option needs to sell well—it's often a 'decoy' designed to make the middle option attractive. **Nuance:** The effect weakens if the three options are too similar (no clear differentiation) or if the premium option seems ridiculously overpriced (loses credibility). The 'good' option must be functional enough that choosing it doesn't feel foolish, while the 'best' option should be genuinely valuable but positioned as 'more than most people need.'",
+  "extra_content": "## Three-Option Pricing Implementation Framework\n\n### Step 1: Design Your Tier Structure\n- **Good/Basic Tier:** Include core functionality that solves the primary problem\n- **Better/Standard Tier:** Add 2-3 valuable features that appeal to 70% of your market\n- **Best/Premium Tier:** Include advanced features for power users or specific use cases\n\n### Step 2: Apply the 25-70-5 Rule\n- Target distribution: 25% choose Basic, 70% choose Standard, 5% choose Premium\n- If more than 40% choose Basic, your Standard tier may be overpriced\n- If more than 15% choose Premium, you may be leaving money on the table\n\n### Step 3: Price Anchoring Strategy\n- Set Premium price as your 'anchor' (highest acceptable price point)\n- Price Standard at 60-70% of Premium price\n- Price Basic at 40-50% of Premium price\n- Example: $10 Basic, $17 Standard, $25 Premium\n\n### Step 4: Feature Differentiation Matrix\n\n| Feature Category | Basic | Standard | Premium |\n|------------------|-------|----------|----------|\n| Core Features | ✓ | ✓ | ✓ |\n| Popular Add-ons | Limited | ✓ | ✓ |\n| Advanced Tools | ✗ | Limited | ✓ |\n| Support Level | Email | Priority | Phone/Chat |\n| Usage Limits | Restricted | Generous | Unlimited |\n\n### Step 5: Testing and Optimization\n- A/B test different price points and feature combinations\n- Monitor conversion rates by tier\n- Survey customers about their decision-making process\n- Adjust tiers based on actual usage patterns and feedback\n\n### Common Implementation Examples\n\n**SaaS Software:**\n- Starter: Core features, email support, usage limits\n- Professional: All features, priority support, higher limits\n- Enterprise: Custom integrations, dedicated support, unlimited usage\n\n**Professional Services:**\n- Basic Package: Essential deliverables, standard timeline\n- Standard Package: Additional services, faster delivery, regular check-ins\n- Premium Package: Full-service offering, priority treatment, ongoing support\n\n**Physical Products:**\n- Good: Basic model with essential features\n- Better: Mid-range model with popular upgrades\n- Best: High-end model with premium materials and advanced features",
+  "source_file": "Three-Option Pricing (Compromise Effect).md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

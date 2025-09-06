@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Alternative Metric Pricing (Pay-As-You-Go)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why Uber charges by the mile, not by the hour? Or why AWS bills by usage, not monthly subscriptions?",
+  "definition": "A pricing strategy that charges customers based on a metric directly tied to the value they receive or their actual usage, rather than standard but poorly correlated metrics like per-user fees or flat rates.",
+  "analogy_or_metaphor": "It's like paying for electricity based on how much you actually use rather than a flat monthly fee - your bill reflects your true consumption and value received.",
+  "key_takeaway": "**Price what customers value, not what's convenient to measure.**",
+  "classic_example": "Michelin's revolutionary shift from selling tires to charging trucking companies per mile driven, aligning their revenue with the actual value delivered to customers.",
+  "modern_example": "Netflix moved from DVD-per-rental pricing to unlimited streaming subscriptions, then personalized tiers based on viewing quality and simultaneous streams - each tied to different value propositions.",
+  "pitfall": "Using convenient but irrelevant metrics (like 'per user') creates pricing that doesn't match customer value, leading to either undercharging high-value users or overpricing low-usage customers.",
+  "payoff": "Aligning price with value creates win-win scenarios where customer success directly drives your revenue growth, building stronger, more sustainable business relationships.",
+  "visual_metaphor": "A scale with 'Value Received' on one side and 'Price Paid' on the other, perfectly balanced, with usage meters feeding both sides equally.",
+  "dive_deeper_mechanism": "Alternative metric pricing works by identifying the strongest correlation between customer value and measurable activity. Instead of defaulting to 'seats' or 'users,' successful companies find metrics that rise and fall with customer success - transactions processed, data stored, miles traveled, or results achieved. This creates natural alignment where the vendor's growth depends on customer outcomes, incentivizing better service and innovation. The psychological effect is powerful: customers feel they're paying fairly for what they actually get, reducing price resistance and increasing willingness to expand usage.",
+  "dive_deeper_origin_story": "The concept gained prominence when software moved from perpetual licenses to cloud services. Companies like Salesforce pioneered 'per user per month' pricing, but the real breakthrough came when Amazon Web Services launched in 2006 with pure usage-based pricing - pay only for computing power, storage, and bandwidth actually consumed. This radical departure from traditional IT procurement (buying servers upfront) democratized enterprise computing and proved that customers would embrace pricing models that scaled with their success. Michelin's tire service model, charging trucking companies per mile rather than per tire, became another landmark case study.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Choosing metrics that are easy to track rather than meaningful to customers. Just because you can measure API calls doesn't mean customers value them equally. **Common Mistake #2:** Creating pricing complexity that confuses rather than clarifies value - too many variables can backfire. **Nuance:** The 'right' metric isn't always obvious and may evolve as your product matures. Early-stage companies might start with simple usage metrics then graduate to outcome-based pricing as they prove value delivery.",
+  "source_file": "Alternative Metric Pricing (Pay-As-You-Go).md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

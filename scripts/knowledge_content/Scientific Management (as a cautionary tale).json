@@ -1,0 +1,30 @@
+{
+  "knowledge_piece_name": "Scientific Management (as a cautionary tale)",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Philosophy & Foundational Ideas",
+  "hook": "Ever worked somewhere that felt more like a machine than a workplace? Where every minute was measured, every action scripted, and creativity went to die?",
+  "definition": "Scientific Management was an early 20th-century approach that applied systematic measurement and standardization to workplace efficiency, but became a cautionary example of how rigid systems can dehumanize work and stifle innovation.",
+  "analogy_or_metaphor": "Imagine turning a jazz band into a metronome—technically more precise, but you've killed the music that made it worth listening to in the first place.",
+  "key_takeaway": "**Systems should serve humans, not the other way around.**",
+  "classic_example": "Frederick Taylor's time-and-motion studies in factories, where workers were timed with stopwatches and told exactly how to move their bodies to maximize output, treating people like interchangeable machine parts.",
+  "modern_example": "Call centers that monitor every second of break time and script every customer interaction, or gig economy apps that track drivers' every move, prioritizing metrics over human judgment and flexibility.",
+  "pitfall": "Rigid systematization without human consideration leads to demoralized workers, stifled creativity, and organizations that can't adapt to change or innovation.",
+  "payoff": "Understanding this cautionary tale helps you build systems that enhance human capability rather than constrain it, creating sustainable productivity with engaged people.",
+  "visual_metaphor": "A person trapped inside the gears of a giant clock, representing how overly rigid systems can mechanize human work at the expense of creativity and dignity.",
+  "dive_deeper_mechanism": "Scientific Management emerged from the industrial revolution's need for efficiency, applying engineering principles to human work. While it successfully increased short-term productivity through standardization and measurement, it failed to account for human psychology, creativity, and the need for autonomy. The approach treated workers as components in a machine rather than thinking beings with intrinsic motivation, leading to resistance, burnout, and ultimately reduced effectiveness as work became more complex and knowledge-based.",
+  "dive_deeper_origin_story": "Frederick Winslow Taylor developed Scientific Management in the 1880s-1910s while working as a mechanical engineer at steel companies. He observed workers and timed their movements with stopwatches, breaking jobs into tiny, measurable tasks. His famous study of pig iron handlers at Bethlehem Steel increased productivity by 400%, but workers nicknamed the approach 'Taylorism' with resentment. Henry Ford adopted these principles for assembly lines, creating unprecedented efficiency but also alienating workers—leading to the highest turnover rates in industrial history until Ford raised wages dramatically to retain staff.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Scientific Management was entirely wrong and has no modern relevance. **Reality:** The core insight—that systematic observation and improvement matter—remains valuable. The mistake was applying it rigidly without considering human factors. Modern approaches like Lean Startup methodology keep the systematic testing while preserving human creativity and adaptability. The key is using measurement to enable better decision-making, not to control every human action.",
+  "source_file": "Scientific Management (as a cautionary tale).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "operations"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "knowledge_piece_name": "The Six Decision Questions",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever watched a meeting drag on for hours with no clear outcome? Six simple questions could have saved everyone's time.",
+  "definition": "A framework that clarifies decision-making processes by answering six critical questions before any decision process begins: What decision is needed? By when? Who decides? Who is consulted? Who can veto it? Who is informed?",
+  "analogy_or_metaphor": "Like a flight checklist that pilots use before takeoff—seemingly simple questions that prevent disasters by ensuring nothing critical is overlooked.",
+  "key_takeaway": "**Clear decision architecture prevents confusion and accelerates outcomes.**",
+  "classic_example": "Military command structures where the chain of command, consultation protocols, and information flow are explicitly defined to ensure rapid, coordinated decision-making during critical operations.",
+  "modern_example": "A product launch decision where marketing wants to proceed, engineering needs more time, the CEO must decide, legal must approve, and the board needs to be informed—without the six questions, this becomes organizational chaos.",
+  "pitfall": "Without clear decision frameworks, teams waste time in circular discussions, duplicate efforts, and create resentment when people feel excluded or overruled unexpectedly.",
+  "payoff": "Using the six questions eliminates decision paralysis, reduces meeting time, and ensures the right people have the right input at the right time.",
+  "visual_metaphor": "A decision tree with six clearly labeled branches, each leading to a specific person or group, showing the flow from question to resolution.",
+  "dive_deeper_mechanism": "The framework works by addressing the three core elements of organizational decision-making: authority (who decides), input (who is consulted), and communication (who is informed). It prevents the 'peer-plus-one syndrome' where groups wander aimlessly waiting for consensus or senior intervention. By explicitly defining roles upfront, it creates psychological safety for participants to express genuine opinions rather than waiting to see which way the wind blows.",
+  "dive_deeper_origin_story": "This framework emerged from Andrew Grove's experience at Intel, where he observed countless meetings where intelligent people talked in circles because the decision-making process wasn't clear. Grove watched a chairman intervene in a stalled meeting by simply asking 'What's going on here?'—and saw the problem resolve immediately once roles were clarified. This led to the systematic development of the six questions to prevent such organizational inefficiency.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** That everyone needs to be consulted on every decision. **Reality:** Over-consultation creates decision paralysis. The framework distinguishes between who needs to provide input versus who simply needs to know the outcome. **Another pitfall:** Confusing 'who is consulted' with 'who decides'—consultation doesn't equal voting rights. The person with decision authority can gather input but isn't bound by consensus.",
+  "extra_content": "## The Six Decision Questions Framework\n\n### Step 1: Define the Decision\n**Question: What decision needs to be made?**\n- Write out the specific decision in one clear sentence\n- Avoid vague statements like \"improve performance\"\n- Example: \"Should we launch Product X on March 1st or delay until June 1st?\"\n\n### Step 2: Set the Timeline\n**Question: By when does this decision need to be made?**\n- Identify the hard deadline\n- Work backwards to set milestones\n- Include buffer time for implementation\n\n### Step 3: Assign Decision Authority\n**Question: Who has the authority to make the final decision?**\n- Name one specific person (not a committee)\n- Ensure they have appropriate authority level\n- Communicate this clearly to all participants\n\n### Step 4: Identify Consultants\n**Question: Who should be consulted before the decision is made?**\n- List people with relevant expertise or information\n- Specify what input you need from each person\n- Set deadlines for receiving their input\n\n### Step 5: Determine Veto Powers\n**Question: Who has veto power over this decision?**\n- Identify anyone who can block implementation\n- Usually includes legal, compliance, or senior executives\n- Engage them early to avoid last-minute surprises\n\n### Step 6: Plan Communication\n**Question: Who needs to be informed of the decision?**\n- List all stakeholders affected by the outcome\n- Plan how and when they'll be notified\n- Consider different communication methods for different audiences\n\n### Implementation Checklist\n- [ ] Document all six answers before starting the decision process\n- [ ] Share the framework with all participants upfront\n- [ ] Set specific deadlines for each consultation phase\n- [ ] Designate someone to manage the process timeline\n- [ ] Follow up to ensure the decision is properly communicated and implemented",
+  "source_file": "The Six Decision Questions.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "hiring",
+    "fundraising",
+    "co-founder_conflict",
+    "product-market_fit",
+    "go-to-market",
+    "team_and_culture",
+    "operations",
+    "competitive_strategy",
+    "pricing",
+    "risk_management"
+  ]
+}

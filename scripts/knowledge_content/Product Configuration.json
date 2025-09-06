@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Product Configuration",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why Netflix has different subscription tiers, or why airlines charge extra for everything? It's all about product configuration.",
+  "definition": "Product configuration is the strategic process of deciding which specific features and functions to include in a product for each customer segment, requiring the discipline to deliberately exclude features that certain segments won't pay for.",
+  "analogy_or_metaphor": "Think of it like a restaurant menu - you don't get appetizer, main course, dessert, and drinks for one price. Each item is configured separately so diners can choose exactly what they want and pay accordingly.",
+  "key_takeaway": "**Strategic exclusion creates valuable distinction - what you don't include is as important as what you do.**",
+  "classic_example": "Ryanair revolutionized air travel by unbundling everything - charging £9.99 for a basic seat but selling baggage, food, and seat selection separately, making air travel accessible to budget-conscious customers while maximizing revenue.",
+  "modern_example": "Spotify offers a free tier with ads and limited features, a Premium individual plan, and family/student plans - each configured with different features to match what each segment values and will pay for.",
+  "pitfall": "Without strategic product configuration, you either overwhelm customers with features they don't need (and won't pay for) or leave money on the table by undercharging premium segments.",
+  "payoff": "Proper product configuration maximizes revenue by matching features to willingness to pay, creates clearer value propositions, and opens new market segments previously priced out.",
+  "visual_metaphor": "A modular building blocks diagram showing a core base product with optional add-on blocks that different customer types can select or ignore based on their needs.",
+  "dive_deeper_mechanism": "Product configuration works because it leverages customer psychology around pricing and choice. Customers are typically more price-sensitive to base prices than add-ons, allowing companies to attract with low entry points while monetizing premium features. This approach also reduces 'feature shock' - the overwhelm customers feel when presented with too many unwanted features in a single offering.",
+  "dive_deeper_origin_story": "The concept gained prominence through Southwest Airlines' stripped-down model in the 1970s, but Ryanair took it to the extreme in the 1990s. Struggling as a traditional airline, Ryanair's leaders realized they could democratize air travel by unbundling everything beyond basic transportation, turning what seemed like a commodity into a highly profitable, segmented business model.",
+  "dive_deeper_pitfalls_nuances": "Common mistake: Thinking unbundling always means cheaper - it often increases total customer cost but improves perceived value. Another pitfall is over-segmentation, creating so many options that customers become paralyzed. The key is finding the right balance between choice and simplicity, ensuring each configuration serves a distinct customer need rather than creating artificial complexity.",
+  "source_file": "Product Configuration.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

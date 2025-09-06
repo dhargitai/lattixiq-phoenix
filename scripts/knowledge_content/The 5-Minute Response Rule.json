@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "The 5-Minute Response Rule",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "A hot lead just filled out your contact form. You're in a meeting. By the time you respond in an hour, they've already signed with your competitor.",
+  "definition": "The 5-Minute Response Rule states that sales teams must respond to inbound leads within five minutes to maximize contact rates and capitalize on peak buyer interest.",
+  "analogy_or_metaphor": "It's like catching a fish when it's actively biting—wait too long, and it swims away to another hook.",
+  "key_takeaway": "**Strike while the iron is hot—five minutes can make the difference between a sale and a lost opportunity.**",
+  "classic_example": "A real estate agent who responds immediately to online inquiries consistently closes more deals than competitors who wait hours or days to follow up.",
+  "modern_example": "A SaaS prospect downloads your free trial at 2 PM. Your sales team calls at 2:05 PM while they're still exploring your product versus waiting until tomorrow when they've moved on to evaluate three other solutions.",
+  "pitfall": "Delayed responses allow prospects to cool down, explore competitors, or simply lose interest, dramatically reducing your chances of making contact and closing deals.",
+  "payoff": "Immediate response captures prospects at their peak interest level, dramatically increases contact rates, and positions you as responsive and professional before competitors even know the prospect exists.",
+  "visual_metaphor": "A stopwatch with a phone icon, showing the critical 5-minute window as a green zone that quickly fades to red as time passes.",
+  "dive_deeper_mechanism": "The 5-Minute Response Rule works because it capitalizes on a psychological window of peak engagement. When prospects take action (filling out a form, requesting information), they're in an active decision-making state. This mental state is temporary—within minutes, they're distracted by other tasks, doubt creeps in, or they begin comparing alternatives. By responding immediately, you catch them while they're still mentally committed to the problem you solve and before decision fatigue sets in.",
+  "dive_deeper_origin_story": "The rule emerged from extensive sales analytics showing that response time directly correlates with contact rates and conversion. Studies by companies like Lead Response Management found that the odds of qualifying a lead drop by 10x when response time goes from 5 minutes to 30 minutes, and by 21x when it extends to an hour. This data-driven discovery revolutionized how high-performing sales organizations structure their lead response processes.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Any response within the first day is acceptable. **Reality:** The advantage isn't linear—it's exponential in those first few minutes. **Common mistake:** Focusing only on speed without quality—a rushed, generic response can be worse than a thoughtful one that's slightly delayed. The key is having systems and templates ready so you can be both fast AND relevant.",
+  "source_file": "The 5-Minute Response Rule.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "operations"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "knowledge_piece_name": "Growth Hypothesis",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "You've built something amazing, but nobody knows it exists. How do you test if customers will actually find and use your product before you bet everything on it?",
+  "definition": "The growth hypothesis is one of two critical leap-of-faith assumptions in lean startup methodology that tests how new customers will discover and begin using your product or service.",
+  "analogy_or_metaphor": "Think of it like planting seeds in your garden - you need to test not just whether the plant will grow (value hypothesis), but whether people will actually walk by, notice your garden, and want to take the fruit (growth hypothesis).",
+  "key_takeaway": "**Before scaling, prove that customers can actually find and adopt your solution.**",
+  "classic_example": "A classic growth hypothesis test might involve releasing a minimal version of your product to a small customer segment to see if they discover it organically through search, referrals, or your chosen marketing channels.",
+  "modern_example": "A food delivery startup testing whether customers in one neighborhood will discover their app through Instagram ads and actually place orders, before expanding to the entire city.",
+  "pitfall": "Assuming people will automatically find your product leads to expensive marketing campaigns that don't work and products that never gain traction despite being well-built.",
+  "payoff": "Testing your growth hypothesis early helps you identify the most effective customer acquisition channels before investing heavily in product development and scaling.",
+  "visual_metaphor": "A funnel with multiple entry points (search, social media, referrals) leading to a product, with measurement gauges showing which channels actually bring customers through.",
+  "dive_deeper_mechanism": "The growth hypothesis works by forcing entrepreneurs to make explicit assumptions about customer acquisition and then test these assumptions with real experiments. It operates on the principle that growth patterns are predictable and measurable - if you can't get your first 100 customers reliably, you won't be able to get your next 10,000. By testing growth hypotheses in controlled environments (like innovation sandboxes), companies can validate their customer acquisition strategies before committing significant resources.",
+  "dive_deeper_origin_story": "The growth hypothesis concept emerged from Eric Ries's Lean Startup methodology, building on Steve Blank's Customer Development approach. Ries observed that many startups failed not because their products didn't work, but because they couldn't figure out how to get customers. He formalized the growth hypothesis as a testable assumption, separate from the value hypothesis, after seeing countless companies build great products that nobody discovered. The concept gained prominence through successful applications at companies like Dropbox, which tested customer acquisition through simple video demos before building their complex file-syncing technology.",
+  "dive_deeper_pitfalls_nuances": "**Common Pitfall:** Confusing the growth hypothesis with the value hypothesis - they test different things. The value hypothesis tests whether customers find value once they use your product, while the growth hypothesis tests whether they'll discover and start using it in the first place. **Nuance to Remember:** A growth hypothesis isn't just about marketing channels - it includes assumptions about customer behavior, adoption patterns, viral coefficients, and the entire customer journey from awareness to first use. Many entrepreneurs also mistakenly think one successful growth channel validates their entire growth strategy, when in reality, sustainable growth usually requires multiple validated acquisition channels.",
+  "source_file": "Growth Hypothesis.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Metrics of Value",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "Ever wonder why a $3,000 laptop seems 'cheap' to a Wall Street trader but 'expensive' to a college student? Different worlds, different scorecards.",
+  "definition": "The concept that different value networks have unique rank-orderings of important product performance attributes, which define the boundaries of those networks and determine what constitutes 'value' within each context.",
+  "analogy_or_metaphor": "Like judging athletes in different sports—a marathon runner values endurance over strength, while a weightlifter prioritizes raw power over speed. Same human body, completely different success metrics.",
+  "key_takeaway": "**Value isn't universal—it's defined by the network you're operating within.**",
+  "classic_example": "In Christensen's disk drive study, mainframe computers valued capacity, speed, and reliability above all else, while portable computers prioritized ruggedness, low power consumption, and small size—leading to completely different product development paths for the same core technology.",
+  "modern_example": "A smartphone camera that excels at Instagram photos (bright, vibrant, instant sharing) versus one optimized for professional photography (RAW format, manual controls, color accuracy). Same device category, but social media influencers and professional photographers have entirely different value hierarchies.",
+  "pitfall": "Assuming your definition of 'good' applies everywhere leads to building products that excel in your world but fail catastrophically in others, missing entire market opportunities.",
+  "payoff": "Understanding different value networks helps you identify where your innovation might create unexpected value and why seemingly 'inferior' solutions often win in different contexts.",
+  "visual_metaphor": "A prism splitting white light into different colored spectrums—the same 'product light' reveals completely different value spectrums depending on which network lens you're looking through.",
+  "dive_deeper_mechanism": "Metrics of Value works because human needs and constraints vary dramatically across different contexts, creating distinct 'fitness landscapes' where different attributes become survival-critical. Each value network develops its own evolutionary pressure—what succeeds in one environment may be completely maladapted for another. Organizations within each network develop specialized capabilities, cultures, and measurement systems that reinforce these different value hierarchies, making it difficult to see or serve other networks effectively.",
+  "dive_deeper_origin_story": "Clayton Christensen developed this concept while studying why established disk drive companies consistently failed when new markets emerged. He discovered that it wasn't incompetence—these companies were actually too good at serving their existing value networks. When portable computers emerged needing smaller, less powerful drives, the mainframe-focused companies couldn't see the value because they measured success by capacity and speed, not size and power efficiency. The 'worse' drives were actually better for an entirely different game.",
+  "dive_deeper_pitfalls_nuances": "**Common Misunderstanding:** Thinking you can simply add features to serve multiple value networks simultaneously. **Reality:** Each network's constraints are often mutually exclusive—optimizing for one often means sacrificing performance in another. **Nuance:** The same company can participate in multiple value networks, but usually requires separate divisions, processes, and success metrics for each. Trying to serve different networks with the same organization and metrics typically leads to serving none well.",
+  "source_file": "Metrics of Value.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "pricing"
+  ]
+}

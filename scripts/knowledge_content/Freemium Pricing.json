@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Freemium Pricing",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why Spotify, LinkedIn, and Dropbox give away their core product for free? They're playing a numbers game you can't see.",
+  "definition": "A customer acquisition strategy where a basic version of a product is offered for free to attract a large user base, with the goal of converting a small percentage to paid premium versions.",
+  "analogy_or_metaphor": "Think of it like a drug dealer's strategy: give away free samples to get people hooked, then charge for the good stuff. The free version is your marketing department working 24/7.",
+  "key_takeaway": "**Free users aren't customers—they're your unpaid marketing army.**",
+  "classic_example": "Ryanair's unbundled airline model: £9.99 base fare that looks incredibly cheap, but by the time you add seat selection (£10), checked bag (£15), and admin fees (£6), that fare has quadrupled to nearly £50.",
+  "modern_example": "Spotify's free tier with ads and limited skips gets 200+ million users hooked on the platform, knowing that just 5-10% converting to Premium at $10/month generates billions in revenue.",
+  "pitfall": "Offering too much value in the free tier can cannibalize your paid conversions, turning you into an expensive charity instead of a sustainable business.",
+  "payoff": "When executed correctly, freemium creates massive user bases that become both your customers and your marketing channel, dramatically reducing customer acquisition costs.",
+  "visual_metaphor": "A funnel with a wide opening labeled 'FREE' at the top, narrowing down to a smaller paid section at the bottom, with arrows showing the flow from many free users to fewer paying customers.",
+  "dive_deeper_mechanism": "Freemium works by exploiting behavioral economics principles. Users become psychologically invested in the free product through time spent and data created, making switching costs feel higher. The model leverages loss aversion (fear of losing access) and social proof (seeing others upgrade). Most importantly, it shifts the pricing conversation from 'Is this worth buying?' to 'Is the upgrade worth it?' - a much easier psychological hurdle to clear.",
+  "dive_deeper_origin_story": "While the concept existed earlier, the term 'freemium' was coined by venture capitalist Fred Wilson in 2006. The strategy gained massive traction with software companies because digital products have near-zero marginal costs - serving one more user costs almost nothing. This made it economically feasible to give away the core product to millions while monetizing the few. Companies like Skype and Dropbox proved the model could scale to billion-dollar valuations.",
+  "dive_deeper_pitfalls_nuances": "**Common Myth:** Any free-to-paid model is freemium. **Reality:** True freemium requires the free version to be genuinely valuable on its own, not just a limited trial. **Critical Error:** Many companies make their free tier too generous (like offering unlimited storage) or too restrictive (like allowing only 3 uses), missing the sweet spot where users get real value but hit meaningful limitations that encourage upgrading.",
+  "source_file": "Freemium Pricing.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

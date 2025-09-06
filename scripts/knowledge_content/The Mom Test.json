@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "The Mom Test",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever asked your mom if your business idea is good and gotten a glowing 'Yes, honey!'? That's exactly why you can't trust what people say about your ideas.",
+  "definition": "The Mom Test is a set of rules for asking questions about a customer's life and past behaviors, rather than your idea, to get truthful feedback that avoids socially-driven lies.",
+  "analogy_or_metaphor": "It's like being a detective investigating a crime scene—you don't ask witnesses 'Would this evidence be important?' Instead, you ask 'What did you see?' and piece together the truth from their actual experiences.",
+  "key_takeaway": "**Ask about their life, not your idea—people lie to be nice, but facts don't lie.**",
+  "classic_example": "Instead of asking 'Would you pay $50 for software that organizes your photos?' ask 'Tell me about the last time you couldn't find a photo you needed. How did you try to solve it?'",
+  "modern_example": "Rather than pitching your meal-planning app idea, ask 'Walk me through how you decided what to cook last Tuesday night. What made it frustrating?' Their actual behavior reveals whether they'd truly use your solution.",
+  "pitfall": "Asking hypothetical questions about your idea leads to polite lies and false validation, causing you to build products nobody actually wants.",
+  "payoff": "Learning about real problems through past behavior helps you build solutions people will genuinely pay for and use.",
+  "visual_metaphor": "A conversation bubble split in half—one side shows someone asking 'Would you use this?' (with a polite thumbs up response), the other shows 'What happened last time?' (with genuine, detailed experiences flowing out).",
+  "dive_deeper_mechanism": "The Mom Test works because it exploits a fundamental human psychological quirk: we're terrible at predicting our future behavior but excellent at recalling past experiences. When asked hypotheticals about ideas, people default to social politeness—saying what they think you want to hear. But when asked about specific past events, they naturally share concrete details, constraints, and emotions. This bypasses the 'social desirability bias' and reveals genuine pain points, actual workflows, and real purchasing behaviors that indicate whether someone would truly buy your solution.",
+  "dive_deeper_origin_story": "Rob Fitzpatrick coined 'The Mom Test' after watching countless entrepreneurs (including himself) get burned by enthusiastic but meaningless feedback. The name comes from the ultimate test: if you can ask your mom about your business idea and get useful, unbiased feedback, you're asking the right questions. The breakthrough insight came from recognizing that moms (and most people) will lie to spare your feelings about your idea, but they'll tell the truth about their own experiences and problems. Fitzpatrick developed this approach after years of failed startups built on false validation.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Thinking The Mom Test means you should ask your literal mom for business advice. It's actually about learning to ask questions that even your mom couldn't lie about. **Common Mistake #2:** Using it as a rigid script rather than understanding the principle—ask about past behavior and current problems, not future intentions or opinions about your solution. **Nuance:** The test isn't anti-vision; you still need to creatively leap to solutions. It just ensures you're solving real problems that people actually have, not imaginary ones you think they should have.",
+  "source_file": "The Mom Test.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

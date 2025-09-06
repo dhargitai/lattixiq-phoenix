@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Pseudoscience (in Product Development)",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Logical Fallacies",
+  "hook": "Ever seen a team proudly present cherry-picked metrics that 'prove' their failing feature is actually succeeding?",
+  "definition": "The anti-pattern of selectively using data to confirm existing beliefs or using 'learning' as an unfalsifiable excuse for failure, rather than conducting rigorous experiments with clear success criteria.",
+  "analogy_or_metaphor": "Like a fortune teller who only remembers their correct predictions and conveniently forgets all the wrong ones, then claims to have mystical powers.",
+  "key_takeaway": "**Real learning requires experiments that can prove you wrong, not just confirm you're right.**",
+  "classic_example": "A pharmaceutical company that runs multiple studies on a drug but only publishes the positive results, hiding the negative ones to make the treatment appear more effective than it actually is.",
+  "modern_example": "A product team that launches a new feature, sees mixed results, but focuses only on the few positive metrics while ignoring declining user engagement, then declares the feature a 'learning success' regardless of actual performance.",
+  "pitfall": "Teams waste resources on failed initiatives while believing they're making progress, leading to products that don't serve real customer needs.",
+  "payoff": "Rigorous experimentation with clear, measurable criteria leads to genuine insights and products that actually solve customer problems.",
+  "visual_metaphor": "A scientist at a lab bench with two sets of test results - one pile labeled 'cherry-picked data' glowing artificially bright, and another pile labeled 'complete picture' showing the full, honest experimental results.",
+  "dive_deeper_mechanism": "Pseudoscience in product development exploits our natural confirmation bias - the tendency to seek information that confirms our existing beliefs. When teams invest time and resources into building something, they become emotionally attached to its success. This creates a psychological incentive to interpret ambiguous data favorably and dismiss contradictory evidence. The brain's pattern-seeking nature makes it easy to find correlations that aren't causations, especially when we're motivated to find them. True scientific method requires falsifiable hypotheses - experiments designed to potentially prove your assumptions wrong, not just confirm them right.",
+  "dive_deeper_origin_story": "The term gained prominence in product development through Eric Ries's 'The Lean Startup,' where he observed teams using 'learning' as an excuse for any outcome. Ries noticed that without rigorous experimental design - like controlled A/B tests with predetermined success metrics - teams would rationalize any result as valuable learning. This parallels the broader scientific revolution of the 17th century, when Francis Bacon established the scientific method specifically to overcome human bias in observation and reasoning. The innovation sandbox concept emerged as a solution: create controlled environments where experiments have clear boundaries, time limits, and success criteria that can't be moved after seeing results.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Any data collection counts as 'scientific experimentation.' **Reality:** True experiments require predetermined hypotheses, control groups, and success criteria established before seeing results. **Pitfall:** Using 'we learned something' as a catch-all justification for any outcome, even failure. **Nuance:** Genuine learning does happen from failed experiments, but only when the failure teaches you something specific and actionable that changes your next hypothesis. The key difference is whether your learning process can actually prove your initial assumptions wrong, or whether every outcome gets spun as validation.",
+  "source_file": "Pseudoscience (in Product Development).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pivot"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Employee-Driven One-on-One",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever notice how most 1-on-1 meetings feel like performance reviews in disguise? What if your employee set the agenda instead?",
+  "definition": "A framework for one-on-one meetings where the employee controls the agenda and drives the conversation, while the manager listens 90% of the time to surface important ideas, concerns, and frustrations.",
+  "analogy_or_metaphor": "It's like being a therapist rather than a prosecutor - your job is to create a safe space for the other person to share what's really on their mind, not to interrogate them about what you think is important.",
+  "key_takeaway": "**When employees drive the conversation, managers discover what really matters.**",
+  "classic_example": "Traditional 1-on-1s where managers bring their prepared list of topics, review performance metrics, and do most of the talking, often missing critical employee concerns and ideas that never surface.",
+  "modern_example": "A software engineer sets the agenda to discuss feeling overwhelmed by technical debt, a concern that wouldn't appear in the manager's standard checklist but reveals a critical issue affecting the entire team's productivity.",
+  "pitfall": "Manager-driven agendas create performative conversations where employees tell you what they think you want to hear, missing real issues and opportunities.",
+  "payoff": "Employee-driven meetings build trust, surface hidden problems early, and transform managers from micromanagers into coaches who actually understand their team.",
+  "visual_metaphor": "Two people sitting across from each other, with the employee holding a speaking microphone while the manager has oversized ears, symbolizing the 90% listening approach.",
+  "dive_deeper_mechanism": "This framework works because it reverses the traditional power dynamic that makes employees defensive. When people control the agenda, they feel psychologically safe to share real concerns rather than performing competence. The 90% listening rule forces managers to resist the urge to solve problems immediately, instead drawing out the full context. This creates a feedback loop where employees become more engaged because they feel heard, and managers gain genuine insight into team dynamics they would otherwise miss.",
+  "dive_deeper_origin_story": "Ben Horowitz popularized this approach after learning from his brother-in-law, a telephone lineman at AT&T, who described how senior executives would visit quarterly to 'blow a little sunshine up my ass.' This candid feedback made Horowitz realize that his overly positive, manager-driven approach was creating artificial conversations that missed the real issues his team was facing. He shifted to employee-driven 1-on-1s as part of his broader philosophy of 'telling it like it is.'",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Managers think listening 90% means being passive - but active listening requires skillful questioning to help employees articulate their thoughts. **Reality check:** Some employees initially struggle with setting agendas because they're conditioned to wait for manager direction. **Timing trap:** This format works best for regular relationship-building, not urgent performance issues that require immediate manager intervention.",
+  "extra_content": "## Implementation Framework\n\n### **Pre-Meeting Setup**\n1. **Schedule Consistency:** Establish weekly or bi-weekly 30-45 minute slots\n2. **Agenda Ownership:** Employee sends agenda 24 hours before meeting\n3. **Safe Space Agreement:** Establish that these conversations are for development, not evaluation\n\n### **Meeting Structure**\n1. **Opening (5 minutes):** Employee shares their priority topics\n2. **Core Discussion (25-35 minutes):** Manager practices 90% listening rule\n3. **Wrap-up (5 minutes):** Summarize key points and any agreed actions\n\n### **Manager's Active Listening Techniques**\n- **Clarifying Questions:** \"Help me understand...\" \"What does that look like for you?\"\n- **Emotional Check-ins:** \"How are you feeling about...?\" \"What's your energy level around this?\"\n- **Problem Exploration:** \"What have you tried?\" \"What would ideal look like?\"\n- **Support Identification:** \"How can I help?\" \"What obstacles can I remove?\"\n\n### **Employee Agenda Templates**\n**Weekly Format:**\n- Current projects and blockers\n- Team dynamics or collaboration issues\n- Professional development interests\n- Feedback on management or processes\n- Personal updates affecting work\n\n**Quarterly Deep-dive:**\n- Career growth conversations\n- Long-term goal alignment\n- Skills development planning\n- Organizational feedback\n\n### **Success Metrics**\n- Employee brings substantive agenda items consistently\n- Manager speaks <20% of meeting time\n- Issues surface before becoming crises\n- Employee satisfaction and engagement scores improve\n- Manager gains insights they wouldn't have discovered otherwise",
+  "source_file": "Employee-Driven One-on-One.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "co-founder_conflict"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Market Trajectory Control",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Military & Competitive Strategy",
+  "hook": "Ever wonder why Apple keeps releasing new iPhone features you didn't even know you needed? It's not just innovation—it's strategic defense.",
+  "definition": "A proactive strategy where market leaders continuously shape customer expectations to absorb rapid performance improvements, preventing performance oversupply that would create openings for disruptive competitors.",
+  "analogy_or_metaphor": "Like a skilled chess player who doesn't just react to threats but controls the entire board by making moves that force opponents into predictable patterns, market leaders control customer expectations to stay several moves ahead of disruption.",
+  "key_takeaway": "**Control customer expectations to control your market destiny.**",
+  "classic_example": "Intel's strategy of continuously releasing faster processors while educating consumers about why they need more processing power, preventing competitors from disrupting with 'good enough' chips by ensuring customers always want more performance.",
+  "modern_example": "Netflix constantly adding new features (4K, HDR, interactive content, mobile downloads) and genres while educating viewers about these improvements, preventing streaming competitors from succeeding with basic 'good enough' video services.",
+  "pitfall": "Without trajectory control, your performance improvements may exceed customer needs, creating oversupply that opens doors for simpler, cheaper disruptive alternatives to enter your market.",
+  "payoff": "By actively shaping what customers expect and value, you maintain pricing power and market position while making it nearly impossible for disruptors to gain a foothold.",
+  "visual_metaphor": "A conductor directing an orchestra, with the conductor representing the market leader orchestrating both the performance (product improvements) and the audience's expectations (customer needs) in perfect harmony.",
+  "dive_deeper_mechanism": "Market trajectory control works by exploiting the natural evolution of customer expectations. When companies improve performance faster than customers can absorb the improvements, it creates 'performance oversupply'—a dangerous gap where customers become satisfied with existing performance levels. This satisfaction creates an opening for disruptive competitors who can enter with simpler, cheaper alternatives that meet the now-satisfied customer needs. Leaders who control trajectories actively educate customers about why new performance levels matter, ensuring demand always slightly exceeds supply and keeping the competitive basis on dimensions where they excel.",
+  "dive_deeper_origin_story": "Clayton Christensen identified this concept while studying the disk drive industry and observing how established companies consistently lost market share despite having superior technology. He noticed that successful companies often improved their products so rapidly that they overshot customer needs, creating the 'performance oversupply' that made customers receptive to simpler alternatives. The concept emerged from his broader work on disruptive innovation theory in the 1990s, where he discovered that market leaders' strength—their ability to improve performance—could become their weakness if not carefully managed through expectation control.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Market trajectory control means constantly adding features. **Reality:** It's about strategically educating customers on why improvements matter, not just making improvements. The key is synchronizing performance advances with customer education. Another nuance: this strategy works best for sustaining innovations but can actually accelerate vulnerability to truly disruptive innovations that change the basis of competition entirely. Companies must distinguish between trajectory control (managing expectations within current performance dimensions) and market disruption (when entirely new performance dimensions emerge).",
+  "source_file": "Market Trajectory Control.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

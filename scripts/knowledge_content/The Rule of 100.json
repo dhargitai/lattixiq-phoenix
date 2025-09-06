@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The Rule of 100",
+  "super_model": true,
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "What if the difference between business failure and explosive growth was simply doing 100 specific actions every single day for 100 days straight?",
+  "definition": "The Rule of 100 is a marketing principle that requires performing 100 primary advertising actions per day for 100 consecutive days to guarantee an increase in engaged leads.",
+  "analogy_or_metaphor": "Think of it like training for a marathon - you can't run 26 miles by sprinting once a week, but you can build the endurance through consistent daily practice. Marketing works the same way.",
+  "key_takeaway": "**Consistent, high-volume action beats sporadic, low-volume effort every time.**",
+  "classic_example": "A real estate agent who commits to making 100 cold calls per day for 100 days straight, resulting in a predictable pipeline of qualified leads and closed deals.",
+  "modern_example": "A SaaS startup founder who posts 100 valuable pieces of content daily across LinkedIn, Twitter, and industry forums for 100 days, transforming from unknown to industry thought leader with thousands of engaged prospects.",
+  "pitfall": "Inconsistent, sporadic marketing efforts that feel like shouting into the void, resulting in unpredictable lead flow and business anxiety.",
+  "payoff": "Predictable, scalable lead generation that compounds over time, creating business momentum and removing the feast-or-famine cycle.",
+  "visual_metaphor": "A calendar grid showing 100 days with checkmarks filling up each day, transforming from empty squares to a solid wall of consistent action, with an upward trending arrow representing growing leads.",
+  "dive_deeper_mechanism": "The Rule of 100 works because it leverages the psychological principle of compound consistency. Most businesses fail at marketing because they treat it like a light switch - on when they need leads, off when they're busy. This creates a boom-bust cycle. The rule forces you into treating marketing like a thermostat instead - maintaining consistent temperature (activity) regardless of current conditions. The high volume (100 actions) ensures you cut through market noise, while the consistency (100 days) allows compound effects to take hold. Your brain also adapts to this rhythm, making the actions automatic rather than requiring daily willpower.",
+  "dive_deeper_origin_story": "Alex Hormozi popularized this concept in his book '100M Leads' after observing patterns across thousands of businesses. He noticed that successful entrepreneurs weren't necessarily more talented - they were more consistent. The specific numbers (100 actions for 100 days) came from analyzing what separated businesses that predictably scaled from those that struggled. The framework emerged from studying everything from door-to-door salespeople to digital marketers, finding that those who committed to high-volume, consistent action always outperformed sporadic high-intensity efforts.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Any 100 actions count equally. **Reality:** The actions must be 'primary' advertising actions - directly aimed at generating leads, not busy work like organizing your CRM. **Another Pitfall:** People often quit around day 30-50 when they don't see immediate results. The magic happens in the compound effect of the final 50 days. **Nuance:** The rule isn't about perfection - missing one day doesn't reset the counter, but missing multiple days breaks the momentum that makes this effective.",
+  "source_file": "The \"Rule of 100\".md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

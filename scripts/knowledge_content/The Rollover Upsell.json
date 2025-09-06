@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The Rollover Upsell",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why that gym membership you \"won for free\" still required monthly payments? Welcome to the genius of the rollover upsell.",
+  "definition": "A strategy where a customer's previous purchase or winnings are credited toward a new, more expensive offer, providing a strong incentive for them to upgrade or commit to a longer-term plan.",
+  "analogy_or_metaphor": "It's like winning a scratch-off lottery ticket, but instead of cash in hand, you get store credit that can only be used on a bigger, better prize—keeping you engaged and spending more.",
+  "key_takeaway": "**Turn one-time wins into ongoing commitments by rolling value forward, not backward.**",
+  "classic_example": "Alex Hormozi's gym offered a $600 'Win Your Money Back' program. Instead of giving cash refunds to winners, he rolled their winnings into a year-long membership at $50 off per month, transforming one-time customers into recurring revenue.",
+  "modern_example": "SaaS companies offering annual plan discounts by crediting your current monthly payments toward the yearly subscription, or streaming services letting you 'upgrade' your free trial winnings toward a premium family plan.",
+  "pitfall": "Without rollover upsells, businesses convert prospects into one-time buyers who disappear after getting their value, creating unsustainable feast-or-famine revenue cycles.",
+  "payoff": "Implementing rollover upsells transforms one-time transactions into recurring revenue streams while making customers feel like they're getting an even better deal.",
+  "visual_metaphor": "A conveyor belt where a customer's initial purchase rolls forward onto a larger, more valuable platform, seamlessly transitioning them from a small commitment to a bigger one.",
+  "dive_deeper_mechanism": "The rollover upsell works by leveraging the psychological principle of loss aversion combined with the endowment effect. When customers 'win' or receive value from their initial purchase, they feel ownership of that benefit. Rather than taking it away (loss aversion), the rollover method lets them keep their winnings while requiring continued engagement. It also exploits the 'foot-in-the-door' phenomenon—once someone has made an initial commitment and received value, they're psychologically primed to make larger commitments. The key is that customers don't feel manipulated because they're genuinely receiving the promised value, just in a structure that benefits both parties.",
+  "dive_deeper_origin_story": "The rollover upsell gained prominence through Alex Hormozi's gym empire in 2014. Facing a revenue problem where his 'Win Your Money Back' fitness programs created feast-or-famine cash flow, Hormozi discovered that his friend Justin was successfully retaining customers by rolling their winnings into annual memberships rather than giving lump-sum refunds. This simple shift from 'pay it all upfront' to 'spread it over time' transformed Hormozi's business model and became a cornerstone strategy that he later taught to thousands of gym owners, revolutionizing how service businesses think about customer retention and recurring revenue.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** The rollover upsell is just a sneaky way to avoid paying out winnings. **Reality:** When done ethically, customers receive full value—the structure simply benefits both parties. **Pitfall #1:** Making the rollover feel forced rather than advantageous can create resentment. **Pitfall #2:** Rolling over into products that don't deliver genuine additional value will backfire and damage trust. The key nuance is that successful rollover upsells must provide legitimate additional benefits or convenience that justify the extended commitment.",
+  "source_file": "The Rollover Upsell.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "pricing",
+    "operations"
+  ]
+}

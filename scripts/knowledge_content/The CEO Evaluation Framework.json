@@ -1,0 +1,36 @@
+{
+  "knowledge_piece_name": "The CEO Evaluation Framework",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some CEOs with impressive resumes still fail spectacularly? Here's the three-question framework that predicts success better than any MBA.",
+  "definition": "A three-part evaluation system for assessing CEO effectiveness: (1) Does she know what to do? (2) Can she get the company to do it? (3) Did she achieve the desired results?",
+  "analogy_or_metaphor": "Think of a CEO like a ship captain navigating stormy seas. She must read the weather (know what to do), command her crew effectively (get the company to do it), and safely reach port (achieve results).",
+  "key_takeaway": "**Great CEOs combine strategic clarity, execution mastery, and measurable outcomes—but the first two predict success better than past results alone.**",
+  "classic_example": "Steve Jobs returning to Apple in 1997: He knew what to do (focus on design and user experience), could get Apple to execute (rebuilt the team and streamlined operations), and achieved results (transformed Apple into the world's most valuable company).",
+  "modern_example": "A startup CEO during the pandemic pivot: She recognizes the need to shift to remote services (knows what to do), reorganizes teams and communication systems for distributed work (gets the company to do it), and grows revenue 300% within a year (achieves results).",
+  "pitfall": "Judging CEOs solely on past financial performance ignores the strategic insight and organizational health that drive future success.",
+  "payoff": "Using this framework helps you identify leaders who can navigate uncertainty, build strong teams, and deliver sustainable results rather than just lucky outcomes.",
+  "visual_metaphor": "A three-layered pyramid with a brain at the top (strategic thinking), interlocking gears in the middle (organizational execution), and a target with an arrow at the bottom (measurable results).",
+  "dive_deeper_mechanism": "This framework works because it separates leading indicators (knowledge and execution ability) from lagging indicators (results). Strategic clarity ensures decisions are sound even with incomplete information. Execution ability—including team building, communication design, and removing organizational friction—transforms good strategies into reality. Results validate the approach but can be influenced by external factors beyond CEO control. The framework recognizes that past performance doesn't guarantee future success, while strong capabilities in the first two areas create sustainable competitive advantage.",
+  "dive_deeper_origin_story": "Ben Horowitz developed this framework through hard-earned experience as CEO of Opsware during the dot-com crash and later as co-founder of venture capital firm Andreessen Horowitz. After watching countless CEOs succeed and fail, Horowitz realized that traditional evaluation methods—focusing primarily on financial results or credentials—missed the core capabilities that actually drive success. He codified this three-part framework in 'The Hard Thing About Hard Things,' making it a cornerstone of how his firm evaluates portfolio company leadership. The framework emerged from the practical need to predict which CEOs could navigate the inevitable crises that every startup faces.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Results are the most important criterion. **Reality:** Results are lagging indicators that can be influenced by luck, timing, or inherited advantages. The first two criteria are better predictors of future success. **Myth:** This framework applies universally to all leadership roles. **Reality:** The specific requirements for 'knowing what to do' and 'getting it done' vary dramatically based on company stage, industry, and market conditions. A turnaround CEO needs different skills than a growth-stage leader. **Common mistake:** Using this as a binary pass/fail test rather than a diagnostic tool for development and coaching.",
+  "extra_content": "## CEO Evaluation Implementation Guide\n\n### Step 1: Assess Strategic Knowledge\n**Evaluation Questions:**\n- Can the CEO articulate the company's core challenges and opportunities?\n- Does she make sound decisions with incomplete information?\n- Can she explain her strategic reasoning clearly to different audiences?\n\n**Red Flags:**\n- Constantly changing strategic direction without clear rationale\n- Unable to explain decisions in simple terms\n- Avoiding tough decisions or delegating them inappropriately\n\n### Step 2: Assess Execution Capability\n**Organizational Health Indicators:**\n- Team quality and retention rates\n- Communication effectiveness across departments\n- Speed of decision-making and implementation\n- Employee ability to do their jobs without bureaucratic obstacles\n\n**Assessment Methods:**\n- Employee engagement surveys\n- Cross-functional project success rates\n- Time-to-decision metrics\n- Quality of leadership team hires\n\n### Step 3: Assess Results in Context\n**Key Metrics:**\n- Progress toward stated strategic goals\n- Financial performance relative to market conditions\n- Innovation and competitive positioning\n- Stakeholder satisfaction (customers, employees, investors)\n\n**Context Considerations:**\n- Company stage (startup vs. mature)\n- Market conditions and timing\n- Inherited challenges vs. self-created problems\n- Industry benchmarks and competitive landscape\n\n### Implementation Best Practices\n1. **Share the framework** with CEOs to align expectations\n2. **Regular check-ins** using all three dimensions\n3. **Document specific examples** for each criterion\n4. **Use as development tool** rather than just evaluation\n5. **Consider hiring decisions** through this lens\n6. **Board reporting** structured around these three areas",
+  "source_file": "The CEO Evaluation Framework.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "investor"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "hiring",
+    "co-founder_conflict",
+    "team_and_culture",
+    "operations"
+  ]
+}

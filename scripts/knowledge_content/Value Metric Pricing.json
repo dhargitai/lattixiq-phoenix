@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Value Metric Pricing",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why you always seem to pick the middle option when choosing a subscription plan?",
+  "definition": "A pricing strategy where subscription tiers are structured around a core 'value metric' that directly correlates with the actual value customers receive from using the product.",
+  "analogy_or_metaphor": "Like a utility bill that charges based on how much electricity you actually use—the more value you extract, the more you pay, creating a natural alignment between cost and benefit.",
+  "key_takeaway": "**Price what matters most to your customers, not what's easiest for you to measure.**",
+  "classic_example": "SaaS companies charging per user seat, where each additional team member represents clear, measurable value to the organization using the software.",
+  "modern_example": "Stripe charging a percentage of transaction volume rather than a flat fee—as your business grows and processes more payments, you pay more, but you're also making more money.",
+  "pitfall": "Using arbitrary limits or features as pricing tiers without connecting them to real customer value, leading to customer resentment and churn.",
+  "payoff": "Customers feel they're paying fairly for what they get, leading to higher satisfaction, reduced price sensitivity, and natural revenue growth as customers succeed.",
+  "visual_metaphor": "A scale where one side holds dollar signs (what customers pay) and the other holds value symbols (what they receive), perfectly balanced and moving up together.",
+  "dive_deeper_mechanism": "Value metric pricing works by identifying the single most important driver of customer success—the metric that best predicts how much value they're getting from your product. This creates a psychological alignment where customers feel good about paying more because it directly correlates with getting more value. Unlike arbitrary feature restrictions, value metrics feel fair and transparent, reducing the cognitive dissonance that comes with traditional pricing models.",
+  "dive_deeper_origin_story": "The concept gained prominence in the SaaS industry as companies moved away from traditional software licensing models. Early pioneers like Salesforce discovered that charging per user made more sense than charging per installation, since more users meant more organizational value. The model was further refined by companies like HubSpot and Mailchimp, who tied pricing directly to business growth metrics like contacts or email sends.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Choosing a value metric that's easy to measure rather than meaningful to customers (like charging per API call when customers care about outcomes, not technical usage). **Reality check:** The best value metric isn't always obvious—it requires deep customer research to understand what they truly value. **Nuance:** Sometimes the perfect value metric changes as your product evolves, requiring periodic pricing model adjustments that can be operationally complex.",
+  "source_file": "Value Metric Pricing.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

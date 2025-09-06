@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Peer-Plus-One Approach",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever been in a meeting where everyone's too polite to disagree, yet nothing gets decided?",
+  "definition": "A meeting structure that includes one senior manager among a group of peers to serve as an objective facilitator and tie-breaker when consensus can't be reached.",
+  "analogy_or_metaphor": "Like having a referee in a friendly pickup game—not there to dominate, but to make the final call when players can't agree.",
+  "key_takeaway": "**Sometimes you need someone above the fray to cut through peer politeness and drive decisions.**",
+  "classic_example": "A group of department heads debating budget allocations, with their VP present to facilitate discussion and make final resource allocation decisions when they reach an impasse.",
+  "modern_example": "A cross-functional product team of designers, engineers, and marketers including their director to help navigate conflicting priorities and ensure decisions get made rather than endlessly debated.",
+  "pitfall": "Without senior facilitation, peer groups often get stuck in endless discussion loops, avoiding hard decisions to preserve relationships.",
+  "payoff": "Adding strategic seniority accelerates decision-making while maintaining team harmony and ensuring someone takes accountability for outcomes.",
+  "visual_metaphor": "A round table with equal-sized chairs surrounding it, plus one slightly elevated chair—present but not dominating the circle.",
+  "dive_deeper_mechanism": "This approach works because peers naturally defer to hierarchy when facing difficult trade-offs. The 'plus-one' person provides psychological safety for making unpopular but necessary decisions, while their seniority gives them the authority and broader perspective to weigh competing interests objectively. It breaks the 'peer-group syndrome' where everyone is too invested in maintaining relationships to make hard calls.",
+  "dive_deeper_origin_story": "Coined by Intel CEO Andrew Grove in 'High Output Management,' this concept emerged from Grove's observation that peer meetings often stalled due to equal-status participants avoiding conflict. Grove noticed that even when a senior manager wasn't the most knowledgeable person present, their mere presence changed the dynamics, allowing the group to move from discussion to decision.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Using this as a crutch for every decision rather than developing peer decision-making skills. **Reality Check:** The senior person should facilitate, not dictate—their role is to enable the group's best thinking, not impose their will. **Timing Matters:** Best used for high-stakes decisions or when peer groups have proven unable to reach consensus, not for routine operational choices.",
+  "source_file": "Peer-Plus-One Approach.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "co-founder_conflict",
+    "team_and_culture",
+    "hiring"
+  ]
+}

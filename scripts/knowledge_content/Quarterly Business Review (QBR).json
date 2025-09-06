@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Quarterly Business Review (QBR)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some client relationships thrive while others slowly fade away? It's often about one simple thing: proving your value before they question it.",
+  "definition": "A formal, recurring meeting with customers to present data-driven proof of the value they've received, reinforce the partnership, and align on future goals.",
+  "analogy_or_metaphor": "Like a relationship check-in where you bring receipts—showing exactly how much better their life has become since you've been together.",
+  "key_takeaway": "**Regular proof of value prevents customer doubt and strengthens partnerships.**",
+  "classic_example": "A software vendor presenting quarterly metrics to show how their CRM system increased the client's sales conversion rates by 23% and reduced lead response time by 40%.",
+  "modern_example": "Your marketing agency showing a client dashboard with concrete results: 150% increase in qualified leads, $2.3M in attributed revenue, and 45% improvement in cost-per-acquisition over the past quarter.",
+  "pitfall": "Skipping regular value demonstrations allows doubt to creep in, making clients vulnerable to competitor pitches and more likely to question renewal decisions.",
+  "payoff": "Consistent QBRs build unshakeable client confidence, reduce churn, create expansion opportunities, and turn customers into advocates who refer others.",
+  "visual_metaphor": "A dashboard with upward trending arrows and green metrics, surrounded by handshake icons representing strengthened partnerships.",
+  "dive_deeper_mechanism": "QBRs work by leveraging the psychological principle of 'recency bias'—people judge relationships based on recent experiences. By regularly presenting concrete value, you keep positive outcomes top-of-mind, making it harder for clients to forget your impact or consider alternatives. The formal structure forces both sides to reflect on achievements and align on future goals, creating shared investment in continued success.",
+  "dive_deeper_origin_story": "The QBR concept emerged from enterprise software companies in the 1990s who noticed that even successful implementations were being forgotten over time. Companies like Salesforce pioneered the practice as customer success teams realized that delivering value wasn't enough—you had to continuously prove and communicate that value. The model spread as SaaS businesses discovered that regular value reviews dramatically reduced churn rates.",
+  "dive_deeper_pitfalls_nuances": "**Pitfall 1:** Making QBRs purely retrospective data dumps instead of forward-looking strategy sessions. **Reality:** The best QBRs spend equal time on past achievements and future opportunities. **Pitfall 2:** Only scheduling QBRs when renewals approach. **Reality:** Effective QBRs happen regardless of contract timing, building relationships continuously rather than defensively.",
+  "extra_content": "## The Complete QBR Framework\n\n### Pre-QBR Preparation (2-3 weeks before)\n1. **Gather quantitative data**: ROI metrics, usage statistics, performance improvements\n2. **Collect qualitative feedback**: User satisfaction surveys, support ticket trends\n3. **Research client context**: Recent company news, industry challenges, personnel changes\n4. **Prepare materials**: Executive summary, detailed metrics, future roadmap\n5. **Coordinate stakeholders**: Ensure key decision-makers can attend\n\n### QBR Meeting Structure (60-90 minutes)\n\n**Opening (10 minutes)**\n- Relationship health check\n- Agenda overview\n- Success metrics recap from last QBR\n\n**Value Delivered (25-30 minutes)**\n- Quantitative results with before/after comparisons\n- Specific use cases and success stories\n- Challenge resolution examples\n- User adoption and engagement metrics\n\n**Strategic Alignment (20-25 minutes)**\n- Client's evolving business priorities\n- How your solution supports their goals\n- Gaps or opportunities identified\n- Competitive landscape discussion\n\n**Future Planning (15-20 minutes)**\n- Upcoming features/improvements\n- Expansion opportunities\n- Implementation roadmap\n- Success metrics for next quarter\n\n### Post-QBR Follow-up\n1. **Send executive summary** within 24 hours\n2. **Document action items** with owners and timelines\n3. **Schedule follow-up meetings** for specific initiatives\n4. **Update CRM** with insights and next steps\n5. **Internal debrief** to capture lessons learned\n\n### QBR Success Metrics\n- **Relationship health**: NPS scores, satisfaction ratings\n- **Business impact**: Revenue attribution, cost savings, efficiency gains\n- **Engagement**: Meeting attendance, follow-up completion rates\n- **Expansion**: Upsell opportunities identified and converted\n- **Retention**: Renewal rates, contract length extensions",
+  "source_file": "Quarterly Business Review (QBR).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "operations",
+    "go-to-market",
+    "team_and_culture"
+  ]
+}

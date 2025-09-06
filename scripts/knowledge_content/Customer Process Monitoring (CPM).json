@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Customer Process Monitoring (CPM)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why 72% of new products fail? Most companies build first, then hope customers will pay later.",
+  "definition": "Customer Process Monitoring (CPM) is a systematic five-phase innovation process that validates customer willingness to pay and market demand before engineering begins, ensuring products meet real market needs.",
+  "analogy_or_metaphor": "Like a chef tasting the sauce before serving the meal - CPM tests customer appetite before cooking up the full product.",
+  "key_takeaway": "**Validate willingness to pay before you build, or risk creating an 'undead' product nobody wants.**",
+  "classic_example": "Dräger, a medical technology company, uses CPM's structured approach of customer observation, interviews, and quantitative surveys to validate market demand before investing in product development.",
+  "modern_example": "Netflix validated their subscription model in 1999 by testing customer willingness to pay a flat monthly fee for unlimited rentals, before building the infrastructure - disrupting Blockbuster's per-rental model.",
+  "pitfall": "Building products based on internal assumptions leads to 'undead' products that sales teams can't sell and customers won't buy.",
+  "payoff": "Systematic customer validation prevents costly failures and ensures your innovation addresses real market needs at acceptable price points.",
+  "visual_metaphor": "A compass pointing toward dollar signs, with multiple checkpoints along the path from idea to product launch.",
+  "dive_deeper_mechanism": "CPM works by reversing the traditional build-then-sell approach. Instead of assuming customer value, it systematically gathers evidence through structured customer interactions. The process leverages behavioral economics principles - people reveal their true preferences through willingness-to-pay questions rather than just feature preferences. By segmenting customers and understanding price sensitivity before development, companies avoid the sunk cost fallacy that keeps 'undead' products alive.",
+  "dive_deeper_origin_story": "CPM emerged from the recognition that most product failures stem from inside-out thinking rather than technical flaws. Companies like Dräger formalized this approach after witnessing countless innovations that worked perfectly but failed commercially. The methodology gained prominence as software companies like Netflix and Google proved that innovative monetization models - not just innovative products - could create massive competitive advantages.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** CPM is just market research. **Reality:** Traditional market research asks 'would you use this?' while CPM asks 'would you pay for this?' - a crucial difference. **Pitfall:** Calling customer conversations 'pricing discussions' creates resistance. **Solution:** Frame them as 'value talks' about continuing to serve customer needs. **Nuance:** CPM isn't about finding the perfect price, but about validating that a viable price exists before investing in development.",
+  "source_file": "Customer Process Monitoring (CPM).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

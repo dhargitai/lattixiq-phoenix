@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "RICE Scoring Framework",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder why some teams build features nobody uses while others seem to nail every release? The secret isn't luck—it's systematic prioritization.",
+  "definition": "RICE is a prioritization framework that evaluates initiatives by scoring them across four dimensions: Reach (how many people will be affected), Impact (how much it will affect them), Confidence (how sure you are about your estimates), and Effort (how much work it requires).",
+  "analogy_or_metaphor": "Think of RICE like a financial investment calculator—instead of just going with gut feeling about which stock to buy, you systematically evaluate each opportunity based on potential returns, risk, and required capital to make the smartest allocation of your limited resources.",
+  "key_takeaway": "**Turn subjective feature debates into objective data-driven decisions.**",
+  "classic_example": "A product team at Intercom used RICE to choose between building a mobile app versus improving their web messenger. The mobile app scored higher on Reach and Impact, but the web improvements won due to significantly lower Effort and higher Confidence scores.",
+  "modern_example": "Your startup has three feature requests: AI chatbot integration (high impact, low confidence), improved search (medium impact, high confidence), and dark mode (high reach, low impact). RICE reveals that improved search delivers the best ROI despite seeming less exciting.",
+  "pitfall": "Without systematic prioritization, teams waste months building features that don't move the needle, driven by whoever argues loudest or the latest customer complaint.",
+  "payoff": "RICE transforms feature debates from political battles into data-driven discussions, ensuring your team builds what truly matters most for growth and user satisfaction.",
+  "visual_metaphor": "A balanced scale with four weighted factors (R-I-C-E) on one side and a stack of feature cards on the other, showing how multiple criteria combine to determine which features tip the scale toward 'build now.'",
+  "dive_deeper_mechanism": "RICE works by forcing teams to quantify their assumptions and trade-offs. Reach prevents you from building niche features that affect few users. Impact ensures you're not just incrementally improving things that don't matter. Confidence acts as a reality check on wishful thinking—if you're only 20% confident in your estimates, that dramatically lowers the score. Effort prevents you from ignoring implementation complexity. The formula (Reach × Impact × Confidence ÷ Effort) creates a single comparable score, turning subjective debates into objective mathematics.",
+  "dive_deeper_origin_story": "RICE was developed by Sean McBride at Intercom around 2014 when the company was struggling with feature prioritization chaos. Different team members championed different features based on personal preferences, customer complaints, or executive opinions. McBride realized they needed a systematic way to evaluate opportunities that everyone could agree on. He borrowed concepts from business case analysis and venture capital due diligence, adapting them for product development. The framework gained popularity after Intercom published their methodology, and it's now used by thousands of product teams worldwide.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Gaming the system by inflating scores to get your pet feature built—this destroys trust and defeats the purpose. **Nuance:** RICE is a prioritization tool, not a decision-making replacement. A feature with a slightly lower RICE score might still be the right choice if it aligns with strategic initiatives or technical debt reduction. **Common Mistake #2:** Treating RICE scores as gospel rather than starting points for discussion. The real value comes from the conversations about why you scored each factor the way you did, not the final number itself.",
+  "extra_content": "## RICE Scoring Implementation Guide\n\n### Step 1: Define Your Scoring Scales\n\n**Reach** (people affected per time period):\n- Score the number of users/customers affected monthly\n- Use actual data when possible (analytics, user research)\n- For new features, estimate based on similar existing features\n\n**Impact** (effect per person affected):\n- 3 = Massive impact\n- 2 = High impact  \n- 1 = Medium impact\n- 0.5 = Low impact\n- 0.25 = Minimal impact\n\n**Confidence** (certainty in your estimates):\n- 100% = High confidence (solid data)\n- 80% = Medium confidence (some data)\n- 50% = Low confidence (educated guess)\n\n**Effort** (person-months of work):\n- Include design, engineering, testing, and rollout time\n- Use story points or time estimates from your team\n- Consider opportunity cost of not working on other features\n\n### Step 2: Calculate RICE Scores\n\n**Formula:** (Reach × Impact × Confidence) ÷ Effort = RICE Score\n\n**Example Calculation:**\n- Feature A: (1000 users × 2 impact × 0.8 confidence) ÷ 3 effort = 533\n- Feature B: (500 users × 3 impact × 0.9 confidence) ÷ 1 effort = 1350\n\n### Step 3: Apply and Iterate\n\n1. **Score all competing initiatives** using the same criteria\n2. **Rank by RICE score** but don't treat as absolute truth\n3. **Factor in strategic alignment** and technical dependencies\n4. **Review quarterly** and adjust scoring criteria based on learnings\n5. **Track actual outcomes** vs. predicted scores to improve future estimates\n\n### Variations and Extensions\n\n**ICE Framework:** Simplified version using only Impact, Confidence, Effort\n**Weighted RICE:** Assign different weights to factors based on company priorities\n**KANO-RICE Hybrid:** Combine with Kano model to factor in user satisfaction types",
+  "source_file": "RICE Scoring Framework.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "operations"
+  ]
+}

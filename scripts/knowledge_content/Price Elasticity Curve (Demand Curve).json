@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Price Elasticity Curve (Demand Curve)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "Ever wonder why Netflix can raise prices and keep most subscribers, but a local coffee shop can't? The secret lies in understanding how sensitive customers are to price changes.",
+  "definition": "A graphical representation showing how the quantity of a product demanded changes as its price changes, measuring customer sensitivity to price fluctuations.",
+  "analogy_or_metaphor": "Think of it like a rubber band - some products are like thick rubber bands (inelastic) that barely stretch when you pull them, while others are like thin bands (elastic) that stretch dramatically with the slightest tug.",
+  "key_takeaway": "**Understanding price sensitivity is the master key to revenue optimization.**",
+  "classic_example": "Alfred Marshall's original economic studies in the 1890s showed how bread (a necessity) had inelastic demand - people bought roughly the same amount regardless of small price changes - while luxury items like jewelry had highly elastic demand.",
+  "modern_example": "Spotify raising subscription prices by $1 and losing only 3% of users (inelastic), versus a gas station raising prices by 10 cents and watching customers drive to competitors across the street (elastic).",
+  "pitfall": "Ignoring price elasticity leads to pricing decisions that either leave money on the table or drive customers away, destroying revenue.",
+  "payoff": "Mastering elasticity allows you to optimize prices strategically - raising them when demand is inelastic to boost revenue, or lowering them when elastic to capture market share.",
+  "visual_metaphor": "A downward-sloping curve with two sections: a steep cliff (elastic zone) where small price changes cause big demand drops, and a gentle slope (inelastic zone) where price changes barely affect quantity.",
+  "dive_deeper_mechanism": "Price elasticity works because it measures the fundamental trade-off in consumer psychology between value and cost. When products have few substitutes, are necessities, or represent a small portion of someone's budget, consumers are less sensitive to price changes (inelastic). Conversely, when products have many alternatives, are luxuries, or take up significant spending, consumers react strongly to price changes (elastic). The mathematical relationship captures this psychological reality: PED = (% change in quantity demanded) ÷ (% change in price). This ratio reveals whether customers view your product as essential or optional.",
+  "dive_deeper_origin_story": "The concept was formalized by British economist Alfred Marshall in his groundbreaking 1890 work 'Principles of Economics.' Marshall was trying to solve a practical problem: how could businesses and governments predict the effects of price changes? His innovation was moving beyond simple observation to mathematical measurement. Marshall's elasticity concept transformed economics from philosophical speculation into quantitative science, giving birth to modern pricing strategy. The pharmaceutical industry, luxury goods, and even taxation policy all trace their pricing sophistication back to Marshall's elegant mathematical framework.",
+  "dive_deeper_pitfalls_nuances": "**Common misconceptions:** Many assume elasticity is fixed for a product, but it actually varies along the demand curve and changes over time. A luxury car might be elastic at $100,000 but inelastic at $30,000. **Critical nuance:** Don't confuse elasticity (percentage-based) with slope (absolute change) - a steep slope doesn't necessarily mean high elasticity. **Hidden trap:** Market shifts can disguise elasticity - if income rises while you raise prices, steady sales might mask high price sensitivity. Always isolate price effects from other market changes when measuring elasticity.",
+  "extra_content": "## Calculating Price Elasticity: The Midpoint Method\n\n### Step-by-Step Formula\n\n**Formula:**\n\nPED = [(Q₂ - Q₁) / ((Q₂ + Q₁)/2)] / [(P₂ - P₁) / ((P₂ + P₁)/2)]\n\n\n### Calculation Process\n\n**Step 1: Calculate percentage change in quantity**\n- Find the average of old and new quantities: (Q₁ + Q₂) ÷ 2\n- Calculate change: (Q₂ - Q₁) ÷ average quantity\n\n**Step 2: Calculate percentage change in price**\n- Find the average of old and new prices: (P₁ + P₂) ÷ 2\n- Calculate change: (P₂ - P₁) ÷ average price\n\n**Step 3: Divide quantity change by price change**\n- PED = (% change in quantity) ÷ (% change in price)\n\n### Interpretation Framework\n\n**Elasticity Values:**\n- **PED > 1**: Elastic (demand highly sensitive to price)\n- **PED < 1**: Inelastic (demand less sensitive to price)\n- **PED = 1**: Unitary elastic (proportional response)\n- **PED = 0**: Perfectly inelastic (no response to price changes)\n- **PED = ∞**: Perfectly elastic (infinite response to price changes)\n\n### Business Application Method\n\n**Revenue Optimization Strategy:**\n1. **If demand is elastic (PED > 1)**: Lower prices to increase total revenue\n2. **If demand is inelastic (PED < 1)**: Raise prices to increase total revenue\n3. **If demand is unitary elastic (PED = 1)**: Price changes won't affect total revenue\n\n### Market Research Implementation\n\n**Data Collection Methods:**\n- **Historical Analysis**: Use past sales and price data\n- **A/B Testing**: Test different prices with similar customer groups\n- **Survey Methods**: Ask customers about purchase intentions at different price points\n- **Competitor Analysis**: Observe market reactions to competitor price changes\n\n### Critical Questions for Application\n\n**Before pricing decisions, ask:**\n1. How sensitive are our customers to price changes?\n2. What substitutes are available to customers?\n3. Is our product a necessity or luxury for the target market?\n4. How does elasticity vary across different customer segments?\n5. What external factors (season, economy, trends) might affect elasticity?\n\n### Common Implementation Pitfalls\n\n**Avoid these mistakes:**\n- Using simple percentage formulas (gives different results for price increases vs decreases)\n- Assuming elasticity is constant across all price ranges\n- Confusing demand shifts with movements along the demand curve\n- Ignoring time factors (short-term vs long-term elasticity can differ significantly)\n- Failing to segment customers by price sensitivity",
+  "source_file": "Price Elasticity Curve (Demand Curve).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

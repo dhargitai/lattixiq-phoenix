@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Build-Your-Own Questions",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wondered why McDonald's lets you \"have it your way\" while Burger King makes that their slogan? The secret lies in how they discover what customers actually want to pay for.",
+  "definition": "An interactive research method where customers create their ideal product by selecting from a list of features, with the total price adjusting as they add more items.",
+  "analogy_or_metaphor": "Like being handed a menu where you build your own meal by choosing each ingredient, watching the price change with every addition, revealing exactly what you value most.",
+  "key_takeaway": "**Let customers build their perfect product - their choices reveal their true willingness to pay.**",
+  "classic_example": "Airlines like Ryanair revolutionized air travel by unbundling everything - base ticket, baggage, seat selection, food - letting customers choose only what they valued, revealing that many passengers prioritized low prices over amenities.",
+  "modern_example": "Software companies like Slack or Zoom offer tiered pricing where customers select features (number of users, storage, integrations) and watch costs adjust in real-time, naturally segmenting themselves into different value tiers.",
+  "pitfall": "Without understanding individual customer preferences, you end up with 'feature shock' - cramming everything into one expensive product that pleases no one, like Amazon's failed Fire Phone.",
+  "payoff": "Build-your-own questions reveal natural customer segments and optimal product tiers, allowing you to design offerings that match what different groups actually value and can afford.",
+  "visual_metaphor": "A shopping cart interface with toggleable feature cards, each showing a price tag, with a running total that updates as customers select what matters to them.",
+  "dive_deeper_mechanism": "This method works because it forces customers to make explicit trade-offs between features and price, revealing their true willingness-to-pay rather than stated preferences. When customers see real prices attached to features, they naturally prioritize based on value, creating authentic segmentation based on needs rather than demographics. The interactive pricing eliminates hypothetical bias - customers can't claim they want everything when they see the actual cost implications.",
+  "dive_deeper_origin_story": "The concept emerged from product pricing research showing that traditional surveys asking 'what do you want?' led to feature-bloated products that failed in market. Researchers at companies like Google and Microsoft began using interactive pricing tools where customers built their own product configurations, discovering that customer behavior with real price constraints differed dramatically from their survey responses. This approach gained prominence when SaaS companies adopted tiered pricing models based on actual customer selection patterns.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Treating this as just a pricing exercise rather than a segmentation discovery tool. The real value isn't in the individual responses but in identifying natural customer clusters. **Another pitfall:** Including too many feature options, which creates decision paralysis. The sweet spot is 5-8 meaningful choices that represent core value drivers. **Key nuance:** This method works best for products with modular features - it's less effective for tightly integrated solutions where unbundling destroys the core value proposition.",
+  "source_file": "Build-Your-Own Questions.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "pricing",
+    "go-to-market"
+  ]
+}

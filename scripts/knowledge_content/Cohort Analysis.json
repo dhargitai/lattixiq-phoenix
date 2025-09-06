@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Cohort Analysis",
+  "main_category": "Core Sciences & Mathematics",
+  "subcategory": "Mathematics & Statistics",
+  "hook": "Ever wonder if your business improvements are real or just seasonal luck? Most startups mistake busy work for progress.",
+  "definition": "Cohort analysis is an analytical method that tracks the behavior of specific groups of customers over time, revealing whether product changes are genuinely improving key metrics rather than being masked by overall growth or external factors.",
+  "analogy_or_metaphor": "Like following a group of students through school year by year instead of just looking at overall test scores - you can see if your teaching methods are actually working or if you're just getting better students.",
+  "key_takeaway": "**Track groups over time to separate real progress from vanity metrics.**",
+  "classic_example": "A startup launches a new feature and sees overall user engagement increase by 20%. Without cohort analysis, they might celebrate. But tracking specific user groups reveals that only pre-existing power users engaged more, while new users actually decreased their usage.",
+  "modern_example": "Netflix uses cohort analysis to track how users who joined in January behave over 12 months compared to those who joined in other months. This reveals whether content changes truly improve retention or if seasonal effects are masking problems.",
+  "pitfall": "Without cohort analysis, you mistake correlation for causation and celebrate vanity metrics while missing real problems with user retention and product-market fit.",
+  "payoff": "Cohort analysis reveals the true impact of your changes, helping you make data-driven decisions and avoid wasting resources on ineffective improvements.",
+  "visual_metaphor": "A series of parallel timelines, each representing different customer groups, with clear diverging paths showing how each cohort's behavior changes over time.",
+  "dive_deeper_mechanism": "Cohort analysis works by isolating the 'when' variable - grouping customers by when they first engaged with your product, then tracking their behavior over identical time periods. This eliminates confounding variables like seasonality, marketing campaigns, or overall business growth that can mask whether your product changes are actually effective. By comparing how different cohorts behave at the same relative points in their customer journey, you can attribute changes in behavior to specific product modifications rather than external factors.",
+  "dive_deeper_origin_story": "While cohort analysis has roots in demographic studies dating back to the 1800s, its application to startups was popularized by Eric Ries in 'The Lean Startup' as part of his innovation accounting framework. Ries developed this approach after experiencing the frustration of traditional metrics that showed growth but couldn't prove whether product changes were actually improving the business. The method became essential when companies like Facebook and Airbnb used cohort analysis to distinguish between growth from new user acquisition versus improved user engagement.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Cohort analysis is just about customer retention rates. **Reality:** While retention is important, cohort analysis can track any behavior over time - revenue per user, feature adoption, support tickets, etc. **Critical Nuance:** The time windows you choose matter enormously. Weekly cohorts reveal different patterns than monthly ones, and you need enough time for meaningful behavior patterns to emerge. **Pitfall to Avoid:** Don't compare cohorts during unusual periods (holidays, major events) unless you account for these external factors.",
+  "extra_content": "## Basic Cohort Analysis Implementation\n\n### Step 1: Define Your Cohort Criteria\n- **Time-based cohorts**: Group users by signup month/week\n- **Behavior-based cohorts**: Group by first action taken\n- **Acquisition cohorts**: Group by traffic source or campaign\n\n### Step 2: Choose Your Metric\n- Revenue per user over time\n- Feature usage rates\n- Support ticket volume\n- Session frequency\n- Churn/retention rates\n\n### Step 3: Create the Analysis Framework\n\nCohort | Week 1 | Week 2 | Week 4 | Week 8 | Week 12\nJan 2024 | 100% | 65% | 42% | 28% | 22%\nFeb 2024 | 100% | 70% | 48% | 35% | 30%\nMar 2024 | 100% | 75% | 52% | 40% | --\n\n\n### Step 4: Interpretation Guidelines\n- **Horizontal analysis**: How does one cohort behave over time?\n- **Vertical analysis**: How do cohorts compare at the same relative time point?\n- **Diagonal analysis**: Are newer cohorts consistently better than older ones?\n\n### Step 5: Action Framework\n- **Improving cohorts over time**: Product changes are working\n- **Declining cohorts**: External factors or product degradation\n- **Plateau patterns**: You've hit a natural retention ceiling\n- **Seasonal variations**: Control for external factors in analysis\n\n### Advanced Techniques\n- **Segmented cohorts**: Break cohorts down by user characteristics\n- **Revenue cohorts**: Track cumulative lifetime value progression\n- **Feature cohorts**: Group by first feature used to optimize onboarding",
+  "source_file": "Cohort Analysis.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

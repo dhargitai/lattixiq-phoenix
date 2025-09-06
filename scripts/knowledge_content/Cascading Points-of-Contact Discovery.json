@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Cascading Points-of-Contact Discovery",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some deals die even when everyone seemed enthusiastic? You were probably only talking to one person.",
+  "definition": "A systematic approach to mapping an organization by identifying and building relationships with multiple decision-makers and influencers within a target account, where each contact reveals additional stakeholders in a cascading chain.",
+  "analogy_or_metaphor": "Like following a river upstream - each tributary you discover leads to more tributaries, until you understand the entire watershed that feeds the main decision flow.",
+  "key_takeaway": "**Success flows through networks, not individuals.**",
+  "classic_example": "A software salesperson discovers the IT director who initially showed interest, then learns about the CFO who controls budget, the operations manager who'll use the system daily, and the compliance officer who must approve security - each contact revealing the next layer of decision-makers.",
+  "modern_example": "When trying to get your team's project approved, you start with your direct manager, who mentions the budget needs finance approval, who suggests getting buy-in from the department head, who reveals that legal needs to review the vendor contracts - suddenly your simple request involves six different stakeholders.",
+  "pitfall": "Relying on a single contact creates vulnerability - when they leave, change roles, or lose influence, your entire relationship with the organization can collapse overnight.",
+  "payoff": "Building a network of contacts creates resilience, increases your chances of success, and provides multiple pathways to achieve your objectives even when circumstances change.",
+  "visual_metaphor": "A network diagram showing interconnected nodes, with one highlighted contact branching out to reveal multiple connected stakeholders, each with their own connections spreading like a spider web throughout an organizational chart.",
+  "dive_deeper_mechanism": "This strategy works because modern organizations operate with distributed decision-making rather than hierarchical authority. Decisions often require input, approval, or implementation from multiple departments and levels. By mapping these relationships, you're essentially reverse-engineering the informal power structure and influence networks that determine how things actually get done, which often differs significantly from the formal organizational chart.",
+  "dive_deeper_origin_story": "While no single person invented this concept, it emerged from the evolution of complex selling in the 1980s and 1990s when technology companies like IBM and Oracle discovered that enterprise software sales required engaging multiple stakeholders across different departments. Sales professionals began systematically documenting and mapping organizational relationships, leading to the development of account-based selling methodologies that are now standard practice in B2B sales and organizational change management.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Treating this as a one-time mapping exercise rather than an ongoing process - organizations change constantly. **Nuance to remember:** Not all contacts are equal; some are influencers, others are decision-makers, and some are simply information sources. The goal isn't to contact everyone, but to understand the decision-making ecosystem so you can prioritize your efforts on the relationships that matter most.",
+  "extra_content": "## Step-by-Step Implementation Framework\n\n### Phase 1: Initial Discovery\n1. **Start with your primary contact** - Document their role, department, and apparent influence level\n2. **Research the organization** - Use LinkedIn, company website, and public information to identify potential stakeholders\n3. **Ask discovery questions** during conversations:\n   - \"Who else is involved in decisions like this?\"\n   - \"Who would be impacted by this change?\"\n   - \"What's the typical approval process for initiatives like this?\"\n\n### Phase 2: Systematic Mapping\n1. **Create a contact matrix** with columns for:\n   - Name and title\n   - Department/function\n   - Role in decision process (decision-maker, influencer, user, budget holder)\n   - Relationship strength (strong, moderate, weak, unknown)\n   - Last contact date and next action\n\n2. **Identify contact categories:**\n   - **Economic buyers** (budget authority)\n   - **Technical buyers** (evaluate solutions)\n   - **User buyers** (will use the solution)\n   - **Coaches** (internal advocates)\n   - **Blockers** (potential opposition)\n\n### Phase 3: Engagement Strategy\n1. **Prioritize contacts** based on:\n   - Decision-making power\n   - Influence on other stakeholders\n   - Accessibility\n   - Potential to become an advocate\n\n2. **Tailor communication** to each contact's:\n   - Primary concerns and motivations\n   - Communication preferences\n   - Level of technical knowledge\n   - Role in the organization\n\n### Phase 4: Continuous Updates\n1. **Regular contact audits** (quarterly) to identify:\n   - New hires in relevant positions\n   - Role changes or departures\n   - Organizational restructuring\n   - Shifting priorities or initiatives\n\n2. **Maintain relationship momentum** through:\n   - Value-added communications\n   - Industry insights sharing\n   - Introduction facilitation\n   - Regular check-ins\n\n## Key Success Metrics\n- **Contact coverage**: Percentage of key decision-makers and influencers identified\n- **Relationship depth**: Quality of relationships across different organizational levels\n- **Response rates**: Engagement levels across different contacts\n- **Decision velocity**: Speed of decision-making when multiple stakeholders are properly engaged",
+  "source_file": "Cascading Points-of-Contact Discovery.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "operations",
+    "fundraising"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Non-Copyrightability of Facts",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Politics & Governance",
+  "hook": "Ever wondered why you can legally use technical specs from a competitor's manual? Here's the surprising legal principle that makes innovation possible.",
+  "definition": "The legal doctrine that factual information—like measurements, specifications, or historical data—cannot be owned through copyright. Only the creative expression of how those facts are presented can be protected.",
+  "analogy_or_metaphor": "It's like a chef's recipe: the ingredients and temperatures (facts) can't be copyrighted, but the chef's unique storytelling and presentation of the recipe (creative expression) can be.",
+  "key_takeaway": "**Facts belong to everyone; only their creative presentation can be owned.**",
+  "classic_example": "Phone book companies couldn't copyright the alphabetical listing of names and numbers (facts), only their unique layout and design—leading to the landmark Feist v. Rural case that established this principle.",
+  "modern_example": "Wikipedia can legally extract factual data from copyrighted textbooks—dates, formulas, statistics—as long as they rewrite the explanations in their own words, not copying the original author's expression.",
+  "pitfall": "Avoiding using valuable factual information out of copyright fear limits innovation and keeps you from building on existing knowledge.",
+  "payoff": "Understanding this principle lets you confidently extract specifications, data, and technical details from any source to create original works and innovations.",
+  "visual_metaphor": "A book with facts (numbers, dates, specs) floating freely out of its pages like butterflies, while the decorative border and artistic presentation remain locked to the book.",
+  "dive_deeper_mechanism": "This principle exists because copyright law aims to promote creativity and innovation, not monopolize information. The law distinguishes between 'facts' (which exist independently and can be discovered by anyone) and 'expression' (the unique way someone presents those facts). Technical specifications, historical dates, scientific measurements, and similar data are considered discoveries rather than creations. The creative effort protected by copyright lies in selection, coordination, and arrangement—not in the underlying facts themselves. This ensures that no one can lock up basic information that society needs to function and progress.",
+  "dive_deeper_origin_story": "The principle was definitively established in the 1991 Supreme Court case Feist Publications v. Rural Telephone Service. Rural had compiled a phone directory and sued Feist for copying their listings. Rural argued that the effort of collecting all those names and numbers (the 'sweat of the brow' doctrine) deserved copyright protection. The Supreme Court disagreed, ruling that copyright requires a minimal degree of creativity—facts themselves, no matter how much effort went into gathering them, don't qualify. This decision revolutionized information sharing, enabling everything from price comparison websites to open-source hardware documentation.",
+  "dive_deeper_pitfalls_nuances": "**Common Misunderstanding:** Many believe that if something took effort to compile, it's protected. **Reality:** Copyright requires creativity, not just effort—a database of facts might have no protection even if it took years to compile. **Nuance to Remember:** While facts aren't copyrightable, the *selection and arrangement* of facts can be if sufficiently creative. A curated 'Top 100' list might be protected for its selection criteria, even though the individual facts within it aren't. Also, beware: while copyright doesn't protect facts, other laws might—like database rights in the EU or trade secret protections for confidential information.",
+  "extra_content": "## How to Apply Non-Copyrightability of Facts\n\n### **Step-by-Step Process for Extracting Facts Legally**\n\n1. **Identify What Constitutes a Fact**\n   - Technical specifications (dimensions, weights, voltages)\n   - Historical dates and events\n   - Scientific data and measurements\n   - Names, addresses, phone numbers\n   - Mathematical formulas and constants\n   - Ingredients or material compositions\n\n2. **Distinguish Facts from Expression**\n   - **Fact:** \"The 555 timer requires 0.1μF capacitor\"\n   - **Expression:** \"Like a heartbeat keeping time, the 555 timer pulses with the steady rhythm of a 0.1μF capacitor\"\n\n3. **Safe Extraction Method**\n   - **Extract:** Raw data, specifications, measurements\n   - **Rewrite:** All explanatory text in your own words\n   - **Reorganize:** Present facts in a new structure/format\n   - **Avoid:** Copying unique selection or arrangement\n\n### **Practical Application Framework**\n\n**For Product Development:**\n- Extract competitor specifications for benchmarking\n- Use technical standards from copyrighted manuals\n- Build compatible products using published interfaces\n\n**For Content Creation:**\n- Compile facts from multiple copyrighted sources\n- Create new databases from existing ones\n- Build comparison tools using product specs\n\n### **Legal Safety Checklist**\n\n✓ **Are you extracting only factual information?**\n✓ **Are you expressing these facts in your own words?**\n✓ **Are you creating your own organization/structure?**\n✓ **Have you avoided copying creative elements?**\n\nIf all boxes are checked, you're likely operating within the bounds of non-copyrightability doctrine.",
+  "source_file": "Non-Copyrightability of Facts.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "product-market_fit",
+    "risk_management"
+  ]
+}

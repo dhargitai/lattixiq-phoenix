@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Zombie Leads",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever had prospects who keep saying 'This looks great!' and taking meetings but never actually buy? You've been friend-zoned by zombie leads.",
+  "definition": "Zombie leads are potential customers who continuously engage in conversations, offer compliments, and take meetings but never move forward with a purchase, creating a pipeline of false hope and wasted resources.",
+  "analogy_or_metaphor": "Like being stuck in the friend zone of business—they enjoy your company and say all the right things, but they're never going to commit to the relationship you actually want.",
+  "key_takeaway": "**Nice words without commitment are just politeness, not business.**",
+  "classic_example": "A SaaS startup that spends months in 'evaluation meetings' with enterprise clients who keep asking for demos and providing positive feedback, but never sign contracts or move to pilot programs.",
+  "modern_example": "An influencer who gets hundreds of comments like 'Love this product!' and 'Where can I buy it?' on their sponsored posts, but actual sales conversion remains near zero because engagement doesn't equal purchasing intent.",
+  "pitfall": "Mistaking polite interest for genuine demand leads to wasted time, inflated confidence, and a false sense of product-market fit while real opportunities pass by.",
+  "payoff": "Pushing for clear commitments separates real prospects from time-wasters, allowing you to focus resources on customers who will actually buy and provide honest feedback.",
+  "visual_metaphor": "A pipeline with friendly cartoon zombies shuffling through it endlessly, never reaching the 'Purchase' exit door, while real customers with money symbols walk straight through a separate, shorter pipeline.",
+  "dive_deeper_mechanism": "Zombie leads exist because humans are naturally polite and conflict-averse. When someone shows us their 'baby' (product/idea), social conditioning makes us want to be encouraging rather than brutally honest. This creates a feedback loop where entrepreneurs mistake politeness for validation, leading them to continue pursuing non-buyers while missing signals from real customers. The psychological comfort of positive feedback, even without commitment, feeds confirmation bias and prevents the hard work of finding genuine demand.",
+  "dive_deeper_origin_story": "The term comes from Rob Fitzpatrick's 'The Mom Test,' inspired by the observation that even your mom will lie to you about your startup idea to avoid hurting your feelings. Fitzpatrick noticed that entrepreneurs consistently misread social politeness as business interest, creating 'zombie' prospects that appeared alive (engaging, positive) but were actually dead (would never buy). This insight emerged from analyzing why so many startups with 'great customer feedback' still failed—they had confused being liked with being needed.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Thinking engagement equals intent. Zombie leads often give the *most* feedback and seem most interested because they have time to spare, unlike busy people with real problems who need quick solutions. **Common Mistake #2:** Avoiding the 'moment of truth' because rejection feels worse than false hope. However, a quick 'no' is infinitely more valuable than months of 'maybe' because it frees you to find real customers. **Nuance:** Not all non-buyers are zombies—some genuinely want to help or learn. The key is distinguishing between helpful advisors (valuable) and time-wasting zombies (costly).",
+  "source_file": "Zombie Leads (Anti-Pattern).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "product-market_fit",
+    "operations"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Audience Funnel (Rented, Owned, Monetized)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "You spend years building 100K followers, then the platform changes its algorithm overnight. Suddenly, your reach drops to 2%. Sound familiar?",
+  "definition": "A strategic framework that categorizes your audience into three tiers: Rented (followers on platforms you don't control), Owned (direct access like email lists), and Monetized (paying customers who generate revenue).",
+  "analogy_or_metaphor": "Think of it like real estate: Rented is like living in someone else's apartment (they can evict you anytime), Owned is your house (stable but not profitable), and Monetized is rental property (generates income).",
+  "key_takeaway": "**Build bridges from rented attention to owned relationships to monetized value.**",
+  "classic_example": "Traditional media companies that relied solely on TV ratings (rented) learned this lesson when streaming disrupted their industry, while those who built direct subscriber relationships (owned) and premium services (monetized) survived.",
+  "modern_example": "A fitness influencer with 500K Instagram followers (rented) converts them to a 50K email newsletter (owned), then launches a $29/month workout program that 2K people join (monetized).",
+  "pitfall": "Relying too heavily on rented audiences leaves you vulnerable to platform changes, algorithm shifts, and account suspensions that can destroy years of work overnight.",
+  "payoff": "Building owned and monetized audiences creates sustainable business models, predictable revenue streams, and protection against platform dependency.",
+  "visual_metaphor": "A three-tier pyramid with a shaky foundation labeled 'Rented' (largest), a stable middle 'Owned' (medium), and a golden top 'Monetized' (smallest but most valuable), with arrows showing the conversion flow upward.",
+  "dive_deeper_mechanism": "This model works because it acknowledges the fundamental power dynamics of digital platforms. Rented audiences exist on someone else's infrastructure where you're subject to their rules, algorithms, and business model changes. The psychology behind it taps into the human need for direct relationships and trust-building. Moving people up the funnel requires increasing levels of value delivery and trust, which naturally filters for more engaged and valuable audience members.",
+  "dive_deeper_origin_story": "This framework emerged from the harsh lessons learned during major platform shifts in the 2010s. When Facebook dramatically reduced organic reach for business pages in 2014, many creators who had built massive followings saw their engagement plummet overnight. Email marketing veterans like Ben Settle and direct response marketers had long preached 'the money is in the list,' but it took several platform crises for the broader creator economy to embrace this three-tier thinking systematically.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** That rented audiences are worthless. Reality: They're essential for discovery and growth, but dangerous as your only asset. Another pitfall is trying to monetize too quickly without building sufficient owned audience trust. The conversion rates between tiers vary dramatically by industry - B2B might see 10-20% email conversion rates, while consumer products might see 1-3%. Also, 'owned' isn't truly owned if you're using someone else's email platform - it's just 'more controlled.'",
+  "source_file": "Audience Funnel (Rented, Owned, Monetized).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "competitive_strategy",
+    "operations"
+  ]
+}

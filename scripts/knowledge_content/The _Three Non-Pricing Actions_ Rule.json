@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "The \"Three Non-Pricing Actions\" Rule",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Your team wants to cut prices to win a deal. Sound familiar? What if that knee-jerk reaction is actually killing your profits?",
+  "definition": "A decision-making rule that requires teams to propose three viable, non-pricing alternatives before any price reduction request will be considered.",
+  "analogy_or_metaphor": "It's like having a speed bump before the discount highway - forcing you to slow down and explore the scenic routes of creative problem-solving before taking the expensive shortcut.",
+  "key_takeaway": "**Price cuts should be your last resort, not your first reflex.**",
+  "classic_example": "Michelin transformed from selling tires to charging truckers per kilometer driven, creating a pricing model that aligned with customer value rather than competing on tire prices.",
+  "modern_example": "Instead of discounting software licenses when a client balks at price, a SaaS company might offer: extended payment terms, additional training sessions, or a phased implementation plan.",
+  "pitfall": "Defaulting to price cuts trains customers to expect discounts and erodes profit margins while missing opportunities for creative value creation.",
+  "payoff": "Forcing non-pricing solutions develops innovative problem-solving skills, preserves margins, and often creates more value for both parties than simple discounting.",
+  "visual_metaphor": "A traffic light with three amber lights (representing the three alternatives) that must be passed before reaching the red 'price cut' option.",
+  "dive_deeper_mechanism": "This rule works by introducing deliberate friction into the discounting process. When pricing pressure arises, our brains default to the easiest solution - cutting prices. By mandating three alternatives first, you're essentially rewiring the problem-solving process. This cognitive forcing function shifts focus from 'how much should we discount?' to 'what other value can we create?' The rule leverages loss aversion psychology - teams become reluctant to 'waste' the effort invested in generating three alternatives, making them more committed to trying non-pricing solutions first.",
+  "dive_deeper_origin_story": "This concept emerged from monetization strategy consulting, where advisors noticed that successful companies like Michelin didn't compete on price but on value delivery models. Michelin's breakthrough came when facing pressure from low-cost tire manufacturers - instead of cutting tire prices, they shifted to charging truckers per kilometer driven. This preserved margins while aligning pricing with customer value. The 'three alternatives' structure was formalized by pricing strategists who observed that teams rarely explored beyond surface-level solutions when under sales pressure.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** This rule means never cutting prices. **Reality:** It ensures price cuts are strategic, not reflexive. **Pitfall:** Teams might generate three weak alternatives just to check the box. **Solution:** Alternatives must be genuinely viable and valuable to customers. **Nuance:** The rule doesn't apply to competitive bidding situations where price is the primary differentiator - it's designed for value-based selling scenarios where creative solutions can differentiate your offering.",
+  "extra_content": "## Implementation Framework\n\n### The Three-Alternative Generation Process\n\n**Step 1: Alternative Category Identification**\n- **Value Enhancement:** What additional features, services, or benefits can we include?\n- **Terms & Structure:** How can we modify payment terms, implementation timeline, or contract structure?\n- **Scope Adjustment:** Can we modify project scope, deliverables, or service levels to meet budget constraints?\n\n**Step 2: Alternative Development Template**\nFor each alternative, document:\n- **Proposed Solution:** Specific details of the non-pricing approach\n- **Customer Value:** How this addresses the customer's underlying needs\n- **Cost Impact:** Internal cost implications (positive/negative)\n- **Implementation Requirements:** Resources and timeline needed\n- **Risk Assessment:** Potential downsides or complications\n\n**Step 3: Alternative Quality Standards**\nEach alternative must meet these criteria:\n- **Viable:** Technically and operationally feasible\n- **Valuable:** Provides genuine benefit to the customer\n- **Measurable:** Success can be quantified\n- **Specific:** Detailed enough to implement immediately\n\n### Example Alternative Categories\n\n**Value-Added Services:**\n- Extended warranties or support\n- Training programs or certification\n- Consulting or strategic advisory services\n- Priority support or dedicated resources\n\n**Flexible Terms:**\n- Phased implementation or delivery\n- Extended payment schedules\n- Performance-based pricing models\n- Pilot programs or trial periods\n\n**Scope Modifications:**\n- Tiered service levels\n- Modular offerings\n- Self-service options\n- Partnership or co-investment models\n\n### Decision Criteria Matrix\n\nWhen evaluating alternatives vs. price cuts:\n- **Revenue Impact:** Long-term revenue preservation\n- **Margin Protection:** Gross profit maintenance\n- **Competitive Position:** Strategic differentiation value\n- **Customer Relationship:** Trust and perceived value impact\n- **Precedent Setting:** Future negotiation implications\n\n### Emergency Override Conditions\n\nPrice cuts may be considered first only when:\n- Market pricing has fundamentally shifted\n- Inventory liquidation is required\n- Strategic loss-leader positioning is intentional\n- Competitive bidding with transparent pricing requirements",
+  "source_file": "The \"Three Non-Pricing Actions\" Rule.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "operations"
+  ]
+}

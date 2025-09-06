@@ -1,0 +1,17 @@
+2025-09-06 08:24:51,724 - INFO - Loaded progress: 973 files already processed
+2025-09-06 08:24:51,729 - INFO - Found 973 JSON files total
+2025-09-06 08:24:51,729 - INFO - Found 1 unprocessed files
+2025-09-06 08:24:51,729 - INFO - Starting enrichment of 1 files...
+2025-09-06 08:24:51,730 - INFO - 
+--- Processing file 1/1 ---
+2025-09-06 08:24:51,730 - INFO - Processing file: Occam's Razor.json
+2025-09-06 08:25:03,522 - INFO - Successfully enriched Occam's Razor.json
+2025-09-06 08:25:03,522 - INFO - Added - target_persona: ['founder', 'executive', 'product_manager']
+2025-09-06 08:25:03,522 - INFO - Added - startup_phase: ['ideation', 'seed', 'growth', 'scale-up', 'crisis']
+2025-09-06 08:25:03,522 - INFO - Added - problem_category: ['pivot', 'product-market_fit', 'go-to-market', 'competitive_strategy', 'pricing', 'risk_management']
+2025-09-06 08:25:03,524 - INFO - 
+=== ENRICHMENT COMPLETE ===
+2025-09-06 08:25:03,524 - INFO - Total files processed: 1
+2025-09-06 08:25:03,524 - INFO - Successful: 1
+2025-09-06 08:25:03,524 - INFO - Failed: 0
+2025-09-06 08:25:03,524 - INFO - Progress saved to: knowledge_content_to_enrich/enriched_knowledge_pieces.txt

@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Sales Leader Readiness Criteria",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why so many startups hire expensive sales VPs who fail spectacularly? Here's the hidden prerequisite most founders skip.",
+  "definition": "A decision-making rule stating that founders should only hire professional sales leaders after personally proving the sales motion can be successfully replicated by a small team of non-founder representatives.",
+  "analogy_or_metaphor": "It's like trying to franchise a restaurant before you've proven the recipe works in multiple locations with different cooks.",
+  "key_takeaway": "**Don't hire a sales leader until you've proven others can sell your way.**",
+  "classic_example": "A SaaS founder who closes $500K in deals personally, then immediately hires a VP of Sales expecting them to scale revenue, only to watch them fail because the sales process was never documented or validated with other reps.",
+  "modern_example": "A fintech startup founder who personally lands 20 enterprise clients through warm introductions, then hires a sales director who struggles because the 'sales motion' was actually just founder credibility and network effects that can't be replicated.",
+  "pitfall": "Hiring a sales leader too early results in expensive failures, wasted runway, and false conclusions about your product-market fit.",
+  "payoff": "Following this criteria ensures your sales leader inherits a proven, scalable system rather than having to build one from scratch.",
+  "visual_metaphor": "A blueprint being handed from an architect to a construction foreman, with successful buildings already completed using that same blueprint in the background.",
+  "dive_deeper_mechanism": "This criteria works because it separates founder-dependent sales motions from truly scalable ones. Founders often have unique advantages—deep product knowledge, company credibility, personal networks, and ability to make on-the-spot decisions. When a founder can personally prove that non-founder reps (with proper training and systems) can replicate their success, it validates that the sales motion is process-driven rather than founder-driven. This creates the foundation for a professional sales leader to scale effectively.",
+  "dive_deeper_origin_story": "This principle emerged from the observed pattern of startup failures in the 2010s, notably documented by sales methodology expert Pete Kazanjy in 'Founding Sales.' After studying hundreds of B2B startups, a clear pattern emerged: companies that hired sales leaders before proving replicability with junior reps had dramatically higher failure rates. The insight crystallized around the concept of 'sales pods'—complete units of revenue production that could be cloned and scaled.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Thinking personal sales success equals scalable sales process. Just because you can sell doesn't mean others can sell your way. **Common Mistake #2:** Confusing revenue milestones with readiness criteria. Hitting $1M ARR through founder sales doesn't automatically mean you're ready for a sales leader. **The Reality:** The criteria isn't about revenue size—it's about process validation through replication with non-founder talent.",
+  "extra_content": "## The Sales Leader Readiness Assessment Framework\n\n### Stage 1: Foundation Validation\n**Criteria to Meet:**\n- Document your complete sales process (prospecting, demos, objection handling, closing)\n- Create repeatable sales collateral and messaging\n- Establish clear qualification criteria and sales methodology\n\n### Stage 2: Replication Testing\n**The Critical Test:**\n1. **Hire 2-3 junior sales reps** (not senior hires)\n2. **Train them using your documented process**\n3. **Measure their performance over 3-6 months**\n4. **Target: 70%+ of founder sales effectiveness**\n\n### Stage 3: Sales Pod Validation\n**Complete Unit Metrics:**\n- **Lead Generation:** SDRs hitting meeting quotas\n- **Sales Execution:** AEs closing at predictable rates\n- **Customer Success:** Smooth handoffs with high NPS scores\n- **Unit Economics:** Pod generates positive contribution margin\n\n### Ready-to-Hire Checklist\n- [ ] Non-founder reps consistently hit 70%+ of your sales metrics\n- [ ] Sales process is documented and teachable\n- [ ] Handoffs between roles are smooth (no dropped balls)\n- [ ] Unit economics are positive and predictable\n- [ ] You can confidently describe the exact system a sales leader would inherit\n\n### Red Flags (Don't Hire Yet)\n- Reps succeed only with heavy founder involvement\n- Sales process relies on founder credibility/network\n- Inconsistent results across different reps\n- High customer churn from rep-closed deals\n- Unable to articulate what makes sales successful",
+  "source_file": "Sales Leader Readiness Criteria.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "go-to-market",
+    "operations"
+  ]
+}

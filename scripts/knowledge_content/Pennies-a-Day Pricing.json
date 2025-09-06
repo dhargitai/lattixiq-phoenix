@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Pennies-a-Day Pricing",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever notice how Netflix charges $15.99/month instead of $192/year? That extra step of mental math protects you from sticker shock.",
+  "definition": "The tactic of framing a price in its smallest possible time increment to make costs appear more affordable and reduce psychological resistance to purchasing.",
+  "analogy_or_metaphor": "Like breaking a large boulder into pebbles - the total weight is the same, but each individual piece feels manageable to carry.",
+  "key_takeaway": "**Small numbers feel safer, even when they add up to more.**",
+  "classic_example": "Michelin revolutionized tire sales by charging trucking companies per kilometer driven rather than per tire purchased, making premium tires psychologically affordable despite higher total costs.",
+  "modern_example": "Spotify Premium at $9.99/month feels reasonable, but presented as $120/year would trigger more hesitation, even though it's the same price.",
+  "pitfall": "You might commit to subscriptions and services without calculating the true annual cost, leading to budget creep and overspending.",
+  "payoff": "Understanding this tactic helps you make more rational financial decisions by always converting to annual costs before committing.",
+  "visual_metaphor": "A large bill being cut into tiny pieces with scissors, where each small piece looks harmless but the pile adds up to the original amount.",
+  "dive_deeper_mechanism": "This pricing tactic exploits our brain's tendency to anchor on the first number we see and our difficulty with mental math under time pressure. When we see '$2/day,' our brain fixates on the small '2' rather than calculating '$730/year.' This leverages the framing effect - the same information presented differently changes our perception of value. Our brains evolved to make quick decisions with limited information, so we rely on heuristics that can be systematically exploited by clever pricing strategies.",
+  "dive_deeper_origin_story": "While the specific term is modern, the concept has ancient roots in market psychology. The strategy gained prominence in the subscription economy of the early 2000s when companies like Netflix and Spotify needed to overcome consumer resistance to new recurring payment models. The technique became widespread after behavioral economists like Dan Ariely demonstrated how dramatically different pricing frames could influence purchasing decisions, even when the total cost remained identical.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** This is just about making things look cheaper. **Reality:** It's actually about reducing cognitive load and decision anxiety. The smallest increment isn't always daily - sometimes it's per use, per mile, or per unit of value delivered. **Common mistake:** Assuming this only works on unsophisticated buyers. In reality, even financially savvy people fall for this because it reduces the mental effort required to evaluate a purchase, especially for recurring services where the pain of payment is distributed over time.",
+  "source_file": "Pennies-a-Day Pricing.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "fundraising"
+  ]
+}

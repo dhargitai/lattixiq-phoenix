@@ -1,0 +1,30 @@
+{
+  "knowledge_piece_name": "Feature Pruning",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever notice how your favorite app becomes harder to use after every \"improvement\" update? That's when you need feature pruning.",
+  "definition": "Feature pruning is the strategic removal of unused, confusing, or distracting features from a mature product to reduce complexity and improve the overall user experience.",
+  "analogy_or_metaphor": "Like pruning a garden—removing dead branches and overgrowth doesn't make the plant smaller, it makes it healthier and more beautiful.",
+  "key_takeaway": "**Sometimes the best feature is the one you remove.**",
+  "classic_example": "Google's homepage maintains its clean, simple search interface despite having hundreds of features, keeping only what users actually need visible.",
+  "modern_example": "Instagram removing the ability to see exact like counts to reduce social comparison anxiety and improve user wellbeing.",
+  "pitfall": "Ignoring feature pruning leads to feature bloat, confused users, and a product that tries to do everything but excels at nothing.",
+  "payoff": "Strategic feature removal creates cleaner interfaces, faster performance, and users who can actually find and use your best features.",
+  "visual_metaphor": "A pair of gardening shears cutting away tangled vines to reveal a strong, healthy tree trunk beneath.",
+  "dive_deeper_mechanism": "Feature pruning works because of the paradox of choice and cognitive load theory. When users face too many options, they become paralyzed and dissatisfied with their decisions. The Kano Model explains this: features fall into categories from 'threshold' (must-have basics) to 'excitement' (delightful differentiators) to 'indifferent' (nobody cares). The magic happens when you remove indifferent features that consume development resources without adding value, allowing you to invest more in excitement features that create customer delight.",
+  "dive_deeper_origin_story": "The concept gained prominence in the lean startup movement, but its roots trace back to Antoine de Saint-Exupéry's principle: 'Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away.' In the software world, it became critical as products evolved from simple tools to complex platforms. Companies like Apple mastered this—Steve Jobs famously said 'It's not about saying yes to the thousand things, it's about saying no so you can focus on what's truly important.'",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Feature pruning means removing features customers use. **Reality:** It's about removing features that distract from or complicate the core value proposition. The key nuance is that some features might be used but still need pruning if they create confusion or maintenance overhead. Another pitfall is pruning too aggressively—removing features that seem unused but actually serve critical edge cases for power users. The best approach involves data analysis, user feedback, and understanding the difference between 'nice to have' and 'need to have.'",
+  "source_file": "Feature Pruning.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "operations"
+  ]
+}

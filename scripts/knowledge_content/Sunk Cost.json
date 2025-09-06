@@ -1,0 +1,37 @@
+{
+  "knowledge_piece_name": "Sunk Cost",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever stayed in a terrible movie just because you paid for the ticket? That's your brain playing tricks on you.",
+  "definition": "The tendency to continue investing time, money, or effort into something based on previously invested resources (costs that cannot be recovered) rather than future value.",
+  "analogy_or_metaphor": "Like trying to fix a broken-down car by pouring more money into repairs simply because you've already spent thousands, even when buying a new car would be cheaper.",
+  "key_takeaway": "**Past investments should never dictate future decisions—only future value matters.**",
+  "classic_example": "The Concorde supersonic jet continued development for decades despite being economically unviable, largely because Britain and France had already invested so heavily they couldn't bear to 'waste' the money.",
+  "modern_example": "Staying in a Netflix series you're not enjoying just because you've already watched three seasons, or continuing a gym membership you never use because you paid for the full year.",
+  "pitfall": "Clinging to sunk costs leads to throwing good money after bad, wasting more resources on failing ventures, and missing better opportunities.",
+  "payoff": "Recognizing sunk costs helps you make rational decisions based on future potential, cut losses early, and redirect resources to more promising ventures.",
+  "visual_metaphor": "A person pouring water into a bucket with a large hole in the bottom, representing continued investment into something that cannot be recovered.",
+  "dive_deeper_mechanism": "Sunk cost bias exists because our brains hate waste and loss. Evolutionarily, we developed strong loss aversion—losing something feels twice as bad as gaining the same thing feels good. Additionally, we suffer from 'commitment escalation,' where admitting a mistake feels like admitting failure. Our ego gets tied to our past decisions, making it psychologically painful to 'waste' what we've already invested, even when continuing is objectively worse.",
+  "dive_deeper_origin_story": "The concept was formalized by economists in the 1970s, but gained widespread recognition through behavioral economist Richard Thaler's work. The term itself comes from oil drilling—once you've drilled and hit nothing, that cost is 'sunk' into the ground and gone forever. The most famous real-world example is the Concorde project, where British and French governments continued funding the supersonic jet program despite mounting evidence it would never be profitable, simply because they had already invested so much.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That any money spent is a sunk cost. **Reality:** Only costs that truly cannot be recovered are sunk costs. If you can get a refund, resell something, or repurpose resources, they're not sunk. **Another Pitfall:** Overcorrecting by abandoning everything at the first sign of trouble. The key is distinguishing between temporary setbacks and fundamental flaws—sometimes persistence pays off, but only when future prospects justify continued investment, not because of past investment.",
+  "source_file": "Sunk Cost.md",
+  "super_model": true,
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "hiring",
+    "fundraising",
+    "product-market_fit",
+    "go-to-market",
+    "operations"
+  ]
+}

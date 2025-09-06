@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Process vs. Mission Meetings",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder why some meetings feel productive while others seem like total wastes of time? The difference often comes down to their fundamental purpose.",
+  "definition": "A framework that classifies meetings into two distinct types: process-oriented meetings (regularly scheduled for knowledge sharing and information exchange) and mission-oriented meetings (ad hoc gatherings called to solve specific problems and make decisions).",
+  "analogy_or_metaphor": "Think of process meetings like a scheduled bus route—they run on a predictable schedule and transport regular information. Mission meetings are like calling an Uber—you summon them when you have a specific destination (problem) that needs immediate attention.",
+  "key_takeaway": "**Understanding meeting types transforms chaos into clarity—use process meetings for regular updates, mission meetings for urgent decisions.**",
+  "classic_example": "Intel's management structure under Andrew Grove, where weekly staff meetings (process) handled routine information sharing, while special problem-solving sessions (mission) were called only when critical decisions needed to be made.",
+  "modern_example": "Your weekly team standup is a process meeting—same time, same agenda, sharing updates. But when the website crashes and you need to decide how to handle customer communications, that emergency huddle is a mission meeting.",
+  "pitfall": "Treating every gathering the same way leads to endless, unfocused meetings where urgent problems get buried in routine updates and regular communications become crisis-driven interruptions.",
+  "payoff": "Distinguishing meeting types creates predictable rhythms for information flow while ensuring critical problems get focused attention, dramatically improving both efficiency and decision quality.",
+  "visual_metaphor": "A calendar with two distinct icons: a regular clock symbol for scheduled process meetings appearing weekly, and an alarm bell for mission meetings that pop up as needed.",
+  "dive_deeper_mechanism": "This framework works because it aligns meeting structure with cognitive needs. Process meetings leverage 'batching'—handling similar tasks together reduces mental switching costs and creates predictable information flows. Mission meetings focus scarce attention on urgent problems when minds are sharp and stakeholders are present. By separating routine from urgent, managers avoid the classic trap of letting regular business crowd out critical decisions or letting crises dominate every interaction.",
+  "dive_deeper_origin_story": "Intel CEO Andrew Grove developed this framework while building one of the first modern technology companies in the 1970s. He observed that managers were spending up to 50% of their time in meetings, which critics called wasteful. But Grove realized meetings weren't the problem—poorly designed meetings were. By studying manufacturing principles, he discovered that just as factories batch similar operations for efficiency, managers could 'batch' similar communications. His insight: meetings aren't interruptions to management work, they ARE management work—the medium through which information flows and decisions happen.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake 1:** Turning mission meetings into process meetings by scheduling them regularly. If you're having the same 'urgent' meeting every week, it's actually a process issue that needs a systematic solution. **Common Mistake 2:** Loading process meetings with decision-making. Regular meetings should inform and update, not debate and decide—save decisions for focused mission meetings where the right people can give full attention to specific problems.",
+  "source_file": "Process vs. Mission Meetings.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "operations",
+    "go-to-market"
+  ]
+}

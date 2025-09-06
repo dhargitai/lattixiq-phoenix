@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "The Cost-Plus Pricing Myth",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why so many brilliant products fail in the market? Often, it's because companies built something amazing, then asked: 'What should we charge for this?'",
+  "definition": "The flawed belief that a product's price should be determined by adding a markup to its production costs, rather than being based on the value it provides to customers.",
+  "analogy_or_metaphor": "It's like a chef pricing a gourmet meal based on ingredient costs alone, ignoring that diners pay for the experience, ambiance, and culinary artistry—not just the raw materials.",
+  "key_takeaway": "**Price reflects customer value, not company costs.**",
+  "classic_example": "A manufacturing company develops an innovative widget for $50, adds a 30% markup, and prices it at $65—only to discover customers would gladly pay $150 for the problem it solves.",
+  "modern_example": "A software startup spends months perfecting their app, calculates their development costs, adds a profit margin, and launches at $9.99—meanwhile, competitors charge $49.99 for inferior solutions because they understand customer pain points.",
+  "pitfall": "Cost-plus pricing leads to systematic underpricing, leaving money on the table and failing to capture the true value customers receive.",
+  "payoff": "Value-based pricing maximizes revenue by aligning price with customer willingness to pay, often revealing prices far higher than cost-plus would suggest.",
+  "visual_metaphor": "A scale with 'Internal Costs' on one side and 'Customer Value' on the other, with the customer value side weighing much heavier, showing where pricing decisions should focus.",
+  "dive_deeper_mechanism": "Cost-plus pricing fails because it assumes customers care about your internal economics, when they only care about outcomes. This inward-looking approach ignores market dynamics, competitive positioning, and most critically, the customer's perception of value. It treats price as a mathematical function of cost rather than as a strategic tool that communicates value and captures demand. The myth persists because it feels 'fair' and is easier to calculate than researching customer value, but fairness to your costs means nothing if customers won't pay that price.",
+  "dive_deeper_origin_story": "Cost-plus pricing emerged during the industrial age when products were commoditized and competition was limited. Henry Ford could price the Model T this way because customers had few alternatives. The approach became entrenched in business schools and accounting practices as a 'safe' method that guaranteed margins. However, as markets became more competitive and differentiated, this relic from manufacturing's past became a liability, yet many companies still cling to it out of habit and perceived simplicity.",
+  "dive_deeper_pitfalls_nuances": "**Common Myth:** 'We need to cover our costs plus a reasonable profit.' **Reality:** Customer value often bears no relationship to your costs—sometimes it's much higher, sometimes lower. **Another Trap:** Using cost-plus as a 'floor' price. While you shouldn't sell below cost long-term, starting with cost blinds you to value opportunities. **Nuance:** Cost-plus can work for commodity businesses with thin margins, but even then, understanding customer value helps identify premium positioning opportunities within commodity markets.",
+  "source_file": "The Cost-Plus Pricing Myth.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

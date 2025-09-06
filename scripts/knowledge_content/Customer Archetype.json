@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Customer Archetype",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why most products fail? It's not because they're poorly built—it's because they're built for imaginary customers.",
+  "definition": "A detailed, humanized profile of your target customer that serves as a working hypothesis to guide product development and ensure daily decisions align with actual customer needs.",
+  "analogy_or_metaphor": "Like a North Star for sailors—it provides consistent direction when you're navigating the uncertain waters of product development, preventing you from drifting toward features nobody actually wants.",
+  "key_takeaway": "**Build for real humans, not imaginary demographics.**",
+  "classic_example": "IMVU's early discovery that their assumed customer archetype—people wanting to meet new friends online—was wrong. Their actual customers were teenagers using avatars to experiment with identity in existing relationships.",
+  "modern_example": "Netflix initially built for busy professionals who wanted convenient movie rentals, but discovered their real archetype was entertainment enthusiasts who binged content—leading to the shift from mail-order DVDs to streaming.",
+  "pitfall": "Building products based on assumptions about customer needs leads to feature bloat, wasted resources, and products that solve problems nobody actually has.",
+  "payoff": "Having a clear customer archetype enables faster decision-making, more focused features, and products that customers actually want to pay for.",
+  "visual_metaphor": "A detailed portrait sketch with thought bubbles showing real problems and motivations, contrasted with a faceless demographic chart showing only numbers and statistics.",
+  "dive_deeper_mechanism": "Customer archetypes work by forcing teams to think concretely about real human needs rather than abstract market segments. They serve as a 'working hypothesis' that gets tested and refined through customer development. This prevents the common trap of building for everyone (which means building for no one) and creates a shared mental model across teams. The archetype becomes a decision filter: 'Would Sarah, our working mom archetype, actually use this feature during her busy morning routine?'",
+  "dive_deeper_origin_story": "The concept evolved from user personas in design thinking but gained prominence in lean startup methodology through Eric Ries's work at IMVU. The team initially assumed their customers were people wanting to meet new friends online, but through customer interviews discovered their real users were teenagers experimenting with identity. This revelation led to a complete product pivot and eventual success, demonstrating how accurate customer archetypes can redirect entire business strategies.",
+  "dive_deeper_pitfalls_nuances": "**Common Pitfall:** Creating archetypes based on who you *want* your customers to be rather than who they actually are. Many teams fall into the 'build it and they will come' trap, assuming their ideal customer matches reality. **Another Pitfall:** Making archetypes too broad ('millennials who like technology') or too narrow ('27-year-old marketing managers in Austin'). **Reality:** Effective archetypes focus on jobs-to-be-done and emotional motivations rather than just demographics—they're working hypotheses that must be validated and updated as you learn.",
+  "source_file": "Customer Archetype.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

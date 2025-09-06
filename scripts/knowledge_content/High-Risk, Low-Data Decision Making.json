@@ -1,0 +1,36 @@
+{
+  "knowledge_piece_name": "High-Risk, Low-Data Decision Making",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "You need to choose your startup's target market tomorrow, but every spreadsheet shows \"insufficient data.\" Welcome to the most important decisions of your life.",
+  "definition": "An approach that acknowledges critical strategic choices must often be made without reliable quantitative data, prioritizing qualitative analysis, structured intuition, and careful risk assessment over waiting for perfect information.",
+  "analogy_or_metaphor": "Like a ship captain navigating through fog—you can't see the destination clearly, but you use your compass, experience, and best judgment to chart a course rather than staying anchored in place.",
+  "key_takeaway": "**When stakes are high and data is scarce, structured judgment beats analysis paralysis.**",
+  "classic_example": "Geoffrey Moore's \"beachhead market\" selection in tech startups—choosing which customer segment to target first when entering a new market, despite having limited data on market size, competition, or customer behavior.",
+  "modern_example": "A company deciding whether to pivot during a crisis like COVID-19. Traditional market research is useless because the world changed overnight, yet waiting for reliable data means competitors will capture the new opportunity first.",
+  "pitfall": "Paralysis by analysis—waiting for perfect data that never comes while competitors act decisively, or making completely uninformed guesses without any structured approach.",
+  "payoff": "Making bold, well-reasoned moves when it matters most, often gaining first-mover advantages and learning valuable lessons that inform future decisions.",
+  "visual_metaphor": "A chess player mid-game, hand hovering over a piece, with a fog covering half the board—representing the need to make strategic moves despite incomplete information.",
+  "dive_deeper_mechanism": "This approach works because human brains evolved to make survival decisions with incomplete information. It leverages pattern recognition, analogical reasoning, and qualitative assessment when quantitative analysis fails. The key is creating structure around intuition—using frameworks like risk assessment, scenario planning, and expert consultation to make educated guesses rather than wild ones. Charlie Munger's principle of beginning with risk evaluation exemplifies this: when data is scarce, at least understand what you could lose.",
+  "dive_deeper_origin_story": "The concept gained prominence through Geoffrey Moore's work on technology adoption cycles in \"Crossing the Chasm.\" Moore observed that successful tech companies consistently made crucial market decisions—like which customer segment to target first—without reliable data, because the markets were too new. He documented how companies like Oracle and Cisco succeeded by developing systematic approaches to these high-stakes, low-data decisions, turning unavoidable uncertainty into competitive advantage.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** This means \"go with your gut\" or make random decisions. **Reality:** It requires *more* discipline than data-driven decisions, not less. You must systematically gather what qualitative information exists, consult diverse experts, and create clear decision frameworks. **Another Pitfall:** Using this approach when good data actually exists—it's specifically for situations where waiting for data means missing the opportunity entirely.",
+  "source_file": "High-Risk, Low-Data Decision Making.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "fundraising",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "risk_management"
+  ]
+}

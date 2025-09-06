@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The Frankenstein Prophecy",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Social & Behavioral Psychology",
+  "hook": "Ever wonder why taxi companies fought Uber so viciously, or why bookstores called Amazon a threat to civilization? Meet the Frankenstein Prophecy.",
+  "definition": "The tendency for established entities to fear and attempt to destroy their potential successors by framing them as dangerous, unnatural 'monsters' that threaten the natural order.",
+  "analogy_or_metaphor": "Like Dr. Frankenstein's monster in the classic tale, new innovations are painted as abominations that must be destroyed to save humanity—when often they're just the next step in evolution.",
+  "key_takeaway": "**Incumbents often disguise their fear of obsolescence as moral outrage against progress.**",
+  "classic_example": "The British Empire portraying colonized peoples as 'half-devil and half-child' monsters requiring civilizing control, masking their fear of losing economic and political dominance over territories seeking independence.",
+  "modern_example": "Traditional media companies labeling social media platforms as dangerous threats to democracy and mental health, while secretly fearing the loss of their gatekeeping power over information flow.",
+  "pitfall": "Falling for incumbent fear-mongering can make you resist beneficial innovations and miss opportunities for positive change.",
+  "payoff": "Recognizing this pattern helps you see through establishment rhetoric and identify genuine progress versus manufactured moral panic.",
+  "visual_metaphor": "A castle with high walls and guards pointing spears outward at approaching figures, with the guards shouting 'monsters!' while the approaching figures carry tools of progress and innovation.",
+  "dive_deeper_mechanism": "The Frankenstein Prophecy operates through a psychological defense mechanism where threatened entities project their own destructive fears onto their challengers. When faced with potential obsolescence, incumbents unconsciously transform their economic anxiety into moral righteousness. They genuinely convince themselves that the threat isn't just to their profits, but to the very fabric of civilization. This moral framing serves two purposes: it rallies public support against the newcomer and allows the incumbent to maintain their self-image as protectors rather than self-interested defenders of the status quo.",
+  "dive_deeper_origin_story": "This pattern was identified by observing how Yuval Noah Harari described colonial narratives in 'Sapiens.' The British Empire didn't simply exploit colonies—they created elaborate moral justifications, portraying colonized peoples as dangerous 'others' requiring civilizing control. Harari noted how empires convinced themselves they were conducting 'altruistic projects' while systematically exploiting populations. The term 'Frankenstein Prophecy' captures this dynamic: just as villagers in Mary Shelley's novel feared the monster not because it was inherently evil, but because it threatened their understanding of natural order, established powers frame disruptors as unnatural threats to civilization.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Every resistance to new technology or change is a Frankenstein Prophecy. **Reality:** Sometimes established entities raise legitimate concerns about genuine dangers. The key distinction is whether the opposition focuses on specific, measurable harms with proposed solutions, or relies on vague fears about 'unnatural' threats to civilization. **Another Pitfall:** Assuming all disruptors are automatically good. Some innovations do cause real harm—the Frankenstein Prophecy helps you distinguish between rational caution and irrational fear-mongering, not between good and bad innovations.",
+  "source_file": "The Frankenstein Prophecy.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "go-to-market",
+    "fundraising"
+  ]
+}

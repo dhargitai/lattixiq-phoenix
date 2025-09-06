@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Extensible Deck Structure (MVP Deck)",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever spent weeks perfecting a presentation, only to realize halfway through that your audience needed completely different information?",
+  "definition": "A method for building sales presentations by starting with a minimum viable version that covers the core narrative, then progressively adding detailed slides based on real feedback and needs.",
+  "analogy_or_metaphor": "Like building a house—you start with a solid foundation and frame (your core narrative), then add rooms and details as you understand how people will actually live in it.",
+  "key_takeaway": "**Start simple, iterate smart—your deck should evolve with your understanding, not try to be perfect from day one.**",
+  "classic_example": "A startup founder creating their first investor pitch with just 8 slides covering problem-solution-market-traction-ask, then adding detailed financial projections and competitive analysis slides only after investors ask specific questions.",
+  "modern_example": "A product manager presenting a new feature proposal with basic slides on user need, proposed solution, and success metrics, then adding technical architecture and resource requirement slides when engineering teams request implementation details.",
+  "pitfall": "Spending weeks crafting a 'perfect' comprehensive deck that doesn't match your audience's actual information needs or decision-making process.",
+  "payoff": "Creating responsive, audience-focused presentations that get to decisions faster while maintaining the flexibility to dive deep when needed.",
+  "visual_metaphor": "A modular building block system where a solid foundation supports additional layers that can be added or rearranged based on the specific structure needed.",
+  "dive_deeper_mechanism": "This approach leverages the psychological principle that humans process information better in layers—starting with the big picture before diving into details. It mirrors how our brains naturally build understanding: establish context first, then add complexity. The iterative feedback loop also taps into the learning principle that real-world testing beats theoretical planning. By treating your deck like a product that evolves based on user (audience) feedback, you create more effective communication tools while avoiding the perfectionism trap that delays action.",
+  "dive_deeper_origin_story": "Pete Kazanjy, a sales expert and founder, adapted Lean Startup principles popularized by Eric Ries to the world of sales presentations. Frustrated by sales teams spending excessive time creating comprehensive decks that often missed the mark, Kazanjy realized that the same MVP (Minimum Viable Product) thinking that revolutionized product development could transform sales collateral. The concept emerged from observing that the best sales professionals naturally evolved their presentations based on prospect feedback, while less effective ones stuck rigidly to over-engineered slide decks.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** The MVP deck should be visually polished and comprehensive. **Reality:** The initial version should prioritize narrative clarity over design perfection. **Another Pitfall:** Adding slides randomly based on every question received. **Better Approach:** Only add slides that address recurring themes or critical decision factors. The goal isn't to answer every possible question, but to efficiently guide audiences through your core argument while maintaining the ability to go deeper when strategically necessary.",
+  "extra_content": "## MVP Deck Creation Methodology\n\n### Step 1: Define Your Core Narrative\n- **Problem**: What specific pain point does your audience face?\n- **Who**: Who experiences this problem and why should they care?\n- **Cost**: What does inaction cost them?\n- **Existing Solutions**: What alternatives exist and why do they fall short?\n- **Your Solution**: How do you solve this uniquely?\n- **Proof**: What evidence supports your claims?\n- **Pricing/Ask**: What do you want them to do next?\n\n### Step 2: Create MVP Deck (One Slide Per Element)\n- Create exactly one slide for each narrative element above\n- Use bullet points for clarity\n- Focus on logical flow, not visual polish\n- Aim for 6-10 slides maximum\n- Test this version with initial audiences\n\n### Step 3: Expansion Protocol\n- **Track Questions**: Note which slides generate the most questions\n- **Identify Patterns**: Look for recurring information requests\n- **Add Strategically**: Create detail slides only for critical decision factors\n- **Maintain Modularity**: Organize slides so they can be easily included/excluded\n\n### Step 4: Version Control System\n- **Master Deck**: Keep your full expanded version\n- **Audience Variants**: Create specific versions for different stakeholder types\n- **Slide Library**: Maintain a bank of detailed slides that can be mixed and matched\n- **Update Cycle**: Review and refresh based on feedback every 10-15 presentations\n\n### Decision Framework for Adding Slides\n**Add a detail slide if:**\n- The same question comes up in 3+ presentations\n- It addresses a critical objection or decision criterion\n- It provides proof for a key claim\n\n**Don't add a slide if:**\n- It's interesting but not decision-relevant\n- Only one person ever asked about it\n- It breaks the narrative flow without clear value",
+  "source_file": "Extensible Deck Structure (MVP Deck).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "fundraising",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

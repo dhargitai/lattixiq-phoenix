@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Knee-Jerk Repricing",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Your new product launches with fanfare, but sales are disappointing. Your first instinct? Cut the price. But what if price wasn't the problem?",
+  "definition": "The reflexive tendency to immediately reduce a product's price when facing poor initial sales performance, without first diagnosing whether pricing is actually the root cause of the problem.",
+  "analogy_or_metaphor": "Like taking painkillers for a headache without checking if you're dehydrated—you're treating the symptom, not the disease.",
+  "key_takeaway": "**Price cuts are rarely the cure for product problems; diagnosis beats desperation.**",
+  "classic_example": "A company launches an innovative gadget but sees slow adoption in the first quarter. Instead of investigating whether customers understand the value proposition or if the marketing message is clear, executives panic and slash the price by 30%, eroding margins without addressing the real barriers to purchase.",
+  "modern_example": "A SaaS startup sees low conversion rates on their new premium tier and immediately offers a 50% discount. Later they discover users didn't understand the advanced features—the real issue was poor onboarding, not pricing.",
+  "pitfall": "Knee-jerk repricing destroys profit margins while potentially signaling low quality to customers, often without solving the actual problem causing poor sales.",
+  "payoff": "Systematic problem diagnosis before price changes preserves margins and leads to solutions that actually drive sustainable growth.",
+  "visual_metaphor": "A doctor's stethoscope crossed out, with a price tag and scissors below—representing the impulse to cut prices instead of diagnosing the real problem.",
+  "dive_deeper_mechanism": "This bias stems from our psychological need for immediate action when facing disappointment, combined with price being the most visible and controllable lever executives can pull. The brain interprets slow sales as a pricing problem because it's concrete and actionable, unlike more complex issues like market positioning, product-market fit, or customer education. This creates a false sense of control and progress, even when the underlying problems remain unaddressed.",
+  "dive_deeper_origin_story": "The concept was identified through Simon-Kucher & Partners' extensive research on product innovation failures. Their 2014 study of 1,615 companies across 40 countries revealed that 72% of new products failed to meet revenue goals. Upon deeper analysis, they discovered that many companies' first response to disappointing sales was price reduction, despite evidence that pricing was rarely the primary barrier to adoption. This pattern was so common across industries and company sizes that it became recognized as a distinct cognitive bias affecting business decision-making.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Lower prices always increase demand and solve sales problems. **Reality:** Price cuts can actually signal inferior quality to customers and create a 'race to the bottom' mentality. **Another Pitfall:** Assuming that because customers mention price in surveys, price is the primary barrier. Often customers cite price when they don't see sufficient value, meaning the real issue is value communication or product positioning, not absolute price levels.",
+  "source_file": "Knee-Jerk Repricing.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Pre- and Post-Conversation Huddle",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever walked out of an important customer meeting only to realize you forgot to ask the one crucial question your teammate suggested yesterday?",
+  "definition": "A systematic team process of preparing for and reviewing customer conversations together to align on learning goals, identify blind spots, and rapidly share insights across the organization.",
+  "analogy_or_metaphor": "Like a sports team's pre-game strategy session and post-game film review - you plan your plays together, then analyze what worked to get better next time.",
+  "key_takeaway": "**Great customer insights come from team preparation and shared learning, not solo conversations.**",
+  "classic_example": "A startup founder doing customer interviews alone, forgetting key questions, and keeping insights in their head instead of sharing them with the product team.",
+  "modern_example": "A SaaS team huddles before user interviews to decide their top 3 questions about feature priorities, then reconvenes afterward to update their roadmap based on what they learned about actual user workflows.",
+  "pitfall": "Flying solo in customer conversations leads to missed opportunities, forgotten insights, and knowledge trapped in one person's head.",
+  "payoff": "Team-based conversation planning multiplies learning speed and ensures critical insights reach everyone who needs them.",
+  "visual_metaphor": "A circular diagram showing team members gathering around a table before branching out to individual conversations, then reconvening to share puzzle pieces that form a complete picture.",
+  "dive_deeper_mechanism": "This process works because it leverages collective intelligence and systematic knowledge transfer. Before conversations, teams can spot blind spots and prepare for uncomfortable questions that individuals might avoid. After conversations, immediate review prevents memory decay and allows multiple perspectives to interpret the same data. The 'whole founding team's brains' approach ensures no single person becomes a bottleneck for customer insights, while rapid dissemination means insights can immediately influence decisions across product, marketing, and strategy.",
+  "dive_deeper_origin_story": "This framework comes from Rob Fitzpatrick's 'The Mom Test,' developed from his experience watching countless startups fail because founders had great customer conversations but terrible systems for capturing and acting on insights. Fitzpatrick noticed that solo entrepreneurs often became the single point of failure for customer knowledge, while teams that systematically prepared and reviewed together moved much faster from insight to action. The method evolved from startup accelerator programs where time pressure forced teams to optimize every customer interaction.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Spending too much time preparing - Fitzpatrick warns against week-long prep sessions when an hour suffices. **Nuance:** This isn't about formal documentation but rapid knowledge transfer. **Misconception:** That every conversation needs a full huddle - casual ongoing conversations can use lighter versions of this process. **Critical point:** The goal is speed, not perfection - spend weeks talking to customers, not months, then get back to building.",
+  "extra_content": "# The Pre- and Post-Conversation Huddle Framework\n\n## Pre-Conversation Huddle Process\n\n### 1. Frame the Conversation (15-30 minutes)\n- **Define the top 3 questions** your team needs answered most urgently\n- **Identify potential blind spots** - what might you be reluctant to ask?\n- **Assign roles** if multiple team members are participating\n- **Set learning goals** beyond just validation - what specifically do you need to learn?\n- **Plan the approach** - how will you keep it casual and avoid leading questions?\n\n### 2. Risk Assessment\n- **Hidden assumptions** - what are you secretly hoping to hear?\n- **Bias check** - how might you accidentally lead the conversation?\n- **Difficult topics** - what uncomfortable questions must you ask?\n\n## During the Conversation\n\n### Core Actions:\n- Frame the conversation clearly\n- Keep it casual and conversational\n- Ask questions that pass \"The Mom Test\" (avoid hypotheticals and leading questions)\n- Deflect compliments and dig beneath surface signals\n- Take detailed notes with direct quotes\n- Press for specific commitments and next steps when relevant\n\n## Post-Conversation Huddle Process\n\n### 1. Immediate Review (within 24 hours)\n- **Share raw notes** and key customer quotes with the team\n- **Extract insights** - what did you learn that changes your assumptions?\n- **Update beliefs** - what do you now think differently?\n- **Revise plans** - how should this change your next actions?\n\n### 2. Knowledge Transfer\n- **Document key quotes** in permanent storage if building a larger insight database\n- **Update team understanding** - ensure everyone knows what you learned\n- **Identify the next 3 big questions** based on what you now know\n\n### 3. Action Planning\n- **Immediate changes** - what can you act on right now?\n- **Future conversation topics** - what new questions emerged?\n- **Team alignment** - is everyone on the same page about what you learned?\n\n## Time Guidelines\n\n- **Pre-huddle:** 15-60 minutes (never more than an hour)\n- **Conversation:** As needed, but don't spend months - weeks at most\n- **Post-huddle:** 30-60 minutes within 24 hours\n- **Overall cycle:** Move fast - this should accelerate your business, not slow it down\n\n## Quality Indicators\n\n### Good Huddle Signs:\n- Team members ask different questions than they would have solo\n- Uncomfortable but necessary topics get addressed\n- Insights immediately change team decisions or priorities\n- Everyone leaves with clear next actions\n\n### Warning Signs:\n- Prep sessions taking longer than actual conversations\n- Months of customer interviews without building anything\n- Insights staying trapped with whoever did the conversation\n- Team members working on outdated assumptions",
+  "source_file": "Pre- and Post-Conversation Huddle.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "team_and_culture"
+  ]
+}

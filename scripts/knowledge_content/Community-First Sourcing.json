@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Community-First Sourcing",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why the best hires often come from unexpected places? Your next rockstar employee might already be your biggest fan.",
+  "definition": "Community-first sourcing is a hiring strategy that prioritizes finding candidates within expert communities and your own customer base before turning to traditional job boards or recruiters.",
+  "analogy_or_metaphor": "It's like fishing in a stocked pond instead of the open ocean - you're targeting people who already know and care about what you do, rather than casting a wide net hoping to catch anyone.",
+  "key_takeaway": "**Your best hires are already in your orbit - find them where they naturally gather.**",
+  "classic_example": "A tech startup hiring their most active GitHub contributors or community forum moderators, knowing these people already understand and are passionate about the product.",
+  "modern_example": "A SaaS company hiring their power users who create tutorials and help other customers in their Slack community - these people already know the product inside-out and have proven they care about its success.",
+  "pitfall": "Relying solely on traditional job boards means competing with everyone else for generic candidates who may have no connection to or passion for your mission.",
+  "payoff": "Community-first sourcing gives you access to pre-qualified candidates who already understand your domain and are invested in your success, leading to better cultural fit and faster onboarding.",
+  "visual_metaphor": "A magnet pulling metal filings from a mixed pile - the magnet represents your community, naturally attracting the right people who are already aligned with your values and mission.",
+  "dive_deeper_mechanism": "Community-first sourcing works because it leverages pre-existing relationships and domain knowledge. When people are already engaged with your community or using your product, they've self-selected as individuals who find value in what you do. This creates a higher probability of cultural and mission alignment. Additionally, these candidates often have real-world experience with your challenges and solutions, reducing the learning curve significantly. The psychological principle of familiarity bias also works in your favor - people are more likely to join organizations they already know and trust.",
+  "dive_deeper_origin_story": "This approach gained prominence in the tech industry during the early 2000s when companies like GitHub and Stack Overflow began hiring their most active community contributors. The strategy proved so effective that it spread beyond tech, with companies realizing that their most engaged customers and community members often make the best employees. The concept was further validated during the talent shortage of the 2010s, when traditional hiring methods became increasingly expensive and less effective.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Community-first sourcing means only hiring customers or community members. **Reality:** It means starting your search there first, not limiting yourself exclusively to that pool. Another pitfall is assuming that being a great community member automatically translates to being a great employee - you still need to assess actual job skills and cultural fit beyond community engagement. Also, be careful not to cannibalize your best community contributors by hiring them away from the community that depends on them.",
+  "source_file": "Community-First Sourcing.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Information Nudging",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever noticed how the best conversations happen when you guide without steering? That's the art of information nudging.",
+  "definition": "Information nudging is the tactic of providing just enough context to guide a conversation toward a relevant topic without revealing your specific idea, agenda, or desired outcome.",
+  "analogy_or_metaphor": "Like a skilled tour guide who points out interesting paths without telling you exactly where you're going, letting you discover the destination naturally.",
+  "key_takeaway": "**Guide the conversation, don't lead it—let others reveal truth without bias.**",
+  "classic_example": "A researcher studying workflow problems might say 'How do you currently handle your daily tasks?' rather than 'Do you think our new productivity app would help you?' This avoids leading the respondent toward a predetermined answer.",
+  "modern_example": "Instead of asking 'Would you use our meal planning app?' you might say 'Walk me through how you decide what to cook each week' and let them naturally reveal their real pain points and current solutions.",
+  "pitfall": "Revealing your agenda too early leads to biased responses, false positives, and building solutions nobody actually wants.",
+  "payoff": "Getting honest, unfiltered feedback that reveals genuine problems and leads to better decisions and solutions.",
+  "visual_metaphor": "A lighthouse beam that illuminates the area of interest without blinding anyone to other possibilities—providing just enough light to guide the conversation naturally.",
+  "dive_deeper_mechanism": "Information nudging works by exploiting our natural tendency to be helpful and agreeable. When people know what answer you want to hear, they often provide it even if it's not true. By withholding your specific hypothesis or desired outcome, you create space for genuine responses. The technique leverages the psychological principle that people are more honest when they don't feel pressure to validate someone else's idea.",
+  "dive_deeper_origin_story": "This concept was popularized by Rob Fitzpatrick in 'The Mom Test,' drawing from customer development principles. Fitzpatrick noticed that entrepreneurs consistently got misleading feedback because they revealed their ideas too early in conversations. He developed this approach after observing that the most valuable insights came from conversations where the entrepreneur acted more like a journalist than a salesperson—asking about problems rather than pitching solutions.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Thinking any indirect question is good nudging. Reality: The question still needs direction and purpose. **Another pitfall:** Over-nudging by being so vague that conversations become unfocused and unproductive. The skill is in being specific enough to get relevant information while being general enough to avoid bias. Also, information nudging isn't manipulation—it's about creating space for honest dialogue rather than tricking people into responses.",
+  "source_file": "Information Nudging.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "fundraising",
+    "co-founder_conflict",
+    "hiring",
+    "go-to-market"
+  ]
+}

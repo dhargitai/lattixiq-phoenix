@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Implementation Rediscovery",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever started a new job only to discover your manager's expectations were completely different from what HR told you during hiring?",
+  "definition": "Implementation Rediscovery is the practice of explicitly re-confirming business goals, expectations, and context at the beginning of any implementation phase, even when these were previously discussed during earlier conversations or sales processes.",
+  "analogy_or_metaphor": "It's like a pilot reviewing the flight plan with air traffic control right before takeoff, even though the route was already filed hours earlier—conditions change, and alignment is critical before you're airborne.",
+  "key_takeaway": "**Never assume previous conversations guarantee current alignment—always rediscover before you implement.**",
+  "classic_example": "A software implementation team begins customer onboarding by re-stating and confirming all business objectives discussed during the sales process, ensuring nothing was lost in translation between sales and delivery teams.",
+  "modern_example": "A freelance designer starts every project kick-off call by reviewing the brief and goals again, even though they were covered in the initial consultation—preventing scope creep and mismatched expectations down the line.",
+  "pitfall": "Skipping rediscovery leads to wasted effort, scope creep, and disappointed clients who feel their needs weren't understood or priorities shifted without their input.",
+  "payoff": "Taking time to rediscover creates immediate trust, prevents costly misalignments, and ensures everyone starts the implementation phase with crystal-clear, shared expectations.",
+  "visual_metaphor": "Two people looking at the same map together, with one person pointing to confirm 'This is where we're going, right?' before they start walking.",
+  "dive_deeper_mechanism": "Implementation Rediscovery works because it addresses the fundamental gap between sales conversations and execution reality. During sales, discussions are often aspirational and high-level, while implementation requires concrete, specific understanding. The human brain also suffers from the 'curse of knowledge'—once we know something, we assume others know it too. Additionally, organizational handoffs between sales and delivery teams create natural information loss. By explicitly rediscovering, we force alignment at the moment when precision matters most, converting abstract goals into actionable clarity.",
+  "dive_deeper_origin_story": "While the specific term comes from sales methodology literature like Pete Kazanjy's 'Founding Sales,' the underlying principle has roots in military briefing protocols and project management best practices. The concept gained prominence in the software industry during the 1990s as companies realized that successful software implementations required more than just technical execution—they needed organizational alignment. The practice became formalized as customer success teams emerged, recognizing that the handoff from sales to implementation was a critical failure point that could be systematically addressed.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Implementation Rediscovery is just repeating what was already said. **Reality:** It's about translating aspirational sales conversations into concrete implementation requirements—the goals may be the same, but the level of detail and practical considerations are completely different. **Another pitfall:** Assuming this is just for external clients. **Truth:** Internal projects between departments need this just as much, if not more, since internal handoffs often involve even less formal documentation than external sales processes.",
+  "source_file": "Implementation Rediscovery.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "operations",
+    "go-to-market"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Evangelical Sales Model",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder how Tesla convinced people they needed electric cars before anyone was asking for them?",
+  "definition": "A founder-led sales approach that educates customers about problems they don't know they have, then demonstrates how your product uniquely solves them, creating a tight feedback loop between sales, product, and marketing.",
+  "analogy_or_metaphor": "Like a missionary bringing new ideas to uncharted territory—you're not just selling a product, you're converting people to a new way of thinking about their world.",
+  "key_takeaway": "**Great innovations aren't sold; they're evangelized through education, trust, and founder passion.**",
+  "classic_example": "Steve Jobs didn't just sell computers; he evangelized a vision of personal computing when most people couldn't imagine why they'd need a computer at home.",
+  "modern_example": "Slack had to evangelize team communication before anyone knew workplace chat was broken—they educated companies about productivity problems hiding in email overload.",
+  "pitfall": "Without evangelical sales, breakthrough innovations die in the 'why do we need this?' valley, never reaching customers who would benefit most.",
+  "payoff": "Mastering evangelical sales turns early customers into passionate advocates, creating organic growth and deep product-market fit through educated demand.",
+  "visual_metaphor": "A lighthouse beacon cutting through fog—the founder stands tall, illuminating hidden problems for customers navigating in darkness, guiding them toward a solution they couldn't see before.",
+  "dive_deeper_mechanism": "Evangelical sales works because it addresses the fundamental challenge of disruptive innovation: customers can't buy what they don't know they need. The model creates a three-part psychological shift: first, awareness (helping customers recognize a latent problem), then urgency (showing consequences of inaction), and finally, preference (demonstrating unique solution fit). The tight integration between sales, product, and marketing creates a rapid learning loop—every customer conversation informs product development, which improves the next sales conversation. This founder-led approach works because founders have the deepest product knowledge and the credibility to make bold claims about future possibilities.",
+  "dive_deeper_origin_story": "The term 'evangelical sales' emerged from the technology startup world, popularized by sales experts like Pete Kazanjy who observed how successful founders sold revolutionary products. The concept borrows from religious evangelism—the passionate spreading of new beliefs. It gained prominence as venture-backed startups realized that traditional sales methods failed for truly disruptive innovations. The model became formalized when companies like Salesforce and HubSpot demonstrated how founder-led education could create entirely new product categories, proving that the biggest opportunities often require teaching customers to think differently about their world.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Evangelical sales means being pushy or overly enthusiastic. **Reality:** It's actually about patient education and trust-building over months or years. **Another myth:** Any salesperson can do evangelical selling. **Truth:** It typically requires founder involvement because only they have the vision, credibility, and product depth needed to educate skeptical markets. **Critical nuance:** This model only works for innovations with large market potential—the long timeline and resource investment must be justified by eventual scale. Many founders also confuse evangelical sales with viral marketing; true evangelical sales is a systematic, founder-led process of education and conversion, not just hoping customers will spread the word.",
+  "source_file": "Evangelical Sales Model.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "product-market_fit",
+    "pricing"
+  ]
+}

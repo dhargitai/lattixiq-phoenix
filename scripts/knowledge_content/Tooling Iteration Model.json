@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Tooling Iteration Model",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why your custom phone case took 8 weeks to arrive? It wasn't shipping—it was tooling iterations.",
+  "definition": "The iterative process of refining manufacturing tools through sequential test shots and modifications (T0, T1, T2...), particularly crucial for injection molding and custom plastic parts production.",
+  "analogy_or_metaphor": "Like a sculptor chiseling a statue—each iteration removes imperfections, bringing the tool closer to producing perfect parts, but you can't rush the process without compromising quality.",
+  "key_takeaway": "**Manufacturing tools require iterative refinement—each test shot reveals flaws that must be fixed before mass production.**",
+  "classic_example": "Injection molding tools for plastic parts undergo multiple test shots (T0, T1, T2) where each iteration identifies defects like warping, incomplete fills, or dimensional inaccuracies that require tool modifications.",
+  "modern_example": "Your custom smartphone case manufacturer runs test shots that reveal the camera cutout is 0.2mm too small and the corners are too sharp—requiring tool adjustments before your order can be completed.",
+  "pitfall": "Rushing tooling iterations leads to defective mass production, costly rework, and delayed product launches that can kill entire projects.",
+  "payoff": "Understanding tooling iterations helps you set realistic timelines, budget for tool refinements, and manage customer expectations for custom manufacturing projects.",
+  "visual_metaphor": "A series of increasingly refined molds, each labeled T0, T1, T2, with arrows showing progressive improvements from rough prototype to precision tool.",
+  "dive_deeper_mechanism": "Tooling iteration works because manufacturing tools must achieve tolerances measured in thousandths of inches while accounting for material shrinkage, thermal expansion, and flow dynamics. Each test shot reveals how the material actually behaves in the tool versus theoretical predictions. The process leverages empirical feedback—you can't model every variable, so physical testing becomes essential. This iterative approach prevents the much costlier alternative of discovering problems during full production runs.",
+  "dive_deeper_origin_story": "The tooling iteration model evolved from early injection molding practices in the 1940s when manufacturers discovered that even perfectly designed tools produced imperfect parts. Engineers like Georg Fischer realized that the complex physics of molten plastic flow, cooling rates, and material shrinkage made it impossible to create perfect tools on the first try. The T0, T1, T2 naming convention became industry standard as a way to track and communicate tool refinement stages across manufacturing teams.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** More iterations always mean better quality. **Reality:** Diminishing returns set in after 3-4 iterations, and over-iteration can actually introduce new problems. **Myth:** Tooling iterations are just for complex parts. **Reality:** Even simple parts benefit from iteration because material behavior varies significantly between suppliers and environmental conditions. The key nuance is knowing when to stop iterating—perfect is the enemy of good in manufacturing.",
+  "source_file": "Tooling Iteration Model.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "operations"
+  ]
+}

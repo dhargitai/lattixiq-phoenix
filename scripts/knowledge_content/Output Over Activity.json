@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Output Over Activity",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever worked with someone who's always busy but never seems to actually finish anything important?",
+  "definition": "The principle that performance should be measured by tangible results and outcomes rather than the amount of effort, time spent, or activities performed.",
+  "analogy_or_metaphor": "It's like judging a chef by the delicious meals they serve, not by how frantically they move around the kitchen or how many ingredients they use.",
+  "key_takeaway": "**Results matter more than being busy.**",
+  "classic_example": "Andy Grove's insight that high-performing employees often received detailed reviews about their activities, while their actual impact and future improvement potential were overlooked in favor of justifying their ratings.",
+  "modern_example": "A marketing manager who attends 15 meetings per week and sends 100 emails daily, but whose campaigns generate no leads, versus one who works fewer hours but consistently delivers campaigns that convert customers.",
+  "pitfall": "Focusing on activity creates a culture of performative busyness where people optimize for looking productive rather than being effective.",
+  "payoff": "Measuring output drives real results, helps identify top performers accurately, and ensures resources are allocated to what actually moves the needle.",
+  "visual_metaphor": "A scale with 'busy work' (papers, meetings, emails) on one side being outweighed by 'results' (targets hit, goals achieved) on the other side.",
+  "dive_deeper_mechanism": "This principle works because it aligns behavior with organizational goals by removing the incentive to engage in low-value activities. When people know they'll be judged on outcomes, they naturally prioritize high-impact work and eliminate time-wasting behaviors. It leverages the psychological principle that people optimize for whatever metrics they're evaluated on.",
+  "dive_deeper_origin_story": "Andy Grove, former CEO of Intel, codified this principle in 'High Output Management' after observing that star performers often received superficial reviews focused on their activities, while underperformers got detailed improvement plans. He realized organizations were spending disproportionate effort analyzing busy work rather than maximizing the impact of their highest contributors.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** All activities are worthless if they don't produce immediate output. **Reality:** Some activities (like relationship building, learning, or strategic planning) create delayed but crucial outputs. The key is distinguishing between necessary process work and busy work that serves no purpose beyond appearing productive.",
+  "source_file": "Output Over Activity.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "operations",
+    "hiring"
+  ]
+}

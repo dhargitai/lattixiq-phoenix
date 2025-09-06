@@ -1,0 +1,30 @@
+{
+  "knowledge_piece_name": "Seller-Side Due Diligence",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "You're about to sell your company to what seems like the perfect buyer. But have you investigated whether they're actually perfect for you?",
+  "definition": "A proactive risk management process where founders research and investigate potential acquirers before agreeing to a sale, examining their reputation, track record, portfolio companies, and past acquisition behavior.",
+  "analogy_or_metaphor": "It's like being courted for marriage—while they're checking if you're right for them, you should be equally thorough about whether they're right for you.",
+  "key_takeaway": "**Don't just let buyers evaluate you—evaluate them right back.**",
+  "classic_example": "A founder discovers through research that their potential acquirer has a pattern of using earn-out sabotage—deliberately underfunding projects or changing strategic direction to avoid paying the full promised amount to previous sellers.",
+  "modern_example": "Before accepting an acquisition offer, you research the buyer's LinkedIn, check Glassdoor reviews from employees of their other acquisitions, and reach out to founders they've previously acquired to understand their post-acquisition experience and whether promises were kept.",
+  "pitfall": "Skipping seller-side due diligence can lead to broken promises, strategic sabotage, or discovering too late that your acquirer has a reputation for mistreating founders and their businesses.",
+  "payoff": "Conducting thorough research helps you identify red flags early, negotiate better terms, choose the right buyer, and avoid acquirers who might undermine your success or renege on agreements.",
+  "visual_metaphor": "A magnifying glass examining a business card, with checkmarks and warning signs floating around it, representing the investigation of a potential acquirer's background and reputation.",
+  "dive_deeper_mechanism": "Seller-side due diligence works by flipping the traditional acquisition dynamic. Instead of only being evaluated, founders become active investigators, leveraging public information, industry networks, and direct outreach to assess whether an acquirer aligns with their values and will honor commitments. This creates a more balanced negotiation where both parties are thoroughly vetted, reducing information asymmetry and enabling founders to make truly informed decisions about their company's future.",
+  "dive_deeper_origin_story": "The concept emerged from the painful experiences of founders who discovered too late that their acquirers had hidden agendas or poor track records. As acquisition markets matured and stories of post-acquisition disasters spread through founder communities, experienced entrepreneurs began systematically researching buyers just as thoroughly as buyers research them. The practice gained prominence when high-profile cases revealed how some acquirers deliberately sabotaged earn-outs or failed to honor integration promises, leading to the realization that due diligence should flow both ways.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Due diligence is only the buyer's responsibility. **Reality:** Both parties should investigate each other equally. **Another pitfall:** Assuming all acquirers in the same industry behave similarly—each has unique cultures, integration approaches, and track records that require individual assessment. **Key nuance:** Seller-side due diligence isn't about being paranoid; it's about being prepared and ensuring alignment of values, expectations, and business practices for a successful long-term relationship.",
+  "source_file": "Seller-Side Due Diligence.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "risk_management",
+    "competitive_strategy"
+  ]
+}

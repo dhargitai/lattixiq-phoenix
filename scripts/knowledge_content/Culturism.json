@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Culturism",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever heard someone say 'It's not about race, it's just that their culture doesn't fit here'? That shift from biological to cultural justification has a name.",
+  "definition": "The modern tendency to justify hierarchy, discrimination, and exclusion based on perceived cultural differences rather than discredited biological ones. It's racism's sophisticated cousin—same prejudice, different packaging.",
+  "analogy_or_metaphor": "Like a wolf in sheep's clothing—the same discriminatory instincts dressed up in more socially acceptable cultural language instead of crude racial terms.",
+  "key_takeaway": "**When we can't say 'it's in their blood,' we say 'it's in their culture.'**",
+  "classic_example": "European right-wing parties opposing Muslim immigration by arguing that 'Western culture' is incompatible with Islamic values, carefully avoiding racial language while achieving the same exclusionary goals.",
+  "modern_example": "A tech company rejecting qualified candidates because they 'don't fit our culture,' when the real issue is unconscious bias against people from different backgrounds, ethnicities, or socioeconomic classes.",
+  "pitfall": "Culturism allows discrimination to persist under a veneer of intellectual respectability, making it harder to recognize and address systematic bias in hiring, housing, and social policies.",
+  "payoff": "Recognizing culturism helps you see through sophisticated forms of prejudice and build truly inclusive environments based on individual merit rather than cultural assumptions.",
+  "visual_metaphor": "A mask with 'CULTURE' written across it, covering a face underneath labeled 'BIAS'—showing how cultural arguments can disguise the same old prejudices.",
+  "dive_deeper_mechanism": "Culturism works by exploiting our natural tendency to categorize and our desire to appear rational and moral. It provides a socially acceptable way to express in-group preferences and out-group hostility without triggering our modern taboos against overt racism. The brain processes cultural differences as more legitimate and discussable than biological ones, allowing discriminatory attitudes to persist while the holder maintains their self-image as non-prejudiced. This cognitive sleight-of-hand makes culturism particularly insidious because it feels more intellectual and defensible than crude biological racism.",
+  "dive_deeper_origin_story": "Historian Yuval Noah Harari coined the term 'culturism' in his book 'Sapiens' while examining how imperial ideologies evolved. He traced how 19th-century theories about 'Aryan superiority' shifted from biological racism to cultural arguments after scientific racism became discredited. Harari observed that among modern elites, 'assertions about the contrasting merits of diverse human groups are almost always couched in terms of historical differences between cultures rather than biological differences between races.' He noted this wasn't accidental—it was a strategic evolution of the same underlying prejudices.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Cultural differences are always legitimate grounds for exclusion. **Reality:** While genuine cultural incompatibilities can exist, culturism often uses exaggerated or stereotypical cultural differences to justify prejudice. **Second misconception:** Culturism only affects political extremists. **Reality:** It's pervasive in mainstream institutions—from 'culture fit' in hiring to 'community standards' in housing—where cultural arguments mask unconscious bias. The key distinction is whether cultural concerns are applied consistently and fairly, or selectively to certain groups.",
+  "source_file": "Culturism.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "go-to-market"
+  ]
+}

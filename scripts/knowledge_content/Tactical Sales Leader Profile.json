@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Tactical Sales Leader Profile",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever hired a 'big company' sales VP who couldn't get their hands dirty? Sometimes the best leader isn't the one with the fanciest resume.",
+  "definition": "A hiring approach that prioritizes a hands-on sales manager with experience scaling teams from similar stages, rather than a purely strategic executive from large corporations.",
+  "analogy_or_metaphor": "It's like choosing a coach who can still play the game over one who only knows theory from the sidelines.",
+  "key_takeaway": "**When building from scratch, hire managers who can do the work, not just delegate it.**",
+  "classic_example": "Hiring a former VP of Sales from Google who managed 200 reps but never personally made cold calls or built processes from zero.",
+  "modern_example": "A startup choosing a sales manager who scaled a team from 2 to 15 reps at a similar-stage company, over a director from Salesforce who managed established territories.",
+  "pitfall": "Hiring purely strategic executives leaves you with someone who can't execute the foundational work your startup actually needs.",
+  "payoff": "A tactical leader can personally demonstrate best practices, train effectively, and build scalable processes from the ground up.",
+  "visual_metaphor": "A toolbox with both a hammer and blueprints, representing someone who can both plan and execute, versus just the blueprints alone.",
+  "dive_deeper_mechanism": "The Tactical Sales Leader Profile works because early-stage companies need leaders who can operate at multiple levels simultaneously. Unlike established companies with defined processes and large teams, startups require someone who can personally execute sales activities while building the foundation for others. This hands-on experience creates authentic training programs, realistic forecasting, and processes that actually work because they've been battle-tested by the leader themselves. The tactical leader understands the nuances of each step because they've personally navigated every challenge the team will face.",
+  "dive_deeper_origin_story": "This concept gained prominence in the SaaS startup ecosystem as founders realized that hiring traditional sales executives often failed. Pete Kazanjy, in 'Founding Sales,' documented how many startups made the mistake of hiring VPs from large corporations who excelled at managing established systems but couldn't build from scratch. The tactical approach emerged from successful companies that prioritized 'player-coaches' - leaders who could personally demonstrate every aspect of the sales process while simultaneously building the team and processes around them.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Any good salesperson can become a good sales leader. **Reality:** The ideal tactical leader needs both individual contributor skills AND the ability to systematize and teach. Another pitfall is assuming tactical means 'non-strategic' - the best tactical leaders are highly strategic but can also execute. Finally, don't confuse 'hands-on' with micromanaging; tactical leaders build independence in their teams by demonstrating competence, not by controlling every action.",
+  "extra_content": "## Tactical Sales Leader Hiring Framework\n\n### Key Evaluation Criteria\n\n**1. Stage-Appropriate Experience**\n- Has built sales processes from 0-10 or 2-20 reps (not 50-500)\n- Can demonstrate personal quota achievement in similar market segments\n- Has experience with the specific sales motion (inbound, outbound, enterprise, SMB)\n\n**2. Hands-On Capability Assessment**\n- Can personally demonstrate a complete sales call\n- Has built sales materials, not just managed their creation\n- Can discuss specific prospecting techniques and tools they've used\n- Shows evidence of personal pipeline management and forecasting\n\n**3. Teaching and Systematization Skills**\n- Can articulate their sales methodology clearly\n- Has experience onboarding and training individual contributors\n- Can show examples of processes they've documented and improved\n- Demonstrates ability to scale themselves through others\n\n### Interview Process Structure\n\n**Round 1: Tactical Competency**\n- Conduct mock sales call with candidate as rep\n- Review their personal sales materials and process\n- Assess their knowledge of tools, metrics, and methodologies\n\n**Round 2: Leadership and Scaling**\n- Have them design an onboarding program for new hires\n- Discuss specific examples of team scaling and process building\n- Evaluate their approach to forecasting and pipeline management\n\n**Round 3: Cultural and Strategic Fit**\n- Assess alignment with company values and stage\n- Test strategic thinking about market and competition\n- Evaluate communication and collaboration style\n\n### Red Flags to Avoid\n- Only managed established teams with existing processes\n- Cannot demonstrate personal sales execution in recent roles\n- Focuses exclusively on high-level strategy without tactical details\n- No experience with your specific customer segment or sales cycle length\n- Cannot provide specific examples of process improvement or team development",
+  "source_file": "Tactical Sales Leader Profile.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "go-to-market",
+    "team_and_culture"
+  ]
+}

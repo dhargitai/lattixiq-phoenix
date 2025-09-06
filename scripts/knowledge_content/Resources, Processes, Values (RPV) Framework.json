@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Resources, Processes, Values (RPV) Framework",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some companies with all the money and talent in the world still fail to innovate while scrappy startups succeed? The secret lies in three hidden forces.",
+  "definition": "The RPV Framework identifies three distinct organizational capabilities that determine what a company can and cannot do: Resources (tangible assets like people and cash), Processes (how work gets done), and Values (criteria for making decisions).",
+  "analogy_or_metaphor": "Think of an organization like a kitchen: Resources are your ingredients and equipment, Processes are your recipes and cooking techniques, and Values are your taste preferences that determine which dishes you'll actually make.",
+  "key_takeaway": "**True organizational capability isn't just about what you have, but how you work and what you prioritize.**",
+  "classic_example": "Two companies given identical resources—same budget, same talent, same technology—will create completely different outcomes because their processes and values shape how they transform those resources into results.",
+  "modern_example": "Netflix had fewer resources than Blockbuster, but their processes (data-driven recommendations, streaming technology) and values (customer convenience over late fees) enabled them to revolutionize entertainment while Blockbuster failed.",
+  "pitfall": "Focusing only on acquiring resources while ignoring dysfunctional processes and misaligned values leads to wasted investments and failed initiatives.",
+  "payoff": "Understanding all three elements helps you diagnose why organizations struggle and design more effective strategies for change and innovation.",
+  "visual_metaphor": "Three interconnected gears labeled R, P, and V, showing how resources, processes, and values must work together to drive organizational capability forward.",
+  "dive_deeper_mechanism": "The RPV Framework works because organizational capability emerges from the interaction of all three elements. Resources provide the raw materials, but processes determine how efficiently and effectively those resources are transformed into value. Values act as the decision-making filter, determining which opportunities get pursued and which get ignored. This is why companies can have abundant resources but still fail—their processes may be inefficient or their values may prioritize the wrong things. The framework is particularly powerful for understanding innovation failures, as established companies often have strong resources but processes and values optimized for existing business models rather than disruptive changes.",
+  "dive_deeper_origin_story": "Clayton Christensen developed the RPV Framework while researching why successful companies consistently failed at disruptive innovation for his groundbreaking book 'The Innovator's Dilemma.' He observed that established companies had superior resources compared to disruptive entrants, yet consistently lost market leadership. Through extensive case studies across industries—from disk drives to steel manufacturing—he discovered that success and failure weren't determined by resources alone, but by the often-invisible organizational processes and values that guided how those resources were deployed. This insight revolutionized business strategy by showing that organizational capabilities are more complex and harder to change than previously understood.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Many assume that having the best resources guarantees success, or that processes and values can be easily changed. **Reality:** Resources are actually the easiest element to change—you can hire talent, buy equipment, or raise capital relatively quickly. Processes take longer to modify but are still changeable with effort and time. Values are the most rigid and hardest to transform because they're deeply embedded in organizational culture and decision-making patterns. **Nuance:** The framework shows why acquisitions often fail—you can buy a company's resources, but their processes and values may be incompatible with your organization, creating integration challenges that destroy value rather than create it.",
+  "source_file": "Resources, Processes, Values (RPV) Framework.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "operations",
+    "hiring"
+  ]
+}

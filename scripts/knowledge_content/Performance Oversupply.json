@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Performance Oversupply",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "Ever wonder why your smartphone has features you never use? Welcome to performance oversupply—when innovation outpaces what customers actually want.",
+  "definition": "Performance oversupply occurs when a product's performance improvements exceed what the mainstream market demands or values, creating a mismatch between technological capability and customer needs.",
+  "analogy_or_metaphor": "It's like having a Formula 1 race car for your daily commute—incredibly advanced, but the performance far exceeds what you need to get to work.",
+  "key_takeaway": "**When products become 'too good,' they open the door for simpler, cheaper alternatives to disrupt from below.**",
+  "classic_example": "Desktop computers in the 1990s became so powerful that they far exceeded what most users needed for basic tasks like word processing and email, creating an opening for laptops to disrupt despite being less powerful.",
+  "modern_example": "Professional cameras with dozens of manual settings and 50-megapixel sensors, while most people just want to take good photos for social media—creating space for smartphone cameras to dominate the market.",
+  "pitfall": "Companies continue investing in performance improvements that customers don't value, making their products unnecessarily complex and expensive while leaving themselves vulnerable to disruption.",
+  "payoff": "Recognizing performance oversupply helps you identify when to pivot toward simplicity and affordability, or spot opportunities where 'good enough' solutions can win big markets.",
+  "visual_metaphor": "A graph showing a performance line shooting far above a flat customer needs line, with a gap labeled 'oversupply zone' where simpler alternatives can enter.",
+  "dive_deeper_mechanism": "Performance oversupply happens because engineers and companies naturally push technological boundaries, while customer needs evolve much more slowly. This creates a widening gap where the market becomes 'over-served.' When this occurs, customers become willing to accept lower performance in exchange for other benefits like convenience, simplicity, or lower cost. This shift in what customers value most changes the basis of competition and creates opportunities for disruptive innovations that initially serve non-consumers or underserved segments.",
+  "dive_deeper_origin_story": "Clayton Christensen identified this phenomenon while studying the disk drive industry in the 1980s and 1990s. He noticed that established companies kept making drives with more storage capacity and better performance, but many customers didn't need these improvements. Meanwhile, smaller, simpler drives that were 'worse' by traditional metrics began capturing new markets—first in laptops, then gradually moving upmarket. This pattern repeated across industries, leading Christensen to recognize performance oversupply as a key mechanism that enables disruptive innovation.",
+  "dive_deeper_pitfalls_nuances": "A common misconception is that performance oversupply means technology advancement is bad. Actually, it's a natural and often necessary part of innovation cycles. The real pitfall is not recognizing when you've crossed the oversupply threshold and continuing to compete on dimensions customers no longer value. Another nuance: oversupply in one market segment doesn't mean oversupply everywhere—high-end users may still demand maximum performance while mainstream users are over-served.",
+  "source_file": "Performance Oversupply.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "competitive_strategy",
+    "pricing"
+  ]
+}

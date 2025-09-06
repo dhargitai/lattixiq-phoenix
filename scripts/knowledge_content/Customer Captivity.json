@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Customer Captivity",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why successful companies often miss the next big thing, even when they have all the resources to see it coming?",
+  "definition": "Customer captivity is the principle that successful firms become blinded to disruptive threats because their resource allocation processes are designed to serve their current best customers, who initially reject disruptive innovations.",
+  "analogy_or_metaphor": "It's like a restaurant that becomes so good at serving its regular customers' favorite dishes that it can't see the food truck revolution happening outside—the regulars don't want street food, so the restaurant never considers it worth pursuing.",
+  "key_takeaway": "**Your best customers can become your biggest blind spot.**",
+  "classic_example": "Kodak dominated film photography for decades but missed the digital revolution because their profitable film customers weren't initially interested in lower-quality digital photos, causing Kodak to under-invest in digital technology.",
+  "modern_example": "Netflix disrupted Blockbuster because Blockbuster's profitable late-fee customers weren't initially interested in Netflix's limited selection and mail delivery, so Blockbuster dismissed the threat until it was too late.",
+  "pitfall": "Following only your current customers' preferences makes you vulnerable to disruption from innovations that initially seem inferior but improve rapidly.",
+  "payoff": "Understanding customer captivity helps you recognize when to invest in seemingly inferior innovations that could become the future of your industry.",
+  "visual_metaphor": "A compass that only points toward existing customers while a new path opens up behind them, unnoticed and unexplored.",
+  "dive_deeper_mechanism": "Customer captivity works through resource allocation processes that are designed to filter out investments customers don't want. These processes naturally prioritize sustaining innovations that improve existing products for current customers while systematically rejecting disruptive innovations that create new value networks. The mechanism is reinforced at multiple organizational levels—not just senior management, but mid-level managers who set day-to-day priorities when projects compete for resources. This creates a powerful feedback loop where successful companies become increasingly focused on what made them successful, making them blind to emerging opportunities their current customers initially dismiss.",
+  "dive_deeper_origin_story": "Clayton Christensen identified this pattern while studying the disk drive industry in the 1990s for his Harvard Business School research. He noticed that established companies consistently failed when new technologies emerged—not because they lacked resources or technological capability, but because their most profitable customers initially rejected these innovations. Leading companies like IBM and Seagate had the money, talent, and technology to develop smaller disk drives, but their mainframe and minicomputer customers didn't want them. Meanwhile, new entrants served emerging markets like personal computers with these 'inferior' products, which eventually improved and disrupted the established players.",
+  "dive_deeper_pitfalls_nuances": "**Common Pitfall #1:** Assuming this means you should ignore customer feedback entirely. **Reality:** The key is distinguishing between sustaining innovations (listen to customers) and potentially disruptive innovations (be more skeptical of initial customer rejection). **Common Pitfall #2:** Thinking all innovations your customers reject are disruptive. **Reality:** Most rejected ideas are simply bad ideas. True disruptive innovations create new value networks and improve along different performance dimensions than what current customers initially value.",
+  "source_file": "Customer Captivity.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "product-market_fit",
+    "competitive_strategy"
+  ]
+}

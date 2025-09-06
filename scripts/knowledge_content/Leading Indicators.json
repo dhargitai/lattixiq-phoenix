@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Leading Indicators",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Your company's revenue report shows last quarter's profits, but by then it's too late to change course. What if you could see problems coming months ahead?",
+  "definition": "Leading indicators are predictive metrics that signal future outcomes before they happen, allowing managers to anticipate trends and take corrective action early, unlike lagging indicators which only report what already occurred.",
+  "analogy_or_metaphor": "Leading indicators are like a car's speedometer and fuel gauge—they tell you what's happening now so you can adjust before you crash or run out of gas, rather than waiting for the post-accident report.",
+  "key_takeaway": "**Predict the future by tracking the right signals today.**",
+  "classic_example": "Andrew Grove's 'stagger chart' at Intel forecasted manufacturing output over several months, updated monthly to anticipate demand and adjust production capacity before shortages or overstock occurred.",
+  "modern_example": "A SaaS company tracks daily active users and feature adoption rates (leading indicators) rather than just monthly revenue (lagging indicator) to predict churn and growth trends weeks before they show up in financial reports.",
+  "pitfall": "Relying only on lagging indicators means you're always reacting to problems after they've already damaged your business, like steering a ship by looking at its wake.",
+  "payoff": "Using leading indicators lets you anticipate problems and opportunities, giving you time to adjust course and maintain competitive advantage through proactive decision-making.",
+  "visual_metaphor": "A dashboard with both a rearview mirror (lagging indicators) and a forward-looking radar screen (leading indicators), with the radar highlighted as the primary navigation tool.",
+  "dive_deeper_mechanism": "Leading indicators work by identifying the earliest measurable changes in a system that correlate with future outcomes. They exploit the fact that most business processes have inherent delays—customer satisfaction affects retention months later, employee engagement impacts productivity over time, and market signals precede demand changes. By systematically collecting and archiving these early signals, managers build a predictive information bank that reveals patterns and departures from normal operation before they cascade into larger problems.",
+  "dive_deeper_origin_story": "Intel's Andrew Grove popularized leading indicators in manufacturing through his 'stagger chart' system in the 1970s. As Intel faced the challenge of building semiconductor products 'to forecast' rather than 'to order' due to customer demands for immediate availability, Grove realized that waiting for sales reports meant missing critical production adjustments. His stagger charts tracked forward-looking metrics monthly, allowing Intel to anticipate demand fluctuations and avoid the costly inventory risks that came with speculative manufacturing.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Tracking too many indicators creates information overload rather than clarity—focus on the few metrics that most directly predict your key outcomes. **Misunderstanding:** Leading indicators aren't crystal balls; they show probability trends, not certainties. A declining leading indicator suggests increased risk, but external factors can still override the prediction. The key is using them for early warning systems, not absolute forecasting.",
+  "source_file": "Leading Indicators.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "operations",
+    "team_and_culture",
+    "risk_management"
+  ]
+}

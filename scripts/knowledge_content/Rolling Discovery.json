@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Rolling Discovery",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever notice how the best conversations feel like a dance? The other person asks just the right question at just the right moment, making you feel truly heard.",
+  "definition": "Rolling Discovery is the technique of weaving discovery questions throughout an entire sales presentation or conversation, rather than front-loading all questions at the beginning, to continuously gather context and tailor your message in real-time.",
+  "analogy_or_metaphor": "It's like being a skilled interviewer who doesn't just ask all their questions upfront, but listens carefully and asks follow-up questions that dig deeper based on what they're hearing, creating a natural flow of revelation.",
+  "key_takeaway": "**Great persuasion isn't a monologue—it's a continuous conversation where each discovery shapes the next message.**",
+  "classic_example": "A master salesperson doesn't just ask about budget and needs at the start, then launch into a standard pitch. They weave in questions like 'How does that challenge show up in your day-to-day?' throughout their presentation, adapting their message based on each response.",
+  "modern_example": "Think of how Netflix keeps asking 'Was this helpful?' and 'Rate this show' throughout your experience, not just once. Each response helps them tailor what they show you next, making their recommendations increasingly relevant.",
+  "pitfall": "Front-loading all discovery questions creates a rigid presentation that can't adapt to what you learn, often missing the mark with prospects who have evolving or complex needs.",
+  "payoff": "Rolling discovery creates highly personalized, responsive conversations that feel consultative rather than pitchy, dramatically increasing engagement and conversion rates.",
+  "visual_metaphor": "A winding river that adjusts its course around obstacles, rather than a straight canal that forces water through regardless of the terrain—adaptive flow versus rigid structure.",
+  "dive_deeper_mechanism": "Rolling Discovery works because it leverages the psychological principle of reciprocal engagement—when someone feels heard through targeted questions, they naturally open up more. It also prevents the common mistake of 'solution dumping' by ensuring your message stays relevant to what you're learning. The technique creates micro-feedback loops that allow real-time course correction, much like how skilled therapists or journalists build rapport and gather deeper insights.",
+  "dive_deeper_origin_story": "This concept emerged from sales methodology pioneers who noticed that traditional 'discovery phase, then presentation phase' approaches often failed because customer needs evolved during conversations. Pete Kazanjy, in his work with sales teams, observed that the most successful salespeople naturally wove questions throughout their presentations, treating each customer response as new intelligence that should shape the next part of their message. This became formalized as companies realized that rigid presentation structures were losing deals to more adaptive, conversational approaches.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That rolling discovery means constantly interrupting your presentation with random questions. **Reality:** It requires strategic question placement at natural transition points and active listening to ask relevant follow-ups. **Pitfall to Avoid:** Over-questioning can make prospects feel interrogated rather than understood—the key is weaving questions naturally into the flow while maintaining presentation momentum.",
+  "source_file": "Rolling Discovery.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "fundraising",
+    "go-to-market",
+    "hiring"
+  ]
+}

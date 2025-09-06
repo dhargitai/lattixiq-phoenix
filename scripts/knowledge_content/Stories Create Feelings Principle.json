@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Stories Create Feelings Principle",
+  "super_model": true,
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Learning & Personal Growth",
+  "hook": "Your coworker didn't respond to your email. Are you angry because they ignored you, or because of the story you're telling yourself about why they didn't respond?",
+  "definition": "The principle that our emotions are not caused directly by others' actions, but by the interpretations and judgments we create about those actions.",
+  "analogy_or_metaphor": "Like wearing different colored glasses that tint everything you see—the world doesn't change, but your interpretation of it does, and that interpretation creates your emotional experience.",
+  "key_takeaway": "**You feel what you think, not what happens to you.**",
+  "classic_example": "Two people get the same critical feedback from their boss. One feels devastated, thinking 'I'm a failure,' while the other feels motivated, thinking 'This is valuable guidance for improvement.' Same event, different stories, completely different emotions.",
+  "modern_example": "You see your friend active on social media but they haven't replied to your text. You could tell yourself 'They're busy' (neutral feeling) or 'They're avoiding me' (hurt feeling). The blue checkmark didn't hurt you—your story about it did.",
+  "pitfall": "Believing your initial emotional story is the truth leads to unnecessary conflict, damaged relationships, and poor decision-making based on assumptions rather than facts.",
+  "payoff": "Recognizing that you create your own emotional experience gives you the power to choose more helpful interpretations and respond more thoughtfully in difficult situations.",
+  "visual_metaphor": "A person looking at the same scene through different story-tinted lenses—one lens shows threat and rejection, another shows opportunity and understanding, with different emotional weather clouds above each perspective.",
+  "dive_deeper_mechanism": "This principle works because our brains are meaning-making machines that automatically fill gaps in information with interpretations based on our past experiences, fears, and biases. The emotional centers in our brain (like the amygdala) respond to our interpretations faster than our rational mind can fact-check them. By the time we feel the emotion, we've already unconsciously decided what the facts mean, even though multiple interpretations are usually possible.",
+  "dive_deeper_origin_story": "This concept was developed by the authors of 'Crucial Conversations' as part of their Path to Action model, building on decades of research in cognitive psychology. It draws from cognitive-behavioral therapy principles established by pioneers like Aaron Beck, who discovered that our thoughts about events, not the events themselves, determine our emotional responses. The authors observed this pattern in thousands of high-stakes conversations where misinterpreted actions led to unnecessary conflict.",
+  "dive_deeper_pitfalls_nuances": "**Common Pitfall 1:** Thinking this means all interpretations are equally valid—some stories are more grounded in evidence than others. **Common Pitfall 2:** Using this principle to dismiss legitimate concerns by saying 'you're just making up stories' rather than examining whether the underlying facts need addressing. **Nuance:** The goal isn't to eliminate all emotional responses, but to ensure your stories are based on observable facts rather than assumptions, and to consider alternative interpretations before reacting.",
+  "source_file": "Stories Create Feelings Principle.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "co-founder_conflict",
+    "team_and_culture",
+    "hiring"
+  ]
+}

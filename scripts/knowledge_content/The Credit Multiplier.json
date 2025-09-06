@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The Credit Multiplier",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Social & Behavioral Psychology",
+  "hook": "Ever wonder why some leaders inspire fierce loyalty while others struggle to get basic cooperation? The secret might be counter-intuitive.",
+  "definition": "The Credit Multiplier is the principle that generously giving credit to others for successes multiplies your own goodwill and influence exponentially.",
+  "analogy_or_metaphor": "Think of credit like sunlight—when you shine it on others, they grow stronger and naturally turn toward you as their source of growth.",
+  "key_takeaway": "**The more credit you give away, the more influence you gain.**",
+  "classic_example": "President Harry Truman famously kept a sign on his desk that read: 'It is amazing what you can accomplish if you do not care who gets the credit.' This approach helped him build coalitions and pass landmark legislation.",
+  "modern_example": "A software team lead who publicly attributes a successful product launch to specific team members in company meetings finds those developers volunteering for challenging projects and recommending the lead for promotion opportunities.",
+  "pitfall": "Hoarding credit creates resentment, reduces team motivation, and ultimately diminishes your long-term influence and success.",
+  "payoff": "Sharing credit builds loyalty, attracts top talent to your team, and creates a network of advocates who amplify your reputation and opportunities.",
+  "visual_metaphor": "A tree with deep roots sending nutrients to surrounding plants, which in turn create a thriving ecosystem that supports and protects the original tree.",
+  "dive_deeper_mechanism": "The Credit Multiplier works through the psychological principle of reciprocity combined with social proof. When you give credit to others, you trigger their reciprocity instinct—they feel compelled to return the favor. Additionally, witnesses see you as generous and secure, enhancing your reputation. This creates a positive feedback loop where team members work harder, contribute more, and actively promote your interests because they associate their success with your leadership style.",
+  "dive_deeper_origin_story": "This principle was crystallized by Dale Carnegie in his observations of successful leaders and later refined in leadership studies. The concept gained scientific backing through social psychology research on reciprocity by Robert Cialdini and studies on attribution theory, which showed that leaders who share credit are perceived as more confident, competent, and trustworthy than those who claim all the glory.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Giving credit means diminishing your own role. **Reality:** Strategic credit-sharing actually highlights your leadership abilities. **Nuance:** The key is genuine attribution—people can detect fake or manipulative credit-sharing. The credit must be specific, timely, and proportional to contributions. Also, don't give credit for failures or poor performance; this dilutes the impact and confuses accountability.",
+  "source_file": "The Credit Multiplier.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "hiring",
+    "fundraising"
+  ]
+}
