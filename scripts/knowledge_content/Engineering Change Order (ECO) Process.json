@@ -1,0 +1,30 @@
+{
+  "knowledge_piece_name": "Engineering Change Order (ECO) Process",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why your phone's charger port moved from the bottom to the side between versions? That wasn't an accident—it was an Engineering Change Order.",
+  "definition": "A formal, documented process for communicating design changes to manufacturing partners after production has been quoted, ensuring all modifications are tracked, approved, and properly implemented.",
+  "analogy_or_metaphor": "Like editing a recipe after the chef has already bought all the ingredients—you need a formal system to communicate changes or you'll end up with kitchen chaos.",
+  "key_takeaway": "**Formal change control prevents informal disasters.**",
+  "classic_example": "Boeing's 737 MAX required thousands of ECOs to address design issues, each one documented and approved through rigorous processes to ensure safety and regulatory compliance.",
+  "modern_example": "Tesla frequently uses ECOs to improve their vehicles mid-production—from software updates requiring new hardware to battery pack improvements—each change formally documented to maintain quality control across global factories.",
+  "pitfall": "Skipping formal change processes leads to miscommunication, costly production errors, quality issues, and potentially dangerous products reaching consumers.",
+  "payoff": "Implementing structured ECO processes ensures changes are properly vetted, costs are controlled, timelines are managed, and product quality remains consistent.",
+  "visual_metaphor": "A document with revision stamps and approval signatures, connected by arrows to factory workers adjusting their assembly line stations.",
+  "dive_deeper_mechanism": "ECOs work because they create accountability and traceability in complex manufacturing systems. When multiple teams across different time zones are building intricate products, informal communication breaks down. The ECO process forces documentation of what changed, why it changed, who approved it, and how it affects cost, timeline, and quality. This systematic approach prevents the cascade of errors that occur when one team makes an assumption about a change that wasn't properly communicated to downstream processes.",
+  "dive_deeper_origin_story": "The ECO process emerged from the aerospace and defense industries in the 1950s and 60s, where informal design changes could literally be life-or-death mistakes. As products became more complex and supply chains more global, companies like Boeing and Lockheed developed formal change control systems. The process was later adopted by the electronics industry in the 1970s and 80s as consumer products became more sophisticated. Andrew Huang's experience with the Novena laptop exemplifies this evolution—even a small hardware startup needed formal processes to manage changes with their manufacturing partner AQS.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** ECOs slow down innovation and product development. **Reality:** While ECOs do add process overhead, they actually speed up overall delivery by preventing costly mistakes and rework. Another pitfall is treating ECOs as purely administrative—the best ECO processes involve engineers, manufacturing, quality, and commercial teams working together to evaluate the full impact of changes, not just rubber-stamping paperwork.",
+  "source_file": "Engineering Change Order (ECO) Process.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "operations",
+    "product-market_fit"
+  ]
+}

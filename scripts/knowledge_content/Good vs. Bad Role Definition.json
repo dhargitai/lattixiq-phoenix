@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Good vs. Bad Role Definition",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever started a new job and wondered, 'What exactly am I supposed to do here?' Most role descriptions tell you what to do, but not what good actually looks like.",
+  "definition": "A management tool that defines a role's expectations by contrasting 'good' (effective) actions with 'bad' (ineffective) ones, providing unambiguous guidance on what success and failure look like in practice.",
+  "analogy_or_metaphor": "It's like having a GPS that doesn't just tell you the destination, but also shows you all the wrong turns to avoid along the way.",
+  "key_takeaway": "**Clear role definition requires showing both the right way and the wrong way.**",
+  "classic_example": "A sales manager role defined as 'Good: Conducts weekly pipeline reviews with data-driven forecasts. Bad: Only checks in when deals are closing or failing.'",
+  "modern_example": "A remote team lead role: 'Good: Schedules regular one-on-ones and responds to messages within 4 hours. Bad: Only communicates in group channels and assumes silence means everything is fine.'",
+  "pitfall": "Without clear good vs. bad examples, employees guess what success looks like, leading to misaligned expectations and inconsistent performance.",
+  "payoff": "Clear contrasting examples eliminate ambiguity, accelerate onboarding, and create consistent performance standards across teams.",
+  "visual_metaphor": "A road sign showing a green checkmark path leading to success and a red X path leading to a dead end, both clearly marked with specific behaviors.",
+  "dive_deeper_mechanism": "This framework works because human brains process information more effectively through contrast and comparison. By explicitly stating both desired and undesired behaviors, it eliminates the gray areas where most role confusion occurs. The psychological principle of 'negative space' applies here—sometimes we understand what something is by clearly seeing what it is not. This dual approach also prevents the common management mistake of assuming people know what 'good' means without specific examples.",
+  "dive_deeper_origin_story": "This concept gained prominence through Ben Horowitz's experiences at tech companies like Netscape and Loudcloud, where he observed that traditional job descriptions were ineffective at scale. He noticed that high-growth companies often failed not because people were incapable, but because expectations were unclear. The method evolved from military and sports coaching traditions where 'what right looks like' training has long been standard practice, adapted for modern business environments where roles are more complex and ambiguous.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** This is just about creating detailed job descriptions. **Reality:** It's about behavioral clarity, not task lists. The examples should focus on decision-making patterns and judgment calls, not just activities. **Another Pitfall:** Making the 'bad' examples so extreme they're obvious. The most valuable contrasts highlight subtle but important differences in approach that separate good performers from great ones.",
+  "source_file": "Good vs. Bad Role Definition.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

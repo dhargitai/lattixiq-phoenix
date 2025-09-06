@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Process Capability Test",
+  "main_category": "Core Sciences & Mathematics",
+  "subcategory": "Physics & Engineering",
+  "hook": "Ever wondered why your first attempt at cooking a new recipe rarely turns out perfect? Manufacturing faces the same challenge—but with million-dollar consequences.",
+  "definition": "A process capability test is a method for de-risking new manufacturing by creating test products that intentionally push production limits to their breaking point. By analyzing these controlled failures, manufacturers discover the true boundaries of their processes and establish reliable design rules for mass production.",
+  "analogy_or_metaphor": "It's like a stress test for a bridge—you don't wait for real traffic to find out where it breaks. Instead, you deliberately load it beyond normal limits in controlled conditions to understand exactly what it can handle.",
+  "key_takeaway": "**Fail fast and controlled to succeed at scale.**",
+  "classic_example": "Aircraft manufacturers create test planes that are deliberately flown beyond normal operating limits—testing extreme speeds, altitudes, and maneuvers—to establish the safety envelope for passenger flights.",
+  "modern_example": "Tesla's crash test videos where they intentionally destroy Model S cars in every conceivable way. Each controlled destruction reveals safety limits and informs design improvements for millions of future vehicles.",
+  "pitfall": "Skipping capability testing leads to costly failures during mass production, forcing expensive redesigns and potentially dangerous products reaching consumers.",
+  "payoff": "Understanding your true process limits before scaling prevents catastrophic failures, reduces waste, and creates reliable design rules that ensure consistent quality.",
+  "visual_metaphor": "A target with multiple rings showing 'safe zone,' 'caution zone,' and 'failure zone,' with arrows deliberately aimed at the outer rings to map the boundaries.",
+  "dive_deeper_mechanism": "Process capability testing works by deliberately creating conditions that exceed normal operating parameters. This systematic stress-testing reveals failure modes that might occur randomly in production. The data from these controlled failures creates statistical models of process variation, allowing engineers to set design tolerances with known safety margins. It's based on the principle that understanding your worst-case scenario lets you design for your typical scenario with confidence.",
+  "dive_deeper_origin_story": "The concept evolved from aerospace engineering in the 1940s-50s, where the cost of in-flight failures was measured in human lives. Chuck Yeager's breaking of the sound barrier wasn't just about speed records—it was systematic capability testing of both aircraft and pilot limits. The X-1 program deliberately pushed aircraft beyond known boundaries in controlled steps, establishing the foundation for safe supersonic flight. This methodology spread to automotive crash testing in the 1960s and eventually to all high-stakes manufacturing.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Process capability testing is just about finding the breaking point. **Reality:** It's about mapping the entire performance envelope, including understanding how failures occur and what early warning signs exist. Another misunderstanding is that testing should replicate normal conditions—actually, the most valuable insights come from testing abnormal conditions that reveal hidden failure modes. The key is testing systematically, not randomly breaking things.",
+  "source_file": "Process Capability Test.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "operations",
+    "risk_management"
+  ]
+}

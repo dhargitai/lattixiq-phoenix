@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "\"Work Close to the Money\" Prioritization",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Your sales team has 20 opportunities in the pipeline. One just started discovery, another is sending contracts next week. Which gets your attention first?",
+  "definition": "A sales and business prioritization principle that focuses time and energy on opportunities closest to generating revenue - specifically those in the final stages of the sales funnel where deals are most likely to close soon.",
+  "analogy_or_metaphor": "Like a farmer during harvest season - you don't water seeds when ripe fruit is hanging on the tree. You pick what's ready to fall first, because timing determines whether you get paid or watch opportunities rot.",
+  "key_takeaway": "**Time flows toward money - prioritize the deals that can close today over the deals that might close tomorrow.**",
+  "classic_example": "A B2B software company has prospects in discovery, demo, proposal, and contract stages. The sales rep focuses 70% of their time on the contract and proposal stage opportunities because they're most likely to close this quarter.",
+  "modern_example": "A freelance consultant has three potential clients: one asking for a quote (ready to buy), one scheduling an initial call (early stage), and one reviewing their proposal (close to deciding). They spend most of their day perfecting the proposal and following up on the quote, not preparing for the discovery call.",
+  "pitfall": "Chasing shiny new prospects while neglecting qualified opportunities that are ready to buy, leading to longer sales cycles and missed revenue targets.",
+  "payoff": "Maximizing conversion rates and shortening time-to-revenue by focusing energy where it has the highest probability of immediate return.",
+  "visual_metaphor": "A funnel with dollar bills flowing toward the narrow end, with a hand reaching to catch the bills closest to falling out rather than those stuck at the top.",
+  "dive_deeper_mechanism": "This principle works because it leverages probability and timing in resource allocation. Sales funnels naturally have conversion rates that increase as prospects move through stages - someone requesting a contract is 10x more likely to buy than someone just learning about your solution. By concentrating effort where probability is highest, you maximize the return on your limited time and energy. It's based on the Pareto Principle applied to pipeline management: 80% of your results come from 20% of your prospects, and that 20% is usually in the final stages.",
+  "dive_deeper_origin_story": "This concept emerged from B2B sales methodology in the 1980s and was popularized by sales training companies like Miller Heiman and Sandler Training. The phrase 'work close to the money' became common in tech sales culture during the dot-com boom, when sales teams realized that in high-velocity environments, focusing on deals that could close quickly was the difference between hitting quota and missing it. Pete Kazanjy formalized this thinking in 'Founding Sales' as a core principle for early-stage companies where every deal matters.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** People interpret this as 'only focus on late-stage deals' and completely neglect prospecting, creating a feast-or-famine cycle. **Reality:** You need a balanced approach - spend 70% of your time close to the money, but still invest 30% in filling the top of your funnel. **Another Nuance:** This principle applies beyond sales to any priority management situation - focus on tasks/projects closest to creating value, but don't abandon long-term investments entirely.",
+  "source_file": "\"Work Close to the Money\" Prioritization.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "operations",
+    "fundraising"
+  ]
+}

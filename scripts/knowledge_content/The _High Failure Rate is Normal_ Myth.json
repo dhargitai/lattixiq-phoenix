@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The \"High Failure Rate is Normal\" Myth",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever heard someone say \"90% of startups fail\" and use it to justify launching without proper research? That's dangerous thinking in disguise.",
+  "definition": "The mistaken belief that high failure rates in business innovation are inevitable and natural, leading companies to accept poor odds instead of improving their systematic approach to product development.",
+  "analogy_or_metaphor": "It's like a surgeon accepting that most patients die on the operating table instead of improving surgical techniques and protocols.",
+  "key_takeaway": "**High failure rates aren't natural laws—they're symptoms of poor process.**",
+  "classic_example": "Traditional airlines bundling everything into one price until Ryanair systematically unbundled services, proving that understanding customer willingness-to-pay could revolutionize an entire industry.",
+  "modern_example": "A tech company launching dozens of half-baked apps hoping one will stick, instead of doing proper market research to understand what customers actually value and will pay for.",
+  "pitfall": "Accepting high failure rates leads to wasteful \"spray and pray\" strategies that burn resources and miss real opportunities.",
+  "payoff": "Rejecting this myth drives you toward data-driven innovation processes that dramatically improve your success odds.",
+  "visual_metaphor": "A dartboard where most darts miss completely, versus a archer's target with tight groupings around the bullseye—same skill, better system.",
+  "dive_deeper_mechanism": "This myth persists because it provides psychological comfort—it's easier to blame \"natural market forces\" than to admit our processes are flawed. It also creates a self-fulfilling prophecy: companies that believe failure is inevitable invest less in understanding customers, creating the very conditions that cause failure. The myth thrives in environments where anecdotal success stories (survivorship bias) overshadow systematic analysis of what actually drives success.",
+  "dive_deeper_origin_story": "This concept gained prominence through the work of product pricing experts like Madhavan Ramanujam, who observed that companies consistently blamed market conditions for product failures rather than examining their own development processes. The myth became entrenched during the dot-com era when \"move fast and break things\" culture normalized high failure rates. Ramanujam's research at Simon-Kucher & Partners revealed that most product failures weren't due to market forces but to companies not understanding customer value and willingness-to-pay before building products.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** \"High failure rates prove we're taking enough risks.\" **Reality:** High failure rates often indicate insufficient upfront research, not bold risk-taking. **Another Trap:** Using survivorship bias examples (like successful startups that pivoted multiple times) to justify poor planning, when systematic approaches consistently outperform random experimentation. The myth also conflates necessary market experimentation with avoidable process failures.",
+  "source_file": "The \"High Failure Rate is Normal\" Myth.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "operations"
+  ]
+}

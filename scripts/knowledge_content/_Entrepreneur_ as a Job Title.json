@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "\"Entrepreneur\" as a Job Title",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "What if innovation wasn't left to chance, but was an official role with clear responsibilities and career advancement?",
+  "definition": "The formal recognition of entrepreneurship as a legitimate job function within organizations, where individuals are specifically hired and developed to drive innovation, test new ventures, and build sustainable businesses under uncertainty.",
+  "analogy_or_metaphor": "Like having a professional scout in a sports team—someone whose entire job is to find new talent and opportunities, rather than expecting every player to also be responsible for recruitment.",
+  "key_takeaway": "**Innovation becomes systematic when entrepreneurship is treated as a professional discipline, not a lucky accident.**",
+  "classic_example": "Eric Ries advocating that modern companies should have official 'entrepreneur' positions, complete with career paths and accountability metrics, rather than hoping innovation emerges organically from existing roles.",
+  "modern_example": "Companies like Amazon with their 'Bar Raisers' or Google's '20% time' policies, where specific people or systems are designated to pursue experimental ventures and bring them to market viability using lean startup methods.",
+  "pitfall": "Treating innovation as everyone's side job leads to inconsistent results, lack of accountability, and missed opportunities as entrepreneurial skills remain undeveloped.",
+  "payoff": "Creating formal entrepreneur roles ensures systematic innovation, develops internal talent for venture creation, and provides clear career paths for people with entrepreneurial skills.",
+  "visual_metaphor": "An organizational chart showing a distinct 'Innovation Track' career path parallel to traditional management roles, with clear progression from 'Associate Entrepreneur' to 'Senior Innovation Lead.'",
+  "dive_deeper_mechanism": "This concept works because it addresses a fundamental mismatch in modern organizations. Traditional management assumes predictable outcomes, but innovation requires managing extreme uncertainty. By creating entrepreneur job titles, companies formally recognize that building new products and services requires different skills than managing existing operations. These roles focus on validated learning, rapid experimentation, and the Build-Measure-Learn cycle. The mechanism succeeds because it gives entrepreneurial employees the permission, resources, and evaluation criteria needed to take calculated risks and learn from failures—things that traditional job roles often discourage.",
+  "dive_deeper_origin_story": "This idea emerged from Eric Ries's experience at IMVU and his observation that most corporate innovation failures weren't due to lack of talent, but lack of proper structure and accountability. Ries noticed that successful intrapreneurs often succeeded despite their organizations, not because of them. Drawing from Steve Blank's customer development methodology and his own lean startup principles, Ries proposed that companies should stop treating entrepreneurship as a mysterious talent some people have, and start treating it as a learnable discipline with its own career track, just like engineering or marketing.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That entrepreneur job titles are just fancy names for product managers or innovation consultants. **Reality:** True entrepreneurial roles require different success metrics (learning and validated hypotheses rather than feature delivery), different timelines (experimental cycles rather than project deadlines), and different risk tolerances (expecting most experiments to fail while a few succeed dramatically). **Another Pitfall:** Assuming entrepreneurial skills can't be taught systematically. The lean startup methodology actually provides teachable frameworks for hypothesis formation, testing, and iteration that can be developed through practice and mentorship.",
+  "source_file": "\"Entrepreneur\" as a Job Title.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "hiring",
+    "operations"
+  ]
+}

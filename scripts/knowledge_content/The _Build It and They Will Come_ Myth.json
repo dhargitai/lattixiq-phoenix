@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "The \"Build It and They Will Come\" Myth",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever wonder why brilliant products like Google Glass or Amazon's Fire Phone flopped spectacularly while inferior competitors thrived?",
+  "definition": "The flawed belief that creating a technically superior or \"great\" product automatically guarantees market success and that customers will naturally discover and pay fair prices for it.",
+  "analogy_or_metaphor": "It's like building the world's most beautiful restaurant in a hidden location with no signs, no marketing, and expecting food lovers to magically find you because your cuisine is exceptional.",
+  "key_takeaway": "**Great products don't sell themselves—market validation and customer understanding matter more than technical perfection.**",
+  "classic_example": "Amazon's Fire Phone in 2014 packed innovative features like Dynamic Perspective (3D effects without glasses) and Mayday support, but failed because it was overengineered, confusing, and didn't solve real customer problems that weren't already solved by existing phones.",
+  "modern_example": "A startup spends two years perfecting an AI-powered fitness app with dozens of advanced features, only to discover users just want a simple step counter that syncs with their existing health apps—something already available for free.",
+  "pitfall": "Focusing solely on product development while ignoring market validation leads to overengineered solutions that nobody wants to buy, wasting time and resources on features customers don't value.",
+  "payoff": "Understanding customer needs and willingness to pay before building allows you to create targeted solutions that customers actually want and will purchase, leading to sustainable business success.",
+  "visual_metaphor": "A beautiful, complex machine sitting alone in an empty field while people walk past on a distant road, completely unaware of its existence.",
+  "dive_deeper_mechanism": "This myth persists because it appeals to our engineering mindset and creative ego. We naturally believe that quality speaks for itself, but markets are driven by perceived value, not objective superiority. The bias is reinforced by survivorship bias—we hear stories of breakthrough innovations but ignore the countless superior products that failed due to poor market fit. Additionally, the 'curse of knowledge' makes creators assume customers understand and value the same technical details they do.",
+  "dive_deeper_origin_story": "The phrase comes from the 1989 movie 'Field of Dreams' where a farmer builds a baseball field in his cornfield after hearing 'If you build it, they will come.' While magical in movies, this became a dangerous business philosophy during the dot-com boom when venture capital was abundant and many startups focused purely on product development, assuming market demand was guaranteed. The 2008 book 'The Lean Startup' by Eric Ries specifically challenged this myth, advocating for customer validation before product development.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** 'If I just add more features, more customers will want it.' **Reality:** Feature-rich products often create 'feature shock'—confusion and higher costs that reduce value. **Another Pitfall:** Confusing technical innovation with market innovation. A product can be technically inferior but win through better positioning, pricing, or solving the right problem. The myth also ignores that market timing, distribution, and customer education are often more critical than product quality.",
+  "source_file": "The \"Build It and They Will Come\" Myth.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

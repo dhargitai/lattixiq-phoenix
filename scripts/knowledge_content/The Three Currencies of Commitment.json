@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "The Three Currencies of Commitment",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever noticed how people say they'd \"definitely buy\" your idea, but when it comes time to pay, they vanish? Words are cheap—commitment has a price.",
+  "definition": "The Three Currencies of Commitment are Time, Reputation, and Money—the tangible ways customers demonstrate genuine interest rather than just polite enthusiasm.",
+  "analogy_or_metaphor": "Think of it like dating: saying 'we should hang out sometime' costs nothing, but clearing your Friday evening, introducing someone to your friends, or buying concert tickets shows real interest.",
+  "key_takeaway": "**True customer interest is measured in currencies they can't fake: their time, reputation, and money.**",
+  "classic_example": "A potential customer who says 'I'd definitely use this app' versus one who gives you 30 minutes for a detailed interview, refers you to their colleague, and pre-orders during your beta phase.",
+  "modern_example": "A startup founder pitching to investors: one investor says 'interesting idea, keep me posted' while another schedules a follow-up meeting, introduces you to their portfolio companies, and commits to a seed round.",
+  "pitfall": "Mistaking enthusiasm for commitment leads to building products nobody actually wants, wasting months of development based on empty promises.",
+  "payoff": "Focusing on commitment currencies reveals true demand early, helping you validate ideas before investing significant resources and avoid the 'fake yes' trap.",
+  "visual_metaphor": "Three coins on a scale: a clock (time), a handshake (reputation), and a dollar sign (money), outweighing a pile of empty speech bubbles.",
+  "dive_deeper_mechanism": "The three currencies work because they require actual sacrifice from the customer. Time is finite—giving you their attention means not spending it elsewhere. Reputation is social capital—recommending you risks their credibility if you fail. Money is self-explanatory—it's the ultimate proof of value perception. These currencies are harder to fake than words because they have real opportunity costs.",
+  "dive_deeper_origin_story": "Rob Fitzpatrick developed this framework while helping entrepreneurs avoid the 'Mom Test' trap—when people (like your mom) give you encouraging feedback that's socially polite but commercially meaningless. After seeing countless startups fail despite positive early conversations, he realized the pattern: words are free, but commitment requires investment. The framework emerged from analyzing why some customer validation conversations predicted success while others were misleading.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** All three currencies are equally valuable. **Reality:** The value depends on context and customer segment. For enterprise software, time might be most telling (busy executives don't waste it). For consumer products, money might matter less early on, but referrals (reputation) could be crucial. **Another pitfall:** Demanding all three currencies immediately. Smart entrepreneurs ask for progressively higher commitment as relationships develop—first time, then reputation, then money.",
+  "extra_content": "## How to Apply The Three Currencies Framework\n\n### 1. Audit Your Current Customer Conversations\n**Ask yourself after each interaction:**\n- **Time Currency:** Did they give me a specific time commitment? (scheduled follow-up, detailed feedback session, pilot program participation)\n- **Reputation Currency:** Are they willing to stake their credibility? (introduction to colleagues, public testimonial, case study participation)\n- **Money Currency:** Will they pay something, anything? (pre-order, deposit, pilot fee, even $1 to \"hold their spot\")\n\n### 2. The Progressive Commitment Ladder\n**Start small and escalate systematically:**\n\n**Level 1 - Time Commitment:**\n- \"Can we schedule a 20-minute follow-up to show you the prototype?\"\n- \"Would you be willing to test this for a week and give feedback?\"\n- \"Can you walk me through your current process step-by-step?\"\n\n**Level 2 - Reputation Commitment:**\n- \"Do you know someone else who has this problem I could talk to?\"\n- \"Would you be comfortable being a reference customer?\"\n- \"Could you introduce me to your team/boss/colleague who handles this?\"\n\n**Level 3 - Money Commitment:**\n- \"Would you pre-order at a 50% discount?\"\n- \"Can we do a small paid pilot?\"\n- \"What budget would you allocate to solve this problem?\"\n\n### 3. Red Flag Detection System\n**Watch for these commitment-avoidance patterns:**\n- **Time Dodgers:** \"Send me an email and I'll get back to you\" (never does)\n- **Reputation Hiders:** \"I can't think of anyone else with this problem right now\"\n- **Money Avoiders:** \"We don't have budget this year, but maybe next year...\"\n\n### 4. The Commitment Test Framework\n**For each potential customer, score their commitment level:**\n- **0 points:** Positive words only\n- **1 point:** Time investment (meeting, detailed feedback, trial)\n- **2 points:** Reputation investment (referral, testimonial, introduction)\n- **3 points:** Money investment (purchase, deposit, paid pilot)\n\n**Action threshold:** Only customers scoring 2+ should influence major product decisions.\n\n### 5. Conversation Tactics to Reveal Commitment\n**Instead of asking:** \"Would you buy this?\"\n**Try:** \"What would have to be true for you to allocate budget for this?\"\n\n**Instead of asking:** \"Do you like this idea?\"\n**Try:** \"Who else in your organization would need to approve this purchase?\"\n\n**Instead of asking:** \"Is this useful?\"\n**Try:** \"What's the most you've ever paid to solve this problem?\"",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

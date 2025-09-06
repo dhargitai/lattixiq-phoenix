@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Direct WTP Questions",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wondered if anyone would actually pay for your brilliant product idea? There's a simple way to find out before you build it.",
+  "definition": "Direct WTP (Willingness to Pay) Questions are straightforward inquiries asked to potential customers to determine what they consider acceptable, expensive, and prohibitively expensive prices for a product concept.",
+  "analogy_or_metaphor": "It's like asking someone how much they'd pay for a house before you start building it – you're testing the market's appetite before investing your resources.",
+  "key_takeaway": "**Ask customers what they'd pay before you build, not after you've spent everything.**",
+  "classic_example": "A startup developing a new software tool surveys 100 potential users asking: 'What would be an acceptable monthly subscription price? What would be expensive? What would be prohibitively expensive?' This reveals whether their $50/month target aligns with market expectations.",
+  "modern_example": "A food delivery app concept tests pricing by asking restaurant owners: 'What commission rate would be acceptable? Expensive? Prohibitively expensive?' before building the platform, discovering that anything above 20% would kill adoption.",
+  "pitfall": "Building products without price validation leads to expensive pivots, failed launches, and wasted development resources on unmarketable concepts.",
+  "payoff": "Direct WTP questions save months of development time and thousands in costs by validating monetization potential early, ensuring you build something people will actually buy.",
+  "visual_metaphor": "A simple price thermometer with three zones: green (acceptable), yellow (expensive), and red (prohibitive), with customer responses clustering in different temperature ranges.",
+  "dive_deeper_mechanism": "Direct WTP questions work by tapping into customers' existing mental models for value and pricing. When people answer these questions, they're accessing their internal reference points – what they currently pay for similar solutions, their budget constraints, and their perceived value thresholds. This technique bypasses the artificial environment of product demos and gets to real purchasing psychology. The 'why' follow-up question is crucial because it reveals the underlying value drivers and decision criteria customers use, giving you insight into both price sensitivity and feature prioritization.",
+  "dive_deeper_origin_story": "This technique emerged from the consulting work of pricing experts Madhavan Ramanujam and Georg Tacke, who developed it after observing thousands of product failures over 30 years. They noticed that most companies asked customers about features and functionality but avoided pricing conversations until launch. After analyzing countless failed products, they realized that early pricing discussions weren't awkward interruptions to product development – they were essential reality checks. Their framework became central to the 'monetizing innovation' approach, helping companies like Amplitude Analytics achieve twice their targeted revenue growth.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Asking only about acceptable prices without exploring the expensive and prohibitive ranges, missing crucial information about price elasticity. **Common Mistake #2:** Accepting answers without asking 'why,' which loses the valuable context about decision drivers. **Reality Check:** Customers may not always give accurate responses – they might lowball to negotiate or give socially acceptable answers. The key is patterns across multiple conversations, not individual responses. Also, this technique gives ballpark ranges, not precise pricing – you'll need additional research methods for final pricing decisions.",
+  "source_file": "Direct WTP Questions.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "pricing",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

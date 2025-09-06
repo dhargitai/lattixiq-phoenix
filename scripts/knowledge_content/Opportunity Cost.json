@@ -1,0 +1,39 @@
+{
+  "knowledge_piece_name": "Opportunity Cost",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "Ever wonder why billionaires like Warren Buffett say no to almost everything? They've mastered the hidden cost that most people never see.",
+  "definition": "Opportunity cost is the value of the best alternative you give up when making a decision. Every choice has a hidden price tag—not just what you pay, but what you could have gained by choosing differently.",
+  "analogy_or_metaphor": "Think of your life as having finite slots in your calendar. Every 'yes' to one meeting is automatically a 'no' to every other possibility during that time. The opportunity cost is the value of the best meeting you didn't take.",
+  "key_takeaway": "**Every decision has two costs: what you pay and what you pass up.**",
+  "classic_example": "A farmer uses his land to grow wheat instead of corn. If corn would have made him $1,000 more profit, that $1,000 is his opportunity cost—even though he never spent or lost any money directly.",
+  "modern_example": "You spend 3 hours binge-watching Netflix instead of learning a new skill. The opportunity cost isn't just the $15 monthly fee—it's the career advancement, side income, or personal growth you gave up during those hours.",
+  "pitfall": "Ignoring opportunity costs leads to poor resource allocation, where you say yes to mediocre options while missing out on exceptional ones.",
+  "payoff": "Thinking in opportunity costs helps you make better decisions by always considering what you're giving up, leading to higher returns on your time, money, and energy.",
+  "visual_metaphor": "A fork in the road where one path is highlighted (your choice) and the other paths are grayed out, with price tags showing what each alternative could have been worth.",
+  "dive_deeper_mechanism": "Opportunity cost works because resources—time, money, attention—are fundamentally scarce. Your brain evolved to focus on immediate, visible costs (the price you pay) rather than invisible costs (what you give up). This mental shortcut served our ancestors well when choices were simpler, but in our complex world, the best opportunities often have the highest opportunity costs. The concept forces you to think like an economist: always measuring one choice against your next-best alternative.",
+  "dive_deeper_origin_story": "The term was coined by economist Friedrich von Wieser in 1914, but the concept gained legendary status through Charlie Munger and Warren Buffett. When asked about their cost of capital calculations, Buffett admitted they don't use them. Instead, Munger explained: 'We measure everything against our alternatives. That's how we make all of our decisions.' This philosophy helped them become two of history's greatest investors by always asking: 'What else could we do with this money or time?'",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Opportunity cost only applies to money. **Reality:** It applies to all scarce resources—time, energy, attention, relationships. **Nuance 1:** Opportunity cost is subjective and depends on your goals. The same choice can have different opportunity costs for different people. **Nuance 2:** Don't fall into analysis paralysis by trying to calculate every possible opportunity cost. Focus on your realistic alternatives, not every theoretical possibility.",
+  "source_file": "Opportunity Costs.md",
+  "super_model": true,
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "fundraising",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "pricing",
+    "risk_management"
+  ]
+}

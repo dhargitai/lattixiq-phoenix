@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Evolutionary Mismatch (The Gorging Gene)",
+  "main_category": "Biology & Evolution",
+  "subcategory": "Evolutionary Principles",
+  "hook": "Ever wonder why you crave sugar and can't stop scrolling social media? Your Stone Age brain is running outdated software in a digital world.",
+  "definition": "Evolutionary mismatch occurs when traits that were adaptive in our ancestral environment become maladaptive in our current context. Our biology evolved for scarcity but now operates in abundance.",
+  "analogy_or_metaphor": "Like running Windows 95 on a modern computer - the old operating system wasn't designed for today's hardware and creates glitches everywhere.",
+  "key_takeaway": "**Yesterday's survival strategies can become today's self-sabotage.**",
+  "classic_example": "Our ancestors evolved to crave high-calorie foods during times of scarcity. This 'gorging gene' helped them survive famines but now drives obesity in a world of abundant processed foods.",
+  "modern_example": "Social media exploits our evolved need for social validation and novelty-seeking. We're wired to pay attention to potential threats and opportunities, but endless notifications hijack this system, creating addiction-like behaviors.",
+  "pitfall": "Ignoring evolutionary mismatch leads to fighting against your own nature, wondering why willpower fails, and missing the real source of many modern problems.",
+  "payoff": "Understanding evolutionary mismatch helps you redesign your environment to work with your biology, not against it, making positive changes feel natural rather than forced.",
+  "visual_metaphor": "A caveman sitting at a desk surrounded by fast food, smartphones, and screens, looking overwhelmed and confused by the modern environment.",
+  "dive_deeper_mechanism": "Evolutionary mismatch occurs because evolution operates on geological timescales while human environments change rapidly. Our brains and bodies are essentially the same as our hunter-gatherer ancestors from 10,000 years ago, but we live in environments that would be completely alien to them. The mismatch creates a constant tension between what our biology expects and what our environment provides. Our reward systems, threat detection, social bonding mechanisms, and energy regulation were all calibrated for small tribal groups living in natural environments with periodic scarcity.",
+  "dive_deeper_origin_story": "The concept was formalized by evolutionary psychologists in the 1990s, but the insight traces back to Charles Darwin himself. The term gained prominence through researchers like Randolph Nesse and George Williams, who noticed that many modern ailments - from anxiety disorders to metabolic diseases - could be explained by mismatches between our evolved psychology and modern environments. Yuval Noah Harari popularized the idea in 'Sapiens,' showing how the Agricultural Revolution created the first major mismatch, followed by even greater mismatches in the Industrial and Information ages.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Evolution is always perfect and every trait must be adaptive. **Reality:** Evolution only requires traits to be 'good enough' for reproduction, not optimal. Many traits are evolutionary baggage or trade-offs. **Myth:** We can simply override our evolved tendencies through willpower. **Reality:** It's more effective to modify environments to align with our evolved psychology rather than fight against it. The solution isn't to become 'post-human' but to create 'human-compatible' systems.",
+  "source_file": "Evolutionary Mismatch (The Gorging Gene).md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing",
+    "operations"
+  ]
+}

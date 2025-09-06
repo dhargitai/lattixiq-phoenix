@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Bottom-Up Prospecting",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why Slack became ubiquitous in companies without IT departments ever approving it? Welcome to the power of bottom-up prospecting.",
+  "definition": "A go-to-market strategy that focuses on getting individual end-users to adopt a product first, creating internal advocacy that eventually drives enterprise-wide purchases from the top.",
+  "analogy_or_metaphor": "Like a grassroots political movement - you don't start by convincing the mayor, you start by winning over neighborhoods until the groundswell becomes impossible to ignore.",
+  "key_takeaway": "**Win the users first, and they'll sell to their bosses for you.**",
+  "classic_example": "Dropbox's early growth strategy focused on individual users who loved the seamless file syncing, leading them to share folders with colleagues and eventually push their companies to adopt Dropbox Business.",
+  "modern_example": "A marketing team starts using Figma for design collaboration because it's free and intuitive. As projects improve and collaboration becomes smoother, other departments take notice. Eventually, the CMO sees the results and approves a company-wide Figma enterprise license.",
+  "pitfall": "Ignoring end-users means fighting uphill battles against gatekeepers who don't understand the product's value, leading to longer sales cycles and higher acquisition costs.",
+  "payoff": "When users become your advocates, they provide social proof, reduce sales resistance, and create organic demand that makes closing enterprise deals significantly easier.",
+  "visual_metaphor": "A pyramid being built from the bottom up, with individual user blocks at the base supporting and eventually reaching the executive level at the top, with arrows showing upward momentum.",
+  "dive_deeper_mechanism": "Bottom-up prospecting works because it bypasses traditional gatekeepers and leverages the psychological principle of social proof. When individual users experience genuine value, they naturally become advocates within their organizations. This creates a 'pull' dynamic rather than a 'push' - instead of sales teams having to convince skeptical executives about theoretical benefits, they're responding to internal demand from satisfied users. The strategy exploits the modern reality that end-users often have significant influence on purchasing decisions, especially in SaaS and technology markets where user experience directly impacts productivity.",
+  "dive_deeper_origin_story": "While the concept existed informally, bottom-up prospecting gained prominence with the SaaS revolution of the 2000s and 2010s. Traditional enterprise sales focused on top-down approaches - targeting executives first with feature lists and ROI projections. However, as software became more accessible and cloud-based tools proliferated, a shift occurred. Companies like Slack, Dropbox, and Zoom succeeded by making their products so compelling to individual users that adoption spread organically within organizations. Sales expert Pete Kazanjy formalized this approach, recognizing that in the modern business environment, user empowerment and product-led growth could drive enterprise adoption more effectively than traditional executive-focused sales strategies.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Bottom-up means ignoring executives entirely. **Reality:** It means building user advocacy first, then leveraging that momentum when engaging leadership. **Pitfall:** Assuming all products work bottom-up - this strategy works best for tools with immediate individual value and low adoption friction. **Nuance:** Success requires balancing user needs with enterprise requirements like security and compliance, ensuring the product can scale from individual use to organizational deployment without losing the simplicity that made it appealing initially.",
+  "source_file": "Bottom-Up Prospecting.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "product-market_fit",
+    "competitive_strategy"
+  ]
+}

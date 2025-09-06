@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Learning Bottleneck (Anti-Pattern)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever been on a team where only one person \"gets\" the customers, and everyone else is just guessing? That's a learning bottleneck in action.",
+  "definition": "An organizational dysfunction where critical knowledge—especially customer insights—gets trapped in one person's head, preventing the entire team from understanding what they need to know to make good decisions.",
+  "analogy_or_metaphor": "Like having only one person in your friend group who speaks the local language while traveling abroad—everyone else is lost, dependent, and can't navigate on their own.",
+  "key_takeaway": "**When learning lives in one head, decisions die in committee.**",
+  "classic_example": "The founder who does all customer interviews but never shares detailed insights, leaving the development team building features based on assumptions rather than real customer feedback.",
+  "modern_example": "A marketing manager who's the only one with access to customer data and analytics, forcing the entire product team to wait for reports instead of exploring insights themselves.",
+  "pitfall": "Teams make slower, worse decisions based on incomplete information, and risk losing everything if that key person leaves or becomes unavailable.",
+  "payoff": "Distributed learning leads to faster, smarter decisions, better products, and a more resilient organization that doesn't depend on any single person.",
+  "visual_metaphor": "A funnel with one tiny opening at the bottom—all the knowledge pours in at the top but only a trickle reaches the team below.",
+  "dive_deeper_mechanism": "Learning bottlenecks form because organizations naturally gravitate toward efficiency through specialization. One person becomes the 'customer expert' or 'domain specialist,' and it feels efficient—until it isn't. The bottleneck persists because sharing knowledge takes time and effort, and the expert often doesn't realize how much critical context lives only in their head. Meanwhile, other team members become comfortable being fed conclusions rather than wrestling with raw data themselves.",
+  "dive_deeper_origin_story": "Rob Fitzpatrick identified this pattern while helping startups with customer development for 'The Mom Test.' He noticed that even when founders were doing customer interviews correctly, their teams were still building the wrong things. The problem wasn't bad customer discovery—it was that only the founder was learning. The insights never made it to the people making product decisions, creating an invisible but devastating bottleneck in the learning pipeline.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** 'We avoid bottlenecks by having our expert write detailed reports.' **Reality:** Reading about insights isn't the same as absorbing them firsthand. The nuance, emotion, and context that drive real understanding get lost in translation. Another trap: thinking this only applies to customer knowledge—it happens with technical knowledge, market insights, and operational wisdom too.",
+  "extra_content": "## Identifying Learning Bottlenecks\n\n### Warning Signs Checklist\n- **Decision Dependency:** Team decisions consistently wait for one person's input or approval\n- **Knowledge Gaps:** Team members frequently ask \"What did the customer say about...?\" to the same person\n- **Translation Requests:** Others need someone to \"interpret\" or \"explain what this means\"\n- **Single Point of Contact:** Only one person attends customer meetings, reads industry reports, or handles key communications\n- **Frustration Patterns:** Team members express feeling \"out of the loop\" or \"flying blind\"\n\n### The SHARE Framework for Breaking Bottlenecks\n\n**S - Spread the Meetings**\n- Rotate who attends customer interviews, vendor meetings, or industry events\n- Use the \"two-person rule\": always have a second person present to take notes and catch different angles\n\n**H - Make it Habitual**\n- Schedule regular \"learning shares\" where insights are discussed, not just reported\n- Create templates for sharing context, not just conclusions\n\n**A - Access the Source**\n- Give team members direct access to customer feedback, analytics dashboards, and primary data\n- Record key conversations (with permission) so others can hear tone and context\n\n**R - Rotate Responsibilities**\n- Switch who leads customer calls, analyzes data, or researches competitors\n- Cross-train team members in critical knowledge areas\n\n**E - Embed Learning**\n- Include customer quotes and context in product planning meetings\n- Make \"customer voice\" a standard agenda item, not an occasional update\n\n### Implementation Steps\n\n1. **Audit Current State:** Map who holds what critical knowledge in your organization\n2. **Identify Highest-Risk Bottlenecks:** Focus on knowledge that affects multiple people's decisions\n3. **Start Small:** Pick one type of learning to distribute (e.g., customer feedback) before tackling everything\n4. **Create Systems:** Build processes that naturally share context, not just conclusions\n5. **Measure Impact:** Track decision speed and quality improvements as learning spreads\n\n### Critical Questions for Teams\n\n- If [key person] went on vacation for two weeks, what decisions would be delayed or made poorly?\n- Who was the last person besides [expert] to speak directly with a customer/user/stakeholder?\n- Can team members explain not just what we decided, but why we decided it?\n- How long does it take for customer insights to reach the people building the product?",
+  "source_file": "Learning Bottleneck (Anti-Pattern).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "operations",
+    "go-to-market"
+  ]
+}

@@ -1,15 +1,47 @@
 import { createClient } from "@supabase/supabase-js";
 import { config } from "dotenv";
-import { readFileSync, writeFileSync, existsSync, unlinkSync } from "fs";
+import { readFileSync, writeFileSync, existsSync, unlinkSync, readdirSync } from "fs";
 import { join } from "path";
 import { createLogger, format, transports } from "winston";
-import type { EmbeddingInput, EmbeddingResult } from "@/lib/ai/embeddings-service";
-import { generateEmbeddings, prepareTextForEmbedding } from "@/lib/ai/embeddings-service";
-import type { Database } from "@/lib/supabase/database.types";
-import type { KnowledgeContent } from "@/lib/types/ai";
+import type { EmbeddingInput, EmbeddingResult } from "./lib/embeddings-service";
+import { generateEmbeddings, prepareTextForEmbedding } from "./lib/embeddings-service";
+import type { Database } from "../supabase/database.types";
+import type { KnowledgeContent } from "../supabase/types";
 
 // Load environment variables
 config({ path: ".env.local" });
+
+// Parse command-line arguments
+function parseArguments() {
+  const args = process.argv.slice(2);
+  let contentFolder = join(process.cwd(), "scripts", "knowledge_content"); // default
+  
+  for (let i = 0; i < args.length; i++) {
+    if ((args[i] === '--content-folder' || args[i] === '-c') && args[i + 1]) {
+      contentFolder = args[i + 1];
+      i++; // skip next arg
+    } else if (args[i] === '--help' || args[i] === '-h') {
+      console.log(`
+Usage: tsx scripts/generate-embeddings.ts [options]
+
+Options:
+  --content-folder, -c <path>  Path to folder containing JSON knowledge content files
+                               (default: scripts/knowledge_content)
+  --help, -h                   Show this help message
+
+Examples:
+  tsx scripts/generate-embeddings.ts
+  tsx scripts/generate-embeddings.ts --content-folder ./my-content
+  tsx scripts/generate-embeddings.ts -c /path/to/json/files
+`);
+      process.exit(0);
+    }
+  }
+  
+  return { contentFolder };
+}
+
+const { contentFolder } = parseArguments();
 
 // Constants
 const BATCH_SIZE = 20; // Process 20 items at a time to avoid rate limits
@@ -48,10 +80,92 @@ const supabase = createClient<Database>(
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 /**
+ * Interface for JSON knowledge content structure
+ */
+interface JSONKnowledgeContent {
+  knowledge_piece_name: string;
+  main_category: string;
+  subcategory: string;
+  hook?: string;
+  definition?: string;
+  analogy_or_metaphor?: string;
+  key_takeaway?: string;
+  classic_example?: string;
+  modern_example?: string;
+  pitfall?: string;
+  payoff?: string;
+  visual_metaphor?: string;
+  visual_metaphor_url?: string;
+  dive_deeper_mechanism?: string;
+  dive_deeper_origin_story?: string;
+  dive_deeper_pitfalls_nuances?: string;
+  super_model?: boolean;
+  extra_content?: string;
+  target_persona: string[];
+  startup_phase: string[];
+  problem_category: string[];
+  source_file?: string;
+}
+
+/**
+ * Maps JSON structure to database KnowledgeContent structure
+ */
+function mapJSONToKnowledgeContent(jsonContent: JSONKnowledgeContent): Omit<KnowledgeContent, 'id' | 'created_at' | 'updated_at' | 'embedding'> {
+  return {
+    title: jsonContent.knowledge_piece_name, // Main mapping: knowledge_piece_name → title
+    main_category: jsonContent.main_category as any,
+    subcategory: jsonContent.subcategory as any,
+    type: inferContentType(jsonContent), // Infer from content or use default
+    language: "English", // Default language
+    hook: jsonContent.hook || null,
+    definition: jsonContent.definition || null,
+    analogy_or_metaphor: jsonContent.analogy_or_metaphor || null,
+    key_takeaway: jsonContent.key_takeaway || null,
+    classic_example: jsonContent.classic_example || null,
+    modern_example: jsonContent.modern_example || null,
+    pitfall: jsonContent.pitfall || null,
+    payoff: jsonContent.payoff || null,
+    visual_metaphor: jsonContent.visual_metaphor || null,
+    visual_metaphor_url: jsonContent.visual_metaphor_url || null,
+    dive_deeper_mechanism: jsonContent.dive_deeper_mechanism || null,
+    dive_deeper_origin_story: jsonContent.dive_deeper_origin_story || null,
+    dive_deeper_pitfalls_nuances: jsonContent.dive_deeper_pitfalls_nuances || null,
+    super_model: jsonContent.super_model || false,
+    extra_content: jsonContent.extra_content || null,
+    target_persona: jsonContent.target_persona as any,
+    startup_phase: jsonContent.startup_phase as any,
+    problem_category: jsonContent.problem_category as any,
+  };
+}
+
+/**
+ * Infers content type from the content structure or defaults to mental-model
+ */
+function inferContentType(content: JSONKnowledgeContent): "mental-model" | "cognitive-bias" | "fallacy" | "strategic-framework" | "tactical-tool" {
+  // Use subcategory to infer type if possible
+  const subcategory = content.subcategory.toLowerCase();
+  
+  if (subcategory.includes('bias')) {
+    return 'cognitive-bias';
+  } else if (subcategory.includes('fallacy')) {
+    return 'fallacy';
+  } else if (content.knowledge_piece_name.toLowerCase().includes('framework')) {
+    return 'strategic-framework';
+  } else if (content.knowledge_piece_name.toLowerCase().includes('tool') || 
+             content.knowledge_piece_name.toLowerCase().includes('method')) {
+    return 'tactical-tool';
+  }
+  
+  // Default to mental-model
+  return 'mental-model';
+}
+
+/**
  * Progress tracking interface
  */
 interface Progress {
-  processedTitles: string[]; // Track by title instead of ID
+  processedFiles: string[]; // Track by file name for better resumability
+  processedTitles: string[]; // Keep for backward compatibility and duplicate detection
   lastProcessedBatch: number;
   totalProcessed: number;
   totalErrors: number;
@@ -160,6 +274,7 @@ async function generateAndStoreEmbeddings() {
   // Initialize progress if not resuming
   if (!progress) {
     progress = {
+      processedFiles: [],
       processedTitles: [],
       lastProcessedBatch: -1,
       totalProcessed: 0,
@@ -168,19 +283,74 @@ async function generateAndStoreEmbeddings() {
       lastUpdateTime: startTime.toISOString(),
     };
   } else {
+    // Ensure backward compatibility - initialize processedFiles if not present
+    if (!progress.processedFiles) {
+      progress.processedFiles = [];
+    }
+    
     logger.info("Resuming from previous progress", {
-      processedCount: progress.processedTitles.length,
+      processedFiles: progress.processedFiles.length,
+      processedTitles: progress.processedTitles.length,
       lastBatch: progress.lastProcessedBatch,
     });
   }
 
   try {
-    // 1. Load knowledge content from JSON file
-    const filePath = join(process.cwd(), "lib", "knowledge_content.json");
-    const rawContent = readFileSync(filePath, "utf-8");
-    const knowledgeContent = JSON.parse(rawContent);
+    // 1. Load knowledge content from JSON files in specified directory
+    logger.info(`Loading knowledge content from directory: ${contentFolder}`);
+    
+    if (!existsSync(contentFolder)) {
+      throw new Error(`Knowledge content directory does not exist: ${contentFolder}`);
+    }
+    
+    const allJsonFiles = readdirSync(contentFolder).filter(file => file.endsWith('.json'));
+    logger.info(`Found ${allJsonFiles.length} JSON files in directory`);
+    
+    // Filter out already processed files
+    const processedFilesSet = new Set(progress.processedFiles);
+    const unprocessedFiles = allJsonFiles.filter(file => !processedFilesSet.has(file));
+    
+    logger.info(`Files status:`, {
+      total: allJsonFiles.length,
+      alreadyProcessed: processedFilesSet.size,
+      toProcess: unprocessedFiles.length
+    });
+    
+    if (unprocessedFiles.length === 0) {
+      logger.info("All files in directory have already been processed!");
+      return;
+    }
+    
+    const knowledgeContent: ReturnType<typeof mapJSONToKnowledgeContent>[] = [];
+    const failedFiles: string[] = [];
+    const processedFiles: string[] = [];
+    
+    // Load and parse each unprocessed JSON file
+    for (const fileName of unprocessedFiles) {
+      try {
+        const filePath = join(contentFolder, fileName);
+        const rawContent = readFileSync(filePath, "utf-8");
+        const jsonContent: JSONKnowledgeContent = JSON.parse(rawContent);
+        
+        // Map JSON structure to database structure
+        const mappedContent = mapJSONToKnowledgeContent(jsonContent);
+        knowledgeContent.push(mappedContent);
+        
+        // Track that we successfully loaded this file
+        processedFiles.push(fileName);
+        
+        logger.debug(`Successfully loaded: ${fileName}`, { title: mappedContent.title });
+      } catch (error) {
+        logger.error(`Failed to load file: ${fileName}`, { error });
+        failedFiles.push(fileName);
+      }
+    }
 
-    logger.info(`Loaded knowledge items`, { count: knowledgeContent.length });
+    logger.info(`Successfully loaded knowledge items`, { 
+      successCount: knowledgeContent.length, 
+      failedCount: failedFiles.length,
+      failedFiles: failedFiles.length > 0 ? failedFiles : undefined
+    });
 
     // 2. Check existing embeddings to avoid duplicates
     const { data: existingRecords } = await supabase
@@ -235,33 +405,10 @@ async function generateAndStoreEmbeddings() {
 
       try {
         // Prepare texts for embedding
-        const embeddingInputs: EmbeddingInput[] = batch.map(
-          (item: {
-            id: string;
-            title: string;
-            main_category: string;
-            subcategory: string;
-            super_model: boolean;
-            definition: string;
-            dive_deeper_mechanism: string;
-            dive_deeper_origin_story: string;
-            dive_deeper_pitfalls_nuances: string;
-            extra_content: string;
-            hook: string;
-            key_takeaway: string;
-            language: string;
-            type: string;
-            classic_example: string;
-            modern_example: string;
-            problem_category: string[];
-            target_persona: string[];
-            startup_phase: string[];
-            [key: string]: unknown;
-          }) => ({
-            id: item.id,
-            text: prepareTextForEmbedding(item as KnowledgeContent),
-          })
-        );
+        const embeddingInputs: EmbeddingInput[] = batch.map((item, index) => ({
+          id: `${batchIndex}_${index}`, // Use batch index and item index as temporary ID
+          text: prepareTextForEmbedding(item as KnowledgeContent),
+        }));
 
         // Estimate tokens for cost tracking
         const batchTokens = embeddingInputs.reduce(
@@ -274,8 +421,9 @@ async function generateAndStoreEmbeddings() {
         const embeddings = await generateEmbeddingsWithRetry(embeddingInputs);
 
         // Store in database
-        for (const { id, embedding } of embeddings) {
-          const item = batch.find((b: { id: string; [key: string]: unknown }) => b.id === id);
+        for (let i = 0; i < embeddings.length; i++) {
+          const { embedding } = embeddings[i];
+          const item = batch[i]; // Get item by index since we use index-based IDs
 
           try {
             // First, check if this knowledge content already exists by title
@@ -298,26 +446,33 @@ async function generateAndStoreEmbeddings() {
                 throw updateError;
               }
             } else {
-              // Insert new record (let database generate UUID)
+              // Insert new record with all fields (let database generate UUID)
               const { data: insertedItem, error: insertError } = await supabase
                 .from("knowledge_content")
                 .insert({
                   title: item.title,
                   main_category: item.main_category,
                   subcategory: item.subcategory,
-                  super_model: item.super_model,
                   type: item.type,
+                  language: item.language,
+                  hook: item.hook,
                   definition: item.definition,
-                  dive_deeper_mechanism: item.dive_deeper_mechanism,
+                  analogy_or_metaphor: item.analogy_or_metaphor,
+                  key_takeaway: item.key_takeaway,
                   classic_example: item.classic_example,
                   modern_example: item.modern_example,
-                  problem_category: item.problem_category,
+                  pitfall: item.pitfall,
+                  payoff: item.payoff,
+                  visual_metaphor: item.visual_metaphor,
+                  visual_metaphor_url: item.visual_metaphor_url,
+                  dive_deeper_mechanism: item.dive_deeper_mechanism,
+                  dive_deeper_origin_story: item.dive_deeper_origin_story,
+                  dive_deeper_pitfalls_nuances: item.dive_deeper_pitfalls_nuances,
+                  super_model: item.super_model,
+                  extra_content: item.extra_content,
                   target_persona: item.target_persona,
                   startup_phase: item.startup_phase,
-                  extra_content: item.extra_content,
-                  hook: item.hook,
-                  key_takeaway: item.key_takeaway,
-                  language: item.language,
+                  problem_category: item.problem_category,
                   embedding: JSON.stringify(embedding),
                 })
                 .select("id")
@@ -334,7 +489,6 @@ async function generateAndStoreEmbeddings() {
           } catch (error) {
             logger.error(`Error storing embedding`, {
               title: item.title,
-              id: item.id,
               error,
             });
             errorCount++;
@@ -366,7 +520,12 @@ async function generateAndStoreEmbeddings() {
       }
     }
 
-    // 5. Final report
+    // 5. Update progress with successfully processed files and final report
+    const allProcessedFiles = progress.processedFiles.concat(processedFiles);
+    progress.processedFiles = Array.from(new Set(allProcessedFiles)); // Remove duplicates
+    progress.lastUpdateTime = new Date().toISOString();
+    saveProgress(progress);
+    
     const endTime = new Date();
     const durationMs = endTime.getTime() - new Date(progress.startTime).getTime();
     const estimatedCost = calculateCost(totalTokensUsed);
@@ -374,6 +533,8 @@ async function generateAndStoreEmbeddings() {
     logger.info("Embedding generation complete", {
       successfullyProcessed: processedCount,
       errors: errorCount,
+      processedFiles: processedFiles.length,
+      totalProcessedFiles: progress.processedFiles.length,
       totalEmbeddingsInDb: existingTitles.size + processedCount,
       durationSeconds: Math.round(durationMs / 1000),
       estimatedTokensUsed: totalTokensUsed,

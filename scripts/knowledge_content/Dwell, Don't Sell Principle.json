@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Dwell, Don't Sell Principle",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever wonder why the most successful founders in communities rarely talk about their products? They follow the golden rule: dwell first, sell later.",
+  "definition": "The Dwell, Don't Sell Principle states that in community engagement, founders should prioritize providing genuine value and learning from their audience ('dwelling') over promoting their products ('selling') to build authentic trust and relationships.",
+  "analogy_or_metaphor": "Think of it like being a helpful neighbor versus a door-to-door salesperson. The neighbor who helps you fix your fence and shares gardening tips earns your trust naturally—when they eventually mention their landscaping business, you're already interested. The salesperson knocking with a pitch gets the door slammed.",
+  "key_takeaway": "**Trust is built through genuine value, not sales pitches.**",
+  "classic_example": "Community forums where the most respected members are those who consistently answer questions, share insights, and help others solve problems—without mentioning their own products until specifically asked.",
+  "modern_example": "A SaaS founder who spends months in a startup Slack community sharing marketing frameworks, giving feedback on pitch decks, and connecting people with opportunities before ever mentioning their own product.",
+  "pitfall": "Jumping straight to sales mode destroys credibility and marks you as a spammer, making communities hostile to your presence.",
+  "payoff": "Building genuine relationships first creates a foundation of trust that naturally leads to customers, referrals, and brand advocates.",
+  "visual_metaphor": "A scale with 'Value Given' weighing much heavier than 'Sales Made'—showing the imbalance needed for long-term success.",
+  "dive_deeper_mechanism": "This principle works because it leverages reciprocity and social proof psychology. When you consistently provide value without asking for anything in return, you create a 'reciprocity debt' where people naturally want to help you back. Additionally, your helpful behavior becomes social proof of your expertise and character, making people more receptive when you do make offers. The brain processes this as authentic relationship-building rather than transactional selling, triggering different neural pathways associated with trust and cooperation.",
+  "dive_deeper_origin_story": "The principle emerged from the experiences of successful embedded entrepreneurs like Arvid Kahl, who built their businesses by becoming valuable community members first. Kahl observed that founders who rushed to promote their products in communities were quickly rejected, while those who spent months or years genuinely helping others built audiences that eagerly supported their eventual product launches. This wisdom crystallized into the formal principle after seeing countless examples of patient value-givers outperforming aggressive self-promoters.",
+  "dive_deeper_pitfalls_nuances": "**Common misunderstanding:** Thinking this means never selling at all. **Reality:** The principle is about timing and ratio—you should sell, but only after establishing significant value first. **Another pitfall:** Fake dwelling—providing surface-level help just to build up 'credits' for later selling. Communities quickly detect inauthentic behavior. The dwelling must be genuine, driven by real interest in helping others succeed.",
+  "source_file": "Dwell, Don't Sell Principle.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "team_and_culture",
+    "product-market_fit"
+  ]
+}

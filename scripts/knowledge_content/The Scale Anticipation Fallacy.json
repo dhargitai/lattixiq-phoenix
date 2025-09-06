@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "The Scale Anticipation Fallacy",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever hired someone who seemed perfect, only to label them 'not scalable' when they struggled? You might have fallen into a prediction trap.",
+  "definition": "The flawed practice of evaluating employees based on predictions of whether they will 'scale' to meet future needs, which is impossible to accurately predict and often prevents proper development and feedback.",
+  "analogy_or_metaphor": "It's like judging a seed's potential by imagining what kind of tree it might become in unknown soil and weather, rather than nurturing it properly in the current conditions.",
+  "key_takeaway": "**You can't predict who will scale—but you can create conditions for everyone to grow.**",
+  "classic_example": "A startup CEO dismisses a talented engineer as 'not scalable' for a future VP role, rather than providing clear feedback and development opportunities to help them grow into the position.",
+  "modern_example": "A manager labels a promising team lead as 'not ready for senior management' based on imagined future scenarios, instead of addressing their current performance gaps through coaching and clear expectations.",
+  "pitfall": "Judging employees on unpredictable future potential creates a culture of speculation over development, leading to talent waste and self-fulfilling prophecies of failure.",
+  "payoff": "Focusing on current performance and providing clear feedback creates conditions where employees can actually develop the skills needed for future roles.",
+  "visual_metaphor": "A crystal ball with a question mark inside it, surrounded by broken fragments labeled with various employee names—representing the impossibility of accurately predicting human potential.",
+  "dive_deeper_mechanism": "This fallacy operates through our brain's pattern-matching tendency, where we try to project current performance into future scenarios without accounting for the massive variables involved in human development. We underestimate the power of feedback, training, and environmental changes. The brain prefers the illusion of prediction over the uncertainty of development, leading managers to make binary 'scalable/not scalable' judgments rather than investing in growth processes.",
+  "dive_deeper_origin_story": "Venture capitalist Ben Horowitz coined this term while reflecting on common hiring and promotion mistakes in Silicon Valley. He observed that successful CEOs consistently chose the 'hard answer'—giving direct feedback and creating development opportunities—rather than the easy answer of writing people off as 'non-scalable.' His insight came from watching countless companies waste talent by trying to predict the unpredictable instead of focusing on management fundamentals.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** 'Some people just aren't cut out for senior roles.' **Reality:** Very few roles are truly predictable, and most 'scaling' failures stem from lack of clear expectations and feedback rather than inherent limitations. **Another Pitfall:** Assuming that current high performers will automatically scale up—this ignores that different levels require different skills and support systems.",
+  "source_file": "The Scale Anticipation Fallacy.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture"
+  ]
+}

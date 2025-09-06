@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Leading Indicator Bias",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever notice how CEOs rush to hire when engagement jumps 25% but explain away a 25% drop as \"the site was slow\"?",
+  "definition": "The cognitive bias where leaders eagerly act on early signs of good news while rationalizing away early warning signs of bad news.",
+  "analogy_or_metaphor": "Like a sailor who adjusts course immediately when winds favor them but ignores storm clouds gathering on the horizon, explaining them away as temporary weather.",
+  "key_takeaway": "**We sprint toward good signals but explain away bad ones.**",
+  "classic_example": "During the dot-com crash of 2000-2001, major tech CEOs like those at Cisco and HP maintained strong guidance right up until they dramatically missed their quarters, despite clear early warning signs.",
+  "modern_example": "A startup founder immediately scales up hiring after one month of 25% user growth but explains away a 25% drop the next month as \"seasonal effects\" or \"algorithm changes.\"",
+  "pitfall": "Missing critical threats and failing to course-correct until it's too late, leading to catastrophic business failures.",
+  "payoff": "Balanced reaction to both positive and negative signals enables proactive problem-solving and sustainable growth decisions.",
+  "visual_metaphor": "A dashboard with green lights glowing bright while red warning lights are dimmed or covered with excuses written on sticky notes.",
+  "dive_deeper_mechanism": "This bias stems from our psychological need to maintain optimism and avoid cognitive dissonance. Leaders, especially those who build things, are naturally optimistic and solution-oriented. When good news arrives, it confirms their positive worldview and energizes action. But bad news creates uncomfortable tension between their optimistic vision and reality, triggering psychological defense mechanisms that rationalize the negative data away rather than confronting it.",
+  "dive_deeper_origin_story": "The concept was articulated by Intel's legendary CEO Andy Grove when explaining to Ben Horowitz why great CEOs seemed to \"lie\" about their companies' prospects during the 2001 tech crash. Grove's insight was that these leaders weren't lying to investors—they were lying to themselves, having trained themselves to act on positive leading indicators while explaining away negative ones.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** This only affects overconfident leaders. **Reality:** Even experienced, data-driven leaders fall prey to this because it's built into how we process information asymmetrically. **Nuance:** The bias is strongest in builders and visionaries because their success depends on maintaining optimism in the face of uncertainty, making the selective attention to positive signals a survival mechanism that can become destructive.",
+  "source_file": "Leading Indicator Bias.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "fundraising",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "risk_management"
+  ]
+}

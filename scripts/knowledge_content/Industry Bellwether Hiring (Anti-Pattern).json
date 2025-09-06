@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Industry Bellwether Hiring (Anti-Pattern)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why that superstar salesperson from Google couldn't close a single deal at your startup?",
+  "definition": "Industry bellwether hiring is the misguided practice of recruiting senior talent from large, established industry leaders, assuming their success will automatically transfer to smaller, less established companies.",
+  "analogy_or_metaphor": "It's like hiring a Formula 1 driver to navigate city traffic—their skills are impressive, but completely mismatched to the environment where scrappy maneuvering beats precision engineering.",
+  "key_takeaway": "**Brand equity can't be hired—it must be built.**",
+  "classic_example": "A startup hiring a VP of Sales from Oracle or IBM, expecting them to replicate their quota-crushing performance, only to watch them struggle without the established brand recognition and robust support systems they're accustomed to.",
+  "modern_example": "A 50-person SaaS company recruiting a senior sales executive from Microsoft, who then fails because they're used to prospects taking meetings based on the Microsoft name alone, not because of their personal prospecting skills.",
+  "pitfall": "You waste precious resources and time on expensive hires who can't adapt to startup constraints, often burning through runway while they struggle to perform without enterprise-level support.",
+  "payoff": "Recognizing this pattern helps you hire for grit and adaptability over impressive logos, building a team that thrives in your actual operating environment rather than a fantasy version of it.",
+  "visual_metaphor": "A corporate executive in a suit trying to paddle a small startup kayak with an enterprise-sized oar—the tool doesn't match the vessel.",
+  "dive_deeper_mechanism": "This anti-pattern works because success at large companies often depends heavily on brand equity, established processes, and extensive support systems rather than individual scrappiness. When these professionals move to startups, they lack the foundational skills needed for environments where you must build credibility from scratch, wear multiple hats, and adapt quickly without layers of organizational support.",
+  "dive_deeper_origin_story": "This concept emerged from the repeated failures observed in the startup ecosystem during the dot-com boom and subsequent tech waves. Sales expert Pete Kazanjy documented this pattern extensively, noting how startups consistently made expensive hiring mistakes by conflating individual performance with the systemic advantages of established companies. The term 'bellwether' refers to leading companies that others follow, making it particularly ironic when following their hiring practices leads to failure.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** That all experience at large companies is irrelevant. **Reality:** The issue isn't the company size, but rather hiring people whose success was primarily dependent on organizational assets they won't have at a startup. Some enterprise veterans do possess the fundamental skills and adaptability needed for startup success—the key is identifying those who succeeded through personal capability rather than just institutional advantage.",
+  "source_file": "Industry Bellwether Hiring (Anti-Pattern).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

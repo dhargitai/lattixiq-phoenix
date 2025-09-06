@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Skimming Strategy",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why the iPhone launched at $599, then dropped to $399 just two months later? Apple wasn't desperate—they were executing a masterclass in pricing psychology.",
+  "definition": "A pricing strategy where companies launch products at premium prices to capture early adopters willing to pay more, then systematically lower prices over time to reach broader market segments.",
+  "analogy_or_metaphor": "Like skimming cream off milk—you capture the richest, most valuable layer first, then work your way down to reach everyone else.",
+  "key_takeaway": "**Capture maximum value by serving those who value it most, first.**",
+  "classic_example": "Sony's strategy with new gaming consoles—launching PlayStation at premium prices for hardcore gamers, then reducing costs as manufacturing scales up and casual gamers enter the market.",
+  "modern_example": "Tesla's approach with electric vehicles—starting with the $100K+ Roadster for luxury buyers, then the Model S, Model 3, and eventually planning a $25K mass-market car.",
+  "pitfall": "Ignoring skimming strategy means leaving money on the table from customers willing to pay premium prices, or launching too low and struggling to raise prices later.",
+  "payoff": "Applying skimming strategy maximizes revenue capture across different customer segments while funding product improvements and cost reductions through early premium sales.",
+  "visual_metaphor": "A funnel with different sized holes—the widest opening at top captures premium customers first, with progressively larger holes below catching more price-sensitive segments as the product flows down.",
+  "dive_deeper_mechanism": "Skimming strategy exploits consumer psychology and market dynamics. Early adopters have higher willingness-to-pay due to status signaling, immediate gratification needs, or genuine higher utility from being first. As the product matures, manufacturing costs decrease through economies of scale, learning curves improve efficiency, and competitors enter the market. This creates natural downward pressure on prices while expanding the addressable market to more price-sensitive segments.",
+  "dive_deeper_origin_story": "The concept was formalized by economist Joel Dean in 1950, but the practice dates back centuries. Dean observed how companies like DuPont successfully launched nylon stockings at premium prices before reducing them. The strategy gained prominence in technology markets, where rapid innovation cycles and high development costs made it particularly effective for recouping R&D investments from early adopters before mass-market competition intensified.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Dropping prices too quickly, which can alienate early customers and signal poor quality. **Reality:** Price reductions should be gradual and justified by genuine cost improvements or market expansion goals. **Common Mistake #2:** Assuming all products suit skimming strategy. **Reality:** This works best for innovative products with clear differentiation, strong brand value, and segments willing to pay premiums—not for commoditized or highly competitive markets.",
+  "extra_content": "## Skimming Strategy Implementation Framework\n\n### Phase 1: Market Assessment\n- **Segment Analysis**: Identify early adopter characteristics and their willingness-to-pay thresholds\n- **Competition Mapping**: Assess competitive landscape and barriers to entry\n- **Value Proposition**: Ensure product offers clear differentiation justifying premium pricing\n\n### Phase 2: Launch Strategy\n- **Premium Positioning**: Set initial price 20-50% above long-term target price\n- **Limited Availability**: Create scarcity through controlled distribution or production\n- **Target Marketing**: Focus on early adopter segments with high disposable income\n\n### Phase 3: Price Reduction Timeline\n- **Trigger Events**: Plan price reductions based on:\n  - Sales volume thresholds\n  - Competitive responses\n  - Manufacturing cost reductions\n  - Time-based milestones (typically 6-18 months)\n- **Reduction Increments**: Lower prices in 10-25% steps to maintain premium perception\n- **Communication Strategy**: Frame reductions as 'making innovation accessible' rather than discounting\n\n### Phase 4: Market Expansion\n- **Segment Targeting**: Progressively target more price-sensitive customer groups\n- **Channel Expansion**: Move from premium to mainstream distribution channels\n- **Product Variants**: Introduce lower-featured versions for budget-conscious segments\n\n### Success Metrics\n- Revenue per customer segment\n- Market penetration rates\n- Competitive response timing\n- Customer satisfaction across price points\n- Overall profitability versus alternative pricing strategies",
+  "source_file": "Skimming Strategy.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Manufacturing Bill of Materials (BOM)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why your Kickstarter gadget arrived six months late? The answer often lies in a single document most creators overlook.",
+  "definition": "A Manufacturing Bill of Materials (BOM) is a comprehensive document that specifies every component, material, manufacturer, and process needed to build a product at scale.",
+  "analogy_or_metaphor": "Think of a BOM like a master recipe for a restaurant chain - it doesn't just list 'flour' and 'sugar,' but specifies the exact brand, grade, supplier, and even the packaging size to ensure every location can recreate the same dish perfectly.",
+  "key_takeaway": "**A complete BOM is the difference between a prototype dream and a manufacturing reality.**",
+  "classic_example": "Andrew Huang's bicycle safety light case study shows how a basic engineering BOM with '0.1μF capacitor' becomes a manufacturing nightmare without specifying approved manufacturers, tolerances, package types, and extended part numbers.",
+  "modern_example": "A smartphone case entrepreneur discovers their 'simple' product needs 47 line items: specific plastic resins, exact screw thread specifications, approved suppliers for each component, packaging materials, instruction cards, and even the master carton for shipping multiple units.",
+  "pitfall": "An incomplete BOM leads to production delays, cost overruns, quality issues, and potential product failures when manufacturers substitute unapproved components or misinterpret specifications.",
+  "payoff": "A thorough BOM enables accurate cost quotes, prevents manufacturing delays, ensures consistent quality, and allows you to scale production confidently across multiple suppliers.",
+  "visual_metaphor": "A detailed blueprint with multiple layers - the top layer shows the finished product, while deeper layers reveal every nut, bolt, material specification, and supplier detail needed to build it.",
+  "dive_deeper_mechanism": "A BOM works by creating an unambiguous communication bridge between design intent and manufacturing reality. It transforms abstract engineering concepts into concrete purchasing decisions, manufacturing processes, and quality control checkpoints. The document forces designers to think beyond 'what works in the lab' to 'what can be consistently reproduced at scale.' Every specification - from component tolerances to approved manufacturers - serves as a constraint that prevents the exponential complexity of manufacturing variations from derailing production.",
+  "dive_deeper_origin_story": "The concept evolved from early manufacturing practices in industries like automotive and aerospace, where a single substituted component could mean the difference between success and catastrophic failure. The discipline became formalized as global supply chains emerged, requiring precise communication across language barriers and technical standards. Andrew Huang, a hardware hacker and author, popularized the concept among makers and entrepreneurs through his detailed documentation of the pitfalls that befall crowdfunded hardware projects - showing how a missing manufacturer specification can turn a $10 component into a six-month production delay.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake 1:** Confusing distributors with manufacturers - listing 'DigiKey' instead of 'TDK' as the capacitor source. **Common Mistake 2:** Focusing only on electronic components while ignoring packaging, documentation, screws, labels, and shipping materials. **Nuance:** A BOM isn't just a parts list - it's a risk management document. Each specification should anticipate potential supply chain disruptions, component obsolescence, and manufacturing variations that could derail production months down the line.",
+  "extra_content": "## BOM Creation Framework\n\n### Phase 1: Component Identification\n1. **Start with engineering BOM** from design tools (Altium, KiCad, etc.)\n2. **Add non-electronic components**: PCB, enclosures, fasteners, cables\n3. **Include packaging materials**: bags, boxes, foam, labels, manuals\n4. **Consider shipping requirements**: master cartons, protective materials\n\n### Phase 2: Specification Detail\nFor each component, specify:\n- **Exact manufacturer** (not distributor)\n- **Full part number** with revision codes\n- **Technical specifications**: tolerances, materials, ratings\n- **Package type**: size, mounting style, pin configuration\n- **Approved alternatives**: 2-3 backup manufacturers\n\n### Phase 3: Supply Chain Validation\n1. **Create Approved Vendor List (AVL)** for each component\n2. **Verify availability** and lead times with suppliers\n3. **Check for obsolete parts** and plan alternatives\n4. **Negotiate pricing** for projected volumes\n\n### BOM Review Checklist\n- [ ] Every line item has specific manufacturer and part number\n- [ ] All non-electronic components included (screws, packaging, etc.)\n- [ ] Tolerances and specifications defined for critical components\n- [ ] Alternative suppliers identified for key components\n- [ ] Lead times and availability confirmed\n- [ ] Costs calculated for target production volumes\n- [ ] Assembly and testing requirements documented\n\n### Common BOM Categories\n**Electronic Components**: ICs, passives, connectors, cables\n**Mechanical Parts**: enclosures, fasteners, springs, gaskets\n**Materials**: PCB substrate, solder, thermal paste, adhesives\n**Packaging**: retail boxes, protective foam, bags, labels\n**Documentation**: manuals, warranty cards, compliance certificates\n**Shipping**: master cartons, tape, void fill materials",
+  "source_file": "Manufacturing Bill of Materials (BOM).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "operations",
+    "go-to-market"
+  ]
+}

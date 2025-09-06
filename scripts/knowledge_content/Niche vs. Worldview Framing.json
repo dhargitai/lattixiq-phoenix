@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Niche vs. Worldview Framing",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever notice how Apple customers don't just buy phones—they buy into a belief system about design and creativity?",
+  "definition": "A strategic approach that differentiates between targeting people by external demographics (niche) versus their internal beliefs and values (worldview).",
+  "analogy_or_metaphor": "It's like the difference between inviting everyone who lives on your street to a party versus inviting everyone who shares your passion for jazz music—one creates neighbors, the other creates a tribe.",
+  "key_takeaway": "**Shared beliefs create tribes; shared demographics create markets.**",
+  "classic_example": "Traditional market segmentation targets 'women aged 25-40 with college degrees' (niche), while brands like Patagonia target 'people who believe in environmental responsibility regardless of age or income' (worldview).",
+  "modern_example": "Tesla doesn't just sell to 'wealthy tech enthusiasts'—they sell to anyone who believes in sustainable innovation, creating passionate advocates across diverse demographics who evangelize the brand.",
+  "pitfall": "Focusing only on demographics creates transactional relationships where customers easily switch to competitors based on price or convenience.",
+  "payoff": "Building around shared worldviews creates passionate communities that become your most powerful marketing force and resist competitive pressure.",
+  "visual_metaphor": "Two circles: one labeled 'NICHE' filled with identical demographic icons, another labeled 'WORLDVIEW' with diverse icons all pointing toward a central shared belief symbol.",
+  "dive_deeper_mechanism": "Worldview-based targeting works because it taps into identity and values—much deeper psychological drivers than surface-level characteristics. When people feel understood at the belief level, they form emotional connections that transcend rational purchase decisions. This creates what psychologists call 'in-group bias,' where customers defend and promote the brand because it represents part of who they are.",
+  "dive_deeper_origin_story": "This concept gained prominence through Seth Godin's work on tribes and was further developed by entrepreneurs like Arvid Kahl who observed that successful embedded entrepreneurs built audiences around shared beliefs rather than shared demographics. The approach became particularly relevant in the social media age, where communities can form around ideas rather than geography or traditional categories.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Worldview targeting means ignoring demographics entirely. **Reality:** The most effective approach combines both—use worldview to create the core message and community, then use demographic insights to understand how different groups within that worldview prefer to receive and act on information. Also, worldviews can be too narrow (limiting growth) or too broad (losing focus).",
+  "source_file": "Niche vs. Worldview Framing.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "product-market_fit",
+    "competitive_strategy"
+  ]
+}

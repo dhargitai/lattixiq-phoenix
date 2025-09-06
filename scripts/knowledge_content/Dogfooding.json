@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Dogfooding",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder why Google employees use Gmail, or why Apple designers carry iPhones? They're not just loyal—they're testing.",
+  "definition": "Dogfooding is the practice of a company using its own product internally before releasing it to customers, serving as a real-world testing ground to discover bugs, usability issues, and improvement opportunities.",
+  "analogy_or_metaphor": "It's like a chef tasting their own soup before serving it to customers—you can't know if it's truly good until you experience it yourself.",
+  "key_takeaway": "**The best product validation comes from being your own customer.**",
+  "classic_example": "Microsoft famously used early versions of Windows internally across the company, helping them identify critical bugs and user experience issues before public release.",
+  "modern_example": "Slack was originally built as an internal communication tool for a gaming company—they discovered its power by using it themselves daily before realizing they had built something revolutionary.",
+  "pitfall": "Without dogfooding, you risk shipping products with glaring flaws that only become apparent when real users struggle with them in their daily workflows.",
+  "payoff": "Using your own product reveals genuine user pain points early, builds authentic confidence in your solution, and creates compelling testimonials from your own experience.",
+  "visual_metaphor": "A circular arrow showing a product flowing from creator back to creator, with small bug icons being caught and fixed along the way.",
+  "dive_deeper_mechanism": "Dogfooding works because it removes the artificial barrier between creator and user. When you depend on your own product daily, you experience the same frustrations, workflows, and edge cases as your customers. This creates genuine empathy and urgency around fixing issues. Your internal team becomes a living laboratory where problems surface naturally through authentic use, not contrived testing scenarios.",
+  "dive_deeper_origin_story": "The term 'dogfooding' comes from a 1970s television commercial for Alpo dog food, where the spokesman said he fed Alpo to his own dog. In tech, Microsoft popularized the practice in the 1980s when they required employees to use pre-release versions of their software. The idea was simple: if it's not good enough for us to use daily, it's not good enough for our customers.",
+  "dive_deeper_pitfalls_nuances": "**Pitfall 1:** Internal users often have higher technical tolerance and workarounds that regular customers don't, potentially masking usability issues. **Pitfall 2:** Teams may become blind to problems they've learned to work around, missing critical user experience flaws. The key is combining dogfooding with external user testing—your internal experience validates core functionality, but outside perspectives catch the problems you've become immune to.",
+  "source_file": "Dogfooding.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "operations"
+  ]
+}

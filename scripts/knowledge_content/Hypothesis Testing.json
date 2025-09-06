@@ -1,0 +1,36 @@
+{
+  "knowledge_piece_name": "Hypothesis Testing",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder why 90% of startups fail? Most skip the most important step: testing their assumptions before betting everything on them.",
+  "definition": "The practice of applying the scientific method to business and life by starting with a clear hypothesis that makes testable predictions, then empirically testing those predictions to discover what actually works.",
+  "analogy_or_metaphor": "Like being a detective who doesn't just theorize about who committed the crime, but systematically tests each theory with evidence until the truth emerges.",
+  "key_takeaway": "**Test your assumptions before they test your bank account.**",
+  "classic_example": "Zappos founder Nick Swinmurn didn't build warehouses and inventory systems first. He simply took photos of shoes at local stores, posted them online, and bought them at full price when customers ordered—testing if people would actually buy shoes online before investing millions.",
+  "modern_example": "Before launching a new workout app, you create a simple landing page describing the concept and measure how many people sign up for updates, testing demand before spending months on development.",
+  "pitfall": "Skipping hypothesis testing leads to building products nobody wants, wasting time and money on unvalidated assumptions that seemed obviously true in your head.",
+  "payoff": "Systematic testing reveals what customers actually want versus what you think they want, allowing you to pivot early and build something people will pay for.",
+  "visual_metaphor": "A scientist's beaker with a question mark above it, transforming into a lightbulb as the hypothesis is tested and validated.",
+  "dive_deeper_mechanism": "Hypothesis testing works by forcing you to make your assumptions explicit and measurable. Instead of acting on gut feelings, you create specific, testable predictions about customer behavior, market demand, or solution effectiveness. This shifts you from 'building and hoping' to 'learning and adapting.' The key is designing experiments that can definitively prove or disprove your core assumptions with minimal resources, allowing you to fail fast and cheap rather than slow and expensive.",
+  "dive_deeper_origin_story": "While the scientific method has ancient roots, its application to business was revolutionized by Eric Ries in 'The Lean Startup' (2011). Ries was inspired by Steve Blank's customer development methodology and Toyota's lean manufacturing principles. The breakthrough came from recognizing that startups aren't just smaller versions of big companies—they're experiments searching for a business model. This insight transformed entrepreneurship from an art based on intuition into a science based on validated learning.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Any test counts as a hypothesis test. **Reality:** True hypothesis testing requires specific, measurable predictions made before the test begins. Asking 'Do people like this?' is too vague—you need 'Will 20% of visitors sign up for our beta?' **Another Pitfall:** Testing everything exhaustively. The art is identifying your riskiest assumptions first and testing those, not every possible variable. Focus on assumptions that, if wrong, would kill your entire approach.",
+  "source_file": "Hypothesis Testing.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "pivot",
+    "risk_management"
+  ]
+}

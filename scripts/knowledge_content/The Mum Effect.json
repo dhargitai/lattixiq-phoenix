@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "The Mum Effect",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Social & Behavioral Psychology",
+  "hook": "Ever notice how everyone suddenly becomes an expert at avoiding you when there's bad news to deliver?",
+  "definition": "The tendency for people to withhold negative information from authority figures to avoid uncomfortable reactions or potential backlash.",
+  "analogy_or_metaphor": "Like a household where everyone tiptoes around dad's bad mood—eventually, no one tells him anything important, leaving him blindfolded while the house falls apart.",
+  "key_takeaway": "**Bad news doesn't improve with age—create safety for honest communication.**",
+  "classic_example": "Military reports during wartime where lower-ranking officers avoided telling commanders about strategic failures, leading to catastrophic decision-making based on incomplete information.",
+  "modern_example": "A startup where developers don't tell the CEO about critical bugs because he previously exploded at bad news, so he launches a broken product thinking everything is perfect.",
+  "pitfall": "Living in an information bubble where you make decisions based on incomplete or overly positive data, leading to avoidable disasters.",
+  "payoff": "Creating psychological safety enables early problem detection, faster issue resolution, and better decision-making based on complete information.",
+  "visual_metaphor": "A messenger with their mouth covered by their own hands, while storm clouds gather unnoticed behind a leader looking through rose-colored glasses.",
+  "dive_deeper_mechanism": "The Mum Effect operates through a combination of loss aversion and social psychology. People instinctively avoid situations that might result in punishment, conflict, or damaged relationships. The brain's threat detection system triggers when we anticipate negative reactions, causing us to rationalize silence as 'protecting' the other person or 'waiting for a better time.' This creates an information asymmetry where those in power receive filtered, sanitized versions of reality.",
+  "dive_deeper_origin_story": "The term 'Mum Effect' was coined by psychologists Sidney Rosen and Abraham Tesser in 1970, based on their research into why people avoid transmitting bad news. They discovered that messengers consistently delayed, softened, or completely avoided sharing negative information, even when doing so was clearly counterproductive. Their experiments showed this wasn't just politeness—it was a fundamental bias in human communication that occurred regardless of the messenger's relationship to the recipient.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception**: People think the Mum Effect only applies to dramatic bad news. **Reality**: It affects everyday feedback, from minor project delays to performance issues. **Nuance**: The effect intensifies with hierarchy—the bigger the power gap, the stronger the silence. **Trap**: Leaders often mistake the absence of problems for the absence of bad news, not realizing their own reactions have trained people to stay quiet.",
+  "source_file": "The Mum Effect.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "co-founder_conflict",
+    "team_and_culture",
+    "hiring",
+    "fundraising"
+  ]
+}

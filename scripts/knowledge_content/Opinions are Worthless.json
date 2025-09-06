@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Opinions are Worthless",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "General Thinking Concepts",
+  "hook": "Ever had someone say your idea is \"brilliant\" and then never hear from them again? There's a reason for that disconnect.",
+  "definition": "The principle that opinions and hypothetical answers from potential customers are unreliable data points that lead to false positives. Instead of asking what people think or would do, focus on understanding their actual behaviors, past actions, and concrete commitments.",
+  "analogy_or_metaphor": "Opinions are like weather predictions made by looking out the window – they feel authoritative in the moment but have almost no predictive value for what will actually happen next week.",
+  "key_takeaway": "**Facts about past behavior beat opinions about future behavior every single time.**",
+  "classic_example": "A startup founder asks potential customers 'Would you buy an app that helps manage suppliers?' Everyone says yes. Six months later, after building it, no one actually buys it because they already have Excel spreadsheets that work fine.",
+  "modern_example": "Your friend enthusiastically says they'd 'definitely' join your new workout app, but when you dig deeper, you find they haven't tried any of the 10 fitness apps already on their phone and still pay for an unused gym membership.",
+  "pitfall": "Believing compliments and hypothetical commitments leads to building products nobody actually wants, wasting months of effort on false validation.",
+  "payoff": "Focusing on facts and past behaviors reveals what people actually do versus what they say, helping you build solutions to real problems people will pay to solve.",
+  "visual_metaphor": "A balance scale with 'opinions' (speech bubbles) floating away like balloons on one side, while 'facts' (receipts, timestamps, screenshots) weigh down the other side.",
+  "dive_deeper_mechanism": "This principle works because of the intention-action gap in human psychology. People genuinely believe they'll act on their stated preferences, but context, habits, and immediate priorities override intentions. Additionally, social desirability bias makes people give answers they think you want to hear. When you ask hypothetical questions, respondents imagine an idealized version of themselves rather than their actual behavior patterns. This is why venture capitalists, despite being professional evaluators, are wrong more often than right – even expertise can't overcome the fundamental unreliability of opinion-based predictions.",
+  "dive_deeper_origin_story": "This principle gained prominence through Rob Fitzpatrick's 'The Mom Test,' named after the insight that you should ask questions so good that even your mom – who will lie to protect your feelings – can't give you bad data. Fitzpatrick learned this the hard way after multiple failed startups where enthusiastic customer feedback didn't translate to sales. The breakthrough came when he realized that every encouraging conversation that ended without a concrete commitment was actually a polite rejection in disguise.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Industry experts' opinions are valuable exceptions to this rule. **Reality:** While experts have more context, their opinions are still just educated guesses unless they've built nearly identical businesses. **Myth:** If enough people give the same opinion, it becomes valid data. **Reality:** Consensus opinions often reflect shared biases or social proof rather than actual likelihood of action. The only exception is when discussing past behaviors and current workflows, where opinions about pain points can reveal real problems.",
+  "source_file": "Opinions are Worthless.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pivot"
+  ]
+}

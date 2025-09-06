@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Wizard of Oz MVP",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wondered how tech startups seem to magically build perfect products? Plot twist: many don't build anything at first—they just pretend they did.",
+  "definition": "A testing method where customers interact with what appears to be a fully automated product, while humans secretly perform all the functions manually behind the scenes.",
+  "analogy_or_metaphor": "Like the Wizard of Oz himself—an impressive facade powered by a person behind the curtain, creating the illusion of automation to test if anyone actually wants what's being offered.",
+  "key_takeaway": "**Test demand before you build the machine.**",
+  "classic_example": "The original concept comes from *The Wizard of Oz* film, where the mighty wizard is revealed to be an ordinary man operating machinery behind a curtain, creating an illusion of power and automation.",
+  "modern_example": "A food delivery app that looks fully automated but actually has founders manually receiving orders via the app, calling restaurants, and coordinating deliveries by bike—testing if customers want the service before building complex logistics software.",
+  "pitfall": "Building expensive, complex automation before knowing if customers actually want your product, wasting months and resources on features nobody needs.",
+  "payoff": "Rapidly validate customer demand and behavior patterns with minimal investment, allowing you to learn what works before committing to expensive development.",
+  "visual_metaphor": "A theater stage with elegant curtains—the audience sees a polished performance while stagehands work frantically behind the scenes to create the magic.",
+  "dive_deeper_mechanism": "The Wizard of Oz MVP works by exploiting a crucial insight: customers care about outcomes, not processes. By manually delivering the same results a finished product would provide, you can test the core value proposition without the technical complexity. This leverages the psychological principle that users judge products by results, not implementation. The manual labor behind the scenes becomes your 'learning laboratory'—every customer interaction teaches you what features matter, what workflows are confusing, and what value customers actually perceive.",
+  "dive_deeper_origin_story": "The term draws directly from L. Frank Baum's 1900 novel *The Wonderful Wizard of Oz* and the famous 1939 film adaptation. In the story, Dorothy and her companions discover that the seemingly omnipotent Wizard is actually an ordinary man operating machinery behind a curtain. Eric Ries popularized this concept in *The Lean Startup* as a way to embody the same principle—creating the illusion of a complete product to test assumptions before building the real thing. The method emerged from Silicon Valley's recognition that most startup failures come from building products nobody wants, not from technical inability.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** This is about deceiving customers. **Reality:** It's about testing core value propositions efficiently—the 'deception' is temporary and focused on learning, not profit. Many successful companies later reveal their humble manual beginnings. **Another pitfall:** Staying manual too long after validation. The goal is to learn fast, then automate. **Critical nuance:** This only works for testing demand and user experience—you can't fake technical feasibility or complex integrations indefinitely.",
+  "extra_content": "## Wizard of Oz MVP Implementation Framework\n\n### Phase 1: Hypothesis Formation\n1. **Identify your riskiest assumption** (usually: \"Do customers want this solution?\")\n2. **Define success metrics** (sign-ups, usage frequency, customer satisfaction)\n3. **Determine what can be faked** without compromising core user experience\n\n### Phase 2: Manual System Design\n1. **Create the front-end interface** (website, app mockup, or landing page)\n2. **Map the user journey** from interaction to fulfillment\n3. **Design manual workflows** for each automated feature\n4. **Set up communication channels** for behind-the-scenes coordination\n\n### Phase 3: Execution Protocol\n1. **Staff the manual processes** (founders, contractors, or team members)\n2. **Create response time standards** to maintain illusion of automation\n3. **Establish data collection methods** (user behavior, feedback, pain points)\n4. **Implement feedback loops** for rapid iteration\n\n### Phase 4: Learning and Decision Framework\n1. **Set validation criteria** (e.g., \"50 users completing full workflow with 80% satisfaction\")\n2. **Track key metrics** daily\n3. **Document workflow inefficiencies** (what's hardest to do manually)\n4. **Gather qualitative feedback** through user interviews\n\n### Phase 5: Transition Strategy\n1. **Build automation roadmap** based on validated features\n2. **Prioritize automation** by impact and manual effort required\n3. **Communicate transparently** with early users about the transition\n4. **Scale gradually** from manual to automated processes\n\n### Critical Decision Points:\n- **Continue manual:** If learning is still high and costs are manageable\n- **Build automation:** If demand is validated and manual processes are breaking\n- **Pivot or kill:** If fundamental assumptions are invalidated\n\n### Success Indicators:\n- Customers complete desired actions repeatedly\n- Manual processes become unsustainable due to demand\n- Clear patterns emerge in user behavior and preferences\n- Value proposition is confirmed through customer willingness to pay",
+  "source_file": "Wizard of Oz MVP.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

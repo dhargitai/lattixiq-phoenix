@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Define the Battle",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Military & Competitive Strategy",
+  "hook": "Ever wonder why Apple positioned itself against PCs, not just as another computer? They didn't just sell a product—they redefined what the battle was about.",
+  "definition": "The strategic principle that the company that successfully frames the competitive landscape and the criteria for purchase in the customer's mind will win the market.",
+  "analogy_or_metaphor": "It's like being the referee who gets to write the rules of the game right before it starts—whoever controls the criteria controls the outcome.",
+  "key_takeaway": "**The winner isn't always the best product, but the one who defines what 'best' means.**",
+  "classic_example": "Geoffrey Moore's insight that pragmatist buyers won't purchase until they can compare products, forcing innovative companies to literally create their own competition to establish a credible market category.",
+  "modern_example": "Tesla didn't compete in the 'car' category—they created the 'sustainable luxury vehicle' category where range, charging network, and tech features became the key criteria, not just horsepower and fuel efficiency.",
+  "pitfall": "Competing on someone else's terms means fighting an uphill battle where you're always defending rather than leading.",
+  "payoff": "When you define the battlefield, you can highlight your strengths and minimize your weaknesses, turning the market conversation into one you're designed to win.",
+  "visual_metaphor": "A chess board where one player gets to decide which pieces are allowed and what moves count as winning—the rule-maker has the ultimate advantage.",
+  "dive_deeper_mechanism": "This works because human decision-making relies heavily on comparison and categorization. Pragmatist buyers especially need to feel rational about their choices, so they seek established categories with clear evaluation criteria. By defining these criteria first, you're essentially programming how buyers will think about the entire market. The psychological principle at play is 'anchoring'—the first framework presented becomes the reference point for all subsequent comparisons.",
+  "dive_deeper_origin_story": "Geoffrey Moore identified this principle while studying why so many promising tech companies failed after initial success with early adopters. He observed that mainstream 'pragmatist' customers wouldn't buy innovative products until they could compare them to alternatives in an established category. This created a paradox: to sell to pragmatists, you first had to create credible competition. Moore's insight came from watching companies like Apple successfully reframe entire markets by changing the conversation from technical specifications to user experience.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** You should always position against the market leader. **Reality:** You should position within the most advantageous category for your strengths. **Myth:** Creating competition means making up fake competitors. **Reality:** It means establishing a legitimate product category where real alternatives exist, but the evaluation criteria favor your solution. The key nuance is that the battle definition must be credible to buyers—if it feels too self-serving, pragmatists will reject the entire framework.",
+  "source_file": "Define the Battle.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

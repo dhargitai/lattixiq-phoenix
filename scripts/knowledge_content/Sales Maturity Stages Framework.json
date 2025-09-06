@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Sales Maturity Stages Framework",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some startups scale their sales while others plateau with just the founder desperately trying to do everything?",
+  "definition": "A progressive framework that guides organizations through distinct stages of sales evolution, from founder-led selling to a scalable, specialized sales organization with defined roles and management layers.",
+  "analogy_or_metaphor": "Like building a house - you start with a foundation (founder selling), add walls (specialized roles), then multiple floors (management layers), creating a structure that can support much more weight than any single person could carry.",
+  "key_takeaway": "**Sales organizations must evolve through predictable stages to scale beyond the founder's personal capacity.**",
+  "classic_example": "A B2B SaaS startup where the founder initially handles all sales conversations, then gradually adds Business Development Reps, Account Executives, and Sales Managers as revenue grows and processes become repeatable.",
+  "modern_example": "A tech company founder who realizes they're spending 80% of their time on sales calls instead of building product, so they implement the framework by first hiring a BDR to handle lead qualification, freeing them to focus on closing larger deals.",
+  "pitfall": "Trying to skip stages or scale too quickly creates chaos, with unclear roles, missed opportunities, and overwhelmed team members who lack proper support structures.",
+  "payoff": "Following the staged approach creates predictable revenue growth, reduces founder dependency, and builds a sales machine that can scale without constant intervention.",
+  "visual_metaphor": "A pyramid with distinct levels - founder at the base, then specialized roles (BDRs, AEs) in the middle, and management layers at the top, each supporting the level above it.",
+  "dive_deeper_mechanism": "The framework works by recognizing that sales complexity increases exponentially with growth. Each stage addresses specific bottlenecks: Stage 1 establishes product-market fit through founder selling, Stage 2 adds specialization to handle volume, Stage 3 introduces management to coordinate teams, and Stage 4 creates systems for sustainable growth. The progression ensures each capability is proven before adding the next layer of complexity.",
+  "dive_deeper_origin_story": "Developed by Pete Kazanjy in 'Founding Sales' based on his experience scaling TalentBin's sales organization and observing patterns across B2B SaaS startups. Kazanjy noticed that successful companies followed similar evolutionary patterns, while struggling ones often tried to jump stages or ignored the natural progression of sales organizational development.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake 1:** Hiring senior sales managers too early before establishing repeatable processes - they'll have nothing to manage and will likely fail. **Common Mistake 2:** Assuming all salespeople are interchangeable - each stage requires different skill sets and personalities, from entrepreneurial founder-sellers to process-driven enterprise reps.",
+  "source_file": "Sales Maturity Stages Framework.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "go-to-market",
+    "operations"
+  ]
+}

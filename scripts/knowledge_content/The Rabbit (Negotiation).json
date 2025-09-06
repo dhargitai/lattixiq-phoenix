@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The Rabbit (Negotiation)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Military & Competitive Strategy",
+  "hook": "Ever wonder why auction houses sometimes have mysterious bidders who suddenly appear just to drive up the price? Meet 'the rabbit.'",
+  "definition": "The Rabbit is a negotiation strategy where a less serious bidder is intentionally introduced into a competitive process to create artificial tension and drive up the final price from more committed suitors.",
+  "analogy_or_metaphor": "Like a decoy duck that hunters use to attract real ducks, the rabbit is bait designed to make genuine buyers think they're in a more competitive situation than they actually are.",
+  "key_takeaway": "**Strategic deception in negotiations: sometimes the competition isn't real, it's manufactured.**",
+  "classic_example": "In M&A deals, investment bankers might bring in a bidder who has no real intention of closing the deal, but whose presence forces the serious buyer to increase their offer significantly.",
+  "modern_example": "Real estate agents arranging 'backup offers' or creating bidding wars by scheduling multiple showings on the same day, even when some potential buyers aren't genuinely interested or qualified.",
+  "pitfall": "Falling for manufactured competition leads to overpaying and making emotional decisions based on artificial scarcity rather than actual value.",
+  "payoff": "Recognizing rabbit tactics helps you stay rational in negotiations, avoid bidding wars, and focus on the true value of what you're acquiring.",
+  "visual_metaphor": "A magician's assistant (the rabbit) creating misdirection while the real trick (price manipulation) happens elsewhere, with dollar signs floating around confused bidders.",
+  "dive_deeper_mechanism": "The Rabbit works by exploiting loss aversion and competitive instincts. When buyers believe they're in competition, they shift from evaluating absolute value to relative positioning. The fear of losing to another bidder triggers emotional decision-making, causing people to pay premiums they wouldn't consider in non-competitive situations. This psychological manipulation is particularly effective in high-stakes negotiations where ego and strategic positioning matter as much as financial outcomes.",
+  "dive_deeper_origin_story": "The term 'rabbit' comes from greyhound racing, where a mechanical rabbit is used to make dogs run faster by giving them something to chase. In business negotiations, this concept was formalized in the M&A world during the leveraged buyout boom of the 1980s, when investment bankers discovered that even the hint of competition could add millions to deal values. The strategy became so common that experienced negotiators now specifically look for signs of 'rabbits' in any competitive bidding process.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception**: All competing bidders are rabbits. **Reality**: Most competition is genuine; the key is identifying legitimate versus manufactured competition. **Warning signs of rabbits**: bidders with no logical strategic rationale, last-minute entries with aggressive terms but suspicious financing, or processes that seem overly rushed to 'beat other offers.' **Advanced nuance**: Sometimes rabbits become real buyers if they discover unexpected value, making the distinction even more complex for negotiators to navigate.",
+  "source_file": "The Rabbit (Negotiation).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "fundraising",
+    "competitive_strategy",
+    "operations"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "knowledge_piece_name": "Startup (Definition)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Think you need a garage and venture capital to run a startup? Think again.",
+  "definition": "A startup is a human institution designed to create a new product or service under conditions of extreme uncertainty, regardless of company size, industry, or sector.",
+  "analogy_or_metaphor": "Like an explorer venturing into uncharted territory with only a compass and basic supplies, not knowing what they'll find but committed to discovering new value.",
+  "key_takeaway": "**Startups aren't defined by size or funding—they're defined by uncertainty and innovation.**",
+  "classic_example": "A small team in a garage developing the first personal computer, unsure if anyone would want to buy it or how to build a sustainable business around it.",
+  "modern_example": "A corporate team tasked with creating a new digital service for customers, experimenting with features and business models because no one knows what will actually work in the market.",
+  "pitfall": "Assuming startups only exist in Silicon Valley garages leads to missing entrepreneurial opportunities within established organizations and limiting innovation to traditional startup stereotypes.",
+  "payoff": "Recognizing startups by uncertainty rather than size opens up entrepreneurial thinking across all organizations, enabling innovation in corporations, nonprofits, and government agencies.",
+  "visual_metaphor": "A ship sailing into foggy, uncharted waters with multiple possible destinations marked with question marks on the map.",
+  "dive_deeper_mechanism": "The power of this definition lies in what it excludes: size, industry, and funding source are irrelevant. What matters is the combination of institution-building (hiring, processes, culture) with innovation under uncertainty. This reframes entrepreneurship from a romantic notion of lone inventors to a systematic approach to discovering new sources of customer value when the path forward is unclear.",
+  "dive_deeper_origin_story": "Eric Ries coined this definition in 'The Lean Startup' after observing that many failed startups had great products but couldn't build sustainable businesses, while successful ventures often succeeded not through brilliant initial ideas but through systematic learning and adaptation. He realized the common thread wasn't company size or industry, but the challenge of creating something new when you don't know what customers actually want.",
+  "dive_deeper_pitfalls_nuances": "**Common Myth:** Startups must be small, tech-focused, and venture-funded. **Reality:** Fortune 500 companies launching new products under uncertainty are running startups. A nonprofit creating a new social program faces the same fundamental challenge: learning how to create sustainable value when the solution isn't obvious. The key distinction is uncertainty, not scale or sector.",
+  "source_file": "Startup (Definition).md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "investor"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "fundraising",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

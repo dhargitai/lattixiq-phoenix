@@ -1,0 +1,38 @@
+{
+  "knowledge_piece_name": "Circle of Competence",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder why Warren Buffett avoided tech stocks for decades while others lost fortunes? He knew his boundaries.",
+  "definition": "Your circle of competence is the domain where you have genuine knowledge and understanding, allowing you to make informed decisions with confidence.",
+  "analogy_or_metaphor": "Think of it as a spotlight in a dark room—you can see clearly within the beam, but beyond it lies uncertainty and potential danger.",
+  "key_takeaway": "**Know your boundaries, stay within them, and continuously work to expand them.**",
+  "classic_example": "Warren Buffett's investment strategy: he avoided tech companies for years because he didn't understand their business models, instead focusing on consumer goods and insurance companies where his expertise lay.",
+  "modern_example": "A software developer declining a high-paying blockchain project because they've never worked with cryptocurrency, instead taking a lower-paying web development role where they can deliver excellent results.",
+  "pitfall": "Operating outside your competence leads to poor decisions, overconfidence, and costly mistakes in areas where you lack real understanding.",
+  "payoff": "Staying within your circle while expanding it thoughtfully leads to better decisions, reduced risk, and compound expertise in areas that matter.",
+  "visual_metaphor": "A circle with clearly defined borders: inside is bright and detailed, outside gradually fades to darkness, with arrows showing the circle slowly expanding outward.",
+  "dive_deeper_mechanism": "Your circle of competence works by creating a boundary between areas where you have genuine expertise and those where you're guessing. It's based on the principle that true understanding comes from deep experience, pattern recognition, and honest feedback loops. The model forces you to acknowledge the limits of your knowledge, which paradoxically makes you more effective within those limits. This isn't about intelligence—it's about match quality between your capabilities and the decisions you're making.",
+  "dive_deeper_origin_story": "Warren Buffett and Charlie Munger popularized this concept through Berkshire Hathaway's investment philosophy. Buffett learned early that he made his best investments in businesses he truly understood—from See's Candies to Coca-Cola—while his worst mistakes came from ventures outside his expertise. The concept gained prominence when Buffett famously avoided the dot-com bubble, staying within his circle while others lost billions chasing trends they didn't understand.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Your circle must be large to be valuable. **Reality:** Size doesn't matter—depth and accuracy do. A small, well-defined circle beats a large, fuzzy one. **Another Pitfall:** Treating your circle as static. Competence requires constant maintenance through learning, monitoring your track record, and honest self-assessment. Without this upkeep, your circle shrinks as the world changes around you.",
+  "extra_content": "## Building and Maintaining Your Circle of Competence\n\n### The Three-List Portfolio Method (Buffett's Approach)\n\n**Step 1: Create Three Categories**\n- **\"In\" List**: Areas where you have deep, demonstrated competence\n- **\"Out\" List**: Areas you've tried to understand but failed to grasp\n- **\"Too Hard\" List**: Complex areas you're unwilling to invest time studying\n\n**Step 2: Honest Assessment Criteria**\nFor each area, ask:\n- Can I predict outcomes better than random chance?\n- Do I understand the key variables that drive results?\n- Can I explain this to someone else clearly?\n- Have I been consistently right about this domain?\n\n### The Circle Expansion Framework\n\n**Phase 1: Foundation Building**\n1. **Track Record Analysis**: Keep detailed records of your decisions and outcomes in target areas\n2. **Pattern Recognition**: Document what works, what doesn't, and why\n3. **Feedback Loops**: Create systems to get honest feedback on your performance\n\n**Phase 2: Deliberate Expansion**\n1. **Adjacent Learning**: Focus on areas that border your existing competence\n2. **Mentor Mapping**: Find experts in your target expansion areas\n3. **Small Stakes Testing**: Make low-risk decisions in new areas to build experience\n\n**Phase 3: Maintenance Protocol**\n1. **Quarterly Reviews**: Assess which areas remain in your competence\n2. **Knowledge Updates**: Stay current with changes in your domains\n3. **Boundary Testing**: Regularly test the edges of your competence\n\n### Decision-Making Within Your Circle\n\n**The Competence Checklist**\nBefore making important decisions, verify:\n- [ ] This falls within my demonstrated area of competence\n- [ ] I understand the key variables affecting this outcome\n- [ ] I have relevant experience with similar situations\n- [ ] I can articulate my reasoning clearly to others\n- [ ] The potential downside is acceptable if I'm wrong\n\n**When to Say No**\n- You can't explain the opportunity simply\n- Your track record in this area is poor or non-existent\n- The stakes are too high for your level of competence\n- You're acting on social pressure rather than understanding",
+  "source_file": "Circle of Competence.md",
+  "super_model": true,
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pivot",
+    "hiring",
+    "fundraising",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "risk_management"
+  ]
+}

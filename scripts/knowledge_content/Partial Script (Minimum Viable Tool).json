@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Partial Script (Minimum Viable Tool)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "The first writing systems weren't designed to capture human poetry or philosophy—they were accounting tools. Sometimes the most powerful innovations start ridiculously simple.",
+  "definition": "The strategy of building the simplest possible version of a tool that solves one critical problem exceptionally well, rather than creating a complex, feature-rich solution from the start.",
+  "analogy_or_metaphor": "Like a Swiss Army knife that starts with just one blade—sharp, focused, and perfectly suited for its primary job before adding other tools.",
+  "key_takeaway": "**Master one function before attempting many.**",
+  "classic_example": "The earliest writing systems in Mesopotamia were partial scripts—not designed to capture all human language, but specifically created to track grain inventories and financial transactions for ancient accountants.",
+  "modern_example": "Twitter launched as a simple status-sharing tool with a 140-character limit, not as a full social media platform. Instagram began as Burbn, focusing solely on photo-sharing before expanding features.",
+  "pitfall": "Building complex, feature-heavy tools from the start leads to bloated products that solve nothing particularly well and waste resources on untested assumptions.",
+  "payoff": "Focusing on one core function allows rapid testing, learning, and iteration while minimizing risk and resource waste, leading to tools that truly meet user needs.",
+  "visual_metaphor": "A single, perfectly sharpened pencil next to a cluttered toolbox with broken, unused tools scattered around it.",
+  "dive_deeper_mechanism": "The Partial Script works by forcing creators to isolate the essential problem and resist the urge to add complexity. This constraint creates clarity: when you can only solve one problem, you must choose the right one. The psychological principle of 'satisficing' suggests humans perform better with fewer, clearer choices. By building minimally, creators gather real-world feedback faster, allowing market forces and user behavior—not assumptions—to guide development. This approach leverages the compound effect of learning: each iteration builds knowledge that informs better decisions.",
+  "dive_deeper_origin_story": "The concept draws from ancient Sumerian clay tablets—humanity's first writing system around 3200 BCE. These weren't poetic expressions but practical accounting tools, tracking sheep and barley with simple marks. This historical example inspired modern MVP methodology, popularized by Eric Ries in 'The Lean Startup' (2011). Ries built on earlier work by Frank Robinson and Steve Blank, who recognized that most product failures stemmed from building things nobody wanted. The Silicon Valley mantra 'fail fast, learn faster' emerged from this realization that partial solutions often reveal more than perfect plans.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** A partial script means 'cheap' or 'incomplete.' **Reality:** It means strategically focused. The tool must still work excellently for its intended purpose—it's about depth, not shortcuts. **Another myth:** You should always start minimal. **Nuance:** This applies when uncertainty is high about user needs. If you're solving a well-understood problem with proven demand, more complete initial solutions may be appropriate. The key is matching your approach to your level of uncertainty about what users actually want.",
+  "extra_content": "## The Partial Script Development Framework\n\n### Step 1: Problem Isolation\n- **Define the core hypothesis**: What single problem must this tool solve?\n- **Write a one-sentence problem statement**: 'Users need to [action] because [pain point]'\n- **Identify success criteria**: How will you know the tool works?\n\n### Step 2: Feature Ruthlessness\n- **List all possible features**: Brainstorm everything the tool could do\n- **Apply the 'Must Have' test**: Which features are absolutely essential for basic functionality?\n- **Use the 80/20 rule**: Which 20% of features will deliver 80% of the value?\n- **Create a 'Not Now' list**: Document deferred features for future iterations\n\n### Step 3: Build and Deploy\n- **Set a tight deadline**: Usually 2-4 weeks maximum\n- **Focus on function over form**: Basic usability, not perfect design\n- **Create feedback mechanisms**: Surveys, analytics, user interviews\n- **Deploy to a small test group**: 10-50 early users maximum\n\n### Step 4: Learning Loop\n- **Measure key metrics**: Usage frequency, task completion, user retention\n- **Collect qualitative feedback**: What do users actually do vs. what you expected?\n- **Identify usage patterns**: Are users using the tool as intended?\n- **Document insights**: What assumptions were validated or disproven?\n\n### Step 5: Iteration Decision Matrix\n- **Continue**: Core functionality works, users engaged, clear improvement path\n- **Pivot**: Core functionality works, but users use it differently than expected\n- **Kill**: No user engagement, fundamental assumptions proven wrong\n- **Scale**: Strong validation, ready to add features or expand user base\n\n### Critical Questions for Each Stage\n- **Before building**: What's the riskiest assumption I'm making?\n- **During development**: Am I adding features or solving the core problem?\n- **After launch**: What are users actually doing with this tool?\n- **Before scaling**: Have I validated product-market fit for this specific function?",
+  "source_file": "Partial Script (Minimum Viable Tool).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "operations"
+  ]
+}

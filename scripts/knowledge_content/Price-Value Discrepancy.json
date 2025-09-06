@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Price-Value Discrepancy",
+  "super_model": true,
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "Ever wonder why people pay $5 for coffee at Starbucks when they could brew it at home for 50 cents?",
+  "definition": "The gap between what customers pay (price) and what they believe they receive in return (perceived value). When value exceeds price, customers buy; when price exceeds value, they walk away.",
+  "analogy_or_metaphor": "Think of it like a balance scale where value sits on one side and price on the other. Customers only pull the trigger when the value side tips the scale heavily in their favor.",
+  "key_takeaway": "**People don't buy products—they buy better versions of themselves at a price that feels like a steal.**",
+  "classic_example": "Apple's iPhone launch in 2007. Despite costing $599 (expensive for phones then), customers perceived enormous value: internet in their pocket, music player, camera, and phone all in one sleek device.",
+  "modern_example": "Netflix charges $15/month while a single movie ticket costs $15. Customers perceive massive value: unlimited entertainment, convenience of home viewing, and no ads, making the monthly fee feel like a bargain.",
+  "pitfall": "Competing on price alone creates a race to the bottom where you work harder for less profit, eventually destroying your business sustainability.",
+  "payoff": "Maximizing the price-value gap lets you charge premium prices, attract quality customers, and build a profitable business that can outspend competitors on marketing.",
+  "visual_metaphor": "A balance scale with 'VALUE' on one side (heavily weighted down) and 'PRICE' on the other side (lifted high), with a customer's hand reaching toward the purchase button.",
+  "dive_deeper_mechanism": "This principle works because human decision-making is fundamentally comparative, not absolute. We don't evaluate prices in isolation—we constantly compare what we're getting versus what we're giving up. When the perceived benefits (convenience, status, results, experience) significantly outweigh the monetary cost, our brains trigger the purchase decision. This is why luxury brands can charge 10x more for similar products—they've mastered the art of value perception through branding, experience, and positioning.",
+  "dive_deeper_origin_story": "Warren Buffett popularized this concept in investing with his famous quote: 'Price is what you pay. Value is what you get.' But the principle traces back to Austrian economist Carl Menger's theory of subjective value in the 1870s, which demonstrated that value isn't inherent in objects but exists in the mind of the buyer. This revolutionary insight explained why people pay different amounts for the same item depending on their circumstances, needs, and perceptions.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Assuming all customers value the same things—in reality, different segments value different benefits. **Common Mistake #2:** Thinking lower prices automatically create better value propositions—often, higher prices can actually increase perceived value through the psychology of social proof and quality assumptions. **Nuance:** The discrepancy must be *perceived*, not just real—a product with genuine benefits that customers don't understand or experience won't create the psychological trigger to buy.",
+  "source_file": "Price-Value Discrepancy.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

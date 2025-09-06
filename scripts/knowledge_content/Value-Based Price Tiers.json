@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Value-Based Price Tiers",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why a luxury crystal figurine costs $50 while a nearly identical one costs $500? The secret isn't in the crystal—it's in the pricing strategy.",
+  "definition": "A strategic pricing framework that organizes complex product portfolios into a small number of clear price tiers, where each tier is based on specific value drivers that customers actually care about, such as complexity, performance, or exclusivity.",
+  "analogy_or_metaphor": "Think of it like a hotel's room categories: instead of pricing each room individually based on arbitrary factors, they create clear tiers—Standard, Deluxe, Suite—where each tier delivers distinctly different value and commands a proportional price.",
+  "key_takeaway": "**Replace pricing chaos with value-based logic that customers can understand and justify.**",
+  "classic_example": "Swarovski transformed their crystal pricing from arbitrary individual pricing to clear tiers based on complexity and craftsmanship—simple designs in the entry tier, intricate pieces in premium tiers, with each tier representing a clear step up in value.",
+  "modern_example": "Apple's iPhone lineup: instead of dozens of confusing models, they offer clear tiers (standard, Pro, Pro Max) where each tier delivers specific value upgrades—better cameras, more storage, premium materials—that justify the price jumps.",
+  "pitfall": "Without clear value tiers, customers get confused by arbitrary pricing, leading to decision paralysis, price sensitivity, and difficulty justifying purchases to themselves or others.",
+  "payoff": "Clear value tiers make pricing decisions feel logical and fair, reduce customer confusion, increase willingness to pay for higher tiers, and create a scalable pricing structure that grows with your business.",
+  "visual_metaphor": "A pyramid with three distinct levels, each level clearly labeled with its value proposition and price point, showing customers a clear path from basic to premium offerings.",
+  "dive_deeper_mechanism": "Value-based price tiers work by leveraging customers' mental categorization patterns and loss aversion. When customers see clear tiers with distinct value propositions, their brains naturally compare within the tier system rather than questioning the overall pricing. The key psychological principle is 'reference point anchoring'—each tier becomes a reference point that makes the others seem reasonable. Additionally, tiered pricing reduces cognitive load by limiting choices to meaningful differences rather than overwhelming customers with minor variations.",
+  "dive_deeper_origin_story": "The concept evolved from the luxury goods industry, where companies like Cartier and Rolex realized that customers weren't just buying products—they were buying into status levels. Swarovski, the Austrian crystal company, pioneered the systematic application of this in the 1990s when they moved from pricing each crystal piece individually to creating clear complexity-based tiers. This transformation helped them expand from a niche craft business to a global luxury brand by making their pricing structure comprehensible and defensible.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Creating too many tiers (more than 5) which recreates the confusion you're trying to solve. **Common Mistake #2:** Basing tiers on internal cost differences rather than customer-perceived value differences. **Critical Nuance:** The value drivers must be visible and meaningful to customers—technical specifications they don't understand won't justify price differences. **Advanced Insight:** The most successful tier systems create clear 'good-better-best' progressions where the middle tier is designed to be the most attractive, driving customers up from the basic tier while making the premium tier feel achievable.",
+  "source_file": "Value-Based Price Tiers.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

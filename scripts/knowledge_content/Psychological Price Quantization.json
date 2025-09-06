@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Psychological Price Quantization",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "Ever wonder why everything costs $9.99 instead of $10? That single penny creates a massive psychological canyon that retailers exploit every day.",
+  "definition": "The practice of setting prices at established psychological thresholds where consumers mentally categorize products into distinct price tiers, causing dramatic changes in purchasing behavior when prices cross these invisible boundaries.",
+  "analogy_or_metaphor": "Like quantum energy levels in physics, consumer minds have discrete price 'levels' - a product at $49 lives in a completely different mental category than one at $51, even though they're nearly identical.",
+  "key_takeaway": "**Small price changes across psychological thresholds create massive shifts in perceived value.**",
+  "classic_example": "The ubiquitous $19.99 vs $20.00 pricing strategy, where that single penny difference makes consumers perceive the item as 'in the teens' rather than 'twenty dollars,' dramatically increasing sales despite the negligible actual difference.",
+  "modern_example": "Subscription services pricing at $9.99/month instead of $10, or premium software at $99/month vs $100, where crossing into triple digits makes the service feel exponentially more expensive in consumers' minds.",
+  "pitfall": "Ignoring price quantization means missing massive sales opportunities or accidentally pricing yourself out of a market tier with small, seemingly insignificant price increases.",
+  "payoff": "Strategic use of psychological price thresholds can dramatically increase conversion rates and position your product in the optimal mental category for your target market.",
+  "visual_metaphor": "A staircase where each step represents a psychological price tier, with vast gaps between steps - products 'fall' into lower mental categories when priced just below the threshold, while those above get mentally elevated to much higher tiers.",
+  "dive_deeper_mechanism": "This works because human brains process numbers using mental shortcuts. We anchor on the leftmost digit and use 'chunking' to categorize prices. A $49 item gets mentally filed as 'forty-something' while $50 becomes 'fifty' - triggering different mental budgets and value assessments. The brain also uses 'left-digit bias' where $3.99 feels substantially cheaper than $4.00 because we focus disproportionately on that first digit.",
+  "dive_deeper_origin_story": "This phenomenon was first systematically studied in the 1960s when researchers noticed that small price changes could cause disproportionate changes in demand. The term 'psychological pricing' gained prominence when studies showed that items priced at $0.99 outsold identical items at $1.00 by 30-60%. Retailers like J.C. Penney famously struggled when they tried to eliminate this practice in 2012, reverting back due to massive sales drops.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Any price ending in 9 works equally well. **Reality:** The threshold effect only works at meaningful psychological boundaries - $9.99 vs $10 is powerful, but $47.99 vs $48 has minimal impact. **Another Pitfall:** Assuming all consumers respond equally - luxury buyers often prefer round numbers as they signal quality and prestige, while bargain hunters are more sensitive to the .99 endings.",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

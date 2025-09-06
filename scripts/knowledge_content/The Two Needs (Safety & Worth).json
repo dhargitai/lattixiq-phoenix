@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "The Two Needs (Safety & Worth)",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Motivation & Human Drives",
+  "hook": "Ever wondered why constructive criticism from your boss hits differently than the same feedback from a trusted mentor?",
+  "definition": "Negative feedback feels threatening only when we believe it jeopardizes our fundamental psychological needs for safety (belonging, security) and worth (competence, value).",
+  "analogy_or_metaphor": "Think of these needs like your psychological immune system - feedback that seems to attack your safety or worth triggers defensive reactions, while feedback that preserves these needs allows for growth and learning.",
+  "key_takeaway": "**Feedback hurts when it threatens who we are, not what we did.**",
+  "classic_example": "A student receiving harsh criticism from a teacher may shut down completely if they interpret it as 'you don't belong here' (safety) or 'you're not smart enough' (worth), rather than hearing the actual content about improving their work.",
+  "modern_example": "When your manager gives you critical feedback in a team meeting, you might feel defensive not because the feedback is wrong, but because being corrected publicly threatens your sense of belonging (safety) and competence (worth) in front of colleagues.",
+  "pitfall": "Interpreting all negative feedback as threats to your fundamental needs leads to defensiveness, missed learning opportunities, and damaged relationships.",
+  "payoff": "Recognizing when feedback threatens these needs helps you separate useful information from psychological threats, enabling growth while protecting your well-being.",
+  "visual_metaphor": "Two overlapping shields labeled 'Safety' and 'Worth' protecting a person's core, with arrows (feedback) either bouncing off when threatening or passing through when constructive.",
+  "dive_deeper_mechanism": "These two needs represent core human drives rooted in evolutionary psychology. Our safety need stems from our tribal nature - exclusion from the group historically meant death, so our brains are wired to detect threats to belonging. Our worth need relates to our competence and status within the group, which determined access to resources and mates. When feedback triggers these ancient alarm systems, our fight-or-flight response activates before our rational mind can process the actual content. The key insight is that the same feedback can be received completely differently depending on how it's framed - whether it threatens these core needs or preserves them while addressing behavior.",
+  "dive_deeper_origin_story": "This concept builds on foundational psychological research including Abraham Maslow's hierarchy of needs and Self-Determination Theory by Edward Deci and Richard Ryan. Maslow identified safety and esteem as fundamental human needs, while Deci and Ryan's research showed that autonomy, competence, and relatedness are essential for psychological well-being. The 'Two Needs' framework distills these into the most critical elements that determine how we receive feedback - our sense of safety (do I belong here?) and worth (am I capable and valuable?).",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That all negative emotions from feedback indicate these needs are threatened. **Reality:** Sometimes discomfort from feedback is just the natural process of growth - the key is distinguishing between growth discomfort and threat response. **Another Nuance:** The same feedback can threaten these needs for one person but not another, depending on their psychological security and the relationship context. It's not just about the words, but about the person's interpretation based on their history and current state of psychological safety.",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "co-founder_conflict",
+    "hiring",
+    "team_and_culture",
+    "pivot"
+  ]
+}

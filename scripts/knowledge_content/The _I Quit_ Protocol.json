@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "The \"I Quit\" Protocol",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Your star employee just walked into your office and said those two devastating words: \"I quit.\" What you do in the next 60 seconds could save them—or lose them forever.",
+  "definition": "An emergency response framework for managers when a valued employee announces their intention to quit, requiring immediate action to understand root causes and explore retention solutions.",
+  "analogy_or_metaphor": "Like a paramedic responding to a cardiac arrest—you drop everything, stabilize the situation, diagnose the real problem, and mobilize every available resource before it's too late.",
+  "key_takeaway": "**When talent walks, everything else stops—listen first, act fast, involve others.**",
+  "classic_example": "At Intel, when a high-performing engineer announced they were leaving for a competitor, Grove would immediately clear his calendar, spend hours understanding the real issues (often not money but career growth), and involve senior leadership to create a counter-offer that addressed the root concerns.",
+  "modern_example": "Your top software developer says they're leaving for a startup. Instead of immediately discussing salary, you discover they're frustrated by slow decision-making and want more ownership. You involve your VP to fast-track their promotion to tech lead on a new project.",
+  "pitfall": "Treating resignation as final or focusing only on surface issues like salary leads to losing top talent and demoralizing remaining team members.",
+  "payoff": "Quick, empathetic response often reveals solvable problems and can retain valuable employees while demonstrating to the entire team that people matter.",
+  "visual_metaphor": "An emergency room triage board where \"VALUED EMPLOYEE QUIT\" flashes red at the top, triggering immediate all-hands response protocols.",
+  "dive_deeper_mechanism": "This protocol leverages the psychological principle that people rarely quit jobs—they quit managers or situations. When someone announces they're leaving, there's usually a 24-48 hour window where they're still emotionally invested enough to be retained. The protocol works by: 1) Stopping everything else (showing immediate priority), 2) Creating psychological safety through active listening, 3) Uncovering root causes beyond stated reasons, 4) Involving higher authority to signal serious intent to solve problems. The urgency creates momentum that can override the mental commitment to leave.",
+  "dive_deeper_origin_story": "Andrew Grove, Intel's legendary CEO, developed this approach during Intel's rapid growth phase when losing key talent could derail entire projects. Grove noticed that most resignations followed predictable patterns—valued employees would hint at problems for weeks before quitting, but managers would dismiss these as minor complaints. By the time someone formally resigned, managers would panic and make desperate counter-offers focused on money. Grove's insight was that the real issues were usually systemic (lack of growth, poor communication, organizational friction) and required immediate, high-level intervention to solve.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake 1:** Assuming it's about money and immediately offering raises without understanding root causes. **Reality:** Most valued employees leave for growth, recognition, or cultural reasons. **Common Mistake 2:** Taking the resignation personally and becoming defensive. **Reality:** The employee is often testing whether leadership truly values them—defensiveness confirms they should leave. **Timing Nuance:** This protocol only works with truly valued employees. Applying it to poor performers sends the wrong message to your team about standards and fairness.",
+  "source_file": "The \"I Quit\" Protocol.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "hiring"
+  ]
+}

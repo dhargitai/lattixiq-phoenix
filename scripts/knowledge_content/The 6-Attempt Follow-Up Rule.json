@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "The 6-Attempt Follow-Up Rule",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why top sales reps seem to magically connect with prospects while others get ignored? The secret isn't charm—it's persistence with a plan.",
+  "definition": "A data-backed sales guideline requiring at least six persistent contact attempts with qualified inbound leads to achieve up to 90% contact probability.",
+  "analogy_or_metaphor": "Like knocking on a door—most people give up after one or two tries, but the person who knocks six times is almost guaranteed to catch someone home eventually.",
+  "key_takeaway": "**Six attempts turn maybe into contact—persistence pays exponentially.**",
+  "classic_example": "Cold calling in traditional sales where most reps would give up after 2-3 attempts, leaving 70% of potential deals on the table, while top performers systematically worked through all six touches.",
+  "modern_example": "A SaaS company's inbound lead downloads a whitepaper but doesn't respond to the first email. Most sales reps move on, but following the rule means attempting contact via email, phone, LinkedIn, referral request, value-add content, and final recap—dramatically increasing connection rates.",
+  "pitfall": "Giving up too early means losing 60-70% of qualified prospects who would have engaged with proper follow-up persistence.",
+  "payoff": "Systematic six-attempt follow-up can increase your contact rate from 30% to 90%, essentially tripling your pipeline from the same lead volume.",
+  "visual_metaphor": "A staircase with six steps, where each step represents a follow-up attempt, showing how few people climb all the way to the top where success awaits.",
+  "dive_deeper_mechanism": "The rule works because it accounts for human reality: people are busy, distracted, and often need multiple touchpoints before responding. Research shows that 80% of sales require 5+ follow-up attempts, yet 44% of salespeople give up after one follow-up. The rule systematically overcomes this by ensuring you stay in front of prospects long enough for timing to align with their availability and interest. Each attempt increases the cumulative probability of contact, creating a compound effect that separates persistent professionals from the majority who quit early.",
+  "dive_deeper_origin_story": "This rule emerged from sales analytics data showing that while most salespeople stop following up after 2-3 attempts, successful enterprise sales consistently required 5-6 touchpoints. Companies like Salesforce and HubSpot popularized the systematic approach by tracking follow-up patterns of their top performers, discovering that high achievers weren't necessarily more skilled at first contact—they were simply more persistent and systematic in their follow-up sequences. The 90% contact probability statistic comes from analyzing thousands of B2B sales interactions across multiple industries.",
+  "dive_deeper_pitfalls_nuances": "**Common misunderstanding:** More attempts always equal better results. **Reality:** Quality matters as much as quantity—each follow-up should add value, vary the communication channel, and respect timing. **Another pitfall:** Applying this to unqualified leads wastes time and resources. The rule specifically applies to *qualified* inbound leads who have shown genuine interest. **Timing nuance:** The six attempts should be spaced appropriately (not six calls in one day) and should vary in format—email, phone, social media, referral requests—to maximize touchpoint effectiveness while avoiding harassment.",
+  "source_file": "The 6-Attempt Follow-Up Rule.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "operations"
+  ]
+}

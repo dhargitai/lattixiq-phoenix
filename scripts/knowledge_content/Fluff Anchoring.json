@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Fluff Anchoring",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever notice how people say they \"always\" do something, but when you ask \"When was the last time?\", they can't remember? That gap reveals everything.",
+  "definition": "A technique for testing the validity of vague, generic, or future-oriented statements by grounding them in concrete past experiences through specific follow-up questions.",
+  "analogy_or_metaphor": "Like a detective checking an alibi - anyone can claim they \"always\" do something, but asking \"When exactly?\" separates real behavior from wishful thinking.",
+  "key_takeaway": "**Vague claims dissolve when anchored to specific moments.**",
+  "classic_example": "When someone says \"I go to the gym regularly,\" asking \"When did you last go?\" might reveal they haven't been in months, exposing the gap between self-perception and reality.",
+  "modern_example": "A potential customer claims they \"definitely need\" your productivity app and would \"totally use it daily.\" But when you ask \"What productivity tool did you last download and actually use for more than a week?\", they realize they've never stuck with any productivity system.",
+  "pitfall": "Accepting people's generic statements and future promises at face value leads to building products nobody actually wants or making decisions based on wishful thinking rather than reality.",
+  "payoff": "Grounding conversations in concrete past experiences reveals true patterns of behavior, helping you understand what people actually do versus what they think they do or wish they did.",
+  "visual_metaphor": "A balloon labeled 'vague claim' being tied down to the ground with a rope labeled 'specific question' - preventing it from floating away into fantasy.",
+  "dive_deeper_mechanism": "Fluff anchoring works because it exploits the psychological gap between our aspirational self-image and our actual behavior. When people make vague claims, they're often drawing from their ideal self rather than their real patterns. By asking for specific recent examples, you force them to access episodic memory rather than abstract self-concepts, revealing what they actually do rather than what they believe about themselves.",
+  "dive_deeper_origin_story": "This technique was popularized by Rob Fitzpatrick in 'The Mom Test' after observing countless entrepreneurs getting misled by well-meaning but inaccurate customer feedback. He noticed that people would enthusiastically claim they needed a product, only for the startup to fail because those same people never actually bought it. The technique emerged from the realization that asking about past behavior is far more predictive than asking about future intentions.",
+  "dive_deeper_pitfalls_nuances": "**Common Pitfall:** Using fluff anchoring aggressively can make people defensive or embarrassed when they realize their claims don't match reality. **The Reality:** It should be used conversationally and with genuine curiosity, not as a gotcha moment. Also, just because someone can't recall a recent specific example doesn't automatically invalidate their point - some behaviors are seasonal or situational.",
+  "extra_content": "## The Fluff Anchoring Method\n\n### Core Questions to Ask\n\nWhen someone makes a vague claim, follow up with:\n- **\"When did that last happen?\"**\n- **\"Can you give me a specific example from this past week/month?\"**\n- **\"Walk me through the last time you did X...\"**\n- **\"What exactly did you do the last time you faced this problem?\"**\n\n### Step-by-Step Application\n\n1. **Listen for Fluff Signals**\n   - Words like \"always,\" \"never,\" \"usually,\" \"regularly\"\n   - Future tense promises (\"I would definitely...\")\n   - Generic statements (\"People need this\")\n   - Emotional but vague responses (\"That's so frustrating!\")\n\n2. **Apply the Anchor Question**\n   - Ask politely and with genuine curiosity\n   - Use specific timeframes (\"last week,\" \"yesterday,\" \"this month\")\n   - Request concrete details about the situation\n\n3. **Listen for the Gap**\n   - Notice hesitation or inability to provide specifics\n   - Watch for backtracking or qualification of original claims\n   - Pay attention to the difference between stated frequency and actual examples\n\n4. **Follow Up Appropriately**\n   - If they provide concrete examples: dig deeper into those real situations\n   - If they can't provide examples: gently explore why the gap exists\n   - If they get defensive: acknowledge and redirect to understanding their real needs\n\n### Variations by Context\n\n**Customer Research:**\n- \"When was the last time this problem cost you time/money?\"\n- \"Walk me through your morning routine yesterday - where would this fit?\"\n\n**Personal Goal Setting:**\n- \"What specific steps did you take toward this goal last week?\"\n- \"When did you last succeed at changing a similar habit?\"\n\n**Team Planning:**\n- \"When did we last successfully implement something like this?\"\n- \"What exactly happened the last time we tried this approach?\"",
+  "source_file": "Fluff Anchoring.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "co-founder_conflict",
+    "team_and_culture",
+    "go-to-market"
+  ]
+}

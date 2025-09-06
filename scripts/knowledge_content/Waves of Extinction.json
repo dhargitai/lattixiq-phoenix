@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Waves of Extinction",
+  "main_category": "Biology & Evolution",
+  "subcategory": "Evolutionary Principles",
+  "hook": "Every 50,000 years, something revolutionary happens that wipes out most existing life forms and ways of living. We're living through one right now.",
+  "definition": "Waves of Extinction describes the recurring pattern of mass disruptions throughout history where new technologies or social systems emerge and systematically eliminate existing ways of life, creating cascading effects across entire ecosystems of human activity.",
+  "analogy_or_metaphor": "Like tsunamis that reshape coastlines, these waves don't just remove what came before—they completely transform the landscape, making it impossible for old forms to survive in the new environment.",
+  "key_takeaway": "**Every revolutionary innovation triggers an extinction wave that transforms entire systems of human organization.**",
+  "classic_example": "The Agricultural Revolution 10,000 years ago didn't just change how we got food—it eliminated hunter-gatherer societies, created cities, hierarchies, and new diseases, fundamentally restructuring human civilization.",
+  "modern_example": "Netflix didn't just compete with Blockbuster—it triggered an extinction wave that eliminated video rental stores, changed how we consume media, transformed TV production, and created binge-watching culture.",
+  "pitfall": "Viewing your innovation as just competing with existing players, missing the systemic transformation you're actually triggering and the resistance it will generate.",
+  "payoff": "Understanding extinction waves helps you anticipate the full scope of disruption your innovation will cause and prepare for the systemic changes that follow.",
+  "visual_metaphor": "A massive wave approaching a shoreline, with old structures being swept away while new formations emerge in its wake, showing both destruction and creation in one continuous motion.",
+  "dive_deeper_mechanism": "Extinction waves work through interconnected systems collapse. When a new technology or social innovation proves superior, it doesn't just replace its direct competitors—it makes entire supporting ecosystems obsolete. The foraging-to-farming transition didn't just change food procurement; it eliminated nomadic lifestyles, created permanent settlements, enabled population growth, necessitated new social hierarchies, and birthed organized religion. Each change cascaded into others, creating a complete systemic transformation where the old ways couldn't survive even if they wanted to coexist.",
+  "dive_deeper_origin_story": "Historian Yuval Noah Harari popularized this framework in 'Sapiens' by identifying three major waves: the Cognitive Revolution (70,000 years ago enabling language and cooperation), the Agricultural Revolution (10,000 years ago creating civilization), and the Scientific Revolution (500 years ago launching modernity). Each wave didn't just add new capabilities—it fundamentally restructured human society, making previous ways of life not just obsolete but impossible to maintain.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Extinction waves are intentionally destructive. **Reality:** They're natural consequences of superior systems emerging. The Agricultural Revolution's creators didn't set out to eliminate foraging—farming was simply more effective at supporting larger populations. **Myth:** Old systems die instantly. **Reality:** Extinction waves can take centuries to fully play out, with old and new systems coexisting in tension before the wave completes its transformation.",
+  "source_file": "Waves of Extinction.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "pivot",
+    "risk_management"
+  ]
+}

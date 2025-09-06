@@ -1,0 +1,40 @@
+{
+  "knowledge_piece_name": "The Five Whys",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "When your website crashes, do you blame the server or dig deeper to find out why the server wasn't maintained properly?",
+  "definition": "The Five Whys is a root cause analysis technique that involves asking 'Why?' five times in succession to move beyond surface-level symptoms and uncover the underlying human or process problem causing a failure.",
+  "analogy_or_metaphor": "Think of it like peeling an onion—each 'why' removes another layer of symptoms until you reach the core issue that's making your eyes water.",
+  "key_takeaway": "**Don't treat symptoms; cure the disease by asking why five times.**",
+  "classic_example": "Toyota's famous example: Machine stops → Why? Fuse blew → Why? Pump shaft seized → Why? No lubrication → Why? Pump not maintained → Why? No maintenance schedule. Fix: Create maintenance schedule, not just replace fuse.",
+  "modern_example": "Your team misses a deadline → Why? Code review took too long → Why? Found major bugs late → Why? Testing started too late → Why? Requirements changed mid-sprint → Why? Client wasn't involved early enough. Fix: Involve client in weekly check-ins.",
+  "pitfall": "Stopping at surface-level fixes leads to recurring problems and wasted time putting out the same fires repeatedly.",
+  "payoff": "Identifying root causes prevents problems from recurring and creates systematic improvements that strengthen your entire process.",
+  "visual_metaphor": "A tree with visible dead branches above ground, but the real problem is diseased roots underground—each 'why' digs deeper toward the roots.",
+  "dive_deeper_mechanism": "The Five Whys works by forcing us to resist our natural tendency to jump to quick fixes. Our brains are wired to stop investigating once we find a plausible cause, but most problems have multiple layers. Each 'why' question acts as a cognitive forcing function, pushing us past the obvious and into the realm of systemic issues. It's particularly effective because it's simple enough to use in high-stress situations when complex analysis tools would be overwhelming.",
+  "dive_deeper_origin_story": "The Five Whys was developed by Sakichi Toyoda, founder of Toyota Industries, and later refined by Taiichi Ohno as part of the Toyota Production System. The technique gained fame when Toyota used it to dramatically improve manufacturing quality in the 1950s. It was later popularized in the startup world by Eric Ries in 'The Lean Startup,' who adapted it from manufacturing to software development and business problem-solving.",
+  "dive_deeper_pitfalls_nuances": "**Common Pitfall 1:** Stopping too early because you found 'a' cause, not 'the' cause. Sometimes the real issue requires six or seven whys. **Common Pitfall 2:** Turning it into blame game instead of process improvement—focus on systems, not people. **Nuance:** It works best for process failures, not strategic or creative challenges where multiple valid approaches exist.",
+  "extra_content": "## The Five Whys Method\n\n### Step-by-Step Process\n\n1. **State the Problem Clearly**\n   - Write down the specific problem or failure\n   - Be concrete and observable (\"Website was down for 2 hours\" not \"Website had issues\")\n\n2. **Ask the First Why**\n   - Why did this problem occur?\n   - Focus on immediate, direct causes\n   - Avoid assumptions—stick to facts\n\n3. **Continue the Chain**\n   - For each answer, ask \"Why?\" again\n   - Each why should address the answer from the previous why\n   - Look for process or human factors, not just technical causes\n\n4. **Stop When You Reach Root Cause**\n   - Usually takes 5 iterations, but could be 3-7\n   - You've reached the root when further whys don't reveal actionable causes\n   - The final answer should point to something you can fix systematically\n\n5. **Implement Countermeasures**\n   - Address the root cause, not just symptoms\n   - Create process changes or safeguards\n   - Monitor to ensure the fix works\n\n### Example Template\n\n**Problem:** [Specific issue that occurred]\n\n**Why 1:** [Immediate cause]\n**Why 2:** [Why did cause 1 happen?]\n**Why 3:** [Why did cause 2 happen?]\n**Why 4:** [Why did cause 3 happen?]\n**Why 5:** [Why did cause 4 happen?]\n\n**Root Cause:** [Final systemic issue]\n**Countermeasure:** [Process change to prevent recurrence]\n\n### Team Implementation Guidelines\n\n- **Facilitator Role:** Have one person guide the questioning to prevent blame\n- **Evidence-Based:** Support each \"why\" with concrete evidence\n- **Collaborative:** Include people who understand different aspects of the process\n- **Document Everything:** Keep records to identify patterns across multiple Five Whys sessions",
+  "source_file": "The Five Whys.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "hiring",
+    "co-founder_conflict",
+    "product-market_fit",
+    "go-to-market",
+    "team_and_culture",
+    "operations",
+    "competitive_strategy"
+  ]
+}

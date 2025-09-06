@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Stakeholder Identification",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever pitched a brilliant solution to someone who nodded enthusiastically but never bought? You probably found the interested party, not the decision maker.",
+  "definition": "The systematic process of identifying the specific person or role within an organization who has functional responsibility for the problem you solve and typically controls the budget to address it.",
+  "analogy_or_metaphor": "It's like being a locksmith—you need to find not just someone who's locked out, but the person who actually owns the house and can pay for your services.",
+  "key_takeaway": "**Find the person whose job it is to solve your problem, not just someone who cares about it.**",
+  "classic_example": "A software salesperson pitching productivity tools to an enthusiastic middle manager, only to learn later that IT procurement and the CFO control all software purchasing decisions.",
+  "modern_example": "Selling a social media management tool to a marketing coordinator who loves it, but discovering the marketing director holds the budget and has different priorities for team spending.",
+  "pitfall": "Wasting time building relationships with interested parties who lack decision-making authority or budget control, leading to endless delays and ultimately lost deals.",
+  "payoff": "Accelerating your sales cycle by engaging the right people from the start, reducing friction and increasing your close rate significantly.",
+  "visual_metaphor": "A target with multiple rings, where the bullseye represents the budget holder, surrounded by rings of influencers, users, and interested parties—each important, but only the center can make the purchase happen.",
+  "dive_deeper_mechanism": "Stakeholder identification works because organizations have functional hierarchies where specific roles are accountable for specific outcomes. The person responsible for solving your problem typically has three key characteristics: they feel the pain directly in their performance metrics, they have budget authority or strong influence over it, and they can be held accountable if the problem isn't solved. This isn't about finding someone who thinks your solution is cool—it's about finding someone whose job success depends on solving the exact problem you address.",
+  "dive_deeper_origin_story": "This concept evolved from enterprise sales methodologies in the 1980s and 1990s, particularly within complex B2B software sales. Pete Kazanjy, founder of TalentBin (acquired by Monster.com), codified this approach after observing that many startups failed not because their products were bad, but because they spent months talking to people who couldn't actually buy. The insight came from recognizing that in larger organizations, interest and authority are often distributed across different roles, and successful salespeople learned to quickly distinguish between stakeholders who could influence versus those who could decide.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake #1:** Assuming the most enthusiastic person is the decision maker. Often, end users are excited about solutions but lack purchasing power. **Nuance:** In larger organizations, there may be multiple stakeholders with different types of authority—budget holders, technical approvers, and end-user champions. You need to map the entire decision-making unit, not just find one person. The key is understanding that someone can be a crucial stakeholder without being the final decision maker, and your strategy should account for influencing the entire ecosystem.",
+  "source_file": "Stakeholder Identification.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "operations",
+    "fundraising"
+  ]
+}

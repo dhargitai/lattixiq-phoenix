@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Good, Better, Best (G/B/B) Strategy",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever notice how when faced with three options, you almost always pick the middle one? That's exactly what companies are counting on.",
+  "definition": "A product-tiering strategy that creates three distinct offerings - a basic 'Good' option, a premium 'Best' option, and a mid-tier 'Better' option - designed to guide customers toward the middle choice while capturing different market segments.",
+  "analogy_or_metaphor": "It's like a restaurant menu where the chef wants you to order the salmon. They put a $15 chicken dish, a $45 lobster, and a $28 salmon. Suddenly, that salmon looks like the smart, reasonable choice.",
+  "key_takeaway": "**Three choices make the middle one feel like the obvious winner.**",
+  "classic_example": "Magazine subscriptions offering digital-only ($59), print-only ($125), and digital+print ($125) - making the combo deal seem like incredible value even though it's the most expensive option they actually want to sell.",
+  "modern_example": "Netflix's Basic ($6.99), Standard ($15.49), and Premium ($22.99) plans, where most users choose Standard because Basic feels too limited and Premium feels excessive for their needs.",
+  "pitfall": "Without strategic pricing tiers, you either leave money on the table from high-value customers or price out budget-conscious segments entirely.",
+  "payoff": "G/B/B strategy maximizes revenue by capturing different customer segments while psychologically anchoring people toward your preferred middle option.",
+  "visual_metaphor": "Three ascending steps of different heights, with the middle step glowing or highlighted, showing how the human eye naturally gravitates toward the balanced, compromise option.",
+  "dive_deeper_mechanism": "The G/B/B strategy exploits several cognitive biases simultaneously. First, it uses 'anchoring' - the extreme high price makes the middle option seem reasonable. Second, it leverages 'choice architecture' - three options feel comprehensive without being overwhelming. Third, it taps into 'loss aversion' - customers avoid the 'good' option because it feels like settling, and avoid the 'best' because it feels wasteful. The middle option becomes the psychological sweet spot that minimizes regret.",
+  "dive_deeper_origin_story": "The G/B/B model gained prominence in the 1980s when behavioral economists began studying how consumers make choices. The breakthrough came from studies showing that when presented with two options, customers often struggled to decide, but when given three options, they consistently chose the middle one. This was formalized by companies like Apple, which mastered the art with products like the original iPod lineup - different storage capacities that made the mid-tier model seem like obvious value.",
+  "dive_deeper_pitfalls_nuances": "**Common mistakes:** Making the gaps between tiers too small (customers pick the cheapest) or too large (middle option loses appeal). Also, the 'Good' option must be genuinely functional - if it's deliberately crippled, customers feel manipulated. **The nuance:** The 'Best' option often exists primarily to make the 'Better' option attractive, not necessarily to generate significant sales volume itself.",
+  "extra_content": "## Implementing G/B/B Strategy: Step-by-Step Framework\n\n### 1. Market Research Phase\n- **Identify customer segments:** Map out budget-conscious, mainstream, and premium customer groups\n- **Analyze willingness to pay:** Survey each segment's price sensitivity and feature priorities\n- **Study competitor pricing:** Understand existing market tiers and gaps\n\n### 2. Feature Architecture Design\n- **Start with the 'Better' option:** This is your target - design it with features most customers want\n- **Create the 'Good' option:** Remove 2-3 non-essential features but keep it genuinely useful\n- **Design the 'Best' option:** Add premium features that appeal to your highest-value customers\n\n### 3. Pricing Strategy\n- **Price anchoring formula:** Best option should be 40-80% more expensive than Better\n- **Value gap creation:** Better option should be 60-100% more than Good option\n- **Example structure:** Good ($100), Better ($180), Best ($280)\n\n### 4. Presentation Optimization\n- **Center the Better option:** Physically position it in the middle\n- **Highlight the Better choice:** Use visual cues like 'Most Popular' badges\n- **Feature comparison table:** Show what customers get (or lose) with each tier\n\n### 5. Testing and Optimization\n- **A/B test pricing ratios:** Test different price gaps between tiers\n- **Monitor selection rates:** Aim for 15-25% Good, 50-65% Better, 15-25% Best\n- **Customer feedback analysis:** Ensure Good option doesn't feel deliberately hobbled",
+  "source_file": "Good, Better, Best (G-B-B) Strategy.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

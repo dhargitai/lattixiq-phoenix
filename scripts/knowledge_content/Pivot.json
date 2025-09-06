@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Pivot",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever watched a basketball player realize mid-dribble they're heading toward a brick wall, then smoothly change direction without losing momentum? That's pivoting in business.",
+  "definition": "A pivot is a structured course correction for a startup that involves changing a fundamental aspect of the business model while retaining all validated learning accumulated to date.",
+  "analogy_or_metaphor": "Like a ship captain adjusting course mid-voyage when discovering the original destination is unreachable, but keeping the same crew, supplies, and navigation skills gained from the journey so far.",
+  "key_takeaway": "**Change direction, not everything—pivot preserves learning while pursuing new opportunities.**",
+  "classic_example": "Twitter started as a podcasting platform called Odeo. When Apple launched iTunes podcasting, they pivoted to become a social networking service, keeping their technical expertise but completely changing their product focus.",
+  "modern_example": "A food delivery startup discovers restaurants don't want their service, but notices drivers love the scheduling app they built. They pivot to become a workforce management platform for gig workers, leveraging their logistics knowledge in a new market.",
+  "pitfall": "Stubbornly sticking to a failing business model wastes resources and time, leading to eventual failure despite having valuable insights and capabilities.",
+  "payoff": "Strategic pivoting allows you to leverage hard-earned knowledge and skills while pursuing more promising opportunities, dramatically increasing your chances of success.",
+  "visual_metaphor": "A compass needle swinging to find true north—the direction changes but the instrument (your accumulated learning and capabilities) remains constant and valuable.",
+  "dive_deeper_mechanism": "Pivoting works because it separates what you've learned (validated knowledge about customers, technology, markets) from your specific hypothesis about how to serve them. Most startup failures aren't due to incompetent teams or poor execution, but rather incorrect assumptions about what customers actually want. A pivot allows you to test new fundamental assumptions while building on proven capabilities, creating a more informed and likely-to-succeed second attempt.",
+  "dive_deeper_origin_story": "The concept was formalized by Eric Ries in 'The Lean Startup' as part of the Build-Measure-Learn feedback loop. Ries observed that successful startups rarely stuck to their original plan—companies like Twitter, Instagram, and Groupon all pivoted from their initial concepts. He realized this wasn't random luck but a systematic approach to finding product-market fit while preserving valuable organizational learning.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Pivoting means you failed and are starting over. **Reality:** A well-executed pivot builds on validated learning and is often a sign of smart adaptation. **Myth:** You should pivot at the first sign of trouble. **Reality:** Pivots should only occur after you've thoroughly tested your current hypothesis and have clear evidence it won't work, not just because growth is slow or difficult.",
+  "extra_content": "## The Structured Pivot Process\n\n### Step 1: Recognize Pivot Signals\n- **Decreasing effectiveness** of product experiments over time\n- **Customer engagement metrics** plateau despite improvements\n- **Market feedback** consistently points to different needs than you're solving\n- **Revenue/growth metrics** fail to improve after multiple iterations\n\n### Step 2: Catalog Your Validated Learning\n**Before changing direction, document:**\n- Customer insights and behavioral patterns you've discovered\n- Technical capabilities and infrastructure you've built\n- Market knowledge and relationships you've developed\n- Team skills and operational processes that work\n- Financial understanding (unit economics, cost structures)\n\n### Step 3: Choose Your Pivot Type\n**Customer Segment Pivot:** Same solution, different customer\n**Customer Need Pivot:** Same customer, different problem\n**Solution Pivot:** Same problem, different solution\n**Revenue Model Pivot:** Same product, different monetization\n**Engine of Growth Pivot:** Different path to scale\n**Channel Pivot:** Same solution, different distribution\n**Technology Pivot:** Same solution, different technology\n\n### Step 4: Formulate New Hypotheses\n- **Value Hypothesis:** What specific value will you provide to whom?\n- **Growth Hypothesis:** How will customers discover and adopt your solution?\n- **Revenue Hypothesis:** How will you capture sustainable value?\n\n### Step 5: Design Minimum Viable Tests\n**Create experiments to test your new direction:**\n- Build the smallest possible version that tests core assumptions\n- Define clear metrics that would validate or invalidate the pivot\n- Set specific timelines and success criteria\n- Plan how to measure customer behavior, not just opinions\n\n### Step 6: Preserve Institutional Knowledge\n**Document lessons learned:**\n- What didn't work and why (to avoid repeating mistakes)\n- What insights transfer to the new direction\n- Which team capabilities remain relevant\n- How to communicate the pivot to stakeholders, investors, and team members\n\nThis systematic approach ensures pivots are strategic moves rather than desperate reactions.",
+  "source_file": "Pivot.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

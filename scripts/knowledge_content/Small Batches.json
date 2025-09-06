@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Small Batches",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why washing dishes one at a time feels slower but actually gets you done faster than letting them pile up?",
+  "definition": "The counterintuitive principle that working in smaller units is faster and more efficient than working in large batches because it reduces complexity, enables quicker feedback, and minimizes costly rework.",
+  "analogy_or_metaphor": "Like a river flowing smoothly around rocks versus a dam that builds pressure until it bursts—small batches maintain steady flow while large batches create bottlenecks and explosive problems.",
+  "key_takeaway": "**Smaller batches flow faster than large ones because they catch problems early and keep work moving.**",
+  "classic_example": "The envelope-stuffing exercise: folding, inserting, and sealing one complete envelope at a time proves faster than doing 100 folds, then 100 inserts, then 100 seals—despite seeming less efficient.",
+  "modern_example": "A software developer pushing code changes daily versus saving up weeks of changes—the daily pusher catches bugs immediately while the weekly pusher faces integration nightmares and has to redo work multiple times.",
+  "pitfall": "Working in large batches creates a death spiral of interruptions, rework, and bottlenecks that can require redoing work five or six times per project.",
+  "payoff": "Small batches enable immediate feedback, reduce rework, prevent bottlenecks, and maintain smooth workflow with fewer costly interruptions.",
+  "visual_metaphor": "A smooth conveyor belt with evenly spaced items flowing steadily, contrasted with a jammed conveyor where everything piles up and then suddenly rushes through in chaos.",
+  "dive_deeper_mechanism": "Small batches work by reducing 'work in progress' inventory and enabling rapid feedback loops. When you complete something end-to-end quickly, problems surface immediately when they're cheap to fix, rather than after significant investment. This prevents the compound effect where early mistakes multiply through subsequent work, creating exponentially more rework. The apparent 'efficiency' of large batches is an illusion—it optimizes for individual utilization rather than system throughput.",
+  "dive_deeper_origin_story": "The concept emerged from Toyota's manufacturing system and was popularized by Eric Ries in 'The Lean Startup.' Ries discovered that traditional managers, despite seeing evidence of small batch effectiveness (like the envelope-stuffing exercise), would still resist because it contradicted their intuition about individual productivity. One product manager he worked with was so overwhelmed by interruptions from large-batch work that he came to the office at night to work 'uninterrupted'—yet refused to try small batches because they seemed 'inefficient.'",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Large batches are more efficient because they allow experts to work without interruption. **Reality:** Large batches create more interruptions through rework and questions about unclear work. **Myth:** Small batches slow down individual contributors. **Reality:** While small batches may feel less efficient to individuals, they optimize the entire system's speed and reduce overall workload through eliminated rework.",
+  "source_file": "Small Batches.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "operations",
+    "team_and_culture"
+  ]
+}

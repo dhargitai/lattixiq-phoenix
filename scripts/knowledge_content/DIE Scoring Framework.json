@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "DIE Scoring Framework",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever stare at a list of features to build and have no idea which one to tackle first? There's a simple three-letter solution.",
+  "definition": "DIE is a prioritization framework that scores initiatives based on three factors: Demand (how much people want it), Impact (how much it moves your business goals), and Effort (how much work it takes).",
+  "analogy_or_metaphor": "Think of it like choosing which mountain to climb: you want the one with the best view (Impact), that people actually want to visit (Demand), but isn't so steep you'll never make it up (Effort).",
+  "key_takeaway": "**The best features aren't just good ideas—they're high-demand, high-impact opportunities that don't break your budget.**",
+  "classic_example": "A SaaS company uses DIE to compare adding advanced analytics (high impact, medium demand, high effort) versus improving mobile responsiveness (medium impact, high demand, low effort)—the mobile improvement wins.",
+  "modern_example": "A content creator deciding between launching a podcast (high effort, medium demand, high impact) versus creating Instagram Reels (low effort, high demand, medium impact)—the Reels strategy scores higher.",
+  "pitfall": "Without systematic prioritization, you'll chase shiny features that feel important but don't move the needle, wasting precious time and resources.",
+  "payoff": "DIE scoring helps you consistently pick winners—features that customers actually want and that meaningfully grow your business without overwhelming your team.",
+  "visual_metaphor": "A simple 3x3 grid with three axes: a thermometer showing Demand temperature, a target with Impact rings, and a mountain showing Effort difficulty.",
+  "dive_deeper_mechanism": "DIE works because it forces you to balance customer pull (Demand) with business value (Impact) against realistic resource constraints (Effort). Unlike complex frameworks with many variables, its simplicity prevents analysis paralysis while ensuring you consider the three factors that matter most for sustainable growth. The scoring typically uses inverted scales—High Demand gets a 1, Low gets a 3—so lower total scores indicate higher priority.",
+  "dive_deeper_origin_story": "Created by Baremetrics, a SaaS analytics company, DIE emerged from the need for a simpler alternative to complex prioritization frameworks like RICE. Founder Josh Pigford wanted something his small team could use quickly without getting bogged down in elaborate scoring systems. He made their DIE spreadsheet publicly available, recognizing that most startups needed practical tools over theoretical perfection.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Treating all three factors as equally weighted—in reality, Effort often deserves more consideration since it's the most predictable variable. **Nuance:** DIE works best for small teams with limited resources; larger organizations might need more sophisticated frameworks. **Reality check:** The scoring is still subjective—'High Demand' means different things to different people, so team calibration sessions are essential.",
+  "extra_content": "## DIE Scoring Implementation\n\n### Step 1: Set Up Your Scoring Scale\n- **Demand:** Rate 1-3 (1 = High demand from users/market, 3 = Low demand)\n- **Impact:** Rate 1-3 (1 = High business impact, 3 = Low impact)\n- **Effort:** Rate 1-3 (1 = Low effort/quick win, 3 = High effort/complex)\n\n### Step 2: Score Each Initiative\nFor each feature or project, assign scores:\n- **Demand:** How much are customers asking for this? How urgent is the market need?\n- **Impact:** How much will this move key business metrics (revenue, retention, acquisition)?\n- **Effort:** How much time, resources, and complexity does this require?\n\n### Step 3: Calculate Priority\n**Formula:** Add all three scores together\n**Lower total = Higher priority**\n\nExample scoring:\n- Feature A: Demand(1) + Impact(1) + Effort(2) = **4 (High Priority)**\n- Feature B: Demand(2) + Impact(1) + Effort(3) = **6 (Medium Priority)**\n- Feature C: Demand(3) + Impact(2) + Effort(1) = **6 (Medium Priority)**\n\n### Step 4: Create Your Priority Matrix\nRank all initiatives by total score, with lowest scores tackled first.\n\n### Variation: Weighted DIE\nIf certain factors matter more to your business:\n- Multiply each score by a weight (e.g., Effort × 1.5 if resources are very limited)\n- Still aim for lowest total scores as highest priority\n\n### Quick Decision Rules\n- **Score 3-4:** Do immediately\n- **Score 5-6:** Do next quarter\n- **Score 7-9:** Reconsider or break into smaller pieces",
+  "source_file": "DIE Scoring Framework.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "operations",
+    "competitive_strategy"
+  ]
+}

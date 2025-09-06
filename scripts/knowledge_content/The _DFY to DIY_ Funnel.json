@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "The \"DFY to DIY\" Funnel",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever notice how software companies offer both expensive consulting services AND cheaper self-service plans? There's a genius downselling strategy behind this.",
+  "definition": "A strategic downselling approach that transitions customers from high-priced \"Done-For-You\" services to lower-cost \"Do-It-Yourself\" products that solve the same core problem.",
+  "analogy_or_metaphor": "It's like a restaurant offering both full-service dining with waiters and a self-service buffet - same great food, different levels of service and price points.",
+  "key_takeaway": "**Give customers multiple ways to say yes by offering the same solution at different service levels.**",
+  "classic_example": "Traditional consulting firms that offer both expensive custom strategy development services and lower-cost standardized strategy templates or frameworks.",
+  "modern_example": "HubSpot offering expensive marketing agency services alongside their DIY marketing automation software, or fitness coaches selling both personal training sessions and self-guided workout programs.",
+  "pitfall": "Offering only high-ticket services means losing customers who want the solution but can't afford premium pricing, leaving money on the table.",
+  "payoff": "Creating multiple price points captures more customers across different budget ranges while maintaining profitability and providing genuine value at each level.",
+  "visual_metaphor": "A funnel with two exit points - one at the top for premium customers and another lower down for budget-conscious customers, both leading to the same destination.",
+  "dive_deeper_mechanism": "This model works by recognizing that customers have varying budgets, time constraints, and preferences for involvement. Some want full service and will pay premium prices, while others prefer to save money by doing work themselves. By offering both options, businesses can capture demand across the entire market spectrum. The key psychological principle is that customers feel more in control when they have choices, and they're more likely to buy something rather than nothing when presented with options that fit their constraints.",
+  "dive_deeper_origin_story": "This concept gained prominence in the digital marketing world as entrepreneurs like Alex Hormozi discovered that many potential customers wanted their solutions but couldn't afford high-ticket consulting or done-for-you services. Rather than losing these customers entirely, smart business owners began creating lower-priced alternatives that delivered the same core value through templates, courses, or self-guided systems. The strategy proved so effective that it became a standard practice across industries, from software (SaaS vs. consulting) to fitness (personal training vs. workout apps).",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Making the DIY option too similar to the DFY service, which cannibalizes higher-priced offerings. **Reality:** The DIY version should require significantly more customer effort and time investment. **Common Mistake #2:** Assuming DIY customers are less valuable. **Reality:** DIY customers often become DFY customers later as their needs or budgets grow, making them valuable for long-term relationship building. **Common Mistake #3:** Under-pricing the DIY option out of fear it won't sell. **Reality:** Customers will pay fair prices for genuine value, even in DIY format.",
+  "source_file": "The \"DFY to DIY\" Funnel.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "pricing",
+    "operations"
+  ]
+}

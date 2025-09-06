@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Undead",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder why some products launch with great fanfare but nobody buys them? Meet the 'undead' - innovations that should have died in development but somehow made it to market.",
+  "definition": "An innovation that reaches market despite lacking customer demand - essentially an answer to a question no one was asking.",
+  "analogy_or_metaphor": "Like a zombie in a horror movie, these products are technically 'alive' and walking around, but they're fundamentally lifeless where it matters most - in the hearts and wallets of customers.",
+  "key_takeaway": "**Just because you can build it doesn't mean customers want to buy it.**",
+  "classic_example": "Amazon's Fire Phone (2014) packed innovative features like Dynamic Perspective 3D effects and four camera lenses, but customers simply didn't want another premium smartphone with gimmicky features they'd never use.",
+  "modern_example": "Google Glass launched as cutting-edge wearable tech with facial recognition and heads-up displays, but customers found it creepy, expensive, and solving problems they didn't have.",
+  "pitfall": "Resources get drained on technically impressive products that generate no revenue, while real customer needs go unmet.",
+  "payoff": "Focusing on genuine customer demand ensures innovations that people actually want to pay for, maximizing return on investment.",
+  "visual_metaphor": "A smartphone with zombie-like features (multiple eyes for cameras, stitched-together parts) shambling through a graveyard of failed products, while real customers walk away in the opposite direction.",
+  "dive_deeper_mechanism": "Undead products emerge from a fundamental disconnect between engineering capability and market reality. Companies fall into the 'feature shock' trap, cramming multiple capabilities into one product under the assumption that more features equal more value. However, cognitive overload sets in - customers can't process the value proposition when it's buried under complexity. The engineering team's pride in technical achievement blinds the organization to the simple truth that innovation without customer pull is just expensive experimentation.",
+  "dive_deeper_origin_story": "The term comes from Madhavan Ramanujam's analysis of product failure patterns in 'Monetizing Innovation.' He observed that many failed products shared a zombie-like quality - they were technically functional and had consumed significant resources to 'bring to life,' yet they wandered the marketplace without purpose or direction. The Amazon Fire Phone became his poster child: a product so technically sophisticated that Amazon's engineers were proud of innovations like Dynamic Perspective, yet so disconnected from customer needs that it was discontinued within a year.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** 'If we build something technically superior, customers will recognize its value.' **Reality:** Technical superiority without customer need recognition is worthless. **Another Pitfall:** Companies often keep undead products alive through 'sunk cost fallacy' - continuing to invest because they've already spent so much. The key nuance is that 'undead' doesn't mean the technology is bad; it means the market timing, positioning, or fundamental value proposition is wrong.",
+  "source_file": "Undead.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pivot"
+  ]
+}

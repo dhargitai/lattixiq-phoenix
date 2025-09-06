@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Jobs-to-be-Done Framework",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder why people choose Uber over taxis, or why they hire a drill when they really just need a hole in the wall?",
+  "definition": "Jobs-to-be-Done (JTBD) is a framework that focuses on understanding what people are truly trying to accomplish—their desired outcome or 'job'—rather than what they currently do or what features they want.",
+  "analogy_or_metaphor": "Think of people as hiring your product to do a specific job, just like you'd hire a contractor. They don't care about the contractor's tools—they care about getting their bathroom renovated properly and on time.",
+  "key_takeaway": "**People don't want products—they want progress toward a better version of themselves.**",
+  "classic_example": "Clayton Christensen's milkshake study: a fast-food chain discovered customers weren't buying milkshakes for taste, but to make their boring commute more interesting and keep them full until lunch.",
+  "modern_example": "Netflix wasn't just competing with Blockbuster—it was hired to do the job of 'help me unwind after a long day without the hassle of driving anywhere or worrying about late fees.'",
+  "pitfall": "Focusing on features and current solutions leads to incremental improvements that miss breakthrough opportunities and fail to address the real underlying need.",
+  "payoff": "Understanding the true job reveals unexpected competitors, uncovers new market opportunities, and helps you build solutions that customers will gladly pay premium prices for.",
+  "visual_metaphor": "A person standing between two states—their current frustrated self and their aspirational accomplished self—with your product as the bridge connecting them.",
+  "dive_deeper_mechanism": "JTBD works because it taps into a fundamental human drive: the desire to make progress. Every purchase decision is driven by the gap between someone's current state and their desired state. The framework recognizes that people don't buy products for their features—they 'hire' them to help accomplish a specific outcome. This shift in perspective reveals that your real competition isn't just similar products, but any solution (however crude) that people are currently using to get that job done, whether it's a manual process, a workaround, or even doing nothing at all.",
+  "dive_deeper_origin_story": "The framework was developed by Harvard Business School professor Clayton Christensen, building on his disruption theory. The breakthrough came when he studied why certain innovations succeeded while others failed. He realized that successful products weren't just technically superior—they did a job that customers were already trying to get done, but better than existing alternatives. The famous milkshake study became the canonical example, showing how McDonald's discovered their real competition for morning milkshake sales wasn't other breakfast items, but boring commutes and hunger pangs.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Confusing tasks with jobs. Tasks are activities people do; jobs are the progress they want to make. **Common Mistake #2:** Asking customers what features they want instead of understanding what outcome they're trying to achieve—customers will just suggest improvements to existing solutions they know. **Reality Check:** The job isn't always obvious or rational. People might hire expensive coffee not for caffeine, but for the social status or the ritual of self-care. The emotional and social dimensions of the job are often more important than the functional ones.",
+  "extra_content": "## The JTBD Research Process\n\n### Step 1: Identify the Job Statement\nUse this format: \"When I [situation], I want to [motivation], so I can [expected outcome].\"\n- **Example:** \"When I'm commuting to work, I want to feel productive, so I can start my day feeling accomplished.\"\n\n### Step 2: Map the Job Journey\n1. **Awareness:** When do people first realize they have this job?\n2. **Consideration:** What alternatives do they evaluate?\n3. **Purchase:** What triggers the decision to act?\n4. **Usage:** How do they actually use the solution?\n5. **Satisfaction:** Did it accomplish the intended job?\n\n### Step 3: Discover Current Solutions\nAsk these key questions:\n- \"What do you currently do to accomplish [the job]?\"\n- \"What's the cost of your current approach (time, money, frustration)?\"\n- \"What would have to happen for you to switch to something new?\"\n\n### Step 4: Identify Success Metrics\nDefine how customers will know the job is done well:\n- **Functional:** Did it work as intended?\n- **Emotional:** How did it make them feel?\n- **Social:** How did it affect their relationships or status?\n\n### The Three Key Questions Framework\n1. **Where are they now?** (Current state and frustrations)\n2. **Where do they want to be?** (Desired outcome and aspirations)\n3. **What stands in their way?** (Barriers and obstacles)\n\nThis approach shifts focus from \"What features should we build?\" to \"What progress do people want to make?\"",
+  "source_file": "Product Shareability Analysis.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pivot"
+  ]
+}

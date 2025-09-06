@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Goal Allocation Exercise",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Your team says they want 'growth, profitability, and market share.' But when forced to choose, what would they actually prioritize?",
+  "definition": "A strategic workshop tool where team members allocate a fixed number of points across competing objectives to force explicit trade-offs and reveal true priorities.",
+  "analogy_or_metaphor": "Like having a budget of $100 to spend across different goals—you can't have everything, so you must decide what matters most.",
+  "key_takeaway": "**Forced allocation reveals what teams truly prioritize when resources are limited.**",
+  "classic_example": "A product launch team allocating 100 points between revenue growth (40 points), profit margins (35 points), and market share (25 points), discovering they actually prioritize short-term revenue over market dominance.",
+  "modern_example": "A startup founding team allocating points between user growth, revenue per user, and product features, realizing they're unknowingly optimizing for vanity metrics instead of sustainable business fundamentals.",
+  "pitfall": "Without forced allocation, teams operate with conflicting hidden priorities, leading to scattered efforts and strategic confusion.",
+  "payoff": "Clear prioritization enables focused decision-making, better resource allocation, and unified team execution toward shared objectives.",
+  "visual_metaphor": "A pie chart being divided by multiple hands, each person pulling their slice toward their preferred goal, with a fixed total that forces conscious trade-offs.",
+  "dive_deeper_mechanism": "The exercise works by exploiting our psychological tendency to want everything while forcing the mathematical reality of finite resources. When people can't say 'yes' to everything, they reveal their true preferences through their allocation decisions. This bypasses political correctness and social desirability bias that plague traditional priority-setting discussions.",
+  "dive_deeper_origin_story": "The concept emerged from strategic consulting practices in the 1980s, where consultants noticed that executive teams would verbally agree on priorities but then make contradictory resource decisions. By forcing quantified allocation, consultants could surface these hidden disagreements before they became expensive strategic failures.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Treating this as a one-time exercise rather than a living document that should be revisited as conditions change. **Nuance:** The specific number of points matters less than ensuring it's limited enough to force real trade-offs—100 points across 3-4 goals works well, but 1000 points across 2 goals doesn't create sufficient constraint.",
+  "extra_content": "## Goal Allocation Exercise Implementation\n\n### Step-by-Step Process\n\n**Phase 1: Setup (10 minutes)**\n1. List all competing goals/objectives on a whiteboard\n2. Limit to 3-6 goals maximum (more creates analysis paralysis)\n3. Give each participant exactly 100 points to allocate\n4. Clarify that points represent relative importance/resource allocation\n\n**Phase 2: Individual Allocation (15 minutes)**\n1. Each person privately allocates their 100 points across goals\n2. Points must add up to exactly 100 (enforces trade-offs)\n3. Minimum allocation per goal: 5 points (prevents symbolic allocations)\n4. Record allocations anonymously initially\n\n**Phase 3: Reveal and Discussion (30 minutes)**\n1. Display all allocations side-by-side\n2. Calculate average allocation per goal\n3. Identify outliers and biggest disagreements\n4. Have outliers explain their reasoning\n5. Discuss until consensus or acceptable range is reached\n\n### Variations and Adaptations\n\n**Time-Based Allocation:**\n- Allocate points across different time horizons (next quarter vs. next year)\n- Useful for balancing short-term vs. long-term thinking\n\n**Resource-Specific Allocation:**\n- Separate exercises for budget allocation vs. time allocation\n- Reveals whether money and time priorities align\n\n**Scenario Planning:**\n- Run the exercise under different scenarios (optimistic vs. pessimistic market conditions)\n- Shows how priorities should shift with changing circumstances\n\n### Success Metrics\n- Standard deviation of allocations decreases after discussion\n- Team can articulate the reasoning behind final priorities\n- Subsequent decisions reference the established allocation framework",
+  "source_file": "Goal Allocation Exercise.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pivot",
+    "product-market_fit",
+    "go-to-market",
+    "team_and_culture",
+    "competitive_strategy"
+  ]
+}

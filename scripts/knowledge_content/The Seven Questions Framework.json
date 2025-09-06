@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "The Seven Questions Framework",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some startups become billion-dollar companies while others with similar ideas fail? The difference often lies in answering seven critical questions correctly.",
+  "definition": "A comprehensive framework developed by Peter Thiel that requires founders to answer seven essential questions about their business: Engineering (breakthrough technology), Timing (right moment), Monopoly (market position), People (team quality), Distribution (sales strategy), Durability (defensibility), and Secrets (unique insights).",
+  "analogy_or_metaphor": "Like a master locksmith who needs seven different keys to open a treasure vault - miss even one key, and the vault stays locked. Each question is a key that unlocks a different aspect of business success.",
+  "key_takeaway": "**Success requires excellence across all seven dimensions - there are no shortcuts in building a monopoly business.**",
+  "classic_example": "Google answered all seven questions perfectly: breakthrough search algorithm (Engineering), post-dot-com timing (Timing), search monopoly (Monopoly), exceptional founders (People), viral growth (Distribution), network effects (Durability), and the insight that organizing information was undervalued (Secrets).",
+  "modern_example": "Tesla succeeded by excelling across all seven: battery breakthrough (Engineering), climate consciousness timing (Timing), luxury EV monopoly (Monopoly), Musk's leadership (People), direct sales model (Distribution), charging network moats (Durability), and the secret that EVs could be desirable (Secrets).",
+  "pitfall": "Founders who excel at only a few questions while ignoring others often build companies that initially seem promising but ultimately fail to achieve lasting success or monopoly status.",
+  "payoff": "Companies that systematically address all seven questions build enduring competitive advantages, achieve monopoly positions, and create exponential rather than linear value.",
+  "visual_metaphor": "A circular diagram with seven interconnected gears, each labeled with one question - all gears must turn together for the machine to work, with arrows showing how each question influences and depends on the others.",
+  "dive_deeper_mechanism": "The framework works because it forces founders to think holistically about business creation rather than focusing on just one dimension. Most failed startups excel in one or two areas (often engineering or timing) while completely missing others. The power law distribution in venture capital - where one investment returns more than all others combined - reflects this reality. Companies that answer all seven questions correctly don't just succeed; they dominate their markets exponentially. This happens because each question addresses a different potential failure mode, and business success requires avoiding all failure modes simultaneously.",
+  "dive_deeper_origin_story": "Peter Thiel developed this framework based on his experience as a PayPal co-founder and early Facebook investor, then refined it while teaching at Stanford. He noticed that successful companies consistently excelled across multiple dimensions, while failures typically had obvious gaps. The framework crystallized his observations about why the power law exists in venture capital - truly exceptional companies are rare because they must get everything right, not just one thing. Thiel formalized these insights in 'Zero to One' after seeing countless startups fail by focusing too narrowly on technology or growth while ignoring fundamental questions about monopoly, distribution, or durability.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Founders often think answering a few questions well compensates for weak answers to others - but the framework requires excellence across all seven dimensions. **Common Mistake #2:** Many interpret 'monopoly' as evil rather than understanding it means creating unique value that competitors can't easily replicate. **Key Nuance:** The questions are interdependent - your answer to timing affects monopoly strategy, which influences distribution choices. The framework isn't a checklist but a system where each element must align with and reinforce the others.",
+  "source_file": "The Seven Questions Framework.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "investor"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "fundraising"
+  ]
+}

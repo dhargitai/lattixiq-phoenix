@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Dynamic Pricing",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever notice how your Uber ride costs twice as much during a rainstorm? That's not greed—it's mathematics.",
+  "definition": "Dynamic pricing is a strategy where prices change in real-time based on supply and demand conditions to maximize revenue from constrained resources.",
+  "analogy_or_metaphor": "Think of it like a thermostat for pricing—automatically adjusting up when demand heats up and cooling down when things get quiet, keeping revenue at optimal levels.",
+  "key_takeaway": "**Price isn't fixed—it's a live instrument that responds to market conditions.**",
+  "classic_example": "Airlines pioneered this with seat pricing, charging premium rates for last-minute bookings when seats are scarce and offering deep discounts months in advance when planes are empty.",
+  "modern_example": "Uber's surge pricing during rush hour or bad weather—when everyone needs a ride simultaneously, prices spike to balance the flood of demand with the limited supply of drivers.",
+  "pitfall": "Ignoring dynamic pricing means leaving money on the table during high-demand periods and potentially losing customers during low-demand times with inflexible pricing.",
+  "payoff": "Mastering dynamic pricing maximizes revenue by capturing what customers are actually willing to pay based on real-time market conditions.",
+  "visual_metaphor": "A price gauge with an arrow that moves up and down like a speedometer, responding to demand waves flowing in from the left and supply levels shown as a bar on the right.",
+  "dive_deeper_mechanism": "Dynamic pricing works by leveraging the economic principle that willingness-to-pay varies across customers and situations. When supply is constrained (limited hotel rooms, driver availability, or event tickets), prices increase to ration the scarce resource to those who value it most. When supply exceeds demand, prices drop to attract price-sensitive customers who wouldn't buy at higher prices. This creates market efficiency by ensuring resources go to those who value them most while maximizing total revenue across all demand levels.",
+  "dive_deeper_origin_story": "Dynamic pricing emerged from the airline industry in the 1980s after deregulation. American Airlines developed sophisticated yield management systems, recognizing that every empty seat represented lost revenue that could never be recovered. They pioneered the practice of selling the same seat at different prices based on booking timing, demand forecasts, and customer segments. The approach proved so successful that it spread to hotels, car rentals, and eventually digital platforms like Uber and Amazon, transforming from a airline-specific tactic into a fundamental business strategy.",
+  "dive_deeper_pitfalls_nuances": "**Common Misunderstanding:** Dynamic pricing is just price gouging. **Reality:** True dynamic pricing benefits both sides—it ensures availability during high demand (someone can always get an Uber, even if expensive) and creates bargains during low demand. **Another Pitfall:** Focusing only on maximizing individual transaction value rather than total revenue. The goal isn't always to charge the highest possible price, but to find the price that maximizes total revenue across all customers, which often means lowering prices to capture price-sensitive segments during off-peak times.",
+  "source_file": "Dynamic Pricing.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

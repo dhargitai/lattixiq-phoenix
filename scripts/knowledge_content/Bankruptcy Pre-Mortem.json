@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Bankruptcy Pre-Mortem",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "What if your business failed tomorrow? Instead of avoiding this terrifying question, what if asking it could actually save your company?",
+  "definition": "A strategic thought exercise where leaders imagine their organization has already failed completely, then work backwards to identify what assets, capabilities, or insights could be salvaged from the wreckage.",
+  "analogy_or_metaphor": "Like a financial archaeologist examining the ruins of their own empire before it falls, discovering which treasures are worth preserving and might form the foundation of something entirely new.",
+  "key_takeaway": "**Your company's death reveals its most valuable life.**",
+  "classic_example": "When Loudcloud was burning through cash and facing potential bankruptcy, Ben Horowitz used this exercise to identify their core technology infrastructure as the most valuable salvageable asset, which eventually became the foundation for their successful pivot to Opsware.",
+  "modern_example": "A struggling restaurant owner asking 'If we closed tomorrow, what would I keep?' might realize their loyal customer database and unique recipes are more valuable than the physical location, leading to a pivot toward meal delivery or franchising.",
+  "pitfall": "Without this exercise, companies often cling to failing strategies until it's too late, missing opportunities to salvage their most valuable assets and pivot to success.",
+  "payoff": "By confronting failure before it happens, you can identify your true competitive advantages and potentially discover entirely new business models built on your strongest foundations.",
+  "visual_metaphor": "A phoenix rising from carefully selected ashes - not all the ashes, but only the most precious elements that will fuel the rebirth.",
+  "dive_deeper_mechanism": "The bankruptcy pre-mortem works by forcing leaders to mentally separate from their current business model and emotional attachments. When we imagine total failure, our survival instincts kick in, helping us identify what's truly essential versus what's merely familiar. This cognitive shift from 'saving everything' to 'saving what matters most' reveals hidden value that's often obscured by day-to-day operations and sunk cost fallacies.",
+  "dive_deeper_origin_story": "Ben Horowitz popularized this concept during Loudcloud's near-death experience in the early 2000s. As the dot-com bubble burst and his cloud computing company burned through millions with little revenue, Horowitz faced the brutal question: 'What would we do if we went bankrupt?' The answer revealed that their core infrastructure technology was far more valuable than their original business model, leading to the creation of Opsware and eventually a $1.6 billion acquisition by HP.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** This exercise is about planning for failure. **Reality:** It's about planning for transformation. The goal isn't to accept defeat but to identify your strongest assets before crisis thinking clouds your judgment. **Another Pitfall:** Focusing only on tangible assets (technology, equipment) while missing intangible ones (relationships, knowledge, reputation). The most valuable salvageable assets are often the capabilities and insights that aren't on the balance sheet.",
+  "extra_content": "# The Bankruptcy Pre-Mortem Framework\n\n## Step 1: Set the Scene\n- Imagine your organization has completely failed and ceased operations\n- Set aside all emotional attachments and current strategic plans\n- Approach this as a neutral observer, not a stakeholder\n\n## Step 2: Asset Inventory\n**Tangible Assets:**\n- Technology and intellectual property\n- Physical infrastructure and equipment\n- Financial resources and investments\n- Customer databases and contracts\n\n**Intangible Assets:**\n- Team expertise and relationships\n- Brand recognition and reputation\n- Unique processes and methodologies\n- Market insights and customer knowledge\n- Network effects and partnerships\n\n## Step 3: Value Assessment\nFor each identified asset, ask:\n- Could this standalone asset generate revenue?\n- What market demand exists for this capability?\n- How difficult would this be for competitors to replicate?\n- What's the maintenance cost vs. potential value?\n\n## Step 4: Pivot Potential Analysis\n- Which assets could form the core of a new business model?\n- What customer problems could these assets solve differently?\n- How might these assets be more valuable in a different market?\n- What would a business built around just this asset look like?\n\n## Step 5: Strategic Integration\n- Compare insights with current strategy\n- Identify underutilized high-value assets\n- Consider strategic shifts that better leverage top assets\n- Develop contingency plans based on asset priorities\n\n## Implementation Tips\n- Conduct this exercise quarterly, not just during crises\n- Include diverse perspectives (board members, employees, customers)\n- Document findings and track how asset values change over time\n- Use insights to inform current strategic decisions, not just crisis planning",
+  "source_file": "Bankruptcy Pre-Mortem.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "crisis",
+    "scale-up",
+    "growth"
+  ],
+  "problem_category": [
+    "pivot",
+    "risk_management",
+    "operations"
+  ]
+}

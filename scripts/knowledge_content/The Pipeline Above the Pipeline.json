@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "The Pipeline Above the Pipeline",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Every sales manager obsesses over their deal pipeline, but what about the pipeline that actually creates the deals? The one that hires and develops the people who fill that pipeline?",
+  "definition": "A strategic mindset that recognizes hiring and onboarding new sales reps as the most critical pipeline a sales manager can manage, because it's the primary driver of scalable revenue growth.",
+  "analogy_or_metaphor": "Like tending a garden - you can focus on picking the current fruit (closing deals), or you can focus on planting and nurturing new trees (hiring and developing reps) that will produce fruit for years to come.",
+  "key_takeaway": "**Your hiring pipeline determines your revenue pipeline - invest accordingly.**",
+  "classic_example": "A sales manager who spends 80% of their time closing deals personally might hit their quarterly number, but they'll never scale beyond what one person can accomplish, creating a bottleneck for organizational growth.",
+  "modern_example": "A SaaS sales director realizes that instead of jumping on every prospect call to 'help close,' they should spend those hours interviewing candidates and running onboarding mock pitches - turning one manager into a force multiplier for an entire team.",
+  "pitfall": "Focusing only on immediate deal flow while neglecting talent development creates unsustainable growth and perpetual hiring crises.",
+  "payoff": "Investing in systematic hiring and onboarding creates exponential leverage, turning one manager into the catalyst for multiple high-performing reps.",
+  "visual_metaphor": "A pipeline diagram where the upper pipeline feeds talent into the lower pipeline, which feeds deals - showing how the talent pipeline is literally 'above' and feeds the traditional sales pipeline.",
+  "dive_deeper_mechanism": "The concept works because of leverage multiplication. When a manager sells directly, they create 1x output. But when they hire and develop three successful reps, they create 3x output that continues indefinitely. The psychological challenge is that hiring activities have delayed gratification compared to closing deals, which have immediate dopamine rewards. However, the compounding effect of great hires far exceeds individual closing performance. Each well-onboarded rep becomes a revenue generator for years, while each closed deal is a one-time event.",
+  "dive_deeper_origin_story": "This concept was popularized by Pete Kazanjy in 'Founding Sales,' where he observed that the most successful sales organizations understood that scaling revenue meant scaling people, not just processes. Kazanjy noticed that failing sales managers consistently made the same mistake: they remained individual contributors instead of becoming force multipliers. The 'pipeline above the pipeline' metaphor crystallized the idea that there's a hierarchy of activities - and the most important pipeline isn't the one full of prospects, but the one full of potential team members.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That hiring is just HR's job while sales managers focus on 'real' sales work. **Reality:** The best sales managers treat hiring with the same rigor as prospecting - tracking metrics, optimizing processes, and investing significant time. **Another Pitfall:** Thinking that hiring fast is better than hiring right. A bad hire doesn't just fail to contribute - they actively drain resources through training costs, management attention, and potentially damaging client relationships. **Nuance:** This doesn't mean managers should never sell. Early-stage companies need managers who can model selling behavior and step in during critical deals. The key is transitioning from doing to building systems for others to do.",
+  "source_file": "The Pipeline Above the Pipeline.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "go-to-market",
+    "operations"
+  ]
+}

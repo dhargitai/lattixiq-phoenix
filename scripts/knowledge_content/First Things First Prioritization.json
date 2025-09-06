@@ -1,0 +1,41 @@
+{
+  "knowledge_piece_name": "First Things First Prioritization",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever feel like you're drowning in urgent tasks while the truly important ones slip away? There's a difference between what screams loudest and what matters most.",
+  "definition": "First Things First Prioritization is the practice of identifying and acting on your most critical priorities—those that align with your core values and long-term goals—especially when faced with competing demands and limited resources.",
+  "analogy_or_metaphor": "It's like being a triage nurse in an emergency room: not every patient who walks in screaming needs attention first. The quiet patient with chest pain might need immediate care, while the loud one with a minor cut can wait.",
+  "key_takeaway": "**Urgent rarely equals important—focus on what matters most, not what shouts loudest.**",
+  "classic_example": "Stephen Covey's time management matrix, where activities are categorized by urgency and importance, revealing that the most crucial work often lives in the 'important but not urgent' quadrant—the space where prevention, planning, and relationship-building happen.",
+  "modern_example": "A startup CEO choosing to spend time with their struggling key engineer rather than attending another investor meeting, recognizing that losing this person could kill the company while missing one pitch rarely does.",
+  "pitfall": "Without clear priorities, you become reactive, constantly firefighting urgent but trivial issues while your most important goals slowly die from neglect.",
+  "payoff": "By focusing on first things first, you make meaningful progress on what truly matters, reduce stress from constant urgency, and build sustainable success rather than just surviving day to day.",
+  "visual_metaphor": "A lighthouse beam cutting through fog and chaos, illuminating the most important path forward while everything else fades into the background.",
+  "dive_deeper_mechanism": "First Things First works because it forces you to confront the difference between reactive and proactive living. Most people operate in 'urgency addiction'—the adrenaline rush of constant firefighting feels productive but actually prevents progress on important goals. This framework works by creating a hierarchy of values and goals, then using that hierarchy as a filter for all decisions. It leverages the psychological principle that clarity reduces decision fatigue: when you know what matters most, saying no to everything else becomes easier.",
+  "dive_deeper_origin_story": "While Stephen Covey popularized this concept in 'The 7 Habits of Highly Effective People,' the principle traces back to President Dwight D. Eisenhower, who distinguished between urgent and important tasks as Supreme Allied Commander in WWII. Facing life-or-death decisions daily, Eisenhower developed what became known as the Eisenhower Matrix: 'What is important is seldom urgent and what is urgent is seldom important.' This military-tested approach to prioritization later became a cornerstone of modern productivity and leadership thinking.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Confusing 'first things' with 'urgent things.' True priorities are often quiet and don't demand immediate attention, but neglecting them has severe long-term consequences. **Common Mistake #2:** Treating all 'important' things as equally important. Even among your top priorities, there's usually a hierarchy—family health might trump work goals, or core business viability might trump nice-to-have features. The key is having the courage to rank even your important priorities and act accordingly.",
+  "source_file": "First Things First Prioritization.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "hiring",
+    "fundraising",
+    "product-market_fit",
+    "go-to-market",
+    "team_and_culture",
+    "operations",
+    "competitive_strategy",
+    "pricing",
+    "risk_management"
+  ]
+}

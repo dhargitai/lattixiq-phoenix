@@ -1,0 +1,30 @@
+{
+  "knowledge_piece_name": "Earlyvangelist Persona",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some people buy unproven products from unknown startups while others won't even try free trials from established companies?",
+  "definition": "An earlyvangelist is your ideal first customer who not only has a problem but is actively and urgently seeking a solution, making them willing to buy an early, imperfect product.",
+  "analogy_or_metaphor": "Like a person dying of thirst in a desert who will gladly pay premium prices for the first water they see, even if it's from an unproven vendor with a makeshift cart.",
+  "key_takeaway": "**Your first customers aren't rational—they're desperate enough to take a chance on you.**",
+  "classic_example": "In enterprise software, it's the company that has cobbled together their own makeshift solution using spreadsheets and manual processes, knows exactly what their problem costs them, and has budget ready to spend on fixing it.",
+  "modern_example": "The startup founder who immediately signs up for your beta productivity app because they're drowning in inefficient workflows, versus the curious observer who says 'Yeah, that's a nice idea' but never commits.",
+  "pitfall": "Mistaking polite interest ('Yeah, that's a problem') for genuine demand, leading to building products nobody will actually buy.",
+  "payoff": "Focusing on earlyvangelists gets you paying customers faster and provides the passionate advocates who will help you refine your product through real usage.",
+  "visual_metaphor": "A person with their hand raised high in a crowd, waving money, with an expression of urgent need—standing out from others who are just casually looking around.",
+  "dive_deeper_mechanism": "Earlyvangelists work because they represent the intersection of maximum pain and minimum risk tolerance. They've already tried to solve their problem themselves, which means they understand both the value of a solution and the cost of the status quo. Their desperation overrides their natural skepticism about new vendors, making them willing to take risks that rational buyers wouldn't. They become early adopters not because they love new technology, but because their current pain exceeds their fear of trying something unproven.",
+  "dive_deeper_origin_story": "The term was coined by Steve Blank, combining 'early adopter' with 'evangelist.' Blank observed that successful startups didn't just find early adopters—they found early adopters who became passionate advocates. He noticed that first customers in enterprise software shared specific characteristics: they had the problem, knew they had it, had budget to solve it, and had already attempted their own solutions. This pattern became a cornerstone of the Customer Development methodology.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Thinking any interested person could be an earlyvangelist. True earlyvangelists show emotional urgency—there's a huge difference between 'That's interesting' and 'This is exactly what I need!' **Common Mistake #2:** Confusing early adopters with earlyvangelists. Early adopters like trying new things; earlyvangelists are solving urgent problems. The earlyvangelist might actually hate new technology but needs your solution so badly they'll overlook their preferences.",
+  "source_file": "Earlyvangelist Persona.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

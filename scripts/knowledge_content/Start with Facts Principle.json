@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Start with Facts Principle",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever notice how saying \"You're always late!\" starts a fight, but \"You arrived at 8:20\" doesn't?",
+  "definition": "The Start with Facts Principle is the practice of beginning difficult conversations with objective, observable evidence rather than subjective interpretations or conclusions.",
+  "analogy_or_metaphor": "It's like building a house—you start with a solid concrete foundation (facts) before adding the walls and roof (your interpretations and conclusions).",
+  "key_takeaway": "**Facts are the least controversial starting point for any difficult conversation.**",
+  "classic_example": "Instead of accusing someone of being untrustworthy, start with the observable fact: \"I can't find $40 from my wallet that was here this morning.\"",
+  "modern_example": "Rather than telling your colleague \"You're being unprofessional in meetings,\" try \"In today's meeting, you checked your phone four times and interrupted Sarah twice.\"",
+  "pitfall": "Jumping straight to conclusions and interpretations creates immediate defensiveness and turns conversations into arguments.",
+  "payoff": "Starting with facts creates a foundation of shared reality that allows productive dialogue and reduces emotional reactivity.",
+  "visual_metaphor": "A pyramid with concrete facts as the solid base, supporting layers of interpretations and conclusions above—the foundation must be strong and undeniable.",
+  "dive_deeper_mechanism": "This principle works because facts engage our rational mind rather than triggering our emotional fight-or-flight response. When we hear accusations or interpretations, our brain immediately searches for counterarguments and defenses. But when presented with observable facts, our mind naturally moves toward problem-solving mode. Facts create psychological safety by establishing common ground—something both parties can agree on before exploring the more contentious territory of what those facts might mean.",
+  "dive_deeper_origin_story": "This concept was popularized by Kerry Patterson and his co-authors in \"Crucial Conversations\" based on decades of research into high-stakes communication. They observed that master communicators consistently follow what they called the \"Path to Action\"—moving from facts to stories to feelings to actions. The most skilled communicators learned to retrace this path backward, starting conversations at the factual foundation rather than jumping to emotional conclusions.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Thinking that stating facts means being cold or robotic. Facts can be shared with warmth and curiosity. **Nuance:** Not all \"facts\" are equal—focus on directly observable behaviors rather than inferences. \"You seemed angry\" is an inference, while \"Your voice got louder and you crossed your arms\" are observable facts. **Pitfall:** Using \"facts\" as weapons—selecting only facts that support your predetermined conclusion rather than presenting the full picture objectively.",
+  "source_file": "Start with Facts Principle.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "co-founder_conflict",
+    "team_and_culture",
+    "hiring",
+    "fundraising"
+  ]
+}

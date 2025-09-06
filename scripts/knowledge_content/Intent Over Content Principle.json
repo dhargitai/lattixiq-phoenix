@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Intent Over Content Principle",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Social & Behavioral Psychology",
+  "hook": "Ever notice how the same words can spark a fight with one person but create connection with another? It's not what you say—it's what they think you mean.",
+  "definition": "The Intent Over Content Principle states that people's emotional reactions are primarily driven by their perception of your underlying intent, not the actual words you use.",
+  "analogy_or_metaphor": "Think of your words as a gift box. People don't react to the wrapping paper—they react to what they think is inside. If they suspect poison, even the most beautiful box will be rejected.",
+  "key_takeaway": "**People defend against your perceived intent, not your actual words.**",
+  "classic_example": "A manager says 'Can we talk about your performance?' Employee immediately gets defensive, assuming criticism is coming, even though the manager simply wants to offer a promotion opportunity.",
+  "modern_example": "You text your partner 'We need to talk' and they spend hours anxious, assuming the worst. But you just wanted to discuss weekend dinner plans. Your intent seemed ominous, so they braced for conflict.",
+  "pitfall": "Ignoring this principle leads to defensive reactions, shut-down conversations, and damaged relationships, even when you have good intentions.",
+  "payoff": "Leading with your positive intent creates psychological safety, reduces defensiveness, and opens the door for honest, productive dialogue.",
+  "visual_metaphor": "A person holding up a shield, not against the words floating in the air, but against a dark shadow representing perceived negative intent lurking behind the speaker.",
+  "dive_deeper_mechanism": "This principle works because our brains are constantly making split-second judgments about threat and safety. When someone approaches us with communication, our subconscious immediately asks: 'Are they for me or against me?' If we detect any ambiguity about their intent, our threat detection system defaults to assuming the worst—a survival mechanism that kept our ancestors alive. Once we perceive negative intent, our amygdala triggers fight-or-flight responses, making rational conversation nearly impossible. The content becomes irrelevant because we're now in defensive mode.",
+  "dive_deeper_origin_story": "This principle was popularized by Kerry Patterson and his co-authors in 'Crucial Conversations,' drawing from decades of research on high-stakes communication. The insight came from studying why some conversations succeed while others fail spectacularly—even when discussing the same topics. They discovered that the most skilled communicators intuitively understood that people's defensive reactions weren't about the words themselves, but about the story people told themselves about why those words were being spoken. This led to the breakthrough understanding that addressing perceived intent first creates the psychological safety necessary for meaningful dialogue.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** 'If I have good intentions, people should automatically know that.' **Reality:** Good intentions are invisible to others—they can only guess based on your tone, timing, and approach. **Another Pitfall:** Stating intent once at the beginning and assuming it lasts the whole conversation. **Reality:** Intent must be reinforced throughout difficult conversations as people's defensive walls naturally rebuild when discussing sensitive topics.",
+  "source_file": "Intent Over Content Principle.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "co-founder_conflict",
+    "team_and_culture",
+    "hiring"
+  ]
+}

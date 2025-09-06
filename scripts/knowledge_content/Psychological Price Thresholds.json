@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Psychological Price Thresholds",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever wonder why everything costs $99 instead of $100? Your brain literally processes these as different categories of expense.",
+  "definition": "Psychological price thresholds are mental barriers where customers react disproportionately to prices that cross certain round numbers like $10, $50, or $100, perceiving products priced just below these points as significantly cheaper than they actually are.",
+  "analogy_or_metaphor": "Think of your brain as having invisible price buckets labeled 'cheap,' 'moderate,' and 'expensive.' A $99 item gets tossed in the 'moderate' bucket while $101 lands in 'expensive' – even though they're nearly identical.",
+  "key_takeaway": "**Your brain categorizes prices, not calculates them.**",
+  "classic_example": "Retailers pricing items at $9.99, $19.99, or $99.99 instead of round numbers, knowing customers will focus on the first digit and perceive these as belonging to a lower price category.",
+  "modern_example": "Streaming services like Netflix pricing at $14.99 instead of $15, or SaaS products at $49/month instead of $50, making them feel like they're in the 'under $15' or 'under $50' mental category.",
+  "pitfall": "Ignoring price thresholds means leaving money on the table by pricing at awkward points that make products seem more expensive than necessary.",
+  "payoff": "Understanding price thresholds allows you to optimize pricing for maximum sales volume while maintaining perceived value.",
+  "visual_metaphor": "A staircase where each step represents a price threshold ($10, $50, $100), with a small gap just before each step showing the 'sweet spot' pricing zone.",
+  "dive_deeper_mechanism": "This bias works because our brains use heuristic processing for prices, focusing on the leftmost digits and categorizing rather than calculating. The phenomenon stems from our evolutionary need to make quick decisions with limited cognitive resources. We process $99 as 'ninety-something' (moderate category) while $101 registers as 'over one hundred' (expensive category), creating a disproportionate psychological gap.",
+  "dive_deeper_origin_story": "The concept gained scientific backing in the 1960s when researchers discovered the 'left-digit bias' in pricing studies. However, retailers had been using 'charm pricing' since the late 1800s, initially to force cashiers to open registers and give change, preventing theft. What started as an anti-theft measure became a psychological goldmine when businesses noticed customers responded more favorably to these 'just under' prices.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** The threshold effect works equally across all price ranges and cultures. **Reality:** The strength varies significantly – it's strongest in the $1-$100 range and weaker for luxury goods where higher prices can signal quality. Additionally, the effect is culturally dependent; some societies with different number systems or economic contexts show different threshold sensitivities. The bias also weakens when customers are making analytical, high-involvement purchase decisions versus quick, emotional ones.",
+  "source_file": "Psychological Price Thresholds.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

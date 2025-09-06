@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Competitive Alternatives Lens",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Military & Competitive Strategy",
+  "hook": "When Netflix worried about competition, they didn't just think about other streaming services—they realized they were competing against sleep itself.",
+  "definition": "The Competitive Alternatives Lens is a strategic framework that expands your definition of competition beyond direct competitors to include any alternative solution customers might choose, including manual processes, general-purpose tools, or even doing nothing at all.",
+  "analogy_or_metaphor": "It's like being a restaurant owner who realizes you're not just competing with other restaurants, but also with home cooking, meal delivery apps, grocery stores, and even people choosing to skip meals entirely.",
+  "key_takeaway": "**Your real competition isn't just similar products—it's every alternative your customer considers.**",
+  "classic_example": "When the automobile was invented, horse-drawn carriages weren't just competing with other carriages—they were competing with walking, trains, bicycles, and eventually cars. Those who only focused on making better carriages missed the bigger picture.",
+  "modern_example": "A project management software doesn't just compete with other PM tools like Asana or Trello. It competes with Excel spreadsheets, sticky notes, email chains, verbal updates in meetings, or teams simply winging it without any system at all.",
+  "pitfall": "Focusing only on direct competitors blinds you to the real reasons customers choose alternatives, leading to feature wars while missing fundamental customer needs.",
+  "payoff": "Understanding all competitive alternatives helps you position your solution against the customer's actual decision-making process, not just against similar products.",
+  "visual_metaphor": "A customer at the center of a wheel, with spokes radiating out to different solutions: your product, direct competitors, manual alternatives, general tools, and 'do nothing'—showing all the paths they might take.",
+  "dive_deeper_mechanism": "This lens works by forcing you to think like your customer during their decision-making process. When customers have a problem, they don't immediately think 'I need a specialized tool for this.' They think 'How can I solve this problem?' Their mental process includes evaluating effort, cost, time, and familiarity across all possible solutions. By mapping these alternatives, you understand the true competitive landscape and can position your product against what customers actually consider, not just what you think they should consider.",
+  "dive_deeper_origin_story": "This concept emerged from Clayton Christensen's work on disruptive innovation and was refined by product strategists who noticed that successful products often won by beating non-consumption rather than direct competitors. Netflix famously included sleep and video games as competitors because they were fighting for people's leisure time, not just competing with Blockbuster. This broader view helped them understand why convenience and accessibility mattered more than having the newest releases.",
+  "dive_deeper_pitfalls_nuances": "**Common Pitfall #1:** Assuming that sophisticated alternatives are your biggest threat—often the biggest competitor is 'doing nothing' or using a simple, familiar tool like Excel. **Common Pitfall #2:** Only considering alternatives within your industry—customers often use solutions from completely different categories that happen to solve their problem adequately.",
+  "source_file": "Competitive Alternatives Lens.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

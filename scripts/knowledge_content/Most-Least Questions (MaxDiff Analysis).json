@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Most-Least Questions (MaxDiff Analysis)",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever asked customers what they want and gotten a wish list of everything? There's a smarter way to discover what they actually value.",
+  "definition": "A structured survey technique that forces customers to make trade-offs by repeatedly asking them to choose the 'most' and 'least' important features from small subsets of options.",
+  "analogy_or_metaphor": "Like being a judge at a talent show where you can't give everyone a '10' - you're forced to make tough choices that reveal what truly stands out.",
+  "key_takeaway": "**Force the choice to reveal true priorities.**",
+  "classic_example": "Traditional surveys ask customers to rate features on a 1-10 scale, resulting in everything being rated as 'important' (7-9), providing no meaningful differentiation for product decisions.",
+  "modern_example": "A food delivery app shows users sets of 4 features (faster delivery, lower fees, restaurant variety, order tracking) and asks 'Which matters most to you? Which matters least?' across multiple combinations to rank all features clearly.",
+  "pitfall": "Without forced trade-offs, customers will claim everything is important, leading to feature-bloated products that please no one and cost too much to build.",
+  "payoff": "Clear, data-driven feature priorities that help you build what customers actually value most, avoiding the costly mistake of feature shock.",
+  "visual_metaphor": "A balance scale with multiple features on each side, where adding one feature forces another to be removed, showing the natural trade-offs customers must make.",
+  "dive_deeper_mechanism": "Most-Least questions work by exploiting a fundamental truth about human psychology: we're better at making relative comparisons than absolute judgments. When forced to choose between options, people reveal their true preferences rather than giving socially desirable answers. The technique uses statistical modeling to convert these binary choices into a complete ranking, providing quantitative data on qualitative preferences.",
+  "dive_deeper_origin_story": "MaxDiff analysis was developed in the 1990s by marketing researchers Jordan Louviere and others as an evolution of conjoint analysis. The technique gained prominence in product development after companies like Amazon learned painful lessons from feature shock - their Fire Phone failed partly because they packed in features (like Dynamic Perspective 3D) without understanding what customers actually valued most versus least.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Using too many items in each choice set (stick to 3-5 items max). **Misunderstanding:** Thinking the 'least important' choice is negative - it's simply relatively less important. **Trap:** Not including enough choice sets per respondent (need 8-12+ to get reliable rankings). The method reveals relative importance, not absolute - a feature ranked last might still be valuable, just less so than others.",
+  "extra_content": "## MaxDiff Survey Design Process\n\n### Step 1: Define Your Feature Set\n- List all features/attributes you're considering (typically 8-20 items)\n- Use customer language, not internal jargon\n- Ensure features are mutually exclusive and comparable\n\n### Step 2: Create Choice Sets\n- Show 3-5 features per set (4 is optimal)\n- Each respondent sees 8-12+ different combinations\n- Use experimental design software to ensure balanced exposure\n\n### Step 3: Survey Structure\n**For each choice set, ask:**\n- \"Which of these is MOST important to you?\"\n- \"Which of these is LEAST important to you?\"\n\n**Example Choice Set:**\n- Faster delivery (30 min vs 60 min)\n- Lower delivery fees ($1.99 vs $4.99)\n- More restaurant options (500+ vs 100)\n- Real-time order tracking\n\nMost important: ___\nLeast important: ___\n\n### Step 4: Analysis Method\n**Calculate Utility Scores:**\n1. Count how often each feature was chosen as 'most' vs 'least'\n2. Apply statistical modeling (multinomial logit) to generate utility scores\n3. Convert to percentage importance: each feature gets a % share that totals 100%\n\n### Step 5: Interpretation Framework\n**Priority Levels:**\n- **Must-have (>20%):** Core features that define product value\n- **Important (10-20%):** Differentiating features worth investing in\n- **Nice-to-have (5-10%):** Consider for future versions\n- **Low priority (<5%):** Likely not worth the development cost\n\n### Sample Size Requirements\n- Minimum 100 respondents for stable results\n- 200+ recommended for segmentation analysis\n- Each person completes 10-15 choice sets\n\n### Common Applications\n- **Product roadmap prioritization:** Rank feature requests objectively\n- **Pricing research:** Understand willingness to pay for different features\n- **Market segmentation:** Identify customer groups with different priorities\n- **Competitive analysis:** Compare your priorities vs competitor strengths",
+  "source_file": "Most-Least Questions (MaxDiff Analysis).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

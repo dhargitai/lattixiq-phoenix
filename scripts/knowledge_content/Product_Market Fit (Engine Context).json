@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Product/Market Fit (Engine Context)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some startups explode while others with similar ideas fizzle out? It's not luck—it's finding the sweet spot where your product clicks.",
+  "definition": "The state achieved when a startup has tuned its chosen engine of growth to the point where it is producing scalable, profitable, and sustainable results.",
+  "analogy_or_metaphor": "Like tuning a car engine until it purrs perfectly—every component working in harmony to deliver maximum performance with minimal waste.",
+  "key_takeaway": "**Success isn't about having a great product; it's about having the right product for the right market at the right time.**",
+  "classic_example": "Groupon started as 'The Point,' a collective activism platform that failed. By pivoting to group coupons with a simple WordPress blog and handmade PDFs, they found their fit and became one of the fastest companies to reach $1 billion in sales.",
+  "modern_example": "Netflix found product/market fit by shifting from DVD-by-mail to streaming, then again by moving from content distributor to content creator with original shows like House of Cards.",
+  "pitfall": "Without product/market fit, you're burning money on marketing a product nobody really wants, leading to unsustainable growth and eventual failure.",
+  "payoff": "Achieving product/market fit creates a self-reinforcing cycle where satisfied customers drive organic growth, reducing acquisition costs and increasing profitability.",
+  "visual_metaphor": "A key perfectly fitting into a lock, with gears turning smoothly inside, representing the alignment between product capabilities and market demand creating sustainable momentum.",
+  "dive_deeper_mechanism": "Product/market fit works through continuous feedback loops and iterative improvement. Companies start with baseline metrics (conversion rates, customer lifetime value, retention), make incremental changes to tune their 'engine,' and measure progress toward an ideal state. When micro-optimizations stop yielding results, it signals either success (the engine is tuned) or the need for a major pivot. This systematic approach prevents the common trap of building products in isolation from real market feedback.",
+  "dive_deeper_origin_story": "The concept was popularized by Marc Andreessen, who observed that many startups fail not because they can't build products, but because they build products nobody wants. Eric Ries later formalized this in 'The Lean Startup,' introducing the Build-Measure-Learn cycle and the concept of treating startups as experiments rather than traditional businesses. The methodology emerged from the dot-com crash lessons, where companies learned that burning cash on untested assumptions leads to spectacular failures.",
+  "dive_deeper_pitfalls_nuances": "**Common Myth:** Product/market fit is a binary state you either have or don't. **Reality:** It's a spectrum and varies by market segment—you might have fit with early adopters but not mainstream customers. **Another Misconception:** Once achieved, product/market fit is permanent. **Truth:** Market conditions change, competitors emerge, and customer needs evolve, requiring continuous re-tuning of your engine. Many successful companies lost their fit by becoming complacent.",
+  "source_file": "Product-Market Fit (Engine Context).md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

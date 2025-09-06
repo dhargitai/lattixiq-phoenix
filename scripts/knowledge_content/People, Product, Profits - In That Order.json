@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "People, Product, Profits - In That Order",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some companies thrive while others with better products fail? The secret isn't what you'd expect.",
+  "definition": "A management philosophy that prioritizes taking care of your people first, building a great product second, and trusting that profits will naturally follow as the third outcome.",
+  "analogy_or_metaphor": "Like tending a garden: nurture the soil (people) first, grow healthy plants (product), and the harvest (profits) will come naturally.",
+  "key_takeaway": "**Great people build great products, and great products generate great profits.**",
+  "classic_example": "Southwest Airlines built their entire culture around putting employees first, which led to exceptional customer service and decades of profitability in a notoriously difficult industry.",
+  "modern_example": "Companies like Patagonia invest heavily in employee well-being and development, resulting in innovative outdoor gear and a fiercely loyal customer base that drives premium pricing and strong margins.",
+  "pitfall": "Focusing on short-term profits first leads to cutting corners on people and product quality, creating a downward spiral of employee turnover, inferior products, and eventual market failure.",
+  "payoff": "Prioritizing people creates a motivated workforce that naturally builds superior products, leading to sustainable competitive advantages and long-term profitability.",
+  "visual_metaphor": "A three-tier pyramid with 'People' as the foundation base, 'Product' as the middle layer, and 'Profits' as the crown at the top, showing how each level supports the next.",
+  "dive_deeper_mechanism": "This philosophy works because it aligns with fundamental human psychology and market dynamics. When people feel valued and supported, they experience higher motivation, creativity, and loyalty. This psychological safety and investment leads to better collaboration, innovation, and quality work. Happy, skilled employees naturally create better products because they care about their work and have the resources to excel. Superior products then command premium pricing, customer loyalty, and market share, generating sustainable profits. It's a virtuous cycle where each element reinforces the others.",
+  "dive_deeper_origin_story": "While the exact phrase varies, this philosophy has roots in the servant leadership movement and was popularized by business leaders like Herb Kelleher at Southwest Airlines in the 1970s. The concept gained prominence through companies that weathered economic downturns by maintaining their people-first approach, proving that short-term profit maximization often destroys long-term value. Ben Horowitz articulated this principle in the context of high-growth tech companies, where talent is the primary competitive advantage.",
+  "dive_deeper_pitfalls_nuances": "**Common Misunderstanding:** This means being soft on performance or avoiding difficult decisions. **Reality:** People-first doesn't mean avoiding accountability—it means creating systems that help people succeed and making tough decisions with transparency and respect. **Another Pitfall:** Assuming this applies only to employee perks. **Truth:** It's about fundamental respect, clear communication, professional development, and creating conditions where people can do their best work, not just offering free snacks.",
+  "source_file": "People, Product, Profits - In That Order.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "team_and_culture",
+    "hiring",
+    "operations"
+  ]
+}

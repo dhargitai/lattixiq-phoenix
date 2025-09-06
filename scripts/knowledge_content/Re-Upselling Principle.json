@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Re-Upselling Principle",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever notice how you don't miss something until it's gone? Businesses use this psychological trigger to make you want what you almost walked away from.",
+  "definition": "The re-upselling principle occurs when removing or downgrading a valuable feature during negotiations causes the customer to recognize its worth and voluntarily choose the original, more expensive option.",
+  "analogy_or_metaphor": "It's like taking away someone's favorite pillow for one night—suddenly they realize how much they actually needed it and gladly pay extra to get it back.",
+  "key_takeaway": "**Sometimes the best way to sell something is to take it away first.**",
+  "classic_example": "Alex Hormozi's gym story where customers who won their money back were offered a 'rollover' payment plan instead of a lump sum refund, making them realize they preferred to keep paying for ongoing membership rather than lose the service entirely.",
+  "modern_example": "Netflix's strategy of removing popular shows from their basic tier, prompting viewers to upgrade to premium plans when they realize how much they miss those specific features and content.",
+  "pitfall": "Overusing this tactic can damage trust and make customers feel manipulated, leading to buyer's remorse and negative reviews.",
+  "payoff": "When used ethically, it helps customers make informed decisions by experiencing the true value of what they're considering, leading to more satisfied long-term buyers.",
+  "visual_metaphor": "A hand reaching for a cookie jar that's being pulled away, then eagerly reaching back when offered again—showing the increased desire that comes from temporary removal.",
+  "dive_deeper_mechanism": "The re-upselling principle leverages loss aversion, a cognitive bias where people feel the pain of losing something twice as strongly as the pleasure of gaining it. When you remove a feature or benefit, the customer's brain immediately calculates what they're giving up rather than what they're saving. This mental shift from 'cost focus' to 'value focus' makes the original offer seem more attractive. The technique also creates a moment of experiential learning—customers don't just hear about the value, they feel its absence, making the benefit tangible and real.",
+  "dive_deeper_origin_story": "While the psychological principle of loss aversion was formally identified by Daniel Kahneman and Amos Tversky in the 1970s, the re-upselling technique gained prominence in modern business through entrepreneurs like Alex Hormozi. His gym story from 2014 perfectly illustrates the concept: instead of giving customers their full winnings upfront (which led to churn), he structured it as monthly credits toward ongoing membership. This 'rollover upsell' transformed one-time buyers into recurring customers, proving that sometimes the best sales strategy is strategic subtraction rather than addition.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** This is about manipulation or bait-and-switch tactics. **Reality:** Ethical re-upselling genuinely helps customers understand value by experiencing choice consequences. **Misuse warning:** Using this technique deceptively (removing features that were never really included) destroys trust. **Timing matters:** The removal must feel natural and logical, not arbitrary. **Context dependency:** Works best when customers have already shown interest in the full offering, not as a first-touch sales tactic.",
+  "source_file": "\"Re-Upselling\" Principle.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "fundraising"
+  ]
+}

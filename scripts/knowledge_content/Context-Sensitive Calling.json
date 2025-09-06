@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Context-Sensitive Calling",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why that salesperson called you just moments after you opened their email? Welcome to the world of context-sensitive calling.",
+  "definition": "Context-sensitive calling is the tactical practice of using real-time digital engagement signals—like email opens, website visits, or document downloads—to trigger immediate phone outreach when prospects are actively engaged.",
+  "analogy_or_metaphor": "It's like a fisherman who feels the line tugging and immediately sets the hook—you strike when the prospect is actively biting, not when they've wandered away from the bait.",
+  "key_takeaway": "**Call when they're paying attention, not when it's convenient for you.**",
+  "classic_example": "A B2B software salesperson receives a notification that a prospect just opened their proposal email for the third time this morning, then immediately calls while the prospect still has the document on their screen.",
+  "modern_example": "A real estate agent gets pinged that a potential buyer is browsing their property listing at 10 PM on a Saturday, then calls within minutes saying, 'I noticed you're looking at the downtown condo—I happen to be nearby if you'd like a quick tour tomorrow morning.'",
+  "pitfall": "Calling at random times results in low connection rates, voicemail tag, and prospects who aren't mentally prepared for your conversation.",
+  "payoff": "Timing calls with engagement signals dramatically increases connection rates and catches prospects when your offering is already top-of-mind.",
+  "visual_metaphor": "A fishing line with a digital notification bell attached—the moment the fish bites (engagement signal), the bell rings and the fisherman immediately reels in.",
+  "dive_deeper_mechanism": "Context-sensitive calling leverages the psychological principle of 'present moment awareness.' When someone opens your email or visits your website, they're mentally engaged with your offering for a brief window—typically 2-5 minutes. This creates what behavioral scientists call a 'hot cognition' state, where they're more receptive to discussion because the context is already loaded in their working memory. The technique also exploits the 'recency effect'—people are most likely to respond positively to information that's fresh in their minds. By calling during this narrow window, you're essentially continuing a conversation they've already started in their head.",
+  "dive_deeper_origin_story": "This tactic emerged from the marriage of sales automation tools and email tracking technology in the early 2010s. Pete Kazanjy, founder of TalentBin and author of 'Founding Sales,' was among the first to systematize this approach after noticing that his highest-converting cold calls happened to coincide with when prospects had recently engaged with his emails. Sales development platforms like Outreach, SalesLoft, and HubSpot later built this intelligence directly into their systems, allowing salespeople to receive real-time notifications the moment a prospect opens an email, clicks a link, or visits a pricing page. What started as a lucky coincidence became a repeatable, data-driven strategy.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Calling too aggressively on every single email open can come across as creepy or invasive—prospects may feel like they're being watched. **Reality check:** The technique works best for high-intent actions (multiple email opens, pricing page visits, proposal downloads) rather than single opens. **Timing nuance:** There's a sweet spot—calling within 2-5 minutes of engagement is ideal, but calling within 30 seconds can feel stalker-ish. **Not universal:** This works exceptionally well for B2B sales but can backfire in consumer contexts where privacy expectations are higher.",
+  "source_file": "Context-Sensitive Calling.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

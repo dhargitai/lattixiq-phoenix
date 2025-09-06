@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "The \"Shear a Sheep\" Principle",
+  "super_model": true,
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Why do successful businesses focus on keeping customers coming back rather than constantly hunting for new ones?",
+  "definition": "The principle that sustainable business success comes from creating recurring revenue streams and long-term customer relationships rather than relying on one-time transactions.",
+  "analogy_or_metaphor": "Like a sheep farmer who shears the same sheep multiple times rather than slaughtering it once—you can harvest value repeatedly from the same customer over time, creating a sustainable and predictable income stream.",
+  "key_takeaway": "**Build relationships that pay dividends, not transactions that pay once.**",
+  "classic_example": "Traditional subscription businesses like newspapers or milk delivery services that built customer loyalty through consistent value delivery, creating predictable monthly revenue rather than hoping customers would make one-time purchases.",
+  "modern_example": "Netflix transformed from a DVD rental business (one-time transactions) to a subscription model where customers pay monthly. Instead of hoping people rent movies occasionally, they built recurring revenue that's predictable and grows over time.",
+  "pitfall": "Focusing solely on one-time sales creates an exhausting cycle of constantly needing new customers, unpredictable revenue, and high customer acquisition costs that can quickly drain resources.",
+  "payoff": "Building recurring revenue creates predictable cash flow, higher customer lifetime value, compound business growth, and the freedom to focus on improving products rather than desperately seeking new customers.",
+  "visual_metaphor": "A sheep being sheared with scissors, with wool growing back in cycles, next to a chart showing recurring revenue growing over time—illustrating sustainable harvest versus one-time extraction.",
+  "dive_deeper_mechanism": "This principle works because it leverages the psychological concept of commitment and consistency—once customers commit to an ongoing relationship, they're more likely to continue. It also takes advantage of the economic reality that retaining existing customers costs 5-25 times less than acquiring new ones. The recurring model creates compound value: each month a customer stays increases their lifetime value exponentially, while also providing predictable cash flow that enables better business planning and investment.",
+  "dive_deeper_origin_story": "While the exact phrase varies, this principle gained prominence through Alex Hormozi's gym business experience. He initially ran a 'Win Your Money Back' offer that attracted customers but created no recurring revenue—winners would leave after getting their free months. His breakthrough came when he learned to 'roll over' winnings into year-long memberships, transforming one-time customers into recurring revenue streams. This single change transformed thousands of gym businesses from feast-or-famine cycles to sustainable growth models.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Any recurring payment equals sustainable business. **Reality:** True recurring revenue requires ongoing value delivery—customers must feel they're getting continuous benefit, not just being charged repeatedly. **Another Pitfall:** Focusing only on retention while ignoring acquisition can lead to stagnation. The principle isn't about avoiding new customers, but about maximizing the value of existing relationships while maintaining healthy growth through new customer acquisition.",
+  "source_file": "The \"Shear a Sheep\" Principle.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "operations"
+  ]
+}

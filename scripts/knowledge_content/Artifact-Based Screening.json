@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Artifact-Based Screening",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever hired someone with a perfect resume who couldn't actually do the job? What if you could see their real skills before the first interview?",
+  "definition": "An efficient screening method that uses work samples or practical tasks as the first step to authenticate a candidate's actual abilities before investing time in synchronous interviews.",
+  "analogy_or_metaphor": "It's like test-driving a car before buying it instead of just reading the brochure—you experience the real performance, not just the marketing.",
+  "key_takeaway": "**Judge by the work, not the words.**",
+  "classic_example": "In industrial psychology, companies would have machinist candidates actually operate machinery to demonstrate skill, rather than just discussing their experience on paper.",
+  "modern_example": "A marketing agency asks copywriter candidates to create three email subject lines for a specific campaign brief, then evaluates the actual results rather than just reviewing portfolios and conducting lengthy interviews.",
+  "pitfall": "Relying on resumes and interviews alone often leads to hiring people who interview well but can't perform the actual job tasks.",
+  "payoff": "By evaluating real work samples first, you save time, reduce hiring mistakes, and identify candidates who can truly deliver results.",
+  "visual_metaphor": "A magnifying glass examining a work sample document, with multiple identical resumes faded in the background, showing the focus shift from paper credentials to actual output.",
+  "dive_deeper_mechanism": "Artifact-Based Screening works because it bypasses cognitive biases and subjective impressions that plague traditional hiring. Instead of relying on how well someone presents themselves or fits a mental prototype, you're evaluating the actual output they can produce. This leverages the psychological principle that past behavior (demonstrated through work samples) is the best predictor of future performance. The method also reduces the 'halo effect' where one impressive trait overshadows other deficiencies, and eliminates the pressure of performing well in artificial interview settings.",
+  "dive_deeper_origin_story": "While the specific term is modern, the concept traces back to early 20th-century industrial psychology when companies realized that having candidates perform actual job tasks was more predictive than traditional interviews. The approach gained scientific backing through work-sample testing research, which consistently showed higher validity than personality tests or unstructured interviews. In recent years, tech companies popularized this approach with coding challenges, and it has since spread across industries as hiring managers recognized the gap between interview performance and job performance.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Any work sample will do. **Reality:** The artifact must closely mirror actual job tasks, or it becomes just another abstract test. **Pitfall:** Making the task too complex or time-consuming, which can deter good candidates or favor those with more free time rather than better skills. **Nuance:** The screening isn't about finding the perfect artifact—it's about establishing a minimum competency threshold that eliminates clearly unqualified candidates before investing in deeper evaluation.",
+  "extra_content": "## Artifact-Based Screening Implementation Framework\n\n### Step 1: Define Core Job Requirements\n- Identify the 2-3 most critical skills for success in the role\n- Break down abstract requirements into concrete, measurable tasks\n- Example: \"Good communication\" becomes \"Write a clear 200-word explanation of a complex topic\"\n\n### Step 2: Design the Artifact Task\n- **Time limit**: 30-90 minutes maximum to respect candidates' time\n- **Realistic scope**: Mirror actual work situations, not academic exercises\n- **Clear instructions**: Provide specific deliverables and success criteria\n- **Standardized format**: Ensure all candidates receive identical instructions\n\n### Step 3: Create Evaluation Rubric\n- **Objective criteria**: Define specific elements to assess (accuracy, clarity, completeness)\n- **Scoring scale**: Use 1-5 or pass/fail system consistently\n- **Multiple evaluators**: Have 2-3 people score independently to reduce bias\n- **Blind evaluation**: Remove candidate names during assessment when possible\n\n### Step 4: Set Pass/Fail Threshold\n- **Baseline competency**: Set the minimum score that indicates job readiness\n- **Calibration**: Test with current high-performing employees to validate standards\n- **Documentation**: Record rationale for threshold decisions for consistency\n\n### Step 5: Implementation Process\n1. **Send artifact task** with job application or as first screening step\n2. **Set deadline** (typically 3-7 days to accommodate schedules)\n3. **Evaluate submissions** using established rubric\n4. **Provide feedback** to candidates who don't advance (builds goodwill)\n5. **Advance qualified candidates** to next stage (interviews, additional tests)\n\n### Quality Assurance Measures\n- **Regular calibration sessions** with evaluators to maintain consistency\n- **Periodic rubric review** based on actual job performance data\n- **Candidate feedback collection** to improve task design\n- **Success tracking**: Monitor correlation between artifact scores and job performance\n\n### Common Task Formats by Role Type\n- **Sales roles**: Write follow-up emails, create objection responses, analyze sales scenarios\n- **Marketing roles**: Create campaign briefs, write copy samples, develop content strategies\n- **Technical roles**: Code challenges, system design problems, debugging exercises\n- **Management roles**: Case study analysis, decision frameworks, communication scenarios\n- **Creative roles**: Portfolio submissions, creative briefs, design challenges",
+  "source_file": "Artifact-Based Screening.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

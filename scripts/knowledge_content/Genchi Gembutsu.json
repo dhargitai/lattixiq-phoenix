@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Genchi Gembutsu",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Philosophy & Foundational Ideas",
+  "hook": "Ever made a decision based on reports and data, only to discover the real situation was completely different when you finally showed up?",
+  "definition": "A Toyota Production System principle meaning 'go and see for yourself' - the practice of making decisions based on deep, firsthand knowledge gained through direct observation rather than secondhand reports.",
+  "analogy_or_metaphor": "Like being a detective who insists on visiting the crime scene rather than just reading witness statements - the real clues are always at the source.",
+  "key_takeaway": "**Real understanding comes from real presence - go where the work happens.**",
+  "classic_example": "Toyota executives regularly walked factory floors to observe production processes firsthand, leading to continuous improvements that reports and meetings would never reveal.",
+  "modern_example": "A software CEO discovers their app's real usability issues only after sitting with actual customers using it, not from user analytics dashboards.",
+  "pitfall": "Making decisions from conference rooms based on filtered reports leads to solutions that don't address real problems.",
+  "payoff": "Direct observation reveals root causes and breakthrough insights that transform how you solve problems.",
+  "visual_metaphor": "A pair of eyes with walking legs beneath them, emphasizing the need to personally go and see rather than rely on secondhand information.",
+  "dive_deeper_mechanism": "Genchi Gembutsu works because it bypasses the natural information filters that exist in organizations. When problems get reported up hierarchies, details get lost, context disappears, and political considerations color the narrative. Direct observation eliminates these layers, allowing you to see patterns, inefficiencies, and opportunities that would never appear in sanitized reports. It also builds empathy and deep understanding of the actual constraints people face.",
+  "dive_deeper_origin_story": "Developed by Taiichi Ohno, the father of the Toyota Production System, as a response to the bureaucratic tendencies he saw in post-war Japanese manufacturing. Ohno noticed that executives making decisions from offices often created solutions that sounded logical but failed in practice. He institutionalized the practice of managers spending time on the factory floor, leading to Toyota's legendary quality improvements and the foundation of lean manufacturing principles that revolutionized global industry.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Genchi Gembutsu means you have to personally do every job. **Reality:** It's about direct observation and understanding, not necessarily hands-on execution. **Common mistake:** Treating it as a one-time visit rather than an ongoing practice. The principle requires sustained presence and repeated observation to truly understand patterns and root causes, not just surface-level 'management by walking around.'",
+  "source_file": "Genchi Gembutsu.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "operations",
+    "hiring",
+    "team_and_culture"
+  ]
+}

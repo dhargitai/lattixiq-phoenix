@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Asymmetric Mobility",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why industry giants like Kodak, BlackBerry, or Blockbuster saw disruption coming but couldn't stop it? The answer lies in a hidden business gravity.",
+  "definition": "Asymmetric mobility is the principle that established firms find it rational and profitable to move upmarket toward higher margins, but practically impossible to move downmarket to address disruptive threats in low-margin markets.",
+  "analogy_or_metaphor": "Think of it like a corporate elevator that only goes up. Companies can easily ride to the penthouse (premium markets) but the elevator won't descend to the basement (low-margin markets) where the real disruption is happening.",
+  "key_takeaway": "**Success can become a trap—firms naturally climb upmarket but lose the ability to defend against low-end disruption.**",
+  "classic_example": "Digital Equipment Corporation (DEC) continued investing in high-performance minicomputers and mainframes while ignoring the emerging PC market, because PCs offered lower margins and seemed inferior to their existing customers.",
+  "modern_example": "Netflix started by disrupting Blockbuster's low-end market with mail-order DVDs, while Blockbuster focused on premium in-store experiences. When streaming emerged, Netflix could move down to even lower-cost delivery while Blockbuster remained trapped in their high-overhead model.",
+  "pitfall": "Ignoring asymmetric mobility leads to strategic blindness—you'll miss disruptive threats until they've already captured significant market share and evolved to challenge your core business.",
+  "payoff": "Understanding asymmetric mobility helps you anticipate disruption, protect market position, and identify opportunities to be the disruptor rather than the disrupted.",
+  "visual_metaphor": "A one-way escalator going upward with a brick wall at the bottom, showing how companies can easily move up to premium markets but face barriers preventing them from moving down to defend against low-end threats.",
+  "dive_deeper_mechanism": "Asymmetric mobility exists because of three organizational forces: First, **financial gravity**—higher-margin opportunities naturally attract resources and attention because they improve profitability metrics. Second, **capability lock-in**—firms develop specialized skills, processes, and relationships optimized for their current market segment, making it costly to serve different customer needs. Third, **cultural momentum**—success in premium markets creates organizational identity and expectations that make low-margin opportunities seem beneath the company's standards. These forces create a 'success trap' where doing what made you successful prevents you from adapting to new threats.",
+  "dive_deeper_origin_story": "Clayton Christensen coined this concept while studying the disk drive industry in the 1990s for his groundbreaking book 'The Innovator's Dilemma.' He noticed that leading firms like IBM and Seagate consistently failed to adopt smaller, cheaper disk drives not because they lacked technical capability, but because these innovations didn't meet their existing customers' needs or profit expectations. Each generation of disk drives started in low-end applications (like personal computers) before eventually moving upmarket to displace the previous generation in high-end applications (like mainframes). The pattern was so predictable that Christensen realized it represented a fundamental principle of how markets and organizations work.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That asymmetric mobility means companies should avoid moving upmarket. **Reality:** Moving upmarket is often the right short-term strategy—the problem is losing the ability to move downmarket when necessary. **Nuance:** Some firms overcome asymmetric mobility by creating separate business units with different cost structures and success metrics, like IBM's PC division or Intel's Celeron processor line. **Critical insight:** The real challenge isn't recognizing disruptive threats—most executives see them coming. The challenge is that their existing business model and organizational structure make it irrational to respond until it's too late.",
+  "source_file": "Asymmetric Mobility.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

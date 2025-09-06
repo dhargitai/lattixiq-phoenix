@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Can't Do vs. Won't Do",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Motivation & Human Drives",
+  "hook": "Your employee is missing deadlines again. Before you get frustrated, ask yourself one crucial question: If their life depended on it, could they actually do the job?",
+  "definition": "A diagnostic framework that distinguishes between performance problems caused by lack of ability ('can't do') versus lack of motivation ('won't do') by asking whether someone could perform the task if the stakes were life-or-death.",
+  "analogy_or_metaphor": "It's like diagnosing why your car won't start - is the engine broken (can't do) or is it simply out of gas (won't do)? The solution depends entirely on the correct diagnosis.",
+  "key_takeaway": "**Performance problems have two root causes: capability gaps require training, motivation gaps require different incentives.**",
+  "classic_example": "A factory worker consistently produces below quota. Through the 'life-or-death' test, you discover they physically cannot keep up with the machine speed due to a vision problem they've been hiding - a classic 'can't do' situation requiring accommodation, not motivation.",
+  "modern_example": "Your remote teammate never turns on their camera during video calls. If their job depended on it, could they? If yes (they have a working camera), it's 'won't do' - perhaps they're self-conscious about their home setup. If no (broken camera, poor internet), it's 'can't do' and needs a different solution.",
+  "pitfall": "Misdiagnosing the root cause leads to wasted effort - trying to motivate someone who lacks skills, or providing training to someone who simply doesn't care.",
+  "payoff": "Accurate diagnosis leads to targeted solutions: skill-building for 'can't do' problems, and incentive redesign for 'won't do' problems, dramatically improving intervention success rates.",
+  "visual_metaphor": "A diagnostic flowchart with two paths: one leading to a toolbox (skill-building for 'can't do') and another leading to a carrot and stick (motivation tools for 'won't do').",
+  "dive_deeper_mechanism": "This framework works because it forces managers to separate two fundamentally different types of performance barriers. 'Can't do' problems stem from genuine capability limitations - lack of skills, knowledge, tools, or physical/cognitive capacity. These require developmental solutions. 'Won't do' problems stem from motivational factors - misaligned incentives, unclear expectations, competing priorities, or personal resistance. The 'life-or-death' test cuts through assumptions and excuses to reveal the true constraint. It's based on the psychological principle that extreme motivation can overcome minor obstacles but cannot create abilities that simply don't exist.",
+  "dive_deeper_origin_story": "This diagnostic approach was popularized by management expert Andy Grove, former CEO of Intel, in his influential book 'High Output Management.' Grove developed this framework while scaling Intel from a startup to a major corporation, where he frequently encountered performance issues that seemed identical on the surface but required completely different interventions. He noticed that managers often defaulted to either pure motivation tactics (assuming people just weren't trying hard enough) or pure training solutions (assuming people just needed more skills), without properly diagnosing which was actually needed. The 'life-or-death' question became his go-to method for cutting through complexity and getting to the root cause quickly.",
+  "dive_deeper_pitfalls_nuances": "**Common Pitfall 1: The False Binary.** Reality often involves both factors - someone might have 70% of the needed skills but low motivation to develop the remaining 30%. Don't assume it's purely one or the other. **Common Pitfall 2: The Capability Illusion.** People often say they 'can't do' something when they actually mean they find it uncomfortable, difficult, or unfamiliar. The life-or-death test helps distinguish true incapability from resistance to effort. **Nuance: Context Matters.** Someone might be capable in one environment but not another - they could perform with proper tools, clear instructions, or different timing, but struggle in their current setup.",
+  "source_file": "Can't Do vs. Won't Do.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

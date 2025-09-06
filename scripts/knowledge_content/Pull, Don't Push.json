@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Pull, Don't Push",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why restaurants don't cook all their food at 9 AM and hope customers show up by dinner? They wait for your order first.",
+  "definition": "A workflow principle where work is initiated by actual demand from the next stage, rather than created in large batches based on anticipated future needs.",
+  "analogy_or_metaphor": "Like a well-run restaurant kitchen where dishes are prepared only after customers order them, rather than cooking everything in advance and hoping it sells before it spoils.",
+  "key_takeaway": "**Let demand signal drive production, not predictions.**",
+  "classic_example": "Toyota's Just-in-Time manufacturing system, where car parts are delivered and assembled only when needed on the production line, eliminating massive inventory stockpiles.",
+  "modern_example": "Netflix creating new shows based on actual viewing data and user preferences, rather than producing hundreds of shows upfront and hoping some will find an audience.",
+  "pitfall": "Push systems create waste through overproduction, excess inventory, and building things nobody wants or needs.",
+  "payoff": "Pull systems eliminate waste, reduce costs, improve quality, and ensure you're always building what's actually needed.",
+  "visual_metaphor": "A chain of people passing buckets of water, where each person only reaches for the next bucket when their hands are empty, versus everyone frantically filling buckets whether needed or not.",
+  "dive_deeper_mechanism": "Pull systems work by creating visual signals (like empty spaces or customer orders) that trigger the previous stage to produce exactly what's needed, when it's needed. This eliminates the guesswork of demand forecasting and prevents the waste that comes from overproduction. The system naturally self-regulates because work only flows when there's genuine capacity and demand downstream.",
+  "dive_deeper_origin_story": "The concept originated in Toyota's manufacturing plants in the 1970s as part of their Toyota Production System. Taiichi Ohno noticed how American supermarkets restocked shelves only when items were purchased, maintaining just enough inventory without waste. He applied this 'supermarket model' to manufacturing, where each production stage would 'shop' from the previous stage only when needed, revolutionizing industrial efficiency.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Pull means never planning ahead. **Reality:** Pull systems still require planning, but they use actual demand signals rather than forecasts to trigger work. **Another pitfall:** Implementing pull without addressing bottlenecks first can create system-wide delays. You need smooth, predictable processes before pull can work effectively.",
+  "extra_content": "## Implementing Pull Systems: A Step-by-Step Framework\n\n### 1. Value Stream Mapping\n- Map your current workflow from start to finish\n- Identify all handoffs between stages or people\n- Measure current lead times and inventory levels at each stage\n- Mark where work typically gets stuck or delayed\n\n### 2. Establish Pull Signals\n- **Kanban cards**: Physical or digital cards that represent work items\n- **Empty spaces**: Designated spots that signal when more work is needed\n- **Customer orders**: Direct requests that trigger production\n- **Capacity buffers**: Small, managed queues between stages\n\n### 3. Set Work-in-Progress (WIP) Limits\n- Determine maximum items each stage can handle simultaneously\n- Start conservative (fewer items) and adjust based on flow\n- Example: If your review stage can only handle 3 items well, limit it to 3\n- When WIP limit is reached, no new work enters until something completes\n\n### 4. Create Visual Management\n- Use boards showing: To Do → In Progress → Done\n- Color-code for priority, type, or urgency\n- Make bottlenecks and delays immediately visible to everyone\n- Track cycle time and throughput metrics\n\n### 5. Implementation Sequence\n- **Week 1**: Map current state and identify one pilot area\n- **Week 2**: Implement basic pull signals and WIP limits\n- **Week 3**: Add visual management and measure flow\n- **Week 4**: Adjust limits based on actual performance data\n- **Month 2+**: Expand to adjacent processes\n\n### 6. Key Metrics to Track\n- **Lead Time**: Total time from request to completion\n- **Cycle Time**: Active work time (excluding waiting)\n- **Throughput**: Items completed per time period\n- **Work-in-Progress**: Items currently being worked on\n\n### 7. Common Pull System Variations\n- **Single-piece flow**: One item at a time through the system\n- **Batch processing**: Small, consistent batch sizes\n- **Mixed model**: Different types of work sharing the same pull system\n- **Two-bin system**: When one bin empties, it signals to refill",
+  "source_file": "Pull, Don't Push.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "operations",
+    "team_and_culture",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

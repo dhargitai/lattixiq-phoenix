@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Proxy Metrics for Partner Quality",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder how seasoned investors decide which startups to fund after just a brief office visit? They often check the employee kitchen.",
+  "definition": "The practice of using easily observable, indirect indicators to assess hard-to-measure qualities in potential partners, suppliers, or collaborators.",
+  "analogy_or_metaphor": "Like judging a restaurant by how clean its bathroom is—if they care about details customers rarely see, they probably care about the food you will see.",
+  "key_takeaway": "**Small visible details reveal invisible values.**",
+  "classic_example": "Hardware manufacturers evaluating Chinese factories by observing employee meal quality and facility cleanliness as indicators of overall operational standards and company culture.",
+  "modern_example": "Before choosing a software development agency, checking if their own website loads quickly, has good design, and works on mobile—if they can't execute well for themselves, can they do it for you?",
+  "pitfall": "Relying solely on surface indicators without deeper verification can lead to partnerships with companies that excel at appearances but lack substance.",
+  "payoff": "Quick, efficient screening saves time and resources while identifying partners who demonstrate consistent quality standards across all aspects of their operation.",
+  "visual_metaphor": "An iceberg with a small visible tip above water, but with various small details and indicators scattered across the tip that hint at the massive structure below.",
+  "dive_deeper_mechanism": "This mental model works because organizational behavior tends to be systemic—companies that cut corners in invisible areas usually cut corners everywhere. The psychological principle of 'consistency bias' means that values and standards typically permeate throughout an organization. When a company invests in employee welfare (good meals, clean facilities), it signals they value quality over pure cost-cutting, suggesting they'll apply similar standards to client work.",
+  "dive_deeper_origin_story": "The concept gained prominence in hardware manufacturing when Western companies began outsourcing to Asia. Experienced engineers like Andrew Huang discovered that traditional technical audits missed crucial cultural and operational factors. They learned that observing 'proxy metrics'—like how well employees were treated, facility cleanliness, and attention to details customers never see—better predicted long-term partnership success than just technical capabilities or lowest-bid pricing.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** All proxy metrics are equally valid indicators. **Reality:** Some correlations are stronger than others, and cultural differences can create false signals. What matters most is finding proxies that genuinely reflect the underlying values you care about. Also, proxy metrics work best as initial screening tools—they should complement, not replace, thorough due diligence and technical evaluation.",
+  "source_file": "Proxy Metrics for Partner Quality.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "go-to-market",
+    "operations"
+  ]
+}

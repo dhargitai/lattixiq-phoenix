@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Next Feature Fallacy",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever notice how adding 'just one more feature' to your product never seems to be the game-changer you hoped it would be?",
+  "definition": "The cognitive bias where founders or product builders believe that the next feature they develop will be the key to unlocking massive success, leading to endless feature additions while core problems remain unaddressed.",
+  "analogy_or_metaphor": "Like a carpenter who keeps adding more tools to their toolbox, believing the perfect hammer will finally make them a master builder, while ignoring that they haven't learned to use the tools they already have.",
+  "key_takeaway": "**Success rarely comes from the next feature—it comes from perfecting what you already have.**",
+  "classic_example": "A startup with declining user engagement that keeps building new features instead of fixing the fundamental usability issues that are causing users to leave in the first place.",
+  "modern_example": "A productivity app founder who adds calendar integration, then team collaboration, then AI suggestions, while users still struggle with the basic task-creation flow that takes too many clicks.",
+  "pitfall": "Falling into the Next Feature Fallacy leads to bloated products, confused users, and wasted resources while core problems remain unsolved.",
+  "payoff": "Recognizing this bias helps you focus on improving existing features and solving real user problems, leading to better product-market fit and sustainable growth.",
+  "visual_metaphor": "A tree with many weak, thin branches reaching in all directions, while its trunk and roots remain underdeveloped—unable to support real growth.",
+  "dive_deeper_mechanism": "This bias exists because building new features feels more exciting and creative than fixing existing problems. It provides the psychological satisfaction of progress and innovation while avoiding the harder work of user research, performance optimization, and addressing fundamental design flaws. The brain's novelty bias makes us overvalue new additions while underestimating the compound effect of perfecting existing functionality.",
+  "dive_deeper_origin_story": "While the term 'Next Feature Fallacy' emerged from modern startup culture, the underlying pattern was first observed in product development during the early software industry. It gained prominence as venture-funded startups in the 2000s repeatedly failed despite having feature-rich products, leading product experts to identify this specific cognitive trap that founders consistently fell into.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Adding features always increases product value. **Reality:** Features can actually decrease value by adding complexity and confusion. **Another Pitfall:** Believing that competitor features must be matched. **Truth:** Your competitive advantage often comes from doing fewer things exceptionally well, not from feature parity.",
+  "source_file": "Next Feature Fallacy.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "operations"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Onboarding Pre-Work",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever notice how new hires lose momentum between accepting your job offer and their first day? What if you could harness their initial excitement instead?",
+  "definition": "Onboarding pre-work is the practice of assigning structured, meaningful tasks to new employees before their official start date to capitalize on their peak enthusiasm and accelerate their path to productivity.",
+  "analogy_or_metaphor": "It's like warming up before a big game—you don't waste the athlete's peak energy sitting on the bench, you channel it into preparation that makes their actual performance explosive from day one.",
+  "key_takeaway": "**Capture new hire excitement early—motivation peaks at 'yes' and fades with each passing day.**",
+  "classic_example": "Sales organizations sending new reps product documentation, competitive analysis materials, and company culture videos to study before day one, so they arrive ready to shadow calls instead of learning basics.",
+  "modern_example": "A tech company sends new developers their laptop early with a carefully curated list of internal tools to explore, team Slack channels to lurk in, and a 'getting started' project that familiarizes them with the codebase—all optional but engaging.",
+  "pitfall": "Wasting the window of peak new hire motivation leads to slower ramp times, extended periods of low productivity, and potentially losing excited talent to frustration or boredom.",
+  "payoff": "Leveraging pre-work enthusiasm creates faster time-to-productivity, stronger early engagement, and new hires who hit the ground running instead of stumbling through basics.",
+  "visual_metaphor": "A rocket launch sequence where the countdown represents pre-work preparation, building energy and readiness before the explosive moment of liftoff (first day).",
+  "dive_deeper_mechanism": "This works because of the 'commitment and consistency principle'—when people say yes to a job, they're psychologically primed to prove that decision was right. Their motivation and attention are naturally heightened in the honeymoon period between acceptance and start date. Pre-work channels this peak state into productive learning, creating early wins that build confidence and momentum. It also leverages the 'endowment effect'—by investing effort before starting, new hires develop stronger psychological ownership of their role and the company.",
+  "dive_deeper_origin_story": "While not traced to a single inventor, this practice emerged from sales organizations in the 1990s and 2000s who noticed that top performers often self-initiated learning before their start dates. Companies like HubSpot and Salesforce formalized this into structured programs when they realized that new hire excitement was a finite resource—highest at acceptance, declining each day until the official start. Pete Kazanjy documented this in 'Founding Sales,' noting that sales teams who implemented pre-work saw 40% faster ramp times compared to traditional onboarding approaches.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** Any homework is good homework. **Reality:** Pre-work must be carefully balanced—too much overwhelms and creates anxiety, too little wastes the opportunity. It should feel engaging and voluntary, not like a test. **Common mistake:** Treating pre-work as administrative busy work (filling forms, reading policies) rather than meaningful engagement with the role. The best pre-work connects new hires to the actual work they'll be doing and the people they'll be working with.",
+  "source_file": "Onboarding Pre-Work.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

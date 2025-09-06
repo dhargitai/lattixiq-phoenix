@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Value Network",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Why do industry giants consistently miss the next big thing, even when they see it coming?",
+  "definition": "The ecosystem of customers, suppliers, and competitors within which a firm operates, defined by a specific rank-ordering of product attributes and a characteristic cost structure that determines which innovations the firm perceives as valuable.",
+  "analogy_or_metaphor": "Like a fish that can only see food that fits its mouth size and swimming depth—a company's value network acts as both lens and filter, making certain opportunities invisible while highlighting others.",
+  "key_takeaway": "**Your customers and cost structure determine what innovations you can see and pursue.**",
+  "classic_example": "Disk drive manufacturers consistently succeeded with sustaining technologies their customers wanted (faster, higher-capacity drives) but failed with disruptive technologies (smaller, cheaper drives) because their value network prioritized performance over affordability.",
+  "modern_example": "Netflix's shift from DVD-by-mail to streaming required operating in a completely different value network—from physical logistics and inventory costs to bandwidth and content licensing—which is why Blockbuster couldn't simply copy the model.",
+  "pitfall": "Being trapped in your current value network blinds you to disruptive innovations and causes you to miss emerging market opportunities that seem 'too small' or 'not profitable enough.'",
+  "payoff": "Understanding your value network helps you recognize when to create separate organizations or partnerships to pursue opportunities that don't fit your current business model.",
+  "visual_metaphor": "A company sitting in the center of concentric circles, with customers in the inner ring, suppliers in the middle ring, and competitors in the outer ring, all connected by arrows showing the flow of value and constraints.",
+  "dive_deeper_mechanism": "Value networks create powerful constraints through resource dependence theory—customers and investors ultimately control resource allocation because companies that don't satisfy them don't survive. This creates a systematic bias toward sustaining innovations that serve existing customers while starving disruptive innovations that initially serve different or 'inferior' market segments. The network's cost structure and performance metrics become invisible barriers that filter out innovations that don't match current profitability requirements.",
+  "dive_deeper_origin_story": "Clayton Christensen developed this concept while studying the disk drive industry, noticing a puzzling pattern: successful companies consistently failed when faced with disruptive technologies, despite having superior resources and technology. He discovered that these failures weren't due to bad management, but because companies were prisoners of their own success—their value networks made certain innovations literally invisible or unprofitable to pursue.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** Value networks are just about competition. **Reality:** They're about the entire ecosystem that defines what your company values and can profitably pursue. **Another pitfall:** Assuming you can simply adjust your existing value network to capture new opportunities. Often, disruptive innovations require entirely separate organizations with different cost structures, performance metrics, and customer relationships to succeed.",
+  "source_file": "Value Network.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "go-to-market",
+    "product-market_fit",
+    "operations"
+  ]
+}

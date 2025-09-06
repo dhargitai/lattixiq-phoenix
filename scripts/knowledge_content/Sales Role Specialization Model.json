@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Sales Role Specialization Model",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why top sales teams have different people for prospecting, closing, and keeping customers happy? There's brilliant science behind this division.",
+  "definition": "An organizational design principle that separates the sales process into specialized roles—Sales Development Representatives (SDRs) for prospecting, Account Executives (AEs) for closing, and Customer Success Managers (CSMs) for retention—to maximize efficiency and scalability.",
+  "analogy_or_metaphor": "Like a hospital where you don't want your heart surgeon also doing intake paperwork and post-op care—each specialist focuses on what they do best, creating better outcomes for everyone.",
+  "key_takeaway": "**Specialization beats generalization: divide the sales process into expert roles for maximum impact.**",
+  "classic_example": "Traditional sales teams where one person handles everything from cold calling to contract renewal, leading to inefficiency and high turnover as reps struggle to master multiple skill sets.",
+  "modern_example": "HubSpot's sales model: SDRs focus purely on qualifying leads through calls and emails, AEs concentrate on demos and closing deals, while CSMs ensure customer success and drive renewals—each role optimized for specific outcomes.",
+  "pitfall": "Using generalist salespeople leads to inefficiency, longer sales cycles, poor customer experience, and difficulty scaling your revenue team.",
+  "payoff": "Specialized roles create predictable revenue growth, higher conversion rates, better customer retention, and the ability to scale each function independently.",
+  "visual_metaphor": "A relay race where each runner is perfectly trained for their segment, smoothly passing the baton to the next specialist rather than one person trying to run the entire race.",
+  "dive_deeper_mechanism": "This model works by leveraging the psychological principle of expertise development—when people focus on a narrow set of skills, they become exponentially better at them. SDRs become expert prospectors who understand pain points and qualifying questions. AEs master the art of demos, objection handling, and closing. CSMs develop deep product knowledge and relationship management skills. This specialization also creates clear success metrics for each role, making performance management and training more effective. The handoff points between roles force documentation and process rigor, preventing deals from falling through cracks.",
+  "dive_deeper_origin_story": "This model emerged from the SaaS revolution of the 2000s, pioneered by companies like Salesforce and later refined by sales leaders like Pete Kazanjy. Traditional B2B sales involved one rep handling everything, but as software sales became more complex and recurring revenue models demanded ongoing customer success, companies discovered that specialists dramatically outperformed generalists. The model became standard when companies realized that the skills needed to cold-call prospects are completely different from those needed to demo software or ensure customer renewal.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake**: Thinking specialization means isolation—roles must communicate seamlessly or customers get frustrated by disconnected experiences. **Nuance**: Not every company needs full specialization immediately; smaller teams might combine roles (like AE + CSM) before splitting them as they grow. **Pitfall**: Poor handoff processes between roles can actually hurt conversion rates more than having one generalist handle everything. The key is ensuring each specialist understands their role in the bigger customer journey, not just their narrow function.",
+  "source_file": "Sales Role Specialization Model.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "go-to-market",
+    "team_and_culture",
+    "operations"
+  ]
+}

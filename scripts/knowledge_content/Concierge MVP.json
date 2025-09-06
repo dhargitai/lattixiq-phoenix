@@ -1,0 +1,31 @@
+{
+  "knowledge_piece_name": "Concierge MVP",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder how Airbnb's founders validated their idea? They didn't build an app first—they literally went door-to-door photographing apartments themselves.",
+  "definition": "A testing method where founders manually provide a high-touch, personalized service to early customers to validate demand and learn exact needs before building any technology or automation.",
+  "analogy_or_metaphor": "Like being a personal butler who hand-delivers everything your customers need, watching their reactions closely, before you decide whether to hire a staff or build systems.",
+  "key_takeaway": "**Validate with humans before you automate with technology.**",
+  "classic_example": "The Lean Startup describes a volunteer program experiment where a small group of employees received exceptional, personally-curated volunteer opportunities to test if the value hypothesis (employees find volunteering meaningful) was true before building any technology platform.",
+  "modern_example": "A meal delivery startup founder cooking and personally delivering 20 meals per week to test if customers actually want healthy, locally-sourced dinners, rather than building an app and kitchen infrastructure first.",
+  "pitfall": "Building complex technology without understanding what customers actually value, leading to products nobody wants and wasted resources.",
+  "payoff": "Deep customer insights and validated demand before investing in expensive technology, plus loyal early customers who feel heard and valued.",
+  "visual_metaphor": "A person in a concierge uniform personally handing a golden key to a customer, with gears and computer screens faded in the background, showing the human touch comes before automation.",
+  "dive_deeper_mechanism": "The Concierge MVP works because it forces direct, unfiltered contact with customers during their actual experience. Unlike surveys or focus groups, you observe real behavior with real stakes. The manual delivery reveals friction points, unexpected use cases, and emotional reactions that automated systems would miss. This high-touch approach also creates exceptional experiences that turn early users into passionate advocates, providing both validation and word-of-mouth growth.",
+  "dive_deeper_origin_story": "The concept emerged from Eric Ries's work in The Lean Startup, building on Steve Blank's customer development methodology. Ries observed that successful startups like Zappos (which started by manually purchasing shoes from stores when customers ordered) and Airbnb (founders personally photographed listings) validated their concepts through intensive manual work before automating. The term 'concierge' emphasizes the white-glove, personalized service level that reveals true customer needs.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake 1:** Thinking concierge MVP means providing unsustainable service forever—it's a learning tool, not a permanent business model. **Common Mistake 2:** Using it for the wrong stage—concierge MVP validates *what* customers want, not *how many* want it. Once you know the 'what,' you need different experiments to test scalability and growth assumptions.",
+  "extra_content": "## How to Execute a Concierge MVP\n\n### Step 1: Define Your Core Hypothesis\n- **Value Hypothesis**: What specific value do you believe customers will get?\n- **Growth Hypothesis**: How will customers discover and spread your solution?\n- Write these as testable statements (e.g., \"Busy parents will pay $50/week for pre-planned healthy meals\")\n\n### Step 2: Design the Manual Service\n- **Identify the core experience**: What is the absolute minimum service that tests your value hypothesis?\n- **Set constraints**: Choose a small, specific customer segment (10-50 people maximum)\n- **Define success metrics**: What behaviors indicate genuine value? (retention, referrals, willingness to pay)\n\n### Step 3: Deliver Exceptional Experience\n- **Go overboard on service quality**: Since it's manual, make it memorable\n- **Document everything**: Customer reactions, pain points, unexpected requests\n- **Stay close to customers**: Be personally involved in delivery and feedback collection\n\n### Step 4: Measure Learning, Not Vanity Metrics\n- **Track behavior, not opinions**: Do they use it repeatedly? Refer others? Pay?\n- **Focus on retention**: How many customers sign up for a second experience?\n- **Identify patterns**: What do successful customers have in common?\n\n### Step 5: Transition Decision\n- **If validated**: Begin building technology to automate the proven manual process\n- **If invalidated**: Pivot the service based on what you learned about real customer needs\n- **If unclear**: Refine the concierge service and test with a new customer segment\n\n### Example Framework Application\n**Food Delivery Service:**\n- Week 1-2: Personally cook and deliver to 10 customers\n- Week 3-4: Expand to 20 customers, test different menu options\n- Week 5-6: Validate pricing by introducing payment\n- Decision point: If 70%+ retention and positive unit economics, begin app development",
+  "source_file": "Concierge MVP.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

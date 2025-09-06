@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Designing the Product Around the Price",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why 80% of new products fail? They're built backwards—starting with features instead of what customers actually value and will pay for.",
+  "definition": "A strategic framework that reverses traditional product development by first determining what customers value and are willing to pay, then using that insight to guide product design and feature prioritization.",
+  "analogy_or_metaphor": "It's like being a tailor who measures the customer first, then cuts the cloth—rather than making a standard suit and hoping it fits someone.",
+  "key_takeaway": "**Start with the wallet, then build the product—not the other way around.**",
+  "classic_example": "Traditional approach: Build a feature-rich software platform, then struggle to find customers willing to pay for all those features they don't need or want.",
+  "modern_example": "Netflix designed their streaming service around what customers valued ($8-15/month for unlimited content) rather than building the most technically advanced platform and pricing it based on development costs.",
+  "pitfall": "Building products based on internal assumptions or engineering capabilities leads to expensive failures and features nobody wants to pay for.",
+  "payoff": "Understanding willingness-to-pay upfront dramatically reduces product failure risk and ensures every feature built has proven market value.",
+  "visual_metaphor": "A price tag sitting at the center of a product blueprint, with design elements and features radiating outward from it like spokes on a wheel.",
+  "dive_deeper_mechanism": "This framework works by recognizing that customer willingness-to-pay reveals true value perception. When you understand what customers will actually pay for, you can reverse-engineer the optimal product features, quality levels, and positioning. It eliminates the common trap of building what you think customers want versus what they'll actually open their wallets for. The approach forces early market validation and prevents the sunk cost fallacy of over-engineering products.",
+  "dive_deeper_origin_story": "This concept was developed by pricing consultants who noticed that successful companies like Apple didn't just build great products—they built products around specific price points that customers were already willing to pay. The framework gained prominence through Simon-Kucher & Partners' research showing that 72% of new product failures could have been prevented by understanding willingness-to-pay before development, not after.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** This means always building the cheapest product possible. **Reality:** It means building the right product for the right price point. Sometimes customers will pay premium prices for premium value. **Another Pitfall:** Assuming all customers have the same willingness-to-pay. The framework actually requires segmenting customers by their different value perceptions and payment capabilities, then designing products for specific segments rather than trying to please everyone with one 'average' solution.",
+  "source_file": "Designing the Product Around the Price.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "pricing",
+    "go-to-market"
+  ]
+}

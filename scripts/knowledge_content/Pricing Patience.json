@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Pricing Patience",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Your new product launched three months ago. Sales are disappointing. The CEO is breathing down your neck, demanding you slash prices by 30%. Sound familiar?",
+  "definition": "Pricing Patience is the organizational discipline to resist knee-jerk price cuts when a new product underperforms, instead investing time in systematic investigation to identify and address the real underlying issues.",
+  "analogy_or_metaphor": "It's like being a doctor who refuses to immediately prescribe painkillers when a patient complains of chest pain—you need to diagnose the actual problem first, because treating symptoms instead of causes can be deadly.",
+  "key_takeaway": "**Price cuts are often the wrong medicine for the wrong diagnosis.**",
+  "classic_example": "When the original iPad launched in 2010, many analysts criticized its $499 price point as too high. Instead of cutting prices immediately, Apple maintained pricing patience, focused on demonstrating value, and let adoption curves prove the market—eventually dominating the tablet space.",
+  "modern_example": "A SaaS startup's premium plan isn't selling well. Instead of immediately offering discounts, the team discovers through customer interviews that users can't find the premium features in the interface—a UX problem, not a pricing problem.",
+  "pitfall": "Reacting with immediate price cuts can signal low quality to customers, erode profit margins, and mask critical product or market issues that will resurface later.",
+  "payoff": "Maintaining pricing discipline allows you to identify real problems (product-market fit, positioning, customer education) and build sustainable competitive advantages rather than racing to the bottom.",
+  "visual_metaphor": "A pressure gauge with a steady hand holding back the needle from the red zone, while diagnostic tools work in the background to identify the real source of system stress.",
+  "dive_deeper_mechanism": "Pricing Patience works by creating space between stimulus (poor sales) and response (price action). This psychological buffer allows rational analysis to override the panic response. The mechanism relies on pre-established investigation protocols: customer research, competitive analysis, feature usage data, and market segmentation studies. By systematically ruling out non-price factors, organizations can make evidence-based decisions rather than emotional ones. The patience creates time for proper diagnosis, which often reveals that pricing isn't the core issue—it's product positioning, customer education, distribution channels, or target market alignment.",
+  "dive_deeper_origin_story": "The concept gained prominence through the work of pricing strategists like Madhavan Ramanujam, who documented countless cases where companies destroyed value through hasty price cuts. One pivotal example was studying Ryanair's success in the 1990s—instead of matching traditional airlines' bundled pricing, they had the patience to completely reimagine their pricing model through unbundling. While competitors panicked about price competition, Ryanair methodically studied customer behavior and discovered travelers were twice as sensitive to base fares versus add-on fees, leading to their revolutionary à la carte pricing strategy.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Confusing pricing patience with pricing rigidity—the goal isn't never to adjust prices, but to adjust them based on data rather than panic. **Common Mistake #2:** Using pricing patience as an excuse for inaction when genuine market feedback indicates overpricing. The key nuance is that pricing patience requires active investigation, not passive waiting. True pricing patience involves disciplined experimentation: A/B testing different value propositions, segmenting customers by willingness to pay, and systematically testing non-price variables before concluding that price is the issue.",
+  "source_file": "Pricing Patience.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

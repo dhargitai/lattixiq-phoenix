@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Leap-of-Faith Assumptions",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why 90% of startups fail? Often it's because they built their entire business on untested beliefs they assumed were true.",
+  "definition": "The riskiest, most critical assumptions in a business plan that must be true for the venture to succeed. These are the foundational beliefs on which everything depends, yet remain unproven.",
+  "analogy_or_metaphor": "Like building a bridge across a canyon based on assumptions about the ground's stability—if your foundational assumptions are wrong, the entire structure collapses.",
+  "key_takeaway": "**Success depends on testing your riskiest assumptions first, not your safest ones.**",
+  "classic_example": "Facebook's leap-of-faith assumption was that people would want to share personal information online with their real names, despite privacy concerns—a risky bet that required courage to state and test.",
+  "modern_example": "A food delivery startup assuming 'busy professionals will pay premium prices for healthy meals delivered in 30 minutes'—this combines multiple untested beliefs about customer behavior, willingness to pay, and operational feasibility.",
+  "pitfall": "Building elaborate business plans on unverified assumptions leads to wasted resources and inevitable failure when reality doesn't match expectations.",
+  "payoff": "Identifying and testing leap-of-faith assumptions early saves time and money while increasing your chances of building something people actually want.",
+  "visual_metaphor": "A tightrope walker taking their first step—the rope represents your critical assumption, and you must test if it can hold weight before committing your full journey.",
+  "dive_deeper_mechanism": "Leap-of-faith assumptions work as mental filters that help entrepreneurs distinguish between safe, established facts and dangerous, unproven beliefs. They force you to acknowledge that traditional business planning often disguises risky assumptions as certainties through clever analogies and industry benchmarks. The mechanism requires intellectual honesty: instead of saying 'customers will love this because it worked for Company X,' you must state 'we assume customers will love this'—making the uncertainty explicit and testable.",
+  "dive_deeper_origin_story": "The concept was popularized by Eric Ries in 'The Lean Startup,' drawing from his experience at IMVU where the team spent months building features nobody wanted. Ries realized that startups fail not because they can't build products, but because they build the wrong products based on untested assumptions. He borrowed the term 'leap of faith' from philosopher Søren Kierkegaard, who used it to describe belief without logical proof—perfectly capturing how entrepreneurs must act on unverified assumptions while systematically testing them.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Treating all assumptions as equally important—not all assumptions are leap-of-faith assumptions. Focus only on the ones that would doom your business if wrong. **Hidden Trap:** Using analogies to make assumptions seem safer ('It's like Uber but for...') actually obscures the real leap of faith and prevents proper testing. **Nuance:** Some assumptions can't be fully tested until you have significant scale, so you must balance testing with forward momentum—the goal isn't certainty, but reducing the biggest risks first.",
+  "source_file": "Leap-of-Faith Assumptions.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "investor"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "fundraising",
+    "competitive_strategy",
+    "risk_management"
+  ]
+}

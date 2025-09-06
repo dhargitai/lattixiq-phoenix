@@ -1,0 +1,36 @@
+{
+  "knowledge_piece_name": "Past Behavior over Future Promises",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever notice how people promise they'll start exercising 'next Monday' but somehow never do? Past actions reveal more truth than future intentions.",
+  "definition": "A method of inquiry that focuses on specific past events and actions rather than hypothetical future scenarios to gather more reliable data about what people actually do versus what they say they'll do.",
+  "analogy_or_metaphor": "Like being a detective who solves cases by examining evidence of what actually happened, not by asking suspects what they might do in similar situations.",
+  "key_takeaway": "**What people did reveals more than what they say they'll do.**",
+  "classic_example": "Instead of asking 'Would you buy this product?' (which led one startup to lose $10 million on false promises), ask 'When's the last time you bought something similar?' and 'Walk me through that purchase decision.'",
+  "modern_example": "When hiring, don't ask 'How would you handle a difficult customer?' Instead ask 'Tell me about the last time you dealt with an angry customer. What exactly did you do?' Their past actions predict future performance better than hypothetical responses.",
+  "pitfall": "Believing future promises and hypothetical scenarios leads to false confidence, wasted resources, and decisions based on what people think they want rather than what they actually do.",
+  "payoff": "Focusing on past behavior gives you reliable data about real patterns, helping you make better predictions and avoid the costly mistake of building solutions for imaginary problems.",
+  "visual_metaphor": "A split screen showing a person making grand promises on one side (with thought bubbles full of good intentions) and their actual calendar/purchase history on the other side (showing what they really prioritize).",
+  "dive_deeper_mechanism": "This works because of the intention-action gap in human psychology. People genuinely believe their future intentions while systematically underestimating obstacles and overestimating their willpower. Past behavior reveals their true priorities, constraints, and decision-making patterns without the distortion of social desirability bias or wishful thinking. When you ask about the past, people can't help but be more honest because they're reporting facts, not managing impressions.",
+  "dive_deeper_origin_story": "This principle gained prominence through Rob Fitzpatrick's 'The Mom Test,' born from his experience watching startups lose millions by trusting customer promises. The book emerged after Fitzpatrick saw countless entrepreneurs fall into the 'I would definitely buy that' trap, where enthusiastic hypothetical commitments led to real financial disasters. The method draws from investigative journalism and behavioral economics, recognizing that memory of past actions is more reliable than imagination of future ones.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Thinking you must avoid all hypothetical questions entirely. **Reality:** The key is not valuing hypothetical answers as data. You can still use 'Would you ever...' questions as conversation starters, but immediately anchor them with 'When's the last time that happened?' **Nuance:** Recent past behavior is more predictive than distant past behavior, and patterns matter more than single incidents—look for consistent themes across multiple past examples.",
+  "extra_content": "## The Transition Framework\n\n### Step 1: Start with the Anchor Question\nWhen you catch yourself or others making hypothetical claims, use these anchor questions:\n- \"When's the last time that happened?\"\n- \"Can you walk me through a specific example?\"\n- \"What did you do the last time you faced this situation?\"\n\n### Step 2: Dig for Concrete Details\nOnce they give you a past example, probe deeper:\n- \"What exactly did you do first?\"\n- \"How long did that take?\"\n- \"What obstacles did you encounter?\"\n- \"Who else was involved?\"\n- \"How much did you spend?\"\n- \"What was the outcome?\"\n\n### Step 3: Look for Patterns\nGather multiple past examples to identify consistent behaviors:\n- \"Has this happened other times? Can you give me another example?\"\n- \"Is this typical for you, or was this situation unique?\"\n- \"How does this compare to similar situations you've handled?\"\n\n### The Fluff-to-Facts Transition Script\n\n**When you hear fluffy responses like:**\n- \"Oh yeah, I do that all the time\"\n- \"I'm always looking for solutions like this\"\n- \"This would definitely help me\"\n\n**Immediately follow up with:**\n- \"That's interesting - when's the most recent time you did that?\"\n- \"Can you tell me about the last time you looked for a solution like this?\"\n- \"What did you try last time you had this problem?\"\n\n### Red Flag Phrases to Watch For\n- \"I would definitely...\"\n- \"I usually...\"\n- \"I always...\"\n- \"In general, I...\"\n- \"I typically...\"\n- \"Most of the time...\"\n\n### Green Light Phrases That Indicate Real Data\n- \"Last Tuesday...\"\n- \"Three weeks ago...\"\n- \"The most recent time...\"\n- \"I remember specifically...\"\n- \"It was exactly...\"",
+  "source_file": "Past Behavior over Future Promises.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "co-founder_conflict",
+    "product-market_fit",
+    "go-to-market",
+    "team_and_culture"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "knowledge_piece_name": "Top 3 Questions List",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever walked out of an important conversation realizing you forgot to ask the one question that actually mattered?",
+  "definition": "A strategic preparation tool that forces you to identify and prioritize the three most critical questions you need answers to before entering any important conversation or research session.",
+  "analogy_or_metaphor": "Like a surgeon's pre-operative checklist - you can't afford to wing it when the stakes are high, so you identify the vital few questions that could make or break your understanding.",
+  "key_takeaway": "**Focus on the scary questions that could completely change or destroy your assumptions.**",
+  "classic_example": "A startup founder preparing for customer interviews creates a list: 1) 'What's the biggest pain point in your current workflow?' 2) 'How much would solving this problem be worth to you?' 3) 'What would have to be true for you to switch from your current solution?'",
+  "modern_example": "Before a team retrospective meeting, a manager writes down: 1) 'What's the real reason our last sprint failed?' 2) 'Which team dynamics are we avoiding discussing?' 3) 'What would need to change for everyone to actually enjoy working here?'",
+  "pitfall": "Without prioritizing your most important questions, you waste time on trivial details while missing the critical insights that could save or doom your project.",
+  "payoff": "By forcing yourself to identify the three questions that matter most, you ensure every conversation moves you closer to the truth, even when it's uncomfortable.",
+  "visual_metaphor": "A spotlight illuminating three key doors in a dark hallway, while dozens of other doors remain in shadow - focusing your limited attention on what truly matters.",
+  "dive_deeper_mechanism": "The Top 3 Questions List works by forcing cognitive prioritization under constraint. When you can only ask three questions, your brain automatically filters out the nice-to-know information and focuses on the need-to-know essentials. This constraint-based thinking leverages the psychological principle that limitations force clarity - similar to how poets create better art within the structure of a sonnet. The fear element is crucial: if you're not terrified of at least one question on your list, you're probably avoiding the questions that could fundamentally challenge your assumptions.",
+  "dive_deeper_origin_story": "This concept comes from Rob Fitzpatrick's 'The Mom Test,' born from his painful experience of conducting hundreds of customer interviews that felt productive but yielded no real insights. Fitzpatrick realized that most entrepreneurs ask safe, comfortable questions that confirm their biases rather than the scary questions that could disprove their business model. He developed this framework after watching countless startups fail not because they didn't talk to customers, but because they asked the wrong questions. The 'Top 3' constraint emerged from observing that most people can only retain and act on a few key insights from any single conversation.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Creating a list of three easy questions that won't upset anyone or challenge your assumptions. The whole point is to ask questions that could completely change your direction. **Common Mistake #2:** Thinking this only applies to customer research - this framework works for any high-stakes conversation, from performance reviews to strategic planning sessions. **Nuance:** The questions should be ordered by importance, not by comfort level. Start with the most critical question when the other person is most engaged, not after you've warmed them up with softballs.",
+  "source_file": "Top 3 Questions List.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up",
+    "crisis"
+  ],
+  "problem_category": [
+    "pivot",
+    "hiring",
+    "fundraising",
+    "co-founder_conflict",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy",
+    "pricing",
+    "risk_management"
+  ]
+}

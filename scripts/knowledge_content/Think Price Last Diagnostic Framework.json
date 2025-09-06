@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Think Price Last Diagnostic Framework",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Your product launched, sales are terrible, and everyone's screaming \"Lower the price!\" But what if price isn't the problem?",
+  "definition": "A systematic problem-solving approach that requires teams to exhaust all non-pricing explanations for poor sales performance before concluding that price is the issue.",
+  "analogy_or_metaphor": "Like a doctor who checks temperature, blood pressure, and symptoms before diagnosing—you don't jump straight to surgery when the patient might just need rest.",
+  "key_takeaway": "**Price is rarely the real problem—it's usually the last thing you should change.**",
+  "classic_example": "When Netflix's DVD-by-mail service initially struggled, they didn't immediately slash prices. Instead, they improved their recommendation algorithm, expanded their catalog, and enhanced delivery speed—addressing the real barriers to customer satisfaction.",
+  "modern_example": "A SaaS startup's new feature has low adoption rates. Instead of offering discounts, they first investigate: Is the onboarding confusing? Are users aware the feature exists? Does it solve a real problem? Is the user interface intuitive?",
+  "pitfall": "Cutting prices prematurely can destroy profit margins, devalue your product in customers' minds, and mask deeper issues that will resurface later.",
+  "payoff": "By diagnosing root causes first, you solve the actual problem, preserve margins, and build a stronger product that commands its intended price.",
+  "visual_metaphor": "A diagnostic flowchart with 'Price' at the bottom, preceded by boxes for 'Value Communication,' 'Distribution,' 'Product Quality,' and 'Customer Awareness'—each with a magnifying glass.",
+  "dive_deeper_mechanism": "This framework works because it forces systematic thinking and prevents the cognitive bias of jumping to the most obvious (but often wrong) solution. Price sensitivity is real, but it's frequently a symptom rather than a cause. When customers say something is 'too expensive,' they often mean it's not valuable enough, not accessible enough, or not compelling enough. The framework leverages the principle that correlation doesn't equal causation—poor sales and high prices might coexist, but that doesn't mean price is the culprit.",
+  "dive_deeper_origin_story": "Developed by pricing consultants and behavioral economists who noticed that companies consistently misdiagnosed sales problems. The framework gained prominence through Madhavan Ramanujam's work at Simon-Kucher & Partners, where they found that 80% of products fail not because of pricing, but because of poor value communication or product-market fit issues. The 'Think Price Last' principle emerged from analyzing hundreds of product launches where price cuts failed to solve underlying problems.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That customer complaints about price always indicate pricing problems. **Reality:** Customers often use 'too expensive' as shorthand for 'not worth it' or 'I don't understand the value.' **Another Pitfall:** Assuming that if competitors have lower prices, you must match them. This ignores differentiation, target segments, and value positioning. The framework isn't about never adjusting price—it's about ensuring price changes address actual pricing problems, not masking other issues.",
+  "extra_content": "## The Think Price Last Diagnostic Process\n\n### Step 1: Value Communication Audit\n- **Question:** Do customers understand what problem you solve?\n- **Test:** Can a prospect explain your value proposition back to you in 30 seconds?\n- **Action:** Survey recent prospects who didn't buy; ask what they understood about your offering\n\n### Step 2: Distribution Channel Analysis\n- **Question:** Are you reaching the right customers through the right channels?\n- **Test:** Map where your ideal customers typically discover and buy similar solutions\n- **Action:** Analyze conversion rates at each stage of your sales funnel\n\n### Step 3: Product-Market Fit Assessment\n- **Question:** Does your product actually solve a painful, urgent problem?\n- **Test:** Measure customer engagement metrics and retention rates\n- **Action:** Interview customers who stopped using your product to understand why\n\n### Step 4: Competitive Positioning Review\n- **Question:** How do customers perceive you relative to alternatives?\n- **Test:** Conduct blind competitive comparisons with target customers\n- **Action:** Map your features and benefits against customer priority rankings\n\n### Step 5: Customer Awareness Check\n- **Question:** Do your target customers even know you exist?\n- **Test:** Measure brand awareness and consideration in your target market\n- **Action:** Track how prospects discover your solution and what triggers their search\n\n### Step 6: User Experience Evaluation\n- **Question:** Are there friction points preventing adoption or usage?\n- **Test:** Observe actual customer interactions with your product\n- **Action:** Identify and remove barriers in the customer journey\n\n### Only After Steps 1-6: Price Analysis\n- **Question:** Given all above factors are optimized, is price the remaining barrier?\n- **Test:** A/B test different pricing with identical value communication\n- **Action:** Implement pricing changes only after addressing foundational issues",
+  "source_file": "\"Think Price Last\" Diagnostic Framework.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Purchase Probability Questions",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder why companies ask \"How likely are you to buy this on a scale of 1-10?\" They're not just curious—they're calculating your wallet's future.",
+  "definition": "Purchase probability questions are a market research method where potential customers rate their likelihood of buying a product at a specific price on a numbered scale, typically 1-10.",
+  "analogy_or_metaphor": "Think of it as a crystal ball for sales teams—instead of vague \"maybe\" responses, you get numerical tea leaves that reveal actual buying intent.",
+  "key_takeaway": "**Numbers don't lie: scaling interest reveals real demand.**",
+  "classic_example": "A company testing a new smartphone concept asks 1,000 survey respondents: 'At $799, how likely are you to purchase this phone in the next 6 months?' Rating responses on a 1-10 scale, then using statistical models to convert ratings into actual purchase forecasts.",
+  "modern_example": "Netflix testing a new subscription tier by asking users: 'How likely would you be to upgrade to our ad-free premium plan at $19.99/month?' Users who rate 8-10 become the foundation for launch projections and pricing decisions.",
+  "pitfall": "Relying on vague feedback like 'sounds interesting' leads to costly product launches based on wishful thinking rather than actual buying intent.",
+  "payoff": "Converting fuzzy interest into concrete numbers helps you predict demand, set realistic sales targets, and avoid expensive market failures.",
+  "visual_metaphor": "A thermometer with dollar signs, where customer interest heats up from cold (1-3) through warm (4-7) to hot (8-10) purchase intent.",
+  "dive_deeper_mechanism": "Purchase probability questions work by forcing customers to quantify their interest, which activates more deliberate thinking than casual 'yes/no' responses. The scale creates cognitive anchoring—customers must consider their actual willingness to pay at that specific price point. Research shows ratings of 8-10 correlate strongly with actual purchases, while 6-7 represents fence-sitters, and 1-5 indicates unlikely buyers. This numerical data can then be weighted and modeled to predict market penetration rates.",
+  "dive_deeper_origin_story": "This method emerged from the broader field of market research in the 1960s-70s, as companies realized traditional focus groups provided qualitative insights but poor quantitative forecasts. The technique gained prominence when technology companies began testing complex products where customer education and price sensitivity varied dramatically. Companies like Procter & Gamble and later tech firms refined the methodology, discovering that the 1-10 scale provided the right balance of granularity without overwhelming respondents.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Treating all scale responses equally—in reality, only ratings of 8-10 typically convert to purchases, while 6-7 responses often represent polite interest rather than buying intent. **Hidden Bias:** Survey context matters enormously; asking immediately after showing impressive product demos inflates scores compared to asking in neutral settings. **Cultural Variance:** Scale interpretation varies by culture—some demographics consistently rate higher or lower, requiring regional calibration of the scoring system.",
+  "extra_content": "## Implementation Framework\n\n### Basic Setup\n1. **Price Point Selection**: Test 3-5 different price levels to map demand curve\n2. **Question Structure**: \"At $X, how likely are you to purchase [product] in the next [timeframe]? (1=definitely won't buy, 10=definitely will buy)\"\n3. **Sample Size**: Minimum 200 responses per price point for statistical significance\n\n### Scoring Methodology\n- **Hot Prospects (8-10)**: 70-85% likely to actually purchase\n- **Warm Leads (6-7)**: 25-40% conversion rate\n- **Cold Responses (1-5)**: Less than 10% conversion rate\n\n### Analysis Framework\n1. **Calculate Top-Box Score**: Percentage rating 8-10 at each price\n2. **Demand Curve Mapping**: Plot price vs. top-box scores\n3. **Revenue Optimization**: Price × (Top-box % × conversion rate × market size)\n4. **Segmentation Analysis**: Break down by demographics, usage patterns\n\n### Advanced Applications\n- **A/B Price Testing**: Split audience across different price points\n- **Feature Value Assessment**: Test willingness to pay for specific features\n- **Competitive Benchmarking**: Compare scores against competitor pricing\n- **Launch Timing**: Track score changes over multiple survey waves",
+  "source_file": "Purchase Probability Questions.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "pricing",
+    "go-to-market"
+  ]
+}

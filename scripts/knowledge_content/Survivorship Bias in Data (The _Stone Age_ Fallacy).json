@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Survivorship Bias in Data (The \"Stone Age\" Fallacy)",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Cognitive Biases",
+  "hook": "Ever wonder why medieval times seem so brutal? We only hear about the wars, plagues, and poverty—but what about all the ordinary, peaceful days that left no dramatic records?",
+  "definition": "The tendency to focus on visible successes or surviving examples while overlooking failures or casualties that didn't make it into the record, leading to a distorted understanding of reality.",
+  "analogy_or_metaphor": "It's like judging a war by interviewing only the soldiers who came home—you'd think battles weren't that dangerous because everyone you talked to survived.",
+  "key_takeaway": "**The silent evidence of what didn't survive often tells the most important story.**",
+  "classic_example": "During WWII, the military wanted to reinforce planes where returning aircraft had bullet holes. Statistician Abraham Wald realized they should reinforce where there were NO holes—those were the fatal hit zones, since planes hit there never returned.",
+  "modern_example": "Reading endless success stories of college dropout billionaires (Jobs, Gates, Zuckerberg) without considering the thousands of dropouts who failed spectacularly and never made headlines.",
+  "pitfall": "Making decisions based on incomplete data leads to overconfidence, poor risk assessment, and strategies that ignore critical failure patterns.",
+  "payoff": "Actively seeking out failure data and hidden casualties helps you make more accurate predictions and avoid repeating others' fatal mistakes.",
+  "visual_metaphor": "A graveyard with only half the tombstones visible above ground—the buried ones represent the missing data that would change your entire understanding of the story.",
+  "dive_deeper_mechanism": "Survivorship bias exists because failure is often invisible or deliberately hidden. Failed companies disappear, unsuccessful people don't write memoirs, and defeated civilizations leave fewer records. Our brains, evolved to learn from available examples, naturally overweight visible successes. The media amplifies this by celebrating winners while ignoring the mundane reality of most outcomes. This creates a feedback loop where we see only the spectacular survivors, not the ordinary majority who didn't make it.",
+  "dive_deeper_origin_story": "The term was coined during WWII when statistician Abraham Wald worked with the U.S. military's Statistical Research Group. Engineers wanted to add armor where returning bombers showed bullet damage. Wald's insight was revolutionary: the holes showed where a plane could be hit and still survive. The missing evidence—planes that didn't return—revealed where hits were fatal. This principle later became foundational in understanding selection bias across all fields, from business to medicine to history.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Thinking survivorship bias only applies to dramatic examples like plane crashes or business failures. **Reality:** It's everywhere—from the restaurants that seem permanently busy (you don't see the empty ones that closed) to ancient architecture that looks indestructible (the shoddy buildings crumbled centuries ago). **Another Pitfall:** Overcompensating by assuming all survivors got lucky. Some genuinely have superior strategies worth studying—the key is distinguishing signal from noise by actively seeking out the failure data.",
+  "source_file": "Survivorship Bias in Data (The \"Stone Age\" Fallacy).md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "investor"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "fundraising",
+    "product-market_fit",
+    "competitive_strategy",
+    "risk_management"
+  ]
+}

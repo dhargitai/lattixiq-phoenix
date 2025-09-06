@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Narrative-Driven Demo Scripting",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever sat through a product demo that felt like watching someone click through random features? There's a better way to tell your product's story.",
+  "definition": "A method for structuring product demonstrations as compelling stories that follow the prospect's actual workflow, connecting each feature directly to specific business problems rather than showcasing capabilities in isolation.",
+  "analogy_or_metaphor": "Like a movie director who doesn't just show you cool special effects—they weave those effects into a story that makes you care about the characters and their journey.",
+  "key_takeaway": "**Turn your demo into their story, not your feature showcase.**",
+  "classic_example": "Traditional demos that walk through every menu and feature in product order, leaving prospects wondering 'So what?' by the end.",
+  "modern_example": "A CRM demo that starts with 'Here's Sarah, your sales rep, starting her Monday morning...' and follows her actual daily workflow, showing features only when they solve her specific pain points.",
+  "pitfall": "Feature-focused demos that impress with capabilities but fail to connect emotionally or practically with the prospect's real challenges.",
+  "payoff": "Story-driven demos create emotional connection and clear value perception, making prospects think 'I need this' rather than 'That's neat.'",
+  "visual_metaphor": "A flowchart that looks like a story timeline, with user journey milestones connected by arrows, and product features appearing as solutions at each pain point.",
+  "dive_deeper_mechanism": "Narrative-driven demos work because they leverage the brain's natural preference for stories over abstract information. When prospects see themselves in the narrative, they experience the solution rather than just hearing about it. This approach activates mirror neurons, making them mentally rehearse using your product in their actual environment. By following their workflow chronologically, you create logical connections between problems and solutions that feel inevitable rather than forced.",
+  "dive_deeper_origin_story": "This concept emerged from the recognition that traditional product demos were failing to convert qualified prospects. Pete Kazanjy, drawing from his experience at TalentBin and other startups, observed that successful founders weren't just showing features—they were telling stories that positioned their product as the hero of the customer's journey. The method became formalized when sales teams realized that demos structured as narratives consistently outperformed feature-list presentations in conversion rates.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Thinking any story will work—the narrative must be *their* story, not a generic user journey. **Nuance:** The story shouldn't be fiction; it should be based on real customer workflows discovered through actual sales conversations. **Pitfall:** Over-scripting the narrative so it feels rehearsed rather than authentic. The story framework should be consistent, but the delivery should feel conversational and responsive to the specific prospect's reactions and questions.",
+  "extra_content": "## The Narrative Demo Framework\n\n### Step 1: Character Development\n- **Identify the protagonist:** Who is the actual user of your product?\n- **Define their context:** What's their role, typical day, and key responsibilities?\n- **Establish their pain:** What specific problem do they face that your product solves?\n\n### Step 2: Story Arc Construction\n- **Opening scene:** Start with a relatable moment when the pain point occurs\n- **Rising action:** Show how the problem compounds or creates additional challenges\n- **Climax:** Introduce your solution at the moment of greatest need\n- **Resolution:** Demonstrate the positive outcome and transformation\n\n### Step 3: Feature Integration Method\n- **Just-in-time revelation:** Only show features when they solve the immediate story problem\n- **Contextual explanation:** Explain features in terms of story outcomes, not technical capabilities\n- **Workflow alignment:** Present features in the order the protagonist would actually use them\n\n### Step 4: Interactive Storytelling Techniques\n- **Checkpoint questions:** \"Does this match how Sarah would typically start her day?\"\n- **Customization moments:** \"In your company, who would be responsible for this step?\"\n- **Problem validation:** \"Have you experienced something similar to what we just showed?\"\n\n### Step 5: Demo Template Structure\n\n[Title Slide] \"A Day in the Life of [Prospect's Role]\"\n[Scene Setting] \"It's Monday morning, and [Character] faces [Specific Problem]...\"\n[Problem Amplification] Show the cascading effects\n[Solution Introduction] \"Here's how [Character] solves this with [Product]...\"\n[Feature Demonstration] Show features only as story solutions\n[Transformation] \"By the end of the day, [Character] has achieved [Specific Outcome]...\"\n[Call to Action] \"How would this transformation impact your [Specific Business Metric]?\"\n\n\n### Customization Guidelines\n- **Industry adaptation:** Adjust character details and pain points for specific industries\n- **Role-specific narratives:** Create different story versions for different decision-makers\n- **Company size scaling:** Modify complexity and scope based on prospect's organization size\n\n### Success Metrics\n- Track which story elements generate the most engagement\n- Measure conversion rates by narrative version\n- Monitor which pain points resonate most with different prospect types",
+  "source_file": "Narrative-Driven Demo Scripting.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "product-market_fit",
+    "fundraising"
+  ]
+}

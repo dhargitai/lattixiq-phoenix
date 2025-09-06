@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Framing the Meeting Formula",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever wondered why some people get enthusiastic 'yes' responses to meeting requests while yours get ignored or declined?",
+  "definition": "A five-step method (Vision, Framing, Weakness, Pedestal, Ask) for requesting informational meetings in a way that is non-threatening and likely to get a positive response.",
+  "analogy_or_metaphor": "Like being a skilled diplomat who frames a negotiation not as a demand, but as an opportunity for the other party to share their expertise and wisdom.",
+  "key_takeaway": "**Transform meeting requests from asks into opportunities for others to share their expertise.**",
+  "classic_example": "A startup founder reaching out to industry veterans for advice, positioning themselves as a student seeking wisdom rather than someone trying to sell something.",
+  "modern_example": "Instead of asking 'Can I pick your brain about marketing?' try: 'I'm working on helping small businesses grow online, but I'm struggling with the complexities of digital advertising. You've built such an impressive marketing career—would you be willing to share what you've learned about what really works?'",
+  "pitfall": "Generic, self-focused meeting requests that sound like sales pitches get ignored or rejected, wasting opportunities to learn from experts.",
+  "payoff": "Framing requests properly opens doors to valuable conversations, builds genuine relationships, and positions you as someone worth helping.",
+  "visual_metaphor": "A person humbly approaching a wise mentor on a pedestal, holding out their hand not to take, but to receive guidance that's being offered generously.",
+  "dive_deeper_mechanism": "This formula works by appealing to fundamental human psychology: people love to help others and share their expertise when they feel respected and valued. By acknowledging your weakness and elevating their status (the pedestal), you trigger their natural desire to mentor and contribute. The specific framing removes the threat of being sold to, while the vision context helps them understand why their help matters.",
+  "dive_deeper_origin_story": "Developed by Rob Fitzpatrick as part of his customer development methodology outlined in 'The Mom Test.' Fitzpatrick discovered this approach while learning how to conduct effective customer interviews for startups, realizing that how you frame the conversation determines whether people will give you honest, valuable feedback or polite, useless responses.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Using this as a manipulation tactic rather than genuinely seeking to learn. People can sense insincerity. **Reality:** The formula only works when you truly respect the other person's expertise and are genuinely seeking to understand their perspective, not just get what you want.",
+  "extra_content": "## The Five-Step Formula\n\n### 1. Vision\nBriefly explain what you're working on and why it matters. Keep it concise and compelling.\n- Example: \"I'm working on helping small businesses compete with larger companies online\"\n- Avoid: Long pitches or detailed explanations\n\n### 2. Framing\nExplain why you're reaching out to them specifically and what type of conversation you're seeking.\n- Example: \"I'm talking to experienced marketing professionals to understand the real challenges\"\n- Purpose: Shows you've done your homework and this isn't random outreach\n\n### 3. Weakness\nAdmit what you don't know or where you're struggling. This removes the threat of being sold to.\n- Example: \"I'm struggling to understand which digital advertising approaches actually work for small budgets\"\n- Key: Be specific about your knowledge gap, not generic\n\n### 4. Pedestal\nAcknowledge their expertise and success in a genuine, specific way.\n- Example: \"You've built such an impressive marketing career at [Company] and your work on [specific project] really stood out to me\"\n- Avoid: Generic praise or obvious flattery\n\n### 5. Ask\nMake a specific, time-bounded request that feels reasonable.\n- Example: \"Would you be willing to share what you've learned about what really works? I'd love to buy you coffee for 20 minutes of your insights\"\n- Structure: Low commitment + specific time frame + their benefit (sharing expertise)\n\n## Implementation Template\n\n\"Hi [Name],\n\n[VISION] I'm working on [brief description of what you're building and why it matters].\n\n[FRAMING] I'm talking to [their type of professional] to understand [the real challenge you're researching].\n\n[WEAKNESS] I'm struggling with [specific thing you don't understand].\n\n[PEDESTAL] You've [specific acknowledgment of their expertise/success].\n\n[ASK] Would you be willing to [specific request for their insights]? I'd love to [offer something in return] for [specific time commitment] of your time.\n\nThanks for considering it!\n[Your name]\"\n\n## Variations by Context\n\n**For Industry Research:**\n- Focus weakness on understanding market dynamics\n- Pedestal their industry experience\n- Ask for insights about trends and challenges\n\n**For Product Feedback:**\n- Focus weakness on user behavior understanding\n- Pedestal their expertise with similar challenges\n- Ask for feedback on approach or solution\n\n**For Career Advice:**\n- Focus weakness on navigation/decision-making\n- Pedestal their career trajectory\n- Ask for guidance on specific decisions or paths",
+  "source_file": "Framing the Meeting' Formula.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "fundraising",
+    "hiring",
+    "go-to-market"
+  ]
+}

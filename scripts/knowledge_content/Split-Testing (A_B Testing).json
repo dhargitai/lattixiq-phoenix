@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Split-Testing (A/B Testing)",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Problem Solving & Decision Making",
+  "hook": "Ever wonder if that new button color actually makes people buy more, or if you're just guessing? There's a scientific way to know for sure.",
+  "definition": "A controlled experiment where two or more versions of a product are shown to different user segments simultaneously to scientifically measure which version performs better.",
+  "analogy_or_metaphor": "It's like being a scientist in a lab coat, but instead of testing chemicals, you're testing ideas—giving half your customers the red pill and half the blue pill to see which one actually works.",
+  "key_takeaway": "**Stop guessing what works—start proving it with data.**",
+  "classic_example": "Direct mail companies like Lands' End would send two different catalog designs to different customer groups and measure which generated more sales, keeping everything else identical except the design being tested.",
+  "modern_example": "Netflix shows different movie thumbnails to different users to see which images make people more likely to click and watch, constantly optimizing what catches your eye in their interface.",
+  "pitfall": "Making product decisions based on opinions, gut feelings, or what looks good to the team instead of what actually changes customer behavior.",
+  "payoff": "Eliminating guesswork from decision-making and discovering what truly drives results, often uncovering surprising insights that contradict your assumptions.",
+  "visual_metaphor": "Two identical roads side by side with different colored signs, each leading to the same destination, with counters showing how many people chose each path.",
+  "dive_deeper_mechanism": "Split-testing works by isolating variables and measuring behavioral differences between randomized groups. It leverages the scientific method's core principle: controlling for all factors except the one being tested. This eliminates confirmation bias and survivorship bias because you're measuring actual behavior, not just feedback or assumptions. The power comes from statistical significance—when enough people interact with both versions, patterns emerge that reveal true preferences rather than random noise.",
+  "dive_deeper_origin_story": "Split-testing was pioneered by direct mail advertisers in the early 20th century who needed to maximize response rates from expensive catalog mailings. The technique gained scientific rigor during World War II when statisticians used controlled experiments to improve military efficiency. It exploded in the digital age when Eric Ries popularized it in 'The Lean Startup,' showing how software companies could test ideas instantly and cheaply, making experimentation accessible to any product team.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Testing too many variables at once, making it impossible to know what caused the change. **Reality:** Test one variable at a time for clear insights. **Common Mistake #2:** Stopping tests too early when you see positive results. **Reality:** Statistical significance requires adequate sample size and time to account for daily/weekly behavioral patterns and ensure the results aren't just random luck.",
+  "extra_content": "## Split-Testing Implementation Framework\n\n### 1. Hypothesis Formation\n- **Structure:** \"If we change [specific variable], then [specific metric] will [increase/decrease] because [reasoning based on user behavior]\"\n- **Example:** \"If we change the checkout button from blue to red, then conversion rate will increase because red creates more urgency\"\n\n### 2. Test Design Protocol\n- **Control Group:** 50% see original version (Version A)\n- **Treatment Group:** 50% see modified version (Version B)\n- **Random Assignment:** Users randomly assigned to groups to eliminate bias\n- **Single Variable Rule:** Change only ONE element at a time\n\n### 3. Success Metrics Definition\n**Primary Metric:** The main outcome you're measuring (e.g., conversion rate, click-through rate)\n**Secondary Metrics:** Additional measurements to check for unintended consequences (e.g., time on page, customer satisfaction)\n**Guardrail Metrics:** Safety metrics to ensure you're not harming the overall experience\n\n### 4. Statistical Requirements\n- **Sample Size:** Use statistical calculators to determine minimum users needed\n- **Test Duration:** Run for complete business cycles (include weekends/weekdays)\n- **Significance Level:** Typically 95% confidence level before declaring a winner\n- **Minimum Effect Size:** Define the smallest improvement worth implementing\n\n### 5. Implementation Checklist\n- [ ] Randomization working properly\n- [ ] Both versions identical except test variable\n- [ ] Tracking code implemented correctly\n- [ ] Sample size calculator confirms adequate traffic\n- [ ] Success criteria defined before launch\n- [ ] Monitoring system for catastrophic failures\n\n### 6. Analysis Framework\n**Statistical Significance:** Use proper statistical tests (Chi-square, t-test)\n**Practical Significance:** Ensure the difference matters for business impact\n**Segmentation Analysis:** Check if results vary by user type, device, location\n**Long-term Impact:** Monitor metrics after implementation for sustained effects",
+  "source_file": "Split-Testing (A-B Testing).md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

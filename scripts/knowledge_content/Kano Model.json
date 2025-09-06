@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Kano Model",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Why do customers love some features while completely ignoring others that took months to build?",
+  "definition": "The Kano Model is a framework that categorizes product features based on their relationship to customer satisfaction: Threshold features (basic expectations), Performance features (linear satisfaction gains), and Excitement features (unexpected delights).",
+  "analogy_or_metaphor": "Think of features like restaurant experiences: clean restrooms are expected (Threshold), faster service makes you happier (Performance), but a surprise free dessert creates lasting delight (Excitement).",
+  "key_takeaway": "**Not all features are equal—some are expected, some scale satisfaction, and some create magic.**",
+  "classic_example": "In the automotive industry: working brakes are Threshold (expected), fuel efficiency is Performance (more is better), and heated seats were once Excitement features that delighted customers beyond expectations.",
+  "modern_example": "For a food delivery app: the app working is Threshold, faster delivery times are Performance, but getting a handwritten thank-you note with your order would be an Excitement feature that creates customer evangelists.",
+  "pitfall": "Building only Performance features while ignoring basic Threshold expectations leads to frustrated customers, no matter how impressive your advanced capabilities are.",
+  "payoff": "Understanding feature types helps you allocate resources wisely—ensuring basics work perfectly while strategically investing in features that create competitive advantage and customer delight.",
+  "visual_metaphor": "A three-layer pyramid: solid foundation blocks (Threshold features), ascending steps (Performance features), and a sparkling star at the top (Excitement features).",
+  "dive_deeper_mechanism": "The Kano Model works because customer psychology isn't linear. Threshold features operate on a binary—they cause dissatisfaction when absent but don't increase satisfaction when present beyond expectations. Performance features have a linear relationship—more is always better. Excitement features create exponential satisfaction gains because they exceed customer mental models of what's possible, triggering surprise and delight responses that create emotional attachment to your product.",
+  "dive_deeper_origin_story": "Created by Professor Noriaki Kano at Tokyo University of Science in the 1980s, the model emerged from studying customer satisfaction in Japanese manufacturing. Kano noticed that traditional customer surveys asking 'what features do you want?' missed a crucial insight: customers couldn't articulate needs they didn't know they had. His team developed a sophisticated questioning technique that revealed the hidden structure of customer desires, revolutionizing how companies think about feature prioritization.",
+  "dive_deeper_pitfalls_nuances": "**Common Pitfall:** Assuming features stay in the same category forever. Excitement features inevitably become Performance features, then Threshold features over time (like smartphone cameras). **Nuance:** The same feature can be in different categories for different customer segments—enterprise users might expect advanced analytics as Threshold, while consumers see them as Excitement. **Misunderstanding:** Focusing only on Excitement features while neglecting Threshold features creates products that wow in demos but frustrate in daily use.",
+  "extra_content": "## The Kano Questionnaire Method\n\n### Step 1: Design Dual Questions\nFor each feature, ask customers two questions:\n- **Functional:** \"How would you feel if this feature was present?\"\n- **Dysfunctional:** \"How would you feel if this feature was NOT present?\"\n\n### Response Options (for both questions):\n1. I like it that way\n2. I expect it that way\n3. I am neutral\n4. I can live with it that way\n5. I dislike it that way\n\n### Step 2: Use the Kano Evaluation Table\nCross-reference functional and dysfunctional responses:\n\n| Dysfunctional\\Functional | Like | Expect | Neutral | Live with | Dislike |\n|--------------------------|------|--------|---------|-----------|----------|\n| Like | Q | A | A | A | O |\n| Expect | R | I | I | I | M |\n| Neutral | R | I | I | I | M |\n| Live with | R | I | I | I | M |\n| Dislike | R | R | R | R | Q |\n\n**Legend:**\n- **M** = Must-have (Threshold)\n- **O** = One-dimensional (Performance) \n- **A** = Attractive (Excitement)\n- **I** = Indifferent\n- **R** = Reverse (feature causes dissatisfaction)\n- **Q** = Questionable (inconsistent response)\n\n### Step 3: Analyze and Prioritize\n1. **Plot features** on satisfaction impact vs. implementation effort matrix\n2. **Prioritize Threshold features first** (table stakes)\n3. **Identify high-impact Performance features** for competitive advantage\n4. **Select Excitement features** that align with brand positioning\n5. **Consider feature evolution** over time in roadmap planning\n\n### Implementation Example\nFor a project management tool:\n- **Threshold:** User authentication, basic task creation\n- **Performance:** Speed of loading, number of integrations\n- **Excitement:** AI-powered workload balancing, beautiful data visualizations\n\n### Validation Method\n**Customer Satisfaction Score Calculation:**\nSatisfaction = (A + O) / (A + O + M + I)\nDissatisfaction = -1 × (O + M) / (A + O + M + I)\n\nUse these scores to validate feature categorization and predict customer response to feature changes.",
+  "source_file": "Kano Model.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

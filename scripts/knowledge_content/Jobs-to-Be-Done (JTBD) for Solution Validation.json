@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Jobs-to-Be-Done (JTBD) for Solution Validation",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why customers buy drill bits? They don't want drill bits—they want holes in the wall. That's the job they're hiring the drill to do.",
+  "definition": "Jobs-to-Be-Done for solution validation is a framework that identifies what process, tool, or workaround customers currently 'hire' to accomplish a desired outcome, revealing whether your solution addresses a real job worth doing.",
+  "analogy_or_metaphor": "Think of customers as hiring managers constantly recruiting tools and services to get jobs done. Your solution is just another candidate applying for the position—you need to prove you're better than whoever currently has the job.",
+  "key_takeaway": "**Focus on the job, not the tool—customers hire solutions to move from where they are to where they want to be.**",
+  "classic_example": "Netflix didn't compete with Blockbuster on having better late fees. They identified that customers' job was 'enjoy entertainment at home without hassle'—Blockbuster was just the current hire for that job, and Netflix offered a better way to do it.",
+  "modern_example": "Uber discovered people weren't just hiring taxis for transportation—they were hiring them for 'reliable arrival at a destination with minimal friction.' The job included knowing when the ride would arrive, cashless payment, and driver accountability.",
+  "pitfall": "Building features customers ask for instead of understanding the underlying job leads to incremental improvements that miss breakthrough opportunities.",
+  "payoff": "Understanding the real job reveals why customers choose alternatives and helps you build solutions that make existing workarounds obsolete.",
+  "visual_metaphor": "A job posting board where customers are constantly interviewing different tools and services, with your solution as a candidate trying to get hired for the position currently held by their existing workaround.",
+  "dive_deeper_mechanism": "JTBD works because it shifts focus from demographic segments to circumstantial needs. When customers 'hire' a product, they're not just buying features—they're buying progress toward a desired outcome. The framework reveals that competition isn't just direct competitors, but anything customers currently use to make progress on their job, including manual processes, spreadsheets, or doing nothing at all. This broader view of competition helps identify why customers switch solutions and what alternatives you're really competing against.",
+  "dive_deeper_origin_story": "Clayton Christensen popularized JTBD after studying why customers bought milkshakes at a fast-food chain. The company initially segmented by demographics, but Christensen found the real pattern was circumstantial: morning commuters hired milkshakes for a different job (portable breakfast for a long commute) than parents did (treat to make kids happy). This insight led to product changes that dramatically increased sales by focusing on the job rather than the customer type.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Assuming the job is obvious from your product category. The job customers hire Uber for isn't 'transportation'—it's 'reliable arrival with peace of mind.' **Another pitfall:** Focusing only on functional jobs while ignoring emotional and social jobs. Customers might hire Starbucks not just for caffeine, but for the social job of 'treating myself' or 'appearing sophisticated.' The most successful products often address multiple job dimensions simultaneously.",
+  "extra_content": "## JTBD Solution Validation Methodology\n\n### Step 1: Identify the Current Hire\n- **What are customers using now?** Map all existing solutions (tools, processes, workarounds, or doing nothing)\n- **When do they 'fire' current solutions?** Look for switching triggers and moments of frustration\n- **What job are they really hiring for?** Go beyond surface-level tasks to understand the desired outcome\n\n### Step 2: Map the Job Dimensions\n- **Functional dimension:** What practical task needs to be accomplished?\n- **Emotional dimension:** How do they want to feel during and after the job?\n- **Social dimension:** How does completing this job affect their relationships or status?\n\n### Step 3: Analyze the Hiring Criteria\n- **What does 'success' look like?** Define the customer's measures of progress\n- **What constraints exist?** Time, budget, skills, or situational limitations\n- **What's the switching cost?** Effort required to move from current solution to yours\n\n### Step 4: Validate Your Solution Fit\n- **Does your solution address all job dimensions?** Functional, emotional, and social needs\n- **Are you 10x better than the current hire?** Significant improvement needed to overcome switching inertia\n- **Can you eliminate the workaround entirely?** Best solutions make old processes obsolete\n\n### Key Validation Questions\n- 'Walk me through the last time you tried to [accomplish this outcome]'\n- 'What did you use before your current solution?'\n- 'What would have to be true for you to stop using [current solution]?'\n- 'If this problem disappeared overnight, what would that enable you to do?'\n\n### Success Metrics\n- **Adoption rate:** How quickly do customers switch from their current hire?\n- **Usage frequency:** Are customers consistently 'rehiring' your solution?\n- **Expansion:** Do customers hire your solution for additional jobs over time?",
+  "source_file": "Jobs-to-Be-Done (JTBD) for Solution Validation.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pivot"
+  ]
+}

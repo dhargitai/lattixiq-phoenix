@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Situational Leadership (TRM Model)",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why the same management approach that works brilliantly with one employee completely fails with another?",
+  "definition": "Situational Leadership adapts your management style based on an employee's Task-Relevant Maturity (TRM) - their skill and motivation level for a specific task.",
+  "analogy_or_metaphor": "Like a driving instructor who gives detailed directions to a nervous beginner, offers coaching tips to an intermediate driver, but simply says 'drive to the mall' to an experienced driver.",
+  "key_takeaway": "**The best leaders don't have one style - they flex their approach to match each person's readiness level.**",
+  "classic_example": "Andy Grove at Intel rotating middle managers between groups and discovering that neither managers nor teams maintained consistent performance - success came from the right manager-team combinations.",
+  "modern_example": "A software engineering manager switching from detailed code reviews with a junior developer to high-level goal-setting with a senior architect, then back to step-by-step guidance when that same senior dev tackles an unfamiliar technology.",
+  "pitfall": "Using one-size-fits-all management leads to micromanaging experts (frustrating them) or under-supporting novices (setting them up to fail).",
+  "payoff": "Matching your style to each person's TRM maximizes everyone's performance while building their confidence and capabilities over time.",
+  "visual_metaphor": "A thermostat that automatically adjusts temperature based on room conditions - high heat for cold rooms, moderate for mild, minimal for already-warm spaces.",
+  "dive_deeper_mechanism": "TRM operates on two dimensions: competence (can they do it?) and commitment (will they do it?). Low TRM needs directive leadership with clear instructions. Medium TRM benefits from coaching - still providing guidance but encouraging input. High TRM thrives with delegation - clear goals but freedom in execution. The key insight is that TRM varies by task, not person - even your star performer might need structured support when learning something completely new.",
+  "dive_deeper_origin_story": "Developed by Paul Hersey and Ken Blanchard in the late 1960s, but popularized by Intel's Andy Grove in 'High Output Management.' Grove observed that when Intel rotated managers between similar groups, neither the managers nor teams maintained consistent high or low performance - success depended on specific manager-team combinations. This led him to realize that effective management isn't about finding the 'best' style, but about matching style to the situation.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Assuming someone's TRM is fixed across all tasks - your marketing expert might be a beginner at budget planning. **Perception gap:** Managers consistently overestimate how much they delegate - Grove found 90% of supervisors saw themselves as more collaborative than their subordinates perceived them. **Social confusion:** Having a good personal relationship doesn't equal effective work communication - Grove knew colleagues who were fishing buddies but remained distant professionally.",
+  "extra_content": "## The TRM Assessment Framework\n\n### Step 1: Evaluate Task-Relevant Maturity\nFor each specific task, assess the person on two dimensions:\n- **Competence**: Do they have the skills and knowledge?\n- **Commitment**: Are they motivated and confident?\n\n### Step 2: Match Management Style to TRM Level\n\n**Low TRM (Low Competence + Variable Commitment)**\n- **Style**: Directing/Structured\n- **Approach**: High direction, low support\n- **Actions**: Provide specific instructions, set deadlines, monitor closely\n- **Example**: \"Here's exactly what needs to be done, by when, and how to do it.\"\n\n**Medium TRM (Some Competence + Low Commitment)**\n- **Style**: Coaching/Communicating\n- **Approach**: High direction, high support\n- **Actions**: Explain decisions, ask for input, provide encouragement\n- **Example**: \"Let's walk through this together. What do you think about this approach?\"\n\n**High TRM (High Competence + High Commitment)**\n- **Style**: Delegating/Minimal\n- **Approach**: Low direction, low support\n- **Actions**: Set goals, provide resources, get out of the way\n- **Example**: \"Here's what we need to achieve by quarter-end. You decide how.\"\n\n### Step 3: Regular TRM Re-assessment\n- **Task-specific**: Someone might be high TRM for coding but low TRM for client presentations\n- **Dynamic**: TRM changes as people learn and gain confidence\n- **Situational**: Stress, workload, and team changes affect TRM\n\n### Step 4: Style Flexibility Check\n- Ask yourself: \"What does this person need from me right now for this specific task?\"\n- Resist defaulting to your preferred style (most managers default to either full control or complete hands-off)\n- Get feedback: Ask subordinates how they prefer to receive direction for different types of work",
+  "source_file": "Situational Leadership (TRM Model).md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

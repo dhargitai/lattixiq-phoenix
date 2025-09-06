@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Razor/Razor Blades Model",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why printers are so cheap but ink cartridges cost a fortune? Welcome to the razor blade trap.",
+  "definition": "A business model where a core product is sold at low or break-even prices to lock customers into purchasing high-margin consumables or complementary products repeatedly over time.",
+  "analogy_or_metaphor": "Like a drug dealer's strategy: give away the first hit cheap, then charge premium prices for every dose after that—except it's perfectly legal and everywhere around you.",
+  "key_takeaway": "**Low upfront cost often means high lifetime expense.**",
+  "classic_example": "Gillette selling razor handles cheaply while making their real profits from proprietary replacement blades that customers must buy regularly.",
+  "modern_example": "Tesla selling cars at competitive prices while generating ongoing revenue from their Supercharger network, software updates, and proprietary service parts.",
+  "pitfall": "Focusing only on upfront costs while ignoring the total cost of ownership can trap you in expensive, long-term commitments.",
+  "payoff": "Recognizing this model helps you make smarter purchasing decisions and spot lucrative business opportunities in your own ventures.",
+  "visual_metaphor": "A fishing hook baited with a shiny, inexpensive lure, with a long line attached leading to an expensive tackle box—the initial attraction is cheap, but you're hooked into the whole system.",
+  "dive_deeper_mechanism": "This model exploits several psychological and economic principles: loss aversion (switching costs make leaving expensive), the focusing illusion (people overweight initial price vs. ongoing costs), and sunk cost fallacy (once invested, people rationalize continued spending). It works because humans are naturally better at evaluating immediate, tangible costs than calculating long-term, distributed expenses. The model creates customer lock-in through proprietary ecosystems, making it economically irrational to switch once committed.",
+  "dive_deeper_origin_story": "While King Camp Gillette popularized this model with safety razors in the early 1900s, the concept gained its name decades later. Gillette initially struggled because his razor handles were expensive to manufacture. His breakthrough came when he realized he could sell the handles at cost (or even at a loss) and make his profit from the disposable blades customers would need to buy repeatedly. This insight transformed not just his company but inspired countless industries, from video game consoles to subscription software.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Assuming the 'razor' always loses money—sometimes it's just lower margin, not a loss leader. **Nuance #2:** This model requires significant market control; if competitors can make compatible 'blades,' the strategy fails (like generic ink cartridges). **Critical Insight:** The model only works when switching costs are high and the consumable has regular demand—you can't razor-blade a one-time purchase.",
+  "source_file": "Razor-Razor Blades Model.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

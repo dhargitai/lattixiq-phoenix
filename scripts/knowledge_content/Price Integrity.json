@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Price Integrity",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wondered why luxury brands never seem to go on sale, even when sitting on shelves for months?",
+  "definition": "Price integrity is the strategic discipline of maintaining a product's launch price despite slow initial sales, protecting its perceived value and long-term profitability by resisting premature price cuts.",
+  "analogy_or_metaphor": "Like a poker player who never shows their cards even when bluffing, price integrity is about never revealing weakness through desperate price cuts that signal lack of confidence.",
+  "key_takeaway": "**Your price is your promise of value - break it once, and customers will always expect the discount.**",
+  "classic_example": "Luxury brands like Rolex or Louis Vuitton maintain strict price integrity, rarely discounting their products even during economic downturns, which reinforces their premium positioning and exclusivity.",
+  "modern_example": "Apple maintains price integrity on new iPhone launches for months, refusing to compete on price with Android competitors, which reinforces the perception that iPhones are premium products worth waiting for.",
+  "pitfall": "Cutting prices too early trains customers to wait for discounts, erodes brand value, and creates a race to the bottom that's nearly impossible to reverse.",
+  "payoff": "Maintaining price integrity builds brand equity, attracts quality customers willing to pay full value, and creates sustainable long-term profitability.",
+  "visual_metaphor": "A fortress wall with 'PRICE' written on it, standing firm against arrows labeled 'pressure to discount' - showing strength and protection of value.",
+  "dive_deeper_mechanism": "Price integrity works by leveraging psychological pricing anchors and signaling theory. When you maintain your price, you communicate confidence in your product's value, which customers interpret as quality assurance. Early price cuts, however, create a 'reference price' effect where customers expect similar discounts in the future, fundamentally altering their perception of your product's true worth. The discipline also attracts different customer segments - those willing to pay full price are often less price-sensitive and more loyal long-term.",
+  "dive_deeper_origin_story": "The concept gained prominence through the work of pricing strategists like Madhavan Ramanujam, who documented how countless product launches failed not due to poor products, but due to premature price capitulation. His research at Simon-Kucher & Partners revealed that companies maintaining price integrity during slow launches often saw delayed but stronger adoption, while those who cut prices early created permanent value erosion. The principle was refined through studying luxury goods industries, where brands like Hermès built trillion-dollar valuations partly through unwavering price discipline.",
+  "dive_deeper_pitfalls_nuances": "**Common Pitfall 1:** Confusing price integrity with price inflexibility - you can adjust prices strategically for different segments or bundles while maintaining core price integrity. **Common Pitfall 2:** Applying price integrity to commodity products where it doesn't work - this principle is most powerful for differentiated products with unique value propositions. **Nuance:** Price integrity doesn't mean never changing prices; it means not cutting prices as a panic response to slow initial sales, and instead focusing on communicating value, finding the right customer segments, or improving the product.",
+  "source_file": "Price Integrity.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "product-market_fit",
+    "go-to-market"
+  ]
+}

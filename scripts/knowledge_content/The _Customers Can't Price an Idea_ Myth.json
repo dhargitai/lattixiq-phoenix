@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The \"Customers Can't Price an Idea\" Myth",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Economics & Markets",
+  "hook": "Ever heard a team say \"Let's figure out pricing later - customers can't tell us what they'd pay for something that doesn't exist yet\"?",
+  "definition": "The mistaken belief that customers cannot determine their willingness-to-pay for new concepts before a final product is built and they can experience it firsthand.",
+  "analogy_or_metaphor": "It's like refusing to ask someone how much they'd pay for a house because you haven't built it yet - ignoring that people buy based on blueprints, descriptions, and comparable properties all the time.",
+  "key_takeaway": "**Customers can and will tell you what they'd pay - you just need to ask the right way, at the right time.**",
+  "classic_example": "Traditional product development cycles where pricing discussions are postponed until after the product is fully built, often discovering too late that the target market won't pay enough to make the product profitable.",
+  "modern_example": "A SaaS startup spending 18 months building features without validating pricing, only to discover their target customers expected the product to cost 1/10th of what they need to charge to be viable.",
+  "pitfall": "Delaying pricing conversations leads to products that can't be profitably sold, forcing desperate pivots or business failure after significant investment.",
+  "payoff": "Early pricing validation prevents costly misalignment and enables product design decisions that maximize both customer value and business viability.",
+  "visual_metaphor": "A compass pointing toward 'PRICE LATER' while a cliff labeled 'UNPROFITABLE PRODUCT' looms ahead, with an alternate path marked 'VALIDATE EARLY' leading to solid ground.",
+  "dive_deeper_mechanism": "This myth persists because teams conflate 'pricing an abstract concept' with 'pricing without context.' In reality, customers make purchasing decisions about unrealized value constantly - from pre-ordering products to buying insurance policies. The key is providing enough context about benefits, comparable alternatives, and value delivery mechanisms. Customers segment naturally by their willingness-to-pay, and this segmentation reveals itself early when you ask the right questions about their needs, current solutions, and value perception.",
+  "dive_deeper_origin_story": "This concept gained prominence through Madhavan Ramanujam's research at Simon-Kucher & Partners, where analysis of thousands of product launches revealed that companies with early pricing strategies had significantly higher success rates. The myth became entrenched during the dot-com era when 'build it and they will come' mentality dominated, leading to spectacular failures of well-engineered products that nobody would pay profitable prices for.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** You need a finished product to get accurate pricing feedback. **Reality:** Customers need context, not completion - detailed descriptions, mockups, and benefit explanations often provide sufficient information for pricing decisions. **Another Pitfall:** Asking 'How much would you pay?' directly - instead, use techniques like Van Westendorp pricing research, conjoint analysis, or A/B testing different price points to reveal true willingness-to-pay patterns.",
+  "source_file": "The \"Customers Can't Price an Idea\" Myth.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "pricing",
+    "go-to-market"
+  ]
+}

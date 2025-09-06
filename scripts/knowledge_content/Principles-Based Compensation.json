@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Principles-Based Compensation",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why salary negotiations feel like a guessing game? What if compensation could be as predictable as a recipe?",
+  "definition": "A systematic approach to creating standardized compensation plans based on objective market data and business economics rather than individual negotiation or subjective factors.",
+  "analogy_or_metaphor": "Like having a GPS for pay scales—instead of wandering through salary negotiations hoping to find the right destination, you follow a clear, data-driven route that gets everyone to a fair place efficiently.",
+  "key_takeaway": "**Fair pay isn't about what people ask for—it's about what the market and your business can sustain.**",
+  "classic_example": "Traditional companies where two people doing identical jobs earn vastly different salaries simply because one negotiated better during hiring, creating internal inequity and resentment.",
+  "modern_example": "A startup founder realizes they can't pay a salesperson $200k when their deal economics only support $120k total compensation—so they create a transparent pay band based on realistic revenue expectations rather than candidate demands.",
+  "pitfall": "Without principled compensation, you create pay inequities, budget chaos, and hire people whose expectations don't match business reality, leading to turnover and team dysfunction.",
+  "payoff": "Principles-based compensation creates predictable costs, eliminates pay discrimination, attracts realistic candidates, and scales efficiently as you grow.",
+  "visual_metaphor": "A balance scale with market data and business metrics on one side, and a salary figure on the other, perfectly balanced—showing how compensation should equilibrium between external benchmarks and internal capabilities.",
+  "dive_deeper_mechanism": "This approach works because it removes emotion and bias from compensation decisions. Instead of paying based on negotiation skills or personal relationships, it anchors decisions to objective data: what similar roles pay in your market, what your unit economics can support, and what performance metrics justify different pay levels. The brain's tendency to anchor on the first number mentioned (anchoring bias) is neutralized when you start with market data rather than candidate requests.",
+  "dive_deeper_origin_story": "The concept gained prominence in the tech industry as companies like Buffer and GitLab pioneered transparent salary formulas in the 2010s, partly in response to pay equity lawsuits and partly to attract talent through fairness rather than negotiation games. The approach traces back to job evaluation methodologies developed in the 1940s for large corporations, but modern principles-based compensation emphasizes market benchmarking and business sustainability over internal job rankings.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** That principles-based compensation means paying everyone the same regardless of performance. **Reality:** It means having consistent principles for how pay differences are determined—top performers can still earn more, but the criteria are transparent and applied equally. Another pitfall is rigidly sticking to market data without considering your specific business constraints—if your unit economics only support $10k/month but market rate is $16k/month, the market data tells you to find different talent or change your business model, not break your budget.",
+  "source_file": "Principles-Based Compensation.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

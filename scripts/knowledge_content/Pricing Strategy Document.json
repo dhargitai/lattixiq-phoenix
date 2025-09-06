@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "Pricing Strategy Document",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why Netflix charges monthly while Apple sells phones upfront? The difference lies in their pricing strategy documents.",
+  "definition": "A pricing strategy document is a formal, living blueprint that defines how a company will monetize its products by outlining pricing goals, strategy type, and tactical rules for setting and adjusting prices.",
+  "analogy_or_metaphor": "Think of it as a GPS for pricing decisions - it gives you a clear destination (goals), the best route (strategy), and turn-by-turn directions (tactical rules) so you never get lost in competitive pricing wars.",
+  "key_takeaway": "**Strategic pricing beats reactive pricing every time.**",
+  "classic_example": "Michelin's transformation from selling tires to charging truckers per kilometer driven - shifting from product sales to usage-based pricing through their 'TK' (ton-kilometer) model in 2001.",
+  "modern_example": "Software companies like Adobe moving from one-time purchases ($699 for Photoshop) to subscription models ($20.99/month) - the pricing strategy document guided this shift to increase customer lifetime value.",
+  "pitfall": "Without a pricing strategy document, companies make reactive, inconsistent pricing decisions that erode profits and confuse customers.",
+  "payoff": "A well-crafted pricing strategy document aligns teams, maximizes revenue, and provides a framework for confident pricing decisions in any market condition.",
+  "visual_metaphor": "A compass with three directional arrows labeled 'Goals,' 'Strategy,' and 'Tactics,' all pointing toward a target marked 'Profit.'",
+  "dive_deeper_mechanism": "The document works by forcing companies to think systematically about three critical elements: 1) Goals (profit maximization vs. market share vs. customer acquisition), 2) Strategy type (premium/skim pricing, penetration pricing, or value-based pricing), and 3) Tactical rules (how to respond to competitors, when to adjust prices, and decision-making criteria). This prevents the common trap of ad-hoc pricing reactions that can destroy value - like Michelin almost did when longer-lasting tires would have reduced demand by 20% while only allowing a few percentage points price increase.",
+  "dive_deeper_origin_story": "The concept gained prominence through companies like Michelin, which in 2001 faced a pricing crisis. Their superior tires lasted 20% longer but could only command a few percentage points premium, while reducing demand by 20%. Instead of reactive price cuts, they created a comprehensive pricing strategy document that led to their revolutionary 'TK' (ton-kilometer) model - charging by usage rather than product sales. This strategic approach turned a potential profit disaster into a competitive advantage.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake 1:** Treating it as a one-time document rather than a living guide that evolves with market conditions. **Common Mistake 2:** Focusing only on competitor pricing without considering value delivery and customer willingness to pay. **Reality Check:** The document isn't about finding the 'perfect' price, but about creating a systematic approach that prevents costly reactive decisions and ensures pricing aligns with overall business strategy.",
+  "extra_content": "## Creating Your Pricing Strategy Document\n\n### Step 1: Define Your Pricing Goals\n- **Profit Maximization**: Focus on highest margins\n- **Market Share Growth**: Prioritize volume and penetration\n- **Customer Lifetime Value**: Optimize long-term revenue per customer\n- **Competitive Positioning**: Maintain specific market position\n\n### Step 2: Choose Your Strategic Approach\n- **Skimming Strategy**: Start high, gradually lower (luxury goods, new tech)\n- **Penetration Strategy**: Start low to gain market share quickly\n- **Value-Based Strategy**: Price according to customer-perceived value\n- **Cost-Plus Strategy**: Add margin to production costs\n\n### Step 3: Establish Tactical Rules\n- **Competitor Response Protocol**: How to react to competitor price changes\n- **Price Adjustment Triggers**: Market conditions that warrant price changes\n- **Discount Authorization**: Who can approve discounts and under what conditions\n- **Bundle Pricing Rules**: How to price product/service combinations\n\n### Step 4: Implementation Framework\n- **Decision Matrix**: Clear criteria for pricing decisions\n- **Review Schedule**: Regular intervals to assess and update strategy\n- **Success Metrics**: KPIs to measure pricing strategy effectiveness\n- **Communication Plan**: How to align teams on pricing decisions\n\n### Example Decision Tree:\n\nIf competitor lowers price by >10%:\n├── If our value proposition is strong → Monitor, don't react immediately\n├── If losing key customers → Selective matching for key accounts\n└── If market share drops >5% → Consider strategic response\n",
+  "source_file": "Pricing Strategy Document.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "product-market_fit"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The New Job Standard",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why that amazing startup VP suddenly seems lost when the company hits 500 employees? They're not failing—they're doing a completely different job.",
+  "definition": "The New Job Standard recognizes that when a company doubles in size, executive roles fundamentally transform into entirely new positions requiring different skills, competencies, and approaches.",
+  "analogy_or_metaphor": "It's like being a skilled kayak guide who's suddenly asked to captain a cruise ship—the water's the same, but everything else about the job has changed.",
+  "key_takeaway": "**Growth doesn't just make jobs bigger—it makes them different.**",
+  "classic_example": "A VP of Sales who expertly managed a 10-person team through personal relationships suddenly struggles with a 200-person global organization requiring systematic processes, regional management, and strategic planning.",
+  "modern_example": "A startup CTO who coded alongside 5 engineers now oversees 50 developers across multiple time zones, requiring architecture decisions, team leadership, and vendor management instead of hands-on coding.",
+  "pitfall": "Assuming past success guarantees future effectiveness, leading to organizational bottlenecks and failed leadership when complexity increases.",
+  "payoff": "Proactively evaluating and developing leadership capabilities ensures smooth scaling and prevents costly leadership failures during critical growth phases.",
+  "visual_metaphor": "A ladder where each rung represents company size, but the person climbing transforms at each level—same person, entirely different skill set required.",
+  "dive_deeper_mechanism": "As companies scale, complexity increases exponentially, not linearly. A doubling in size creates new layers of management, cross-functional dependencies, and strategic challenges. The cognitive load shifts from direct execution to systems thinking, from personal relationships to process management, and from tactical decisions to strategic vision. The executive's brain must rewire from 'doing' to 'enabling others to do,' requiring entirely different neural pathways and skill sets.",
+  "dive_deeper_origin_story": "Ben Horowitz developed this framework during his tenure as CEO of Opsware, watching talented executives struggle as the company grew from startup to billion-dollar acquisition. He observed that the same people who thrived at 50 employees often floundered at 500, not due to incompetence but because they were literally performing different jobs. This insight was reinforced by Andy Grove's philosophy at Intel, where continuous re-qualification of management was standard practice.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** 'Good people will figure it out'—actually, leadership skills at scale must be learned systematically. **Hidden Trap:** Waiting for problems to appear before acting—by then, organizational damage may be irreversible. **Nuance:** The standard applies to all levels, not just C-suite; even team leads face 'new jobs' as their teams grow from 3 to 10 people.",
+  "extra_content": "## The New Job Standard Evaluation Framework\n\n### Step 1: Growth Trigger Assessment\n- **Double-check rule:** Has the company doubled in size, revenue, or complexity?\n- **Milestone markers:** 50→100, 100→200, 200→500 employees are critical transition points\n- **Complexity indicators:** New markets, product lines, or organizational layers\n\n### Step 2: Role Evolution Analysis\n**Old Role vs. New Role Comparison:**\n- **Scope change:** Direct reports, budget size, decision impact\n- **Skill requirements:** Technical vs. strategic, tactical vs. visionary\n- **Time allocation:** Execution vs. planning, individual work vs. team development\n- **Stakeholder complexity:** Internal team vs. cross-functional coordination\n\n### Step 3: Executive Assessment Matrix\n**Evaluate current executive on four dimensions:**\n1. **Technical competency:** Does their expertise still match role demands?\n2. **Leadership capacity:** Can they effectively manage at the new scale?\n3. **Cultural fit:** Do their behaviors align with the needed organizational culture?\n4. **Learning agility:** Can they adapt and acquire new skills quickly?\n\n### Step 4: Decision Framework\n**Three possible outcomes:**\n- **Develop:** Provide coaching, training, or mentoring (3-6 month timeline)\n- **Restructure:** Modify role to match strengths while hiring for gaps\n- **Replace:** Hire new executive with scale-appropriate experience\n\n### Step 5: Implementation Protocol\n**If developing:**\n- Set specific, measurable skill development goals\n- Assign experienced mentor or executive coach\n- Create 90-day check-in milestones\n- Provide feedback loop with board/CEO\n\n**If replacing:**\n- Define new role requirements precisely\n- Plan transition period and knowledge transfer\n- Communicate changes transparently to team\n- Consider keeping departing executive in advisory capacity\n\n### Critical Success Factors\n- **Timing:** Act at growth inflection points, not after problems emerge\n- **Clarity:** Be specific about what skills the 'new job' requires\n- **Support:** Provide resources for successful transitions\n- **Communication:** Maintain transparency about role evolution expectations",
+  "source_file": "The New Job Standard.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}

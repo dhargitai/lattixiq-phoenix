@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Market Risk vs. Competitive Risk",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Military & Competitive Strategy",
+  "hook": "Ever wonder why Facebook beat MySpace, or why Google dominated search? The winners didn't wait for certainty—they embraced the unknown.",
+  "definition": "A strategic framework that weighs the risk of entering an unproven market (market risk) against the risk of competing with established players (competitive risk).",
+  "analogy_or_metaphor": "It's like choosing between swimming in uncharted waters where you might find treasure, versus diving into a crowded pool where the strongest swimmers have already claimed the best lanes.",
+  "key_takeaway": "**Accept market uncertainty early rather than face entrenched competition later.**",
+  "classic_example": "Intel's microprocessor journey exemplifies this perfectly—they had no idea where microprocessors would be used, made many wrong bets, but survived their mistakes because they entered early when the market was undefined.",
+  "modern_example": "Uber entered the undefined 'ride-sharing' market despite regulatory uncertainty and unclear demand, rather than competing directly with established taxi companies—a choice that created an entirely new industry.",
+  "pitfall": "Waiting for market clarity means entering when competitors have established dominance, customer loyalty, and operational advantages that are nearly impossible to overcome.",
+  "payoff": "Early market entry allows you to learn, adapt, and shape the market while competitors are still debating whether it exists.",
+  "visual_metaphor": "Two paths diverging: one leads to an unexplored mountain with question marks but an open summit, the other to a crowded valley with established fortresses blocking the way.",
+  "dive_deeper_mechanism": "This framework exploits a fundamental asymmetry: failed ideas in new markets are recoverable and educational, while failed competition against incumbents typically means complete failure. Early market entrants can afford multiple wrong turns because they're learning faster than anyone else. The psychological trap is that market risk *feels* scarier because it's unknown, while competitive risk appears manageable because you can see your competitors—but this perception is backwards.",
+  "dive_deeper_origin_story": "Clayton Christensen identified this pattern while studying why established companies consistently failed at disruptive innovation. His research revealed that successful companies like Honda (motorcycles) and Intel (microprocessors) succeeded not by having better market predictions, but by entering uncertain markets early enough to survive their inevitable wrong guesses. The data was stark: companies entering new markets had a 37% success rate versus just 6% for those entering established markets.",
+  "dive_deeper_pitfalls_nuances": "**Common misconception:** This framework means 'take any risk in any new market.' **Reality:** It applies specifically to potentially disruptive technologies or business models where the market size is unknown but the technology/approach has demonstrated some capability. **Another pitfall:** Confusing market risk with technology risk—market risk assumes your core offering works, but you don't know who will buy it or how they'll use it.",
+  "source_file": "Market Risk vs. Competitive Risk.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "go-to-market",
+    "risk_management"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "knowledge_piece_name": "The What-Who-When Framework",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "Communication & Persuasion",
+  "hook": "Ever wonder why some ads make you stop scrolling while others get ignored? It's not luck—it's angles.",
+  "definition": "A systematic framework for creating compelling marketing messages by examining your offer through three lenses: What (value elements and their opposites), Who (impact on the prospect and people in their life), and When (consequences across past, present, and future timelines).",
+  "analogy_or_metaphor": "Like a diamond cutter examining a gem from every angle to reveal its brilliance, this framework helps you showcase your offer's value from multiple perspectives until it becomes irresistible.",
+  "key_takeaway": "**The more angles you cover, the more interested your audience becomes.**",
+  "classic_example": "A weight loss program ad that only mentions 'lose 20 pounds' versus one that shows how it affects your confidence (What), your spouse's attraction and kids' pride (Who), and connects past embarrassment to future vitality (When).",
+  "modern_example": "A productivity app could highlight faster task completion (What), impressing your boss while having more family time (Who), and contrasting past overwhelm with future career success (When) instead of just listing features.",
+  "pitfall": "Without this framework, your marketing becomes one-dimensional, focusing only on features rather than the full spectrum of value, leading to weak engagement and poor conversion.",
+  "payoff": "By systematically covering multiple angles, you create compelling content that resonates with different motivations, dramatically increasing interest and response rates.",
+  "visual_metaphor": "A three-dimensional prism breaking white light into a spectrum of colors—each beam representing a different angle that reveals hidden value in your offer.",
+  "dive_deeper_mechanism": "This framework works by exploiting how the human brain processes value through multiple cognitive pathways. We don't just evaluate benefits in isolation—we consider social status (Who), temporal consequences (When), and loss aversion alongside gain seeking (What). By systematically addressing all these psychological triggers, you create what marketers call 'irresistible offers.' The brain can't help but engage when multiple value drivers are activated simultaneously, which is why longer ads often outperform shorter ones—they simply cover more angles.",
+  "dive_deeper_origin_story": "Developed by entrepreneur Alex Hormozi through analyzing thousands of high-converting advertisements, this framework emerged from a simple observation: the best ads didn't just sell products—they painted comprehensive pictures of transformation. Hormozi noticed that successful marketers intuitively covered multiple perspectives but lacked a systematic approach. By codifying the What-Who-When structure, he created a repeatable method that even novice marketers could use to craft compelling copy that rivals seasoned professionals.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake #1:** Focusing only on positive outcomes while ignoring the 'away from' motivation (what they want to avoid). Both carrot and stick are essential. **Common Mistake #2:** Assuming one angle fits all—different audiences respond to different combinations of What-Who-When elements. A busy executive might respond more to time-saving (What) and professional reputation (Who), while a parent might prioritize family impact (Who) and long-term health (When).",
+  "extra_content": "## The What-Who-When Framework Implementation\n\n### Step 1: Map Your WHAT Elements\n- **Value Drivers Analysis:** List how your offer delivers on the four core value drivers:\n  - Dream outcome (what they want to achieve)\n  - Perceived likelihood of success (why they'll succeed)\n  - Time delay (how fast they get results)\n  - Effort and sacrifice (how easy it is)\n- **Opposite Analysis:** For each value driver, identify what happens if they DON'T get your offer\n- **Feature Translation:** Convert every feature into a benefit using this mapping\n\n### Step 2: Define Your WHO Perspectives\n- **Primary Prospect:** How does your offer directly impact them?\n- **Inner Circle:** Spouse, family, close friends—how do they benefit or suffer?\n- **Professional Circle:** Boss, colleagues, competitors—what status changes occur?\n- **Social Circle:** Community, acquaintances—what perception shifts happen?\n- **Status Mapping:** For each group, identify how your offer increases prospect's status or how not buying decreases it\n\n### Step 3: Timeline Your WHEN Elements\n- **Past Consequences:** What pain has their current situation caused historically?\n- **Present Reality:** What's happening right now because of their problem?\n- **Future Projections:** Paint both the nightmare scenario (without your offer) and dream scenario (with it)\n- **Urgency Creation:** Emphasize why now is the critical moment for decision\n\n### Step 4: Angle Generation Matrix\nCreate advertising angles by combining elements:\n- WHAT + WHO + WHEN = Complete angle\n- Example: Fast weight loss (WHAT) + spouse attraction (WHO) + wedding in 3 months (WHEN)\n- Generate 15-20 angles minimum for robust campaign testing\n\n### Step 5: Platform Adaptation\n- **Long-form ads:** Use 8-12 angles with full What-Who-When development\n- **Short-form ads:** Select 2-3 strongest angles based on audience research\n- **Maintain consistent:** Strong hook + clear CTA regardless of length\n- **Test and iterate:** Different angle combinations for different audience segments",
+  "source_file": "The What-Who-When Framework.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "go-to-market",
+    "product-market_fit",
+    "pricing",
+    "competitive_strategy"
+  ]
+}

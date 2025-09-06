@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "Needs-Based Segmentation",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some products seem perfectly designed for you while others feel like they missed the mark entirely? The secret lies in how companies divide their customers.",
+  "definition": "A strategic approach where businesses segment customers based on their specific needs, desired value, and willingness-to-pay rather than surface-level characteristics like age or company size.",
+  "analogy_or_metaphor": "It's like a tailor who measures your exact dimensions and preferences before crafting a suit, rather than assuming all tall people want the same style and fabric.",
+  "key_takeaway": "**Group customers by what they need and value, not by who they appear to be.**",
+  "classic_example": "Airlines discovered that business travelers valued time and flexibility over price, while leisure travelers prioritized cost savings, leading to the creation of distinct service tiers and pricing models.",
+  "modern_example": "Netflix segments users not by age or location, but by viewing preferences and engagement patterns—creating personalized recommendations and content strategies for binge-watchers versus casual viewers.",
+  "pitfall": "Segmenting by demographics alone leads to generic products that satisfy no one fully, leaving money on the table and customers looking elsewhere.",
+  "payoff": "Understanding true customer needs enables precise product design, optimized pricing strategies, and higher customer satisfaction across distinct market segments.",
+  "visual_metaphor": "A pie chart where each slice represents a different customer need (speed, cost, quality, convenience) rather than demographic categories, with varying sizes showing willingness-to-pay.",
+  "dive_deeper_mechanism": "Needs-based segmentation works by recognizing that customer behavior is driven by underlying motivations and constraints, not superficial characteristics. When customers with different needs are grouped together, product decisions become compromises that please no one. By identifying distinct value drivers—what customers actually care about and will pay for—companies can create targeted solutions that command premium prices from some segments while offering streamlined, cost-effective options for others. This approach leverages the psychological principle that people pay more for products that solve their specific problems perfectly.",
+  "dive_deeper_origin_story": "The concept gained prominence through Clayton Christensen's jobs-to-be-done theory and was refined by pricing strategists like Madhavan Ramanujam. The breakthrough came from studying why successful products often violated traditional demographic wisdom—like how Red Bull succeeded by focusing on the 'need for energy and alertness' rather than targeting specific age groups. Companies realized that a 25-year-old athlete and a 45-year-old executive might have identical needs for an energy boost, making them the same segment despite different demographics.",
+  "dive_deeper_pitfalls_nuances": "**Common Mistake:** Assuming needs-based segments are permanent—customer needs evolve with life circumstances and market changes. **The Average Trap:** Focusing on average willingness-to-pay across segments masks the opportunity to create multiple product versions at different price points. **Over-Segmentation:** Creating too many micro-segments can lead to operational complexity that outweighs the benefits. The key is finding segments large enough to be profitable while distinct enough to warrant different approaches.",
+  "source_file": "Needs-Based Segmentation.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "pricing"
+  ]
+}

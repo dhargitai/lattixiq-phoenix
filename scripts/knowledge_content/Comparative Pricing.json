@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "Comparative Pricing",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why a $5 coffee feels reasonable at Starbucks but outrageous at a gas station?",
+  "definition": "A pricing strategy that sets prices by anchoring them to what customers already expect to pay for existing or alternative solutions in the market.",
+  "analogy_or_metaphor": "Like setting up shop next to a popular restaurant and pricing your meals within the same neighborhood—you're borrowing their established price expectations.",
+  "key_takeaway": "**Price against familiar alternatives, not internal costs.**",
+  "classic_example": "When Netflix launched, they priced their DVD-by-mail service against Blockbuster's rental fees ($3-5 per movie), not against their own operational costs, making unlimited monthly access feel like a bargain at $19.99.",
+  "modern_example": "SaaS companies price their tools against existing software licenses (like Microsoft Office at $100+ per year) or manual labor costs (a virtual assistant at $2,000+ monthly), making a $50/month automation tool seem incredibly reasonable.",
+  "pitfall": "Ignoring market anchors leads to pricing that feels arbitrary or shocking to customers, regardless of your actual value delivered.",
+  "payoff": "Anchoring to familiar alternatives makes your price feel logical and justified, reducing friction in the buying decision.",
+  "visual_metaphor": "A price tag connected by a chain to other similar price tags, showing how pricing decisions are linked to market references rather than floating independently.",
+  "dive_deeper_mechanism": "Comparative pricing works by leveraging the psychological principle of anchoring—customers evaluate prices not in isolation, but relative to reference points they already know. When you anchor to familiar alternatives, you're essentially borrowing the market's existing price acceptance and applying it to your solution. This reduces cognitive load for buyers because they don't need to create a new pricing framework from scratch.",
+  "dive_deeper_origin_story": "This concept emerged from behavioral economics research, particularly the work of Amos Tversky and Daniel Kahneman on anchoring effects in the 1970s. They discovered that people heavily rely on the first piece of pricing information they encounter (the anchor) when making subsequent price judgments. Smart businesses realized they could strategically choose which anchors to present to customers.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake:** Anchoring to the wrong alternatives. Just because something costs similar doesn't make it a good comparison—the alternatives must solve similar problems or serve similar needs. **Nuance:** The strongest anchors aren't always direct competitors; sometimes they're the manual processes or existing tools your solution replaces. A $100/month software tool looks expensive until you compare it to hiring a $3,000/month employee to do the same work.",
+  "source_file": "Comparative Pricing.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pricing",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

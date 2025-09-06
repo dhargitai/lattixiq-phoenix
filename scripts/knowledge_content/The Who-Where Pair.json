@@ -1,0 +1,32 @@
+{
+  "knowledge_piece_name": "The Who-Where Pair",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why most marketing feels like shouting into the void? You might know who your customers are, but do you know where to find them?",
+  "definition": "The Who-Where Pair is the principle that a useful customer segment must be defined by both who the customers are (demographics, psychographics, needs) and where you can predictably find them for conversations, marketing, or sales outreach.",
+  "analogy_or_metaphor": "It's like being a fisherman who knows exactly what type of fish they want to catch AND which specific pond contains those fish - without both pieces, you're just casting blindly into empty water.",
+  "key_takeaway": "**A customer segment isn't actionable until you know both who they are and where to reach them.**",
+  "classic_example": "Steve Jobs didn't just target 'creative professionals' - he knew they could be found at design conferences, art schools, and creative agencies where they gathered to discuss their craft and challenges.",
+  "modern_example": "A productivity app targeting 'busy professionals' is useless, but targeting 'remote team managers who frequent r/remotework, attend distributed work conferences, and read newsletters like Remote.co' gives you clear places to start conversations.",
+  "pitfall": "Defining customers only by demographics or needs leads to scattered, ineffective marketing efforts and wasted resources reaching people who can't be found or don't exist in accessible clusters.",
+  "payoff": "Knowing both who and where allows you to have focused conversations, validate ideas efficiently, and build marketing channels that actually reach your ideal customers consistently.",
+  "visual_metaphor": "A Venn diagram with two overlapping circles - one labeled 'WHO (your ideal customer)' and another labeled 'WHERE (you can find them)' - with the overlapping center highlighted as your actionable target market.",
+  "dive_deeper_mechanism": "The Who-Where Pair works because it transforms abstract customer definitions into concrete action plans. Psychologically, it forces entrepreneurs to move beyond wishful thinking ('everyone could use this') to specific targeting. The 'who' component ensures you understand customer needs, while the 'where' component ensures you can actually reach them for validation and sales. This dual requirement prevents the common startup failure of building products for customers who either don't exist in sufficient numbers or can't be economically reached.",
+  "dive_deeper_origin_story": "This concept emerged from Rob Fitzpatrick's work in 'The Mom Test,' where he observed countless startups failing not because they didn't understand customer problems, but because they couldn't systematically find and reach the people who had those problems. Fitzpatrick noticed that successful entrepreneurs always had both pieces - they knew their creative agency clients had specific design challenges AND they knew these clients congregated at industry conferences and specialized forums. The principle crystallized from studying why some customer development efforts led to real businesses while others remained theoretical exercises.",
+  "dive_deeper_pitfalls_nuances": "**Common Misconception:** Thinking that online platforms automatically solve the 'where' problem. Reality: Just because your target customers use LinkedIn doesn't mean you can effectively reach them there - you need specific communities, events, or channels where they're actively engaged with relevant topics. **Another Pitfall:** Assuming the 'where' remains constant - customer gathering places evolve rapidly, especially online communities that can shift platforms or lose engagement. The most effective approach combines multiple 'where' channels and regularly validates that your target customers are still accessible through those channels.",
+  "source_file": "The Who-Where Pair.md",
+  "target_persona": [
+    "founder",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth"
+  ],
+  "problem_category": [
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

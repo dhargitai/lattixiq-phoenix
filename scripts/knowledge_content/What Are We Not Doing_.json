@@ -1,0 +1,34 @@
+{
+  "knowledge_piece_name": "What Are We Not Doing?",
+  "main_category": "Thinking & Learning Processes",
+  "subcategory": "General Thinking Concepts",
+  "hook": "While your team obsesses over daily metrics and quarterly goals, the biggest threats and opportunities are often hiding in plain sight—in the things you're deliberately ignoring.",
+  "definition": "A strategic questioning framework that forces leadership teams to examine blind spots by systematically considering opportunities, threats, and initiatives outside their current operational focus.",
+  "analogy_or_metaphor": "It's like a security guard who's so focused on watching the front door that they never think to check if someone could climb through the back window—sometimes the most important thing is what's not on your radar.",
+  "key_takeaway": "**The biggest risks and opportunities often live in your blind spots.**",
+  "classic_example": "Ben Horowitz's decision to sell Loudcloud's core business to EDS and pivot to Opsware—a move that seemed counterintuitive but saved the company because it addressed what they weren't doing: focusing on their most defensible technology.",
+  "modern_example": "A SaaS startup obsessively optimizing their conversion funnel while completely ignoring emerging AI tools that could automate their entire value proposition—until a competitor launches an AI-powered solution that makes their manual process obsolete.",
+  "pitfall": "Tunnel vision on current priorities while competitors outflank you or market shifts make your entire strategy irrelevant.",
+  "payoff": "Early identification of strategic pivots, competitive threats, and market opportunities that others miss, leading to breakthrough decisions.",
+  "visual_metaphor": "A spotlight creating a bright circle of visibility while casting everything outside that circle into darkness—with question marks floating in the shadows representing unexplored possibilities.",
+  "dive_deeper_mechanism": "This question works by forcing cognitive switching from exploitation (optimizing current activities) to exploration (discovering new possibilities). It combats the planning fallacy and confirmation bias by explicitly directing attention to the gaps in your strategic thinking. The human brain naturally focuses on immediate, visible problems while ignoring abstract or future threats—this framework systematically surfaces those blind spots.",
+  "dive_deeper_origin_story": "While the specific phrase comes from Ben Horowitz's experience during the dot-com crash, the underlying principle echoes military strategy concepts like 'courses of action analysis' where commanders must consider not just their current plan, but all the things they're not doing that the enemy might exploit. Horowitz learned this lesson the hard way when Loudcloud was failing—he realized they were so focused on their current business model that they weren't considering radical pivots that could save the company.",
+  "dive_deeper_pitfalls_nuances": "**Pitfall 1:** Turning this into analysis paralysis—the question should drive action, not endless theorizing. **Pitfall 2:** Assuming everything you're not doing should be done—this is about prioritization and strategic choice, not trying to do everything. **Nuance:** The most powerful version focuses on adjacent possibilities or competitive blind spots, not random brainstorming of unrelated opportunities.",
+  "source_file": "\"What Are We Not Doing?\".md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "competitive_strategy",
+    "product-market_fit",
+    "go-to-market",
+    "operations",
+    "team_and_culture"
+  ]
+}

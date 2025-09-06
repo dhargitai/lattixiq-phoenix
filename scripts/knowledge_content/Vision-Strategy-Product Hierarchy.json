@@ -1,0 +1,35 @@
+{
+  "knowledge_piece_name": "Vision-Strategy-Product Hierarchy",
+  "main_category": "Human Systems & Strategy",
+  "subcategory": "Business & Management",
+  "hook": "Ever wonder why some startups pivot successfully while others crash and burn? The secret lies in knowing what to hold sacred and what to change.",
+  "definition": "A framework that organizes startup efforts into three levels: an unchanging vision (your north star), a testable strategy (which may pivot), and a constantly optimized product.",
+  "analogy_or_metaphor": "Think of it like sailing: your destination (vision) stays the same, your route (strategy) adjusts based on weather and obstacles, and your sail trim (product) constantly adapts to current conditions.",
+  "key_takeaway": "**Hold your vision sacred, test your strategy ruthlessly, and optimize your product relentlessly.**",
+  "classic_example": "Twitter started with the vision of connecting people globally but pivoted from a podcast platform to microblogging when they discovered users were sharing short status updates instead of long audio content.",
+  "modern_example": "Netflix maintained its vision of entertainment on-demand but pivoted from DVD-by-mail to streaming, then to original content production, while constantly optimizing their recommendation algorithm and user interface.",
+  "pitfall": "Treating all three levels as equally flexible leads to directionless pivoting and confused team members who don't know what they're ultimately building toward.",
+  "payoff": "Clear hierarchy prevents wasted effort on the wrong things and enables smart pivots that move you closer to your vision rather than away from it.",
+  "visual_metaphor": "A pyramid with 'Vision' as the solid foundation at the bottom, 'Strategy' as the middle layer with pivot arrows, and 'Product' at the top with continuous optimization cycles.",
+  "dive_deeper_mechanism": "The hierarchy works by creating different rates of change at each level. Vision provides psychological stability and team alignment during uncertainty. Strategy operates on longer cycles (months to years) and requires validated learning before changes. Product optimization happens continuously (days to weeks) based on user feedback. This structure prevents the chaos of changing everything at once while ensuring nothing stays static when evidence suggests change is needed.",
+  "dive_deeper_origin_story": "Eric Ries popularized this framework in 'The Lean Startup' after observing how successful startups like IMVU navigated uncertainty. He noticed that companies maintaining a constant vision while being flexible about strategy and product were more likely to find product-market fit. The framework emerged from Steve Blank's customer development methodology and the realization that startups needed structure to avoid random pivoting while remaining adaptable.",
+  "dive_deeper_pitfalls_nuances": "**Common mistake**: Confusing vision with strategy - a vision should be inspirational and enduring (like 'organize the world's information'), while strategy is tactical (like 'focus on search before expanding to other services'). **Another pitfall**: Changing strategy too quickly based on limited data instead of gathering sufficient evidence. **Key nuance**: The hierarchy isn't rigid - in rare cases, fundamental market changes may require vision adjustments, but this should be exceptional and well-reasoned.",
+  "source_file": "Vision-Strategy-Product Hierarchy.md",
+  "target_persona": [
+    "founder",
+    "executive",
+    "product_manager"
+  ],
+  "startup_phase": [
+    "ideation",
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "pivot",
+    "product-market_fit",
+    "go-to-market",
+    "competitive_strategy"
+  ]
+}

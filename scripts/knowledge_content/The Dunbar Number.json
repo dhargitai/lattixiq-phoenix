@@ -1,0 +1,33 @@
+{
+  "knowledge_piece_name": "The Dunbar Number",
+  "main_category": "Psychology & Human Behavior",
+  "subcategory": "Social & Behavioral Psychology",
+  "hook": "Ever wonder why your group chat dies after adding too many people? There's a brain-based reason for that.",
+  "definition": "The cognitive limit for stable social relationships a person can maintain is around 150 people, based on constraints linked to brain size and our capacity to process social information.",
+  "analogy_or_metaphor": "Think of your brain as a social computer with limited RAM—it can only run so many relationship programs simultaneously before performance degrades and connections become unstable.",
+  "key_takeaway": "**Quality over quantity: your brain can only handle about 150 meaningful relationships.**",
+  "classic_example": "Military units throughout history have naturally organized around 150 soldiers (a company), because larger groups without formal hierarchy struggle to maintain cohesion and effectiveness in battle.",
+  "modern_example": "Your Facebook friends list might have 800 people, but you probably only meaningfully interact with about 150 of them—the rest are just digital acquaintances you'd scroll past without engaging.",
+  "pitfall": "Spreading yourself too thin across hundreds of superficial connections, mistaking social media metrics for real relationships, and burning out from trying to maintain too many social bonds.",
+  "payoff": "Focusing energy on your core 150 creates deeper, more supportive relationships, reduces social anxiety, and builds a stronger personal and professional network that actually helps when you need it.",
+  "visual_metaphor": "A tree with 150 strong branches that can support weight, versus a tree with 1000 thin twigs that snap under pressure—showing quality connections versus quantity.",
+  "dive_deeper_mechanism": "The number stems from the size of our neocortex, the brain region that processes social information. Just as your computer slows down when running too many programs, your brain can only track so many relationships with their histories, emotions, and social dynamics. Beyond 150, we lose track of who people are, what they care about, and how we relate to them. The brain literally runs out of processing power for social complexity, which is why larger groups need artificial structures like rules, hierarchies, or shared rituals to maintain order.",
+  "dive_deeper_origin_story": "In the 1990s, British anthropologist Robin Dunbar was studying primates when he noticed something fascinating: there was a direct correlation between brain size and social group size across different species. Larger-brained primates lived in bigger social groups. When he extrapolated this pattern to humans, accounting for our massive neocortex, he predicted we could handle about 150 stable relationships. He described it whimsically as 'the number of people you wouldn't feel embarrassed to join uninvited for a drink.' Archaeological evidence later supported this—from ancient villages to modern hunter-gatherer tribes, human communities naturally cluster around this magic number.",
+  "dive_deeper_pitfalls_nuances": "**Myth:** It's exactly 150 for everyone. **Reality:** The number varies from 100-250 depending on individual personality, culture, and social skills—introverts typically maintain fewer deep connections than extroverts. **Myth:** You can only have 150 total relationships. **Reality:** You can know many more people, but only about 150 can be maintained with regular, meaningful interaction. **Myth:** Social media has changed this limit. **Reality:** Digital tools can help manage relationships but don't expand your brain's fundamental processing capacity—most social media connections remain shallow.",
+  "extra_content": "## Applying Dunbar's Number: The Layered Relationship Framework\n\n### Step 1: Map Your Social Layers\nDunbar identified nested circles within the 150 limit:\n- **Inner Circle (1-2 people)**: Your closest confidants\n- **Intimate Friends (5 people)**: Those you turn to in crisis\n- **Close Friends (15 people)**: Regular social contact, deep trust\n- **Good Friends (50 people)**: Monthly interaction, shared interests\n- **Meaningful Connections (150 people)**: People you know well enough to have a real conversation\n- **Stable Acquaintances (500 people)**: Faces you recognize and can name\n\n### Step 2: Audit Your Current Relationships\n- List people in each layer\n- Identify where you're over-invested (too much time on outer layers)\n- Spot neglected relationships in inner layers\n- Calculate your 'relationship ROI' - time invested vs. relationship depth\n\n### Step 3: Optimize Your Social Investment\n- **80/20 Rule**: Spend 80% of social energy on inner three layers (22 people)\n- **Regular Maintenance**: Schedule consistent contact with each layer\n- **Graceful Boundaries**: Let distant connections naturally fade rather than forcing maintenance\n- **Quality Gates**: Before adding new relationships, ensure you have capacity\n\n### Step 4: Organizational Application\n- **Team Design**: Keep working teams under 150 people for natural cohesion\n- **Management Structure**: Add formal hierarchy when groups exceed this limit\n- **Community Building**: Break large communities into sub-groups of 150 or fewer\n- **Communication Strategy**: Use broadcast methods for groups over 150, personal touch for smaller groups\n\n### Warning Signs You've Exceeded Your Limit\n- Forgetting people's names or personal details\n- Feeling socially overwhelmed or exhausted\n- Superficial interactions becoming the norm\n- Difficulty maintaining regular contact with close friends\n- Stress from trying to keep up with everyone",
+  "source_file": "The Dunbar Number.md",
+  "target_persona": [
+    "founder",
+    "executive"
+  ],
+  "startup_phase": [
+    "seed",
+    "growth",
+    "scale-up"
+  ],
+  "problem_category": [
+    "hiring",
+    "team_and_culture",
+    "operations"
+  ]
+}
