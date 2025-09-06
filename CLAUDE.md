@@ -8,26 +8,31 @@ The Phoenix Framework is a sophisticated serverless web application that helps s
 
 ## Architecture
 
-This is a **Next.js 15.5 application** with the following structure:
-- `src/app/` - Next.js App Router application
+This is a **Turbo monorepo** with the following structure:
+- `apps/web/` - Next.js 15.5 web application with App Router
+- `packages/core/` - Phoenix Framework Core Engine (TypeScript business logic)
+- `packages/ui/` - Shared UI components
+- `packages/config/` - Shared configuration files
 - `scripts/` - Utility scripts for embeddings generation and CLI tools
 - `supabase/` - Database schema and migrations
 - `docs/` - Comprehensive project documentation
 - `.bmad-core/` - BMAD project management system
 
 **Key Architectural Principles:**
-- Serverless architecture using Netlify Functions
-- Vector database for semantic search using pgvector
-- AI-powered framework selection with OpenAI embeddings
-- Clean separation between presentation layer and business logic
-- Sophisticated knowledge management with well-structured content
+- **Monorepo Structure**: Turbo-powered monorepo for better code organization and build performance
+- **Clean Architecture**: Core business logic separated in `@phoenix/core` package
+- **Serverless Architecture**: Using Netlify Functions for backend APIs
+- **Vector Database**: Semantic search using pgvector with OpenAI embeddings
+- **AI-Powered Framework Selection**: Context-aware recommendation system
+- **Sophisticated Knowledge Management**: Structured content with rich metadata
 
 ## Tech Stack
 
 - **Runtime:** Node.js v24
-- **Package Manager:** pnpm v9.0+
+- **Build System:** Turbo v2.5.6 (monorepo orchestration)
+- **Package Manager:** pnpm v9.0+ with workspaces
 - **Frontend:** Next.js v15.5 with App Router + Turbopack
-- **AI Integration:** Vercel AI SDK v5.0.23 + AI Elements
+- **AI Integration:** Vercel AI SDK v5.0.23 + AI Elements  
 - **AI Models:** Google Gemini (@ai-sdk/google v2.0.8) + OpenAI (@ai-sdk/openai v2.0.20)
 - **Embeddings:** OpenAI text-embedding-3-small (1536 dimensions)
 - **UI:** Tailwind CSS v4.1.12 (no component library yet)
@@ -43,20 +48,22 @@ This is a **Next.js 15.5 application** with the following structure:
 
 ## Development Commands
 
+All commands are orchestrated through Turbo at the monorepo root:
+
 ```bash
-# Install dependencies
+# Install dependencies for all workspaces
 pnpm install
 
-# Start development server with Turbopack
+# Start development server with Turbopack (runs all apps)
 pnpm dev
 
-# Build application
+# Build all applications and packages
 pnpm build
 
-# Start production server
+# Start production server (after build)
 pnpm start
 
-# Run tests
+# Run all tests across workspaces
 pnpm test
 
 # Run tests in watch mode
@@ -71,23 +78,47 @@ pnpm test:integration
 # Run E2E tests
 pnpm test:e2e
 
-# Lint code
+# Test silently (used in CI)
+pnpm test:silent
+
+# Lint all code
 pnpm lint
 
 # Fix linting issues
 pnpm lint:fix
 
-# Type check
+# Lint quietly (suppress warnings)
+pnpm lint:quiet
+
+# Type check all packages
 pnpm typecheck
 
-# Format code
+# Format all code
 pnpm format
+
+# Check code formatting
+pnpm format:check
 
 # Generate embeddings for knowledge content
 pnpm embeddings:generate
 
-# Test silently (used in CI)
-pnpm test:silent
+# Fix type issues across packages
+pnpm fix:types
+```
+
+### Working with Individual Packages
+
+```bash
+# Work on web app only
+cd apps/web
+pnpm dev
+
+# Work on core package only  
+cd packages/core
+pnpm dev
+
+# Build specific package
+turbo build --filter=@phoenix/core
 ```
 
 ## Environment Variables Required
@@ -289,10 +320,11 @@ This project uses BMAD (Build Measure and Deploy) core system for project manage
 ## Development Guidelines
 
 1. **Code Architecture:**
-   - Keep business logic separate from UI components
+   - **Monorepo Organization**: Keep business logic in `@phoenix/core`, UI in `@phoenix/ui`, web app in `apps/web`
+   - **Clean Architecture**: Core package should be framework-agnostic TypeScript
    - Use TypeScript strictly with proper type definitions
    - Implement proper error handling and loading states
-   - Follow Next.js App Router conventions
+   - Follow Next.js App Router conventions in web app
 
 2. **Knowledge Management:**
    - All knowledge content follows a structured content model
@@ -354,9 +386,12 @@ This project is in **active development** with:
 
 ## Important Notes
 
-- **Package Manager:** This project uses `pnpm`, not `npm`
+- **Monorepo Structure:** This is a Turbo monorepo with workspaces in `apps/` and `packages/`
+- **Package Manager:** This project uses `pnpm`, not `npm` - all commands run from monorepo root
+- **Core Engine:** Business logic lives in `@phoenix/core` package, imported by web app
 - **Database:** Requires PostgreSQL with pgvector extension (provided by Supabase)
 - **API Keys:** OpenAI API key required for embedding generation
 - **Development:** Use Turbopack for faster development builds (`pnpm dev`)
+- **Build Dependencies:** Turbo handles build orchestration with proper dependency management
 - **Content Updates:** Run embedding generation after knowledge content changes
 - **Context7 Integration:** Always try to use context7 MCP first for package documentation lookups
