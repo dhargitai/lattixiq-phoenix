@@ -3,7 +3,6 @@ import type {
   Session,
   SessionConfig,
   Message,
-  MessageRole,
   SessionArtifact,
   ArtifactType,
   ISessionManager,
