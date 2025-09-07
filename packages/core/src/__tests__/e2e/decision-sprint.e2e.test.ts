@@ -9,15 +9,11 @@
 import { describe, it, expect, beforeAll, afterAll, beforeEach, vi } from 'vitest';
 import { PhoenixOrchestrator } from '../../orchestration/phoenix-orchestrator';
 import { SessionManager } from '../../services/session-manager';
-import { FrameworkSelector } from '../../services/framework-selector';
-import { AIRouter } from '../../services/ai-router';
-import { PhaseManager } from '../../orchestration/phase-manager';
 import type { 
   Session, 
   CoreMessage, 
   SessionConfig,
-  PhoenixPhase,
-  PhaseContext 
+  OrchestrationResult 
 } from '../../types';
 
 // Test configuration
@@ -39,7 +35,10 @@ describe('Decision Sprint E2E Tests', () => {
     process.env.OPENAI_API_KEY = 'test-openai-key';
     process.env.GOOGLE_API_KEY = 'test-google-key';
 
-    sessionManager = new SessionManager();
+    sessionManager = new SessionManager(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_ROLE_KEY!
+    );
     orchestrator = new PhoenixOrchestrator();
   });
 
@@ -50,11 +49,12 @@ describe('Decision Sprint E2E Tests', () => {
     
     // Create a fresh test session for each test
     const config: SessionConfig = {
-      enableConversationBranching: true,
-      performanceTracking: true,
-      preferredModel: 'gpt-4.1',
-      maxFrameworks: 3,
-      frameworkSelectionMode: 'auto',
+      enableBranching: true,
+      enableFrameworkRecommendations: true,
+      responseTimeout: 30000,
+      maxMessagesPerPhase: 50,
+      verboseMode: false,
+      skipTutorials: false,
     };
 
     testSession = await sessionManager.createSession(E2E_CONFIG.testUser, config);
@@ -79,12 +79,12 @@ describe('Decision Sprint E2E Tests', () => {
         messages[0].content
       );
 
-      expect(response.success).toBe(true);
+      expect(response.sessionId).toBe(testSession.id);
       expect(response.content).toContain('Phoenix Framework');
-      expect(response.session.currentPhase).toBe('problem_intake');
-      expect(response.artifact?.artifactType).toBe('problem_brief');
+      expect(response.currentPhase).toBe('problem_intake');
+      expect(response.artifacts?.[0]?.artifactType).toBe('problem_brief');
 
-      const problemBrief = response.artifact?.content;
+      const problemBrief = response.artifacts?.[0]?.content;
       expect(problemBrief.problemStatement).toContain('pivot');
       expect(problemBrief.stakeholders).toContain('employees');
       expect(problemBrief.urgency).toBe('high');
@@ -106,11 +106,11 @@ describe('Decision Sprint E2E Tests', () => {
         diagnosticMessage.content
       );
 
-      expect(response.success).toBe(true);
-      expect(response.session.currentPhase).toBe('diagnostic_interview');
-      expect(response.artifact?.artifactType).toBe('diagnostic_notes');
+      expect(response.sessionId).toBe(testSession.id);
+      expect(response.currentPhase).toBe('diagnostic_interview');
+      expect(response.artifacts?.[0]?.artifactType).toBe('diagnostic_notes');
 
-      const diagnosticNotes = response.artifact?.content;
+      const diagnosticNotes = response.artifacts?.[0]?.content;
       expect(diagnosticNotes.keyFindings).toContain('overengineered');
       expect(diagnosticNotes.stakeholderInsights).toContain('team split');
 
@@ -125,8 +125,8 @@ describe('Decision Sprint E2E Tests', () => {
         frameworkMessage.content
       );
 
-      expect(response.success).toBe(true);
-      expect(response.session.currentPhase).toBe('framework_selection');
+      expect(response.sessionId).toBe(testSession.id);
+      expect(response.currentPhase).toBe('framework_selection');
       expect(response.frameworkSelections).toBeDefined();
       expect(response.frameworkSelections!.length).toBeGreaterThan(0);
 
