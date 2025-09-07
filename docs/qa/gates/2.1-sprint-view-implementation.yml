@@ -1,0 +1,81 @@
+schema: 1
+story: "2.1"
+story_title: "Sprint View Implementation"
+gate: FAIL
+status_reason: "Critical build failures, type errors, and missing core package integration prevent production readiness. Comprehensive fixes required across monorepo."
+reviewer: "Quinn (Test Architect)"
+updated: "2025-09-07T23:30:00Z"
+
+waiver: { active: false }
+
+top_issues:
+  - id: "BUILD-001"
+    severity: high
+    finding: "Core package build failing with 100+ TypeScript errors preventing monorepo compilation"
+    suggested_action: "Fix type definitions and test files in packages/core before continuing"
+  - id: "TYPE-001"
+    severity: high
+    finding: "Web app cannot import types from @phoenix/core due to build failures"
+    suggested_action: "Ensure core package builds successfully and exports required types"
+  - id: "LINT-001"
+    severity: medium
+    finding: "23 linting violations including 'any' types and unescaped entities"
+    suggested_action: "Fix TypeScript strict typing and React JSX issues"
+  - id: "TEST-001"
+    severity: high
+    finding: "Test suite cannot run due to dependency and configuration issues"
+    suggested_action: "Fix test setup, dependencies, and ensure Jest/Vitest configuration is correct"
+  - id: "ARCH-001"
+    severity: medium
+    finding: "Type duplication - types defined in both web app and core package"
+    suggested_action: "Move all shared types to @phoenix/core and import from there"
+
+risk_summary:
+  totals: { critical: 0, high: 4, medium: 2, low: 0 }
+  recommendations:
+    must_fix:
+      - "Fix core package build failures"
+      - "Resolve type import issues"
+      - "Ensure test suite can execute"
+    monitor:
+      - "Linting violations"
+      - "Architecture compliance"
+
+quality_score: 40
+
+evidence:
+  tests_reviewed: 0  # Cannot execute due to build failures
+  risks_identified: 6
+  trace:
+    ac_covered: []  # Cannot verify due to test failures
+    ac_gaps: [1, 2, 3, 4, 5, 6, 7, 8]  # All ACs need verification
+
+nfr_validation:
+  security:
+    status: CONCERNS
+    notes: "API endpoints have proper error handling but use 'any' types"
+  performance:
+    status: CONCERNS
+    notes: "Cannot validate performance due to build failures"
+  reliability:
+    status: FAIL
+    notes: "Application cannot build or run tests successfully"
+  maintainability:
+    status: CONCERNS
+    notes: "Type safety compromised, architecture violations present"
+
+recommendations:
+  immediate:
+    - action: "Fix all TypeScript build errors in packages/core"
+      refs: ["packages/core/src/**/*.ts"]
+    - action: "Resolve type imports from @phoenix/core to web app"
+      refs: ["apps/web/src/lib/types/*.ts", "apps/web/src/lib/stores/useSprintStore.ts"]
+    - action: "Fix test configuration and dependencies"
+      refs: ["apps/web/src/**/*.test.tsx"]
+    - action: "Remove 'any' types and implement proper typing"
+      refs: ["apps/web/src/app/api/search/semantic/route.ts", "apps/web/src/components/sprint/*.tsx"]
+  future:
+    - action: "Implement missing Vitest configuration for web app"
+      refs: ["apps/web/vitest.config.ts"]
+    - action: "Add comprehensive integration tests after build fixes"
+      refs: ["apps/web/src/__tests__/integration/"]
