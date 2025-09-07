@@ -6,7 +6,7 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { streamText } from 'ai';
+import { streamText, convertToModelMessages } from 'ai';
 import { openai } from '@ai-sdk/openai';
 import { createClient } from '@supabase/supabase-js';
 import { PhoenixOrchestrator } from '@phoenix/core/orchestration/phoenix-orchestrator';
@@ -59,8 +59,24 @@ const orchestrator = new PhoenixOrchestrator();
  */
 export async function POST(req: NextRequest) {
   try {
-    // Parse request body
-    const body: SprintRequest = await req.json();
+    // Parse request body - handle both old and new useChat formats
+    const rawBody = await req.json();
+    
+    // Check if this is the new useChat format (has messages array)
+    let body: SprintRequest;
+    if (rawBody.messages && Array.isArray(rawBody.messages)) {
+      // New useChat format
+      const lastMessage = rawBody.messages[rawBody.messages.length - 1];
+      body = {
+        message: lastMessage.parts?.[0]?.text || lastMessage.content || '',
+        userId: rawBody.userId || 'anonymous',
+        sessionId: rawBody.sessionId,
+        ...rawBody
+      };
+    } else {
+      // Legacy format
+      body = rawBody as SprintRequest;
+    }
     
     // Validate required fields
     if (!body.message || !body.userId) {
@@ -185,8 +201,8 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Return streaming response
-    return streamText({
+    // Return streaming response in the format expected by useChat
+    const streamResult = streamText({
       model: openai('gpt-4o-mini'), // Use for coordination only
       prompt: `Return this exact response as streaming text: ${result.content}`,
       async onFinish() {
@@ -201,6 +217,10 @@ export async function POST(req: NextRequest) {
           });
         }
       },
+    });
+
+    // Return the proper UI message stream response
+    return streamResult.toUIMessageStreamResponse({
       headers: {
         'X-Session-Id': sessionId,
         'X-Current-Phase': result.currentPhase,

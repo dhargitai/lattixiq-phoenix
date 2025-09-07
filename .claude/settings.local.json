@@ -10,7 +10,11 @@
       "Bash(pnpm tsc:*)",
       "Bash(npx vitest run:*)",
       "Bash(pnpm typecheck:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(timeout:*)",
+      "Bash(pnpm dev:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs"
     ],
     "deny": [],
     "ask": []
