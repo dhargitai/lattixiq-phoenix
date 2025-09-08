@@ -1,18 +1,18 @@
-export { BasePhaseHandler } from './base-handler';
-export { ProblemIntakeHandler } from './problem-intake-handler';
-export { DiagnosticInterviewHandler } from './diagnostic-interview-handler';
-export { TypeClassificationHandler } from './type-classification-handler';
-export { FrameworkSelectionHandler } from './framework-selection-handler';
-export { FrameworkApplicationHandler } from './framework-application-handler';
-export { CommitmentMemoHandler } from './commitment-memo-handler';
+export { BasePhaseHandler } from './base-handler.js';
+export { ProblemIntakeHandler } from './problem-intake-handler.js';
+export { DiagnosticInterviewHandler } from './diagnostic-interview-handler.js';
+export { TypeClassificationHandler } from './type-classification-handler.js';
+export { FrameworkSelectionHandler } from './framework-selection-handler.js';
+export { FrameworkApplicationHandler } from './framework-application-handler.js';
+export { CommitmentMemoHandler } from './commitment-memo-handler.js';
 
-import type { PhoenixPhase, PhaseHandler } from '../types';
-import { ProblemIntakeHandler } from './problem-intake-handler';
-import { DiagnosticInterviewHandler } from './diagnostic-interview-handler';
-import { TypeClassificationHandler } from './type-classification-handler';
-import { FrameworkSelectionHandler } from './framework-selection-handler';
-import { FrameworkApplicationHandler } from './framework-application-handler';
-import { CommitmentMemoHandler } from './commitment-memo-handler';
+import type { PhoenixPhase, PhaseHandler } from '../types/index.js';
+import { ProblemIntakeHandler } from './problem-intake-handler.js';
+import { DiagnosticInterviewHandler } from './diagnostic-interview-handler.js';
+import { TypeClassificationHandler } from './type-classification-handler.js';
+import { FrameworkSelectionHandler } from './framework-selection-handler.js';
+import { FrameworkApplicationHandler } from './framework-application-handler.js';
+import { CommitmentMemoHandler } from './commitment-memo-handler.js';
 
 export function createPhaseHandler(phase: PhoenixPhase): PhaseHandler {
   switch (phase) {

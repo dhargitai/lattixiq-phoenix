@@ -201,7 +201,7 @@ export interface Message {
   role: MessageRole;
   content: string;
   modelUsed?: AIModelType;
-  phaseNumber: PhoenixPhase;
+  phaseNumber?: number;
   isActiveBranch: boolean;
   metadata: MessageMetadata;
   performanceMetrics: PerformanceMetrics;

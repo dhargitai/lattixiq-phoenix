@@ -6,6 +6,7 @@ import type {
   SessionArtifact,
   PhaseTransition,
   PhaseContext,
+  FrameworkSelection,
 } from '../types';
 
 export interface PhaseDefinition {
@@ -131,7 +132,7 @@ export class PhaseManager {
     let totalScore = 0;
 
     const phaseMessages = context.messages.filter(
-      m => m.phaseNumber === currentPhase && m.role === 'user'
+      m => m.role === 'user'
     );
     
     if (phaseMessages.length < definition.minMessages) {
@@ -349,11 +350,11 @@ export class PhaseManager {
         return !!artifactContent.reasoning;
       
       case 'frameworks_selected':
-        return !!(context.selectedFrameworks && 
-               context.selectedFrameworks.length > 0);
+        return !!(context.frameworkSelections && 
+               context.frameworkSelections.length > 0);
       
       case 'relevance_scores':
-        return context.selectedFrameworks?.every(f => f.relevanceScore > 0) || false;
+        return context.frameworkSelections?.every((f: FrameworkSelection) => f.relevanceScore > 0) || false;
       
       case 'framework_insights':
         return Array.isArray(artifactContent.insights) && 

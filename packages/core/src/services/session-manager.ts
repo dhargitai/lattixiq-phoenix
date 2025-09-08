@@ -8,6 +8,7 @@ import type {
   ISessionManager,
   SessionStatus,
   PhoenixPhase,
+  CoreMessage,
 } from '../types';
 
 export class SessionManager implements ISessionManager {
@@ -328,5 +329,95 @@ export class SessionManager implements ISessionManager {
       createdAt: new Date(data.created_at),
       updatedAt: new Date(data.updated_at),
     };
+  }
+
+  private transformCoreMessage(data: any): CoreMessage {
+    return {
+      id: data.id,
+      sessionId: data.session_id,
+      role: data.role,
+      content: data.content,
+      model: data.model_used,
+      parentMessageId: data.parent_message_id,
+      phaseNumber: data.phase_number,
+      createdAt: new Date(data.created_at),
+    };
+  }
+
+  async getSession(sessionId: string): Promise<Session | null> {
+    const { data, error } = await this.supabase
+      .from('sessions')
+      .select('*')
+      .eq('id', sessionId)
+      .single();
+
+    if (error) {
+      if (error.code === 'PGRST116') {
+        return null; // Not found
+      }
+      throw new Error(`Failed to get session: ${error.message}`);
+    }
+
+    return this.transformSession(data);
+  }
+
+  async getConversationMessages(sessionId: string, messageId?: string): Promise<CoreMessage[]> {
+    let query = this.supabase
+      .from('messages')
+      .select('*')
+      .eq('session_id', sessionId)
+      .order('created_at', { ascending: true });
+
+    if (messageId) {
+      query = query.eq('parent_message_id', messageId);
+    }
+
+    const { data, error } = await query;
+
+    if (error) {
+      throw new Error(`Failed to get conversation messages: ${error.message}`);
+    }
+
+    return data ? data.map((item: any) => this.transformCoreMessage(item)) : [];
+  }
+
+  async getSessionArtifacts(sessionId: string, type?: ArtifactType): Promise<SessionArtifact[]> {
+    let query = this.supabase
+      .from('session_artifacts')
+      .select('*')
+      .eq('session_id', sessionId)
+      .order('created_at', { ascending: false });
+
+    if (type) {
+      query = query.eq('artifact_type', type);
+    }
+
+    const { data, error } = await query;
+
+    if (error) {
+      throw new Error(`Failed to get session artifacts: ${error.message}`);
+    }
+
+    return data ? data.map((item: any) => this.transformArtifact(item)) : [];
+  }
+
+  async healthCheck(): Promise<{ available: boolean; error?: string }> {
+    try {
+      const { error } = await this.supabase
+        .from('sessions')
+        .select('id')
+        .limit(1);
+
+      if (error) {
+        return { available: false, error: error.message };
+      }
+
+      return { available: true };
+    } catch (err) {
+      return { 
+        available: false, 
+        error: err instanceof Error ? err.message : 'Unknown error' 
+      };
+    }
   }
 }

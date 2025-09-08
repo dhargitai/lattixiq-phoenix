@@ -42,6 +42,9 @@ describe('PhoenixOrchestrator', () => {
       enableConversationBranching: true,
       performanceTracking: true,
     },
+    metadata: {},
+    startedAt: new Date('2024-01-01T00:00:00Z'),
+    lastActivityAt: new Date('2024-01-01T01:00:00Z'),
     createdAt: new Date('2024-01-01T00:00:00Z'),
     updatedAt: new Date('2024-01-01T01:00:00Z'),
   };
@@ -182,9 +185,7 @@ describe('PhoenixOrchestrator', () => {
 
       const mockValidation: ValidationResult = {
         isValid: true,
-        isReady: true,
         score: 0.8,
-        elements: [],
         requiredElements: [],
       };
       
