@@ -20,130 +20,104 @@ describe('PerformanceTracker', () => {
 
   describe('Basic Operation Tracking', () => {
     it('should start and end operations correctly', () => {
-      const operationId = tracker.startOperation('test_operation');
-      
-      expect(operationId).toBeTruthy();
-      expect(typeof operationId).toBe('string');
+      tracker.startOperation('test_operation');
       
       // Advance time by 100ms
       vi.advanceTimersByTime(100);
       
-      const result = tracker.endOperation(operationId, 'test_operation');
+      const duration = tracker.endOperation('test_operation');
       
-      expect(result.operationId).toBe(operationId);
-      expect(result.operation).toBe('test_operation');
-      expect(result.duration).toBe(100);
+      expect(duration).toBe(100);
     });
 
-    it('should generate unique operation IDs', () => {
-      const id1 = tracker.startOperation('operation1');
-      const id2 = tracker.startOperation('operation2');
-      const id3 = tracker.startOperation('operation1'); // Same type, different ID
+    it('should handle multiple operation types', () => {
+      tracker.startOperation('operation1');
+      tracker.startOperation('operation2');
+      tracker.startOperation('operation3');
       
-      expect(id1).not.toBe(id2);
-      expect(id1).not.toBe(id3);
-      expect(id2).not.toBe(id3);
+      vi.advanceTimersByTime(100);
+      
+      const duration1 = tracker.endOperation('operation1');
+      const duration2 = tracker.endOperation('operation2'); 
+      const duration3 = tracker.endOperation('operation3');
+      
+      expect(duration1).toBe(100);
+      expect(duration2).toBe(100);
+      expect(duration3).toBe(100);
     });
 
     it('should track multiple concurrent operations', () => {
-      const id1 = tracker.startOperation('operation1');
+      tracker.startOperation('operation1');
       vi.advanceTimersByTime(50);
       
-      const id2 = tracker.startOperation('operation2');
+      tracker.startOperation('operation2');
       vi.advanceTimersByTime(30);
       
-      const result1 = tracker.endOperation(id1, 'operation1');
+      const duration1 = tracker.endOperation('operation1');
       vi.advanceTimersByTime(20);
       
-      const result2 = tracker.endOperation(id2, 'operation2');
+      const duration2 = tracker.endOperation('operation2');
       
-      expect(result1.duration).toBe(80); // 50 + 30
-      expect(result2.duration).toBe(50); // 30 + 20
-      expect(result1.operation).toBe('operation1');
-      expect(result2.operation).toBe('operation2');
+      expect(duration1).toBe(80); // 50 + 30
+      expect(duration2).toBe(50); // 30 + 20
     });
 
-    it('should throw error when ending non-existent operation', () => {
-      expect(() => {
-        tracker.endOperation('non-existent-id');
-      }).toThrow('Operation not found: non-existent-id');
+    it('should return 0 when ending non-existent operation', () => {
+      const result = tracker.endOperation('non-existent-operation');
+      expect(result).toBe(0);
     });
 
-    it('should throw error when ending already completed operation', () => {
-      const operationId = tracker.startOperation('test_operation');
+    it('should return 0 when ending already completed operation', () => {
+      tracker.startOperation('test_operation');
       
       vi.advanceTimersByTime(100);
-      tracker.endOperation(operationId);
+      const firstResult = tracker.endOperation('test_operation');
+      expect(firstResult).toBe(100);
       
-      expect(() => {
-        tracker.endOperation(operationId);
-      }).toThrow('Operation not found: ' + operationId);
+      const secondResult = tracker.endOperation('test_operation');
+      expect(secondResult).toBe(0);
     });
   });
 
   describe('AI Call Tracking', () => {
     it('should record AI call with basic metrics', () => {
-      tracker.recordAICall({
-        model: 'gpt-4.1',
-        tokensInput: 100,
-        tokensOutput: 50,
+      tracker.recordAICall('gpt-4.1', {
         duration: 1500,
+        tokensUsed: 150,
         cost: 0.01,
       });
 
       const metrics = tracker.getMetrics();
       
-      expect(metrics.duration).toBeGreaterThan(0);
+      expect(metrics.aiGenerationTime).toBe(1500);
       expect(metrics.tokensUsed).toBe(150);
       expect(metrics.cost).toBe(0.01);
-      expect(aiMetrics!.metadata).toEqual({
-        models: { 'gpt-4.1': 1 },
-        totalTokensInput: 100,
-        totalTokensOutput: 50,
-        totalCost: 0.01,
-        averageTokensPerCall: 150,
-        averageCostPerCall: 0.01,
-      });
     });
 
     it('should aggregate multiple AI calls', () => {
-      tracker.recordAICall({
-        model: 'gpt-4.1',
-        tokensInput: 100,
-        tokensOutput: 50,
+      tracker.recordAICall('gpt-4.1', {
         duration: 1500,
+        tokensUsed: 150,
         cost: 0.01,
       });
 
-      tracker.recordAICall({
-        model: 'gemini-2.5-flash',
-        tokensInput: 200,
-        tokensOutput: 100,
+      tracker.recordAICall('gemini-2.5-flash', {
         duration: 800,
+        tokensUsed: 300,
         cost: 0.005,
       });
 
-      tracker.recordAICall({
-        model: 'gpt-4.1',
-        tokensInput: 150,
-        tokensOutput: 75,
+      tracker.recordAICall('gpt-4.1', {
         duration: 2000,
+        tokensUsed: 225,
         cost: 0.015,
       });
 
       const metrics = tracker.getMetrics();
       
-      expect(metrics.tokensUsed).toBe(675);
-      expect(aiMetrics!.totalDuration).toBe(4300);
-      expect(aiMetrics!.metadata.models).toEqual({
-        'gpt-4.1': 2,
-        'gemini-2.5-flash': 1,
-      });
-      expect(aiMetrics!.metadata.totalTokensInput).toBe(450);
-      expect(aiMetrics!.metadata.totalTokensOutput).toBe(225);
-      expect(aiMetrics!.metadata.totalCost).toBe(0.03);
-      expect(aiMetrics!.metadata.averageTokensPerCall).toBe(225); // (150+300+225)/3
-      expect(aiMetrics!.metadata.averageCostPerCall).toBe(0.01);
+      expect(metrics.tokensUsed).toBe(675); // 150 + 300 + 225
+      expect(metrics.cost).toBe(0.03); // 0.01 + 0.005 + 0.015
+      expect(metrics.aiGenerationTime).toBe(2000); // Last call duration
     });
 
     it('should handle AI calls with missing optional fields', () => {

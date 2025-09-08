@@ -3,35 +3,35 @@
  */
 
 import { describe, it, expect } from 'vitest';
-import { PhoenixError, ErrorCode, createErrorResponse, isRetryableError } from './errors';
+import { PhoenixError, ErrorCode } from './errors';
 
 describe('PhoenixError', () => {
   describe('Constructor', () => {
     it('should create error with message and code', () => {
-      const error = new PhoenixError('Test error message', ErrorCode.VALIDATION_FAILED);
+      const error = new PhoenixError(ErrorCode.VALIDATION_ERROR, 'Test error message');
       
       expect(error.message).toBe('Test error message');
-      expect(error.code).toBe(ErrorCode.VALIDATION_FAILED);
+      expect(error.code).toBe(ErrorCode.VALIDATION_ERROR);
       expect(error.name).toBe('PhoenixError');
-      expect(error.context).toBeUndefined();
-      expect(error.retryable).toBe(false);
+      expect(Object.keys(error.context).length).toBe(0);
+      expect(error.isRetryable).toBe(false);
     });
 
     it('should create error with context', () => {
       const context = { sessionId: 'session-123', phase: 'problem_intake' };
-      const error = new PhoenixError('Context error', ErrorCode.SESSION_NOT_FOUND, context);
+      const error = new PhoenixError(ErrorCode.SESSION_NOT_FOUND, 'Context error', context);
       
       expect(error.context).toEqual(context);
     });
 
     it('should create error with retryable flag', () => {
-      const error = new PhoenixError('Retryable error', ErrorCode.AI_REQUEST_FAILED, undefined, true);
+      const error = new PhoenixError(ErrorCode.AI_MODEL_ERROR, 'Retryable error', {}, true);
       
-      expect(error.retryable).toBe(true);
+      expect(error.isRetryable).toBe(true);
     });
 
     it('should inherit from Error properly', () => {
-      const error = new PhoenixError('Test', ErrorCode.UNKNOWN);
+      const error = new PhoenixError(ErrorCode.VALIDATION_ERROR, 'Test');
       
       expect(error instanceof Error).toBe(true);
       expect(error instanceof PhoenixError).toBe(true);
@@ -41,24 +41,28 @@ describe('PhoenixError', () => {
 
   describe('Error Codes', () => {
     it('should have all expected error codes', () => {
-      expect(ErrorCode.UNKNOWN).toBe('UNKNOWN');
-      expect(ErrorCode.VALIDATION_FAILED).toBe('VALIDATION_FAILED');
       expect(ErrorCode.SESSION_NOT_FOUND).toBe('SESSION_NOT_FOUND');
-      expect(ErrorCode.DATABASE_ERROR).toBe('DATABASE_ERROR');
-      expect(ErrorCode.AI_REQUEST_FAILED).toBe('AI_REQUEST_FAILED');
+      expect(ErrorCode.INVALID_PHASE_TRANSITION).toBe('INVALID_PHASE_TRANSITION');
+      expect(ErrorCode.PHASE_VALIDATION_FAILED).toBe('PHASE_VALIDATION_FAILED');
+      expect(ErrorCode.AI_MODEL_ERROR).toBe('AI_MODEL_ERROR');
+      expect(ErrorCode.AI_TIMEOUT).toBe('AI_TIMEOUT');
+      expect(ErrorCode.AI_GENERATION_ERROR).toBe('AI_GENERATION_ERROR');
+      expect(ErrorCode.AI_STREAMING_ERROR).toBe('AI_STREAMING_ERROR');
+      expect(ErrorCode.INVALID_MODEL_TYPE).toBe('INVALID_MODEL_TYPE');
+      expect(ErrorCode.EMBEDDING_GENERATION_FAILED).toBe('EMBEDDING_GENERATION_FAILED');
       expect(ErrorCode.FRAMEWORK_SELECTION_FAILED).toBe('FRAMEWORK_SELECTION_FAILED');
-      expect(ErrorCode.PHASE_TRANSITION_FAILED).toBe('PHASE_TRANSITION_FAILED');
+      expect(ErrorCode.DATABASE_ERROR).toBe('DATABASE_ERROR');
       expect(ErrorCode.TIMEOUT_ERROR).toBe('TIMEOUT_ERROR');
-      expect(ErrorCode.AUTHENTICATION_FAILED).toBe('AUTHENTICATION_FAILED');
-      expect(ErrorCode.RATE_LIMIT_EXCEEDED).toBe('RATE_LIMIT_EXCEEDED');
-      expect(ErrorCode.INVALID_CONFIGURATION).toBe('INVALID_CONFIGURATION');
+      expect(ErrorCode.RATE_LIMIT_ERROR).toBe('RATE_LIMIT_ERROR');
+      expect(ErrorCode.AUTHENTICATION_ERROR).toBe('AUTHENTICATION_ERROR');
+      expect(ErrorCode.VALIDATION_ERROR).toBe('VALIDATION_ERROR');
     });
   });
 
   describe('toJSON', () => {
     it('should serialize error to JSON correctly', () => {
       const context = { userId: 'user-123', operation: 'test' };
-      const error = new PhoenixError('Serialization test', ErrorCode.DATABASE_ERROR, context, true);
+      const error = new PhoenixError(ErrorCode.DATABASE_ERROR, 'Serialization test', context, true);
       
       const json = error.toJSON();
       
@@ -67,8 +71,10 @@ describe('PhoenixError', () => {
         message: 'Serialization test',
         code: 'DATABASE_ERROR',
         context: context,
-        retryable: true,
+        isRetryable: true,
+        recoverySuggestions: [],
         timestamp: expect.any(String),
+        stack: expect.any(String),
       });
       
       // Verify timestamp is valid ISO string

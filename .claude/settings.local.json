@@ -18,7 +18,8 @@
       "Bash(pnpm lint:*)",
       "Bash(mkdir:*)",
       "Bash(pnpm build:*)",
-      "Bash(pnpm -w test)"
+      "Bash(pnpm -w test)",
+      "Bash(turbo run typecheck:*)"
     ],
     "deny": [],
     "ask": []
