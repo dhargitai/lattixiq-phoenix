@@ -16,7 +16,9 @@
       "mcp__context7__resolve-library-id",
       "mcp__context7__get-library-docs",
       "Bash(pnpm lint:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(pnpm build:*)",
+      "Bash(pnpm -w test)"
     ],
     "deny": [],
     "ask": []

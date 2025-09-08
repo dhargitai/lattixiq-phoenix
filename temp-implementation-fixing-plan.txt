@@ -1,0 +1,113 @@
+     ╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+     │ Phoenix Framework QA Issue Analysis & Fix Plan                                                                                                     │
+     │                                                                                                                                                    │
+     │ Based on comprehensive analysis of Stories 2.0 and 2.1 QA feedback, I've identified and grouped all issues into logical fixing tasks. Here's the   │
+     │ recommended plan to achieve a working MVP:                                                                                                         │
+     │                                                                                                                                                    │
+     │ Critical Issues Summary                                                                                                                            │
+     │                                                                                                                                                    │
+     │ Build-Breaking Issues (200+ TypeScript errors)                                                                                                     │
+     │                                                                                                                                                    │
+     │ - Test files using incorrect interface properties                                                                                                  │
+     │ - Missing methods on service classes                                                                                                               │
+     │ - Type mismatches between interfaces and implementations                                                                                           │
+     │ - No imports from @phoenix/core in web app (complete type isolation failure)                                                                       │
+     │                                                                                                                                                    │
+     │ Architecture Issues                                                                                                                                │
+     │                                                                                                                                                    │
+     │ - Type sharing between packages not working                                                                                                        │
+     │ - Duplicated types instead of importing from core                                                                                                  │
+     │ - Missing service exports from core package                                                                                                        │
+     │                                                                                                                                                    │
+     │ Code Quality Issues                                                                                                                                │
+     │                                                                                                                                                    │
+     │ - 23 linting errors (unescaped entities, any types)                                                                                                │
+     │ - 17 linting warnings (unused variables, missing deps)                                                                                             │
+     │ - Missing input validation and sanitization                                                                                                        │
+     │ - No session state caching                                                                                                                         │
+     │                                                                                                                                                    │
+     │ Grouped Fixing Tasks (Recommended Order)                                                                                                           │
+     │                                                                                                                                                    │
+     │ Task 1: Fix Core TypeScript Interface Issues [CRITICAL]                                                                                            │
+     │                                                                                                                                                    │
+     │ Files: packages/core/src/types/index.ts and test files                                                                                             │
+     │ - Fix OrchestrationResult interface usage (no 'success', 'session', 'artifact' properties)                                                         │
+     │ - Update PerformanceMetrics interface (no array-like access, no 'errors' property)                                                                 │
+     │ - Fix SessionManager interface methods (missing getConversationMessages, getSessionArtifacts)                                                      │
+     │ - Update Session interface (add missing properties: metadata, startedAt, lastActivityAt)                                                           │
+     │ - Fix Message interface (add missing properties: isActiveBranch, metadata, performanceMetrics)                                                     │
+     │ - Fix ValidationResult/PhaseContext mismatches                                                                                                     │
+     │                                                                                                                                                    │
+     │ Task 2: Fix Test Implementation Issues [CRITICAL]                                                                                                  │
+     │                                                                                                                                                    │
+     │ Files: All test files in packages/core/src/tests/                                                                                                  │
+     │ - Update E2E tests to use correct OrchestrationResult properties                                                                                   │
+     │ - Fix integration test constructor calls and method signatures                                                                                     │
+     │ - Correct PerformanceTracker test method calls and property access                                                                                 │
+     │ - Fix error code enum references in error tests                                                                                                    │
+     │ - Update mock implementations to match interfaces                                                                                                  │
+     │                                                                                                                                                    │
+     │ Task 3: Export Services from Core Package [HIGH]                                                                                                   │
+     │                                                                                                                                                    │
+     │ Files: packages/core/src/index.ts                                                                                                                  │
+     │ - Export all services (SessionManager, FrameworkSelector, AIRouter, PhoenixOrchestrator)                                                           │
+     │ - Export phase handlers and utilities                                                                                                              │
+     │ - Ensure proper module resolution with .js extensions                                                                                              │
+     │                                                                                                                                                    │
+     │ Task 4: Establish Type Sharing to Web App [HIGH]                                                                                                   │
+     │                                                                                                                                                    │
+     │ Files: apps/web/src files                                                                                                                          │
+     │ - Import types from @phoenix/core instead of duplicating                                                                                           │
+     │ - Remove local type definitions that should come from core                                                                                         │
+     │ - Fix missing imports throughout web app components                                                                                                │
+     │ - Ensure build chain works correctly between packages                                                                                              │
+     │                                                                                                                                                    │
+     │ Task 5: Fix Linting Errors [MEDIUM]                                                                                                                │
+     │                                                                                                                                                    │
+     │ Files: apps/web/src files (23 errors to fix)                                                                                                       │
+     │ - Replace all 'any' types with proper TypeScript types                                                                                             │
+     │ - Escape unescaped entities in JSX (23 occurrences)                                                                                                │
+     │ - Fix require() import in tailwind.config.js                                                                                                       │
+     │ - Add missing test type definitions                                                                                                                │
+     │                                                                                                                                                    │
+     │ Task 6: Clean Up Warnings [LOW]                                                                                                                    │
+     │                                                                                                                                                    │
+     │ Files: Various in apps/web/src                                                                                                                     │
+     │ - Remove unused variables (17 warnings)                                                                                                            │
+     │ - Add missing React hook dependencies                                                                                                              │
+     │ - Clean up unused imports and functions                                                                                                            │
+     │                                                                                                                                                    │
+     │ Task 7: Add Missing Core Functionality [MEDIUM]                                                                                                    │
+     │                                                                                                                                                    │
+     │ - Implement input validation middleware                                                                                                            │
+     │ - Add session state caching layer                                                                                                                  │
+     │ - Add rate limiting to AI router                                                                                                                   │
+     │ - Fix missing methods on service classes                                                                                                           │
+     │                                                                                                                                                    │
+     │ Execution Strategy                                                                                                                                 │
+     │                                                                                                                                                    │
+     │ 1. Start with Task 1-2: Fix all TypeScript compilation errors first. Nothing else matters if the code doesn't compile.                             │
+     │ 2. Then Task 3-4: Establish proper module boundaries and type sharing. This fixes the architecture violation.                                      │
+     │ 3. Then Task 5-6: Clean up linting issues for code quality.                                                                                        │
+     │ 4. Finally Task 7: Add the missing functionality once everything compiles and passes tests.                                                        │
+     │                                                                                                                                                    │
+     │ Success Criteria for MVP                                                                                                                           │
+     │                                                                                                                                                    │
+     │ ✅ All TypeScript compilation errors resolved                                                                                                       │
+     │ ✅ Tests can execute without errors                                                                                                                 │
+     │ ✅ Proper type imports from @phoenix/core to web app                                                                                                │
+     │ ✅ Zero linting errors                                                                                                                              │
+     │ ✅ Basic functionality working end-to-end                                                                                                           │
+     │                                                                                                                                                    │
+     │ Estimated Effort                                                                                                                                   │
+     │                                                                                                                                                    │
+     │ - Tasks 1-2: 2-3 hours (fixing interfaces and tests)                                                                                               │
+     │ - Tasks 3-4: 1-2 hours (establishing proper exports/imports)                                                                                       │
+     │ - Tasks 5-6: 1 hour (linting cleanup)                                                                                                              │
+     │ - Task 7: 2-3 hours (missing functionality)                                                                                                        │
+     │                                                                                                                                                    │
+     │ Total: 6-9 hours of focused work                                                                                                                   │
+     │                                                                                                                                                    │
+     │ This plan focuses on getting to a working MVP rather than perfection. Once these critical issues are resolved, the codebase will compile, tests    │
+     │ will run, and the basic Phoenix Framework functionality will work properly.                                                                        │
+     ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯

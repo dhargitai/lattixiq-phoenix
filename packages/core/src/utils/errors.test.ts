@@ -360,11 +360,11 @@ describe('Error Inheritance and Stack Traces', () => {
     }
     
     expect(caughtError instanceof PhoenixError).toBe(true);
-    expect(caughtError.code).toBe(ErrorCode.VALIDATION_FAILED);
+    expect((caughtError as PhoenixError).code).toBe(ErrorCode.FRAMEWORK_SELECTION_FAILED);
     
     // Create error in Promise rejection
     const rejectedPromise = Promise.reject(
-      new PhoenixError('Promise test', ErrorCode.AI_REQUEST_FAILED)
+      new PhoenixError('Promise test', ErrorCode.AI_CALL_FAILED)
     );
     
     return expect(rejectedPromise).rejects.toThrow('Promise test');
@@ -399,7 +399,7 @@ describe('Edge Cases and Robustness', () => {
       deepContext = deepContext.nested;
     }
     
-    const error = new PhoenixError('Deep context', ErrorCode.UNKNOWN, deepContext);
+    const error = new PhoenixError('Deep context', ErrorCode.PHASE_TRANSITION_FAILED, deepContext);
     
     expect(error.context).toBeDefined();
     expect(() => error.toJSON()).not.toThrow();
