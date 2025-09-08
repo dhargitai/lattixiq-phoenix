@@ -171,12 +171,15 @@ describe('Database Integration Tests', () => {
           role: message.role,
           content: message.content,
           modelUsed: (message.role === 'assistant' ? 'gpt-4.1' : undefined) as AIModelType | undefined,
-          phaseNumber: 'problem_intake' as const,
+          phaseNumber: 1,
           isActiveBranch: true,
           metadata: {},
           performanceMetrics: {}
         };
-        await sessionManager.addMessage(testSession.id, messageData);
+        await sessionManager.addMessage(testSession.id, {
+          ...messageData,
+          phaseNumber: 1, // Convert string to number
+        });
       }
 
       // Mock the retrieval of messages
@@ -521,7 +524,8 @@ describe('Database Integration Tests', () => {
       // Continue with test flow
 
       const result = await phaseManager.transitionToPhase(
-        testSession,
+        testSession.id,
+        testSession.currentPhase,
         'diagnostic_interview',
         validationResult,
         'Problem statement complete'
@@ -721,7 +725,7 @@ describe('Database Integration Tests', () => {
           sessionId: createdSession.id,
           role: 'user', 
           content: 'I need help deciding whether to pivot my startup',
-          phaseNumber: 'problem_intake' as const,
+          phaseNumber: 1,
           isActiveBranch: true,
           metadata: {},
           performanceMetrics: {}
@@ -773,7 +777,8 @@ describe('Database Integration Tests', () => {
       };
       
       const transitionResult = await phaseManager.transitionToPhase(
-        createdSession,
+        createdSession.id,
+        createdSession.currentPhase,
         'diagnostic_interview',
         transitionValidation,
         'Problem statement complete'

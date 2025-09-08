@@ -442,7 +442,7 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
       throw new PhoenixError(
         ErrorCode.FRAMEWORK_SELECTION_FAILED,
         `Framework selection failed: ${error instanceof Error ? error.message : 'Unknown error'}`,
-        { sessionId: session.id, message },
+        { sessionId: session.id, details: { message } },
         true,
         ['Try again', 'Continue without framework selection']
       );
@@ -530,19 +530,19 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
         currentPhase: nextPhase,
         phaseStates: {
           ...session.phaseStates,
-          [nextPhase]: transition.newPhaseState || {},
+          [nextPhase]: {},
         },
       });
 
       return transition;
     } catch (error) {
       throw new PhoenixError(
-        ErrorCode.PHASE_TRANSITION_FAILED,
+        ErrorCode.PHASE_VALIDATION_FAILED,
         `Phase transition failed: ${error instanceof Error ? error.message : 'Unknown error'}`,
         { 
           sessionId: session.id,
-          fromPhase: session.currentPhase,
-          toPhase: nextPhase,
+          phase: session.currentPhase,
+          details: { fromPhase: session.currentPhase, toPhase: nextPhase },
         },
         true,
         ['Try again', 'Continue in current phase']
@@ -562,7 +562,7 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
       throw new PhoenixError(
         ErrorCode.DATABASE_ERROR,
         `Failed to store session artifacts: ${error instanceof Error ? error.message : 'Unknown error'}`,
-        { sessionId, artifactCount: artifacts.length },
+        { sessionId, details: { artifactCount: artifacts.length } },
         true,
         ['Try again', 'Continue without saving artifacts']
       );
@@ -606,7 +606,7 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
         return 'framework_selection';
       case 'framework_application':
         return 'deep_thinking';
-      case 'commitment_memo':
+      case 'commitment_memo_generation':
         return 'deep_thinking';
       default:
         return 'analysis';

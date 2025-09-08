@@ -60,7 +60,7 @@ export class CommitmentMemoHandler extends BasePhaseHandler {
     );
   }
 
-  getNextPhase(context: PhaseContext): PhoenixPhase | null {
+  getNextPhase(_context: PhaseContext): PhoenixPhase | null {
     return null;
   }
 
@@ -69,11 +69,10 @@ export class CommitmentMemoHandler extends BasePhaseHandler {
   }
 
   private generateCommitmentMemo(
-    message: string,
+    _message: string,
     context: PhaseContext,
     existingMemo: CommitmentMemoContent | null
   ): CommitmentMemoContent {
-    const problemBrief = this.getArtifactContent(context, 'problem_brief');
     const applicationNotes = this.getArtifactContent(context, 'framework_application_notes');
     
     return existingMemo || {

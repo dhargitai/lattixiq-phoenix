@@ -70,9 +70,21 @@ export abstract class BasePhaseHandler implements PhaseHandler {
     };
   }
 
+  protected getPhaseNumber(phase: PhoenixPhase): number {
+    const phaseOrder: PhoenixPhase[] = [
+      'problem_intake',
+      'diagnostic_interview', 
+      'type_classification',
+      'framework_selection',
+      'framework_application',
+      'commitment_memo_generation'
+    ];
+    return phaseOrder.indexOf(phase) + 1;
+  }
+
   protected countUserMessages(context: PhaseContext): number {
     return context.messages.filter(
-      m => m.phaseNumber === this.phase && m.role === 'user'
+      m => m.phaseNumber === this.getPhaseNumber(this.phase) && m.role === 'user'
     ).length;
   }
 

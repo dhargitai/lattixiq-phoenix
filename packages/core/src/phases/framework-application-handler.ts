@@ -13,13 +13,13 @@ export class FrameworkApplicationHandler extends BasePhaseHandler {
 
   async processMessage(
     message: string,
-    context: PhaseContext
+    _context: PhaseContext
   ): Promise<PhaseResponse> {
-    const messageCount = this.countUserMessages(context);
-    const existingNotes = this.getArtifactContent(context, 'framework_application_notes') as FrameworkApplicationNotesContent;
+    const messageCount = this.countUserMessages(_context);
+    const existingNotes = this.getArtifactContent(_context, 'framework_application_notes') as FrameworkApplicationNotesContent;
     
-    const updatedNotes = this.updateApplicationNotes(message, existingNotes, context);
-    const validation = await this.validateReadiness(context);
+    const updatedNotes = this.updateApplicationNotes(message, existingNotes, _context);
+    const validation = await this.validateReadiness(_context);
     
     const responseContent = this.generateApplicationResponse(updatedNotes, validation, messageCount);
     
@@ -38,9 +38,9 @@ export class FrameworkApplicationHandler extends BasePhaseHandler {
     });
   }
 
-  async validateReadiness(context: PhaseContext): Promise<ValidationResult> {
-    const notes = this.getArtifactContent(context, 'framework_application_notes') as FrameworkApplicationNotesContent;
-    const messageCount = this.countUserMessages(context);
+  async validateReadiness(_context: PhaseContext): Promise<ValidationResult> {
+    const notes = this.getArtifactContent(_context, 'framework_application_notes') as FrameworkApplicationNotesContent;
+    const messageCount = this.countUserMessages(_context);
     
     const elements = [
       this.createElement('framework_insights', this.isArrayWithContent(notes?.insights)),
@@ -60,7 +60,7 @@ export class FrameworkApplicationHandler extends BasePhaseHandler {
     );
   }
 
-  getNextPhase(context: PhaseContext): PhoenixPhase | null {
+  getNextPhase(_context: PhaseContext): PhoenixPhase | null {
     return 'commitment_memo_generation';
   }
 
@@ -71,7 +71,7 @@ export class FrameworkApplicationHandler extends BasePhaseHandler {
   private updateApplicationNotes(
     message: string,
     existingNotes: FrameworkApplicationNotesContent | null,
-    context: PhaseContext
+    _context: PhaseContext
   ): FrameworkApplicationNotesContent {
     const notes: FrameworkApplicationNotesContent = existingNotes || {
       frameworksApplied: [

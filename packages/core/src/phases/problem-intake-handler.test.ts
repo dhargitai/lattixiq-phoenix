@@ -2,9 +2,9 @@
  * Tests for ProblemIntakeHandler - First phase of Phoenix Framework
  */
 
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import { ProblemIntakeHandler } from './problem-intake-handler';
-import type { PhaseContext, PhaseResponse, ValidationResult, ProblemBriefContent } from '../types';
+import type { PhaseContext, ProblemBriefContent } from '../types';
 
 describe('ProblemIntakeHandler', () => {
   let handler: ProblemIntakeHandler;
@@ -31,10 +31,15 @@ describe('ProblemIntakeHandler', () => {
 
   describe('processMessage', () => {
     const basicContext: PhaseContext = {
+      sessionId: 'test-session',
+      userId: 'test-user',
       currentPhase: 'problem_intake',
       phaseState: { step: 'initial' },
       messages: [],
       artifacts: [],
+      config: {},
+      createdAt: new Date(),
+      updatedAt: new Date(),
     };
 
     it('should provide initial greeting for first message', async () => {
@@ -94,8 +99,8 @@ describe('ProblemIntakeHandler', () => {
 
       expect(response.shouldTransition).toBe(true);
       expect(response.nextPhase).toBe('diagnostic_interview');
-      expect(response.artifact).toBeDefined();
-      expect(response.artifact?.artifactType).toBe('problem_brief');
+      expect(response.artifacts).toBeDefined();
+      expect(response.artifacts?.[0]?.artifactType).toBe('problem_brief');
     });
 
     it('should extract key elements from problem description', async () => {
@@ -114,8 +119,8 @@ describe('ProblemIntakeHandler', () => {
       
       const response = await handler.processMessage(detailedProblem, contextWithMessages);
 
-      if (response.artifact) {
-        const content = response.artifact.content as ProblemBriefContent;
+      if (response.artifacts?.[0]) {
+        const content = response.artifacts[0].content as ProblemBriefContent;
         
         expect(content.stakeholders).toContain('investors');
         expect(content.stakeholders).toContain('team');
@@ -131,8 +136,8 @@ describe('ProblemIntakeHandler', () => {
       
       const response = await handler.processMessage(businessDecision, basicContext);
 
-      if (response.artifact) {
-        const content = response.artifact.content as ProblemBriefContent;
+      if (response.artifacts?.[0]) {
+        const content = response.artifacts[0].content as ProblemBriefContent;
         expect(content.decisionType).toBe('1'); // Business decision
       }
     });
@@ -142,8 +147,8 @@ describe('ProblemIntakeHandler', () => {
       
       const response = await handler.processMessage(urgentProblem, basicContext);
 
-      if (response.artifact) {
-        const content = response.artifact.content as ProblemBriefContent;
+      if (response.artifacts?.[0]) {
+        const content = response.artifacts[0].content as ProblemBriefContent;
         expect(content.urgency).toBe('immediate');
       }
     });
@@ -155,8 +160,8 @@ describe('ProblemIntakeHandler', () => {
       
       const response = await handler.processMessage(complexProblem, basicContext);
 
-      if (response.artifact) {
-        const content = response.artifact.content as ProblemBriefContent;
+      if (response.artifacts?.[0]) {
+        const content = response.artifacts[0].content as ProblemBriefContent;
         expect(content.complexity).toBe('complex');
       }
     });
@@ -412,8 +417,8 @@ describe('ProblemIntakeHandler', () => {
       const response = await handler.processMessage(startupDecision, basicContext);
 
       expect(response.content.toLowerCase()).toContain('startup');
-      if (response.artifact) {
-        const content = response.artifact.content as ProblemBriefContent;
+      if (response.artifacts?.[0]) {
+        const content = response.artifacts[0].content as ProblemBriefContent;
         expect(content.keyInsights.some(insight => 
           insight.toLowerCase().includes('funding') || 
           insight.toLowerCase().includes('series a')
@@ -426,8 +431,8 @@ describe('ProblemIntakeHandler', () => {
       
       const response = await handler.processMessage(careerDecision, basicContext);
 
-      if (response.artifact) {
-        const content = response.artifact.content as ProblemBriefContent;
+      if (response.artifacts?.[0]) {
+        const content = response.artifacts[0].content as ProblemBriefContent;
         expect(content.decisionType).toBe('2'); // Personal/career decision
       }
     });
@@ -439,8 +444,8 @@ describe('ProblemIntakeHandler', () => {
       
       const response = await handler.processMessage(complexDecision, basicContext);
 
-      if (response.artifact) {
-        const content = response.artifact.content as ProblemBriefContent;
+      if (response.artifacts?.[0]) {
+        const content = response.artifacts[0].content as ProblemBriefContent;
         expect(content.stakeholders).toContain('co-founder');
         expect(content.stakeholders).toContain('investors');  
         expect(content.stakeholders).toContain('employees');
@@ -454,8 +459,8 @@ describe('ProblemIntakeHandler', () => {
       
       const response = await handler.processMessage(timeConstrainedDecision, basicContext);
 
-      if (response.artifact) {
-        const content = response.artifact.content as ProblemBriefContent;
+      if (response.artifacts?.[0]) {
+        const content = response.artifacts[0].content as ProblemBriefContent;
         expect(content.constraints.some(c => c.toLowerCase().includes('friday'))).toBe(true);
         expect(content.urgency).toBe('immediate');
       }

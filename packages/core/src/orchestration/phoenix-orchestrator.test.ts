@@ -2,6 +2,7 @@
  * Tests for PhoenixOrchestrator - Main coordination engine
  */
 
+/// <reference types="vitest/globals" />
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { PhoenixOrchestrator } from './phoenix-orchestrator';
 import { SessionManager } from '../services/session-manager';

@@ -182,51 +182,6 @@ export class PhaseManager {
     };
   }
 
-  async transitionToPhase(
-    session: Session,
-    toPhase: PhoenixPhase,
-    validationResults: ValidationResult,
-    reason?: string,
-    triggeredByMessageId?: string
-  ): Promise<PhaseTransition> {
-    const { data, error } = await this.supabase
-      .from('phase_transitions')
-      .insert({
-        session_id: session.id,
-        from_phase: session.currentPhase,
-        to_phase: toPhase,
-        validation_results: validationResults,
-        transition_reason: reason,
-        triggered_by_message_id: triggeredByMessageId,
-      })
-      .select()
-      .single();
-
-    if (error) {
-      throw new Error(`Failed to log phase transition: ${error.message}`);
-    }
-
-    await this.supabase
-      .from('sessions')
-      .update({
-        current_phase: toPhase,
-        phase_states: {
-          ...session.phaseStates,
-          [session.currentPhase]: {
-            completed: true,
-            completedAt: new Date().toISOString(),
-            validationScore: validationResults.score,
-          },
-          [toPhase]: {
-            started: true,
-            startedAt: new Date().toISOString(),
-          },
-        },
-      })
-      .eq('id', session.id);
-
-    return this.transformPhaseTransition(data);
-  }
 
   canTransitionTo(fromPhase: PhoenixPhase, toPhase: PhoenixPhase): boolean {
     const definition = this.phaseDefinitions.get(fromPhase);
@@ -401,18 +356,53 @@ export class PhaseManager {
     return content;
   }
 
-  private transformPhaseTransition(data: any): PhaseTransition {
-    return {
-      id: data.id,
-      sessionId: data.session_id,
-      fromPhase: data.from_phase,
-      toPhase: data.to_phase,
-      validationResults: data.validation_results,
-      transitionReason: data.transition_reason,
-      triggeredByMessageId: data.triggered_by_message_id,
-      transitionedAt: new Date(data.transitioned_at),
+  /**
+   * Execute phase transition with proper validation and logging
+   */
+  async transitionToPhase(
+    sessionId: string,
+    fromPhase: PhoenixPhase,
+    toPhase: PhoenixPhase,
+    validationResult: ValidationResult,
+    reason: string,
+    triggeringMessageId?: string
+  ): Promise<PhaseTransition> {
+    // Validate transition is allowed
+    const fromDefinition = this.phaseDefinitions.get(fromPhase);
+    if (!fromDefinition?.nextPhases.includes(toPhase)) {
+      throw new Error(`Invalid transition from ${fromPhase} to ${toPhase}`);
+    }
+
+    // Create transition record
+    const transitionId = `trans_${Date.now()}_${Math.random().toString(36).slice(2)}`;
+    const transition: PhaseTransition = {
+      id: transitionId,
+      sessionId,
+      fromPhase,
+      toPhase,
+      validationResults: validationResult,
+      transitionReason: reason,
+      triggeredByMessageId: triggeringMessageId,
+      transitionedAt: new Date(),
     };
+
+    // Store in database
+    await this.supabase
+      .from('phase_transitions')
+      .insert({
+        id: transitionId,
+        session_id: sessionId,
+        from_phase: fromPhase,
+        to_phase: toPhase,
+        validation_results: validationResult,
+        transition_reason: reason,
+        triggered_by_message_id: triggeringMessageId,
+        transitioned_at: new Date().toISOString(),
+      });
+
+    return transition;
   }
+
 
   private transformSession(data: any): Session {
     return {

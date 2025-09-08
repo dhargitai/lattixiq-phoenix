@@ -103,7 +103,7 @@ export class DiagnosticInterviewHandler extends BasePhaseHandler {
     );
   }
 
-  getNextPhase(context: PhaseContext): PhoenixPhase | null {
+  getNextPhase(_context: PhaseContext): PhoenixPhase | null {
     return 'type_classification';
   }
 
@@ -118,7 +118,7 @@ export class DiagnosticInterviewHandler extends BasePhaseHandler {
   private async extractDiagnosticInsights(
     message: string,
     existingNotes: DiagnosticNotesContent | null,
-    problemBrief: ProblemBriefContent
+    _problemBrief: ProblemBriefContent
   ): Promise<DiagnosticNotesContent> {
     const notes: DiagnosticNotesContent = existingNotes || {
       keyFindings: [],

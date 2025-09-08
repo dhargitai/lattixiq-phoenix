@@ -214,7 +214,10 @@ describe('PhaseManager', () => {
           artifactType: 'diagnostic_notes',
           content: {
             keyFindings: ['finding1', 'finding2'],
-            opportunityAreas: ['opportunity1'],
+            patterns: ['pattern1'],
+            concerns: ['concern1'],
+            opportunities: ['opportunity1'],
+            recommendations: ['recommendation1'],
           },
           phaseCreated: 'diagnostic_interview',
           version: 1,

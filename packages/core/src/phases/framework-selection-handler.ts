@@ -11,8 +11,8 @@ export class FrameworkSelectionHandler extends BasePhaseHandler {
   readonly phase: PhoenixPhase = 'framework_selection';
 
   async processMessage(
-    message: string,
-    context: PhaseContext
+    _message: string,
+    _context: PhaseContext
   ): Promise<PhaseResponse> {
     const mockFrameworks = this.getMockFrameworks();
     
@@ -39,7 +39,7 @@ These frameworks will help structure your thinking. Let's apply them to your spe
     });
   }
 
-  async validateReadiness(context: PhaseContext): Promise<ValidationResult> {
+  async validateReadiness(_context: PhaseContext): Promise<ValidationResult> {
     const elements = [
       this.createElement('frameworks_selected', true),
       this.createElement('relevance_scores', true),
@@ -48,7 +48,7 @@ These frameworks will help structure your thinking. Let's apply them to your spe
     return this.createValidationResult(true, elements);
   }
 
-  getNextPhase(context: PhaseContext): PhoenixPhase | null {
+  getNextPhase(_context: PhaseContext): PhoenixPhase | null {
     return 'framework_application';
   }
 
