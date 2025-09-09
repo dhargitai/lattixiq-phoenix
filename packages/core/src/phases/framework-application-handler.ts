@@ -5,6 +5,7 @@ import type {
   PhaseResponse,
   ValidationResult,
   FrameworkApplicationNotesContent,
+  FrameworkSelection,
   SessionArtifact,
 } from '../types';
 
@@ -13,15 +14,16 @@ export class FrameworkApplicationHandler extends BasePhaseHandler {
 
   async processMessage(
     message: string,
-    _context: PhaseContext
+    context: PhaseContext
   ): Promise<PhaseResponse> {
-    const messageCount = this.countUserMessages(_context);
-    const existingNotes = this.getArtifactContent(_context, 'framework_application_notes') as FrameworkApplicationNotesContent;
+    const messageCount = this.countUserMessages(context);
+    const existingNotes = this.getArtifactContent(context, 'framework_application_notes') as FrameworkApplicationNotesContent;
+    const selectedFrameworks = this.getSelectedFrameworks(context);
     
-    const updatedNotes = this.updateApplicationNotes(message, existingNotes, _context);
-    const validation = await this.validateReadiness(_context);
+    const updatedNotes = this.updateApplicationNotes(message, existingNotes, context);
+    const validation = await this.validateReadiness(context);
     
-    const responseContent = this.generateApplicationResponse(updatedNotes, validation, messageCount);
+    const responseContent = this.generateApplicationResponse(updatedNotes, validation, messageCount, selectedFrameworks);
     
     const artifact: Partial<SessionArtifact> = {
       artifactType: 'framework_application_notes',
@@ -71,18 +73,19 @@ export class FrameworkApplicationHandler extends BasePhaseHandler {
   private updateApplicationNotes(
     message: string,
     existingNotes: FrameworkApplicationNotesContent | null,
-    _context: PhaseContext
+    context: PhaseContext
   ): FrameworkApplicationNotesContent {
+    // Get selected frameworks from phase data or previous context
+    const selectedFrameworks = this.getSelectedFrameworks(context);
+    
     const notes: FrameworkApplicationNotesContent = existingNotes || {
-      frameworksApplied: [
-        {
-          frameworkId: 'mock-1',
-          frameworkName: 'First Principles Thinking',
-          application: 'Breaking down the problem to core components',
-          insights: [],
-          score: 0.85,
-        }
-      ],
+      frameworksApplied: selectedFrameworks.map(framework => ({
+        frameworkId: framework.knowledgeContentId,
+        frameworkName: framework.title || 'Unknown Framework',
+        application: framework.selectionReason || 'Framework application in progress',
+        insights: [],
+        score: framework.relevanceScore,
+      })),
       insights: [],
       decisions: [],
       nextSteps: [],
@@ -111,10 +114,12 @@ export class FrameworkApplicationHandler extends BasePhaseHandler {
   private generateApplicationResponse(
     notes: FrameworkApplicationNotesContent,
     validation: ValidationResult,
-    messageCount: number
+    messageCount: number,
+    selectedFrameworks: FrameworkSelection[] = []
   ): string {
     if (validation.isValid) {
-      return `Excellent work applying the frameworks! Here's what we've discovered:
+      const frameworkNames = notes.frameworksApplied.map(f => f.frameworkName).join(', ');
+      return `Excellent work applying the frameworks! Here's what we've discovered using ${frameworkNames}:
 
 **Key Insights:**
 ${notes.insights.slice(0, 3).map(i => `- ${i}`).join('\n')}
@@ -128,9 +133,62 @@ ${notes.nextSteps.slice(0, 3).map(s => `- ${s}`).join('\n')}
 Now let's create your commitment memo to formalize this decision.`;
     }
     
+    return this.generateFrameworkPrompts(selectedFrameworks, messageCount);
+  }
+
+  /**
+   * Get selected frameworks from context
+   */
+  private getSelectedFrameworks(context: PhaseContext): FrameworkSelection[] {
+    // First try to get from current phase data
+    if (context.phaseData?.frameworkSelections) {
+      return context.phaseData.frameworkSelections as FrameworkSelection[];
+    }
+
+    // Try to get from session artifacts or previous phases
+    // Look for framework selections in recent messages or artifacts
+    const recentMessages = context.messages
+      .filter(m => m.role === 'assistant')
+      .slice(-3); // Get last 3 assistant messages
+
+    for (const message of recentMessages) {
+      if (message.metadata?.frameworkSelections) {
+        return message.metadata.frameworkSelections as FrameworkSelection[];
+      }
+    }
+
+    // Fallback: return empty array if no frameworks found
+    return [];
+  }
+
+  /**
+   * Generate framework-specific application prompts
+   */
+  private generateFrameworkPrompts(selectedFrameworks: FrameworkSelection[], messageCount: number): string {
+    if (selectedFrameworks.length === 0) {
+      return this.generateGenericPrompts(messageCount);
+    }
+
+    const framework = selectedFrameworks[messageCount % selectedFrameworks.length];
+    const frameworkName = framework.title || 'the selected framework';
+
+    const frameworkPrompts = [
+      `Let's apply ${frameworkName}. What are the key components when you break this problem down using this approach?`,
+      `Using ${frameworkName}, what insights are emerging about your situation?`,
+      `How does ${frameworkName} help clarify the decision you need to make?`,
+      `Based on your analysis with ${frameworkName}, what are your next steps?`
+    ];
+
+    return frameworkPrompts[Math.min(messageCount, frameworkPrompts.length - 1)];
+  }
+
+  /**
+   * Generate generic prompts when no specific frameworks are available
+   */
+  private generateGenericPrompts(messageCount: number): string {
     const prompts = [
-      'Using First Principles, what are the fundamental truths about this situation?',
-      'What insights emerge when you break this down to basics?',
+      'What are the fundamental truths about this situation?',
+      'What insights are emerging as you think through this problem?',
       'What specific decision or direction is becoming clear?',
       'What are the immediate next steps you need to take?'
     ];

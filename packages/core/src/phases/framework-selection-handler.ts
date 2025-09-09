@@ -1,51 +1,68 @@
 import { BasePhaseHandler } from './base-handler';
+import { FrameworkSelector } from '../services/framework-selector';
 import type {
   PhoenixPhase,
   PhaseContext,
   PhaseResponse,
   ValidationResult,
   FrameworkSelection,
+  ProblemBriefContent,
 } from '../types';
 
 export class FrameworkSelectionHandler extends BasePhaseHandler {
   readonly phase: PhoenixPhase = 'framework_selection';
+  private frameworkSelector: FrameworkSelector;
+
+  constructor() {
+    super();
+    this.frameworkSelector = new FrameworkSelector();
+  }
 
   async processMessage(
     _message: string,
-    _context: PhaseContext
+    context: PhaseContext
   ): Promise<PhaseResponse> {
-    const mockFrameworks = this.getMockFrameworks();
+    // Get the problem brief from session artifacts
+    const problemBrief = this.getArtifactContent(context, 'problem_brief') as ProblemBriefContent;
+    if (!problemBrief || !problemBrief.problemStatement) {
+      throw new Error('Problem brief is required for framework selection');
+    }
+
+    // Generate problem statement for framework selection
+    const problemStatement = this.generateProblemStatement(problemBrief);
     
-    const responseContent = `Based on your problem, I've selected these frameworks to guide your decision:
+    // Select frameworks automatically using the service
+    const selectedFrameworks = await this.frameworkSelector.selectFrameworks(
+      problemStatement,
+      context.sessionId,
+      {
+        maxFrameworks: 3, // Limit to 3 frameworks for focused guidance
+        targetPersona: problemBrief.targetPersona ? [problemBrief.targetPersona] : ['founder'],
+        startupPhase: problemBrief.startupPhase ? [problemBrief.startupPhase] : ['seed'],
+        includeSuperModels: true,
+      }
+    );
 
-**1. First Principles Thinking**
-- Break down the problem to fundamental truths
-- Relevance: High - helps clarify core assumptions
-
-**2. OODA Loop (Observe-Orient-Decide-Act)**
-- Rapid decision-making framework
-- Relevance: High - matches your urgency level
-
-**3. Eisenhower Matrix**
-- Prioritization based on urgency/importance
-- Relevance: Medium - helps focus on what matters
-
-These frameworks will help structure your thinking. Let's apply them to your specific situation.`;
+    // Generate response content based on selected frameworks
+    const responseContent = this.generateFrameworksResponse(selectedFrameworks);
     
     return this.createResponse(responseContent, {
       shouldTransition: true,
       nextPhase: 'framework_application',
-      frameworkSelections: mockFrameworks,
+      frameworkSelections: selectedFrameworks,
     });
   }
 
-  async validateReadiness(_context: PhaseContext): Promise<ValidationResult> {
+  async validateReadiness(context: PhaseContext): Promise<ValidationResult> {
+    // Check if frameworks have been selected and stored
+    const frameworkSelections = context.phaseData?.frameworkSelections as FrameworkSelection[] || [];
+    
     const elements = [
-      this.createElement('frameworks_selected', true),
-      this.createElement('relevance_scores', true),
+      this.createElement('frameworks_selected', frameworkSelections.length > 0),
+      this.createElement('relevance_scores', frameworkSelections.every(f => f.relevanceScore > 0)),
     ];
     
-    return this.createValidationResult(true, elements);
+    return this.createValidationResult(frameworkSelections.length > 0, elements);
   }
 
   async getNextPhase(_context: PhaseContext): Promise<PhoenixPhase | null> {
@@ -56,42 +73,59 @@ These frameworks will help structure your thinking. Let's apply them to your spe
     return ['framework', 'model', 'approach', 'method', 'tool'];
   }
 
-  private getMockFrameworks(): Partial<FrameworkSelection>[] {
-    return [
-      {
-        knowledgeContentId: 'mock-1',
-        relevanceScore: 0.85,
-        scoreBreakdown: {
-          directRelevance: 0.9,
-          applicabilityNow: 0.8,
-          foundationalValue: 0.85,
-          simplicityBonus: 0.1,
-          personalRelevance: 0.8,
-          complementarity: 0.9,
-          overallScore: 0.85,
-          reasoning: 'Highly relevant to breaking down complex problems',
-        },
-        selectionRank: 1,
-        selectionReason: 'Core framework for understanding fundamentals',
-        wasApplied: false,
-      },
-      {
-        knowledgeContentId: 'mock-2',
-        relevanceScore: 0.82,
-        scoreBreakdown: {
-          directRelevance: 0.85,
-          applicabilityNow: 0.9,
-          foundationalValue: 0.7,
-          simplicityBonus: 0.15,
-          personalRelevance: 0.75,
-          complementarity: 0.85,
-          overallScore: 0.82,
-          reasoning: 'Excellent for rapid decision-making under time pressure',
-        },
-        selectionRank: 2,
-        selectionReason: 'Matches urgency requirements',
-        wasApplied: false,
-      },
-    ];
+  /**
+   * Generate a comprehensive problem statement from the problem brief
+   */
+  private generateProblemStatement(problemBrief: ProblemBriefContent): string {
+    let statement = problemBrief.problemStatement;
+    
+    if (problemBrief.context) {
+      statement += ` Context: ${problemBrief.context}`;
+    }
+    
+    if (problemBrief.constraints && problemBrief.constraints.length > 0) {
+      statement += ` Constraints: ${problemBrief.constraints.join(', ')}`;
+    }
+    
+    if (problemBrief.urgencyLevel) {
+      statement += ` Urgency: ${problemBrief.urgencyLevel}`;
+    }
+    
+    return statement;
+  }
+
+  /**
+   * Generate response content based on selected frameworks
+   */
+  private generateFrameworksResponse(frameworks: FrameworkSelection[]): string {
+    if (frameworks.length === 0) {
+      return "I'm analyzing your problem to select the most relevant frameworks. Let me find the best approaches for your specific situation.";
+    }
+
+    let response = "Based on your problem, I've selected these frameworks to guide your decision:\n\n";
+    
+    frameworks.forEach((framework, index) => {
+      response += `**${index + 1}. ${framework.title || 'Framework'}**\n`;
+      response += `- ${framework.selectionReason}\n`;
+      response += `- Relevance: ${this.formatRelevanceScore(framework.relevanceScore)}\n`;
+      if (framework.scoreBreakdown?.reasoning) {
+        response += `- ${framework.scoreBreakdown.reasoning}\n`;
+      }
+      response += "\n";
+    });
+
+    response += "These frameworks complement each other and will help structure your thinking. Let's apply them to your specific situation step by step.";
+    
+    return response;
+  }
+
+  /**
+   * Format relevance score for display
+   */
+  private formatRelevanceScore(score: number): string {
+    if (score >= 0.8) return "Very High";
+    if (score >= 0.7) return "High";
+    if (score >= 0.6) return "Medium";
+    return "Moderate";
   }
 }

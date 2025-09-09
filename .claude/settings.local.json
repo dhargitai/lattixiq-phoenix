@@ -24,7 +24,8 @@
       "Bash(pnpm turbo build:*)",
       "Bash(pnpm turbo typecheck:*)",
       "Bash(pnpm:*)",
-      "Bash(git diff-tree:*)"
+      "Bash(git diff-tree:*)",
+      "Bash(find:*)"
     ],
     "deny": [],
     "ask": []
