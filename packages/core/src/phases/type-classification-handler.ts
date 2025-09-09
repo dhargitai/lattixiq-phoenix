@@ -56,7 +56,7 @@ export class TypeClassificationHandler extends BasePhaseHandler {
     );
   }
 
-  getNextPhase(context: PhaseContext): PhoenixPhase | null {
+  async getNextPhase(_context: PhaseContext): Promise<PhoenixPhase | null> {
     return 'framework_selection';
   }
 
@@ -67,7 +67,7 @@ export class TypeClassificationHandler extends BasePhaseHandler {
   private async classifyDecisionType(
     message: string,
     context: PhaseContext,
-    existing: ClassificationResultContent | null
+    _existing: ClassificationResultContent | null
   ): Promise<ClassificationResultContent> {
     const problemBrief = this.getArtifactContent(context, 'problem_brief');
     const diagnosticNotes = this.getArtifactContent(context, 'diagnostic_notes');
@@ -85,7 +85,6 @@ export class TypeClassificationHandler extends BasePhaseHandler {
   }
 
   private analyzeCharacteristics(message: string, problemBrief: any, notes: any): any {
-    const lowerMessage = message.toLowerCase();
     const allContent = `${message} ${JSON.stringify(problemBrief)} ${JSON.stringify(notes)}`.toLowerCase();
     
     return {

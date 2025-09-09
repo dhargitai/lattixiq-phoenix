@@ -382,11 +382,12 @@ describe('Decision Sprint E2E Tests', () => {
 
       // Now branch back to explore shutdown option
       const branchResult = await sessionManager.branchFromMessage(
+        testSession.id,
         originalMessageId
       );
 
-      expect(branchResult.id).toBeDefined();
-      expect(branchResult.userId).toBe(testSession.userId);
+      expect(branchResult.newBranchId).toBeDefined();
+      expect(branchResult.parentMessageId).toBe(originalMessageId);
 
       // Explore shutdown path
       const shutdownMessage = {
@@ -446,7 +447,7 @@ describe('Decision Sprint E2E Tests', () => {
       const bigTechArtifact = response.artifacts[0];
 
       // Branch 2: Focus on startup
-      await sessionManager.branchFromMessage(branchPoint);
+      await sessionManager.branchFromMessage(testSession.id, branchPoint);
 
       const startupMessage = {
         role: 'user' as const,

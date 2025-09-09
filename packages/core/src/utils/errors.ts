@@ -11,9 +11,12 @@ export enum ErrorCode {
   FRAMEWORK_SELECTION_FAILED = 'FRAMEWORK_SELECTION_FAILED',
   DATABASE_ERROR = 'DATABASE_ERROR',
   TIMEOUT_ERROR = 'TIMEOUT_ERROR',
+  OPERATION_TIMEOUT = 'OPERATION_TIMEOUT',
   RATE_LIMIT_ERROR = 'RATE_LIMIT_ERROR',
   AUTHENTICATION_ERROR = 'AUTHENTICATION_ERROR',
   VALIDATION_ERROR = 'VALIDATION_ERROR',
+  VALIDATION_FAILED = 'VALIDATION_FAILED',
+  UNKNOWN = 'UNKNOWN',
 }
 
 export interface ErrorContext {
@@ -22,6 +25,93 @@ export interface ErrorContext {
   phase?: string;
   operation?: string;
   details?: Record<string, any>;
+  [key: string]: any; // Allow additional properties
+}
+
+/**
+ * Check if an error is retryable based on its type
+ */
+export function isRetryableError(error: PhoenixError | Error | string | null | undefined | any): boolean {
+  if (error instanceof PhoenixError) {
+    return error.isRetryable || [
+      ErrorCode.AI_TIMEOUT,
+      ErrorCode.TIMEOUT_ERROR,
+      ErrorCode.OPERATION_TIMEOUT,
+      ErrorCode.RATE_LIMIT_ERROR,
+      ErrorCode.DATABASE_ERROR,
+      ErrorCode.AI_MODEL_ERROR,
+    ].includes(error.code);
+  }
+  if (error instanceof Error) {
+    return false;
+  }
+  return false;
+}
+
+/**
+ * Error response structure for API responses
+ */
+export interface ErrorResponse {
+  success: false;
+  error: {
+    code: string;
+    message: string;
+    context?: ErrorContext;
+    retryable: boolean;
+    timestamp: string;
+  };
+}
+
+/**
+ * Create standardized error response from various error types
+ */
+export function createErrorResponse(error: unknown): ErrorResponse {
+  if (error instanceof PhoenixError) {
+    return {
+      success: false,
+      error: {
+        code: error.code,
+        message: error.message,
+        context: error.context,
+        retryable: error.isRetryable,
+        timestamp: error.timestamp.toISOString(),
+      },
+    };
+  }
+
+  if (error instanceof Error) {
+    return {
+      success: false,
+      error: {
+        code: ErrorCode.UNKNOWN,
+        message: error.message,
+        retryable: false,
+        timestamp: new Date().toISOString(),
+      },
+    };
+  }
+
+  if (typeof error === 'string') {
+    return {
+      success: false,
+      error: {
+        code: ErrorCode.UNKNOWN,
+        message: error,
+        retryable: false,
+        timestamp: new Date().toISOString(),
+      },
+    };
+  }
+
+  return {
+    success: false,
+    error: {
+      code: ErrorCode.UNKNOWN,
+      message: 'Unknown error occurred',
+      retryable: false,
+      timestamp: new Date().toISOString(),
+    },
+  };
 }
 
 export class PhoenixError extends Error {
@@ -60,6 +150,10 @@ export class PhoenixError extends Error {
       recoverySuggestions: this.recoverySuggestions,
       stack: this.stack,
     };
+  }
+
+  toString(): string {
+    return `PhoenixError [${this.code}]: ${this.message}`;
   }
 
   getUserMessage(): string {

@@ -87,9 +87,9 @@ export class ProblemIntakeHandler extends BasePhaseHandler {
     );
   }
 
-  getNextPhase(context: PhaseContext): PhoenixPhase | null {
-    const validation = this.validateReadiness(context);
-    return validation ? 'diagnostic_interview' : null;
+  async getNextPhase(context: PhaseContext): Promise<PhoenixPhase | null> {
+    const validation = await this.validateReadiness(context);
+    return validation.isValid ? 'diagnostic_interview' : null;
   }
 
   protected getPhaseKeywords(): string[] {
@@ -103,7 +103,7 @@ export class ProblemIntakeHandler extends BasePhaseHandler {
   private async extractProblemElements(
     message: string,
     existingBrief: ProblemBriefContent | null,
-    context: PhaseContext
+    _context: PhaseContext
   ): Promise<ProblemBriefContent> {
     const brief: ProblemBriefContent = existingBrief || {
       problemStatement: '',

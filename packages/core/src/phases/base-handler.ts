@@ -23,7 +23,7 @@ export abstract class BasePhaseHandler implements PhaseHandler {
 
   abstract getNextPhase(
     context: PhaseContext
-  ): PhoenixPhase | null;
+  ): Promise<PhoenixPhase | null>;
 
   protected createResponse(
     content: string,
@@ -48,8 +48,10 @@ export abstract class BasePhaseHandler implements PhaseHandler {
 
     return {
       isValid,
+      isReady: isValid,
       score,
       requiredElements: elements,
+      elements: elements,
       missingElements,
       warnings,
     };
@@ -65,6 +67,7 @@ export abstract class BasePhaseHandler implements PhaseHandler {
       name,
       required,
       present,
+      isPresent: present,
       score: present ? 1.0 : 0.0,
       details: details || (present ? 'Element found' : 'Element missing'),
     };

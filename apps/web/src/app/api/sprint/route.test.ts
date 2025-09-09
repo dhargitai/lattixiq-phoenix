@@ -66,7 +66,7 @@ describe('Phoenix Sprint API Endpoint', () => {
 
     // Mock streamText to return a proper response
     mockStreamText.mockResolvedValue({
-      toDataStreamResponse: vi.fn(() => new Response()),
+      toTextStreamResponse: vi.fn(() => new Response()),
     });
   });
 

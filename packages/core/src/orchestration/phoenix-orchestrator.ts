@@ -146,7 +146,7 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
 
     // Step 2: Add message to conversation
     this.performanceTracker.startOperation('message_storage');
-    const messageId = await this.sessionManager.addMessage(sessionId, {
+    const messageResult = await this.sessionManager.addMessage(sessionId, {
       sessionId,
       role: 'user',
       content: message,
@@ -156,6 +156,7 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
       metadata: {},
       performanceMetrics: {},
     });
+    const messageId = messageResult.id;
     this.performanceTracker.endOperation('message_storage');
 
     // Step 3: Get phase context
@@ -214,7 +215,7 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
     this.performanceTracker.endOperation('ai_response');
 
     // Step 8: Store AI response message
-    const responseMessageId = await this.sessionManager.addMessage(sessionId, {
+    const responseMessageResult = await this.sessionManager.addMessage(sessionId, {
       sessionId,
       role: 'assistant',
       content: aiResponse.content,
@@ -225,6 +226,7 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
       metadata: {},
       performanceMetrics: aiResponse.metrics || {},
     });
+    const responseMessageId = responseMessageResult.id;
 
     // Step 9: Handle phase transition if needed
     let transitionResult: PhaseTransition | undefined;

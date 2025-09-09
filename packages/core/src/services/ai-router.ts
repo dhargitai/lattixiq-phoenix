@@ -149,10 +149,10 @@ Key principles:
   async generateResponse(
     prompt: string,
     model: AIModel,
-    context?: PhaseContext
+    _context?: PhaseContext
   ): Promise<AIResponse> {
     const operationId = `ai-generate-${Date.now()}`;
-    this.performanceTracker.startOperation(operationId, 'ai_generation');
+    this.performanceTracker.startOperation(operationId, { operationType: 'ai_generation' });
 
     try {
       const startTime = Date.now();
@@ -192,7 +192,7 @@ Key principles:
         throw new PhoenixError(
           ErrorCode.AI_TIMEOUT,
           'AI request timed out',
-          { model: model.type, timeout: model.config.timeoutMs },
+          { modelType: model.type, timeout: model.config.timeoutMs },
           true,
           ['Try again with a longer timeout', 'Use a different model']
         );
@@ -201,7 +201,7 @@ Key principles:
       throw new PhoenixError(
         ErrorCode.AI_GENERATION_ERROR,
         'AI generation failed',
-        { model: model.type, error: error instanceof Error ? error.message : String(error) },
+        { modelType: model.type, error: error instanceof Error ? error.message : String(error) },
         true,
         ['Check your API key', 'Try a different model', 'Reduce input length']
       );
@@ -214,10 +214,10 @@ Key principles:
   async generateStreamingResponse(
     messages: CoreMessage[],
     model: AIModel,
-    context?: PhaseContext
+    _context?: PhaseContext
   ): Promise<StreamingResponse> {
     const operationId = `ai-stream-${Date.now()}`;
-    this.performanceTracker.startOperation(operationId, 'ai_streaming');
+    this.performanceTracker.startOperation(operationId, { operationType: 'ai_streaming' });
 
     try {
       const startTime = Date.now();
@@ -260,7 +260,7 @@ Key principles:
         throw new PhoenixError(
           ErrorCode.AI_TIMEOUT,
           'AI streaming request timed out',
-          { model: model.type, timeout: model.config.timeoutMs },
+          { modelType: model.type, timeout: model.config.timeoutMs },
           true,
           ['Try again with a longer timeout', 'Use a different model']
         );
@@ -269,7 +269,7 @@ Key principles:
       throw new PhoenixError(
         ErrorCode.AI_STREAMING_ERROR,
         'AI streaming failed',
-        { model: model.type, error: error instanceof Error ? error.message : String(error) },
+        { modelType: model.type, error: error instanceof Error ? error.message : String(error) },
         true,
         ['Check your API key', 'Try a different model', 'Reduce input length']
       );
@@ -387,7 +387,7 @@ Key principles:
         throw new PhoenixError(
           ErrorCode.INVALID_MODEL_TYPE,
           `Unknown model type: ${modelType}`,
-          { model: modelType },
+          { modelType: modelType },
           false,
           ['Use a supported model type', 'Check the available models']
         );

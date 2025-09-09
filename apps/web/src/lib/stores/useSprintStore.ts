@@ -1,38 +1,6 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
-
-// Import types (adjust path once monorepo structure is properly set up)
-type KnowledgeContentType = 'mental-model' | 'cognitive-bias' | 'fallacy' | 'strategic-framework' | 'tactical-tool';
-type TargetPersona = 'founder' | 'executive' | 'investor' | 'product_manager';
-type StartupPhase = 'ideation' | 'seed' | 'growth' | 'scale-up' | 'crisis';
-
-interface KnowledgeContent {
-  id: string;
-  title: string;
-  type: KnowledgeContentType;
-  embedding: number[];
-  language: string;
-  mainCategory: string;
-  subcategory: string;
-  hook: string;
-  definition: string;
-  analogyOrMetaphor: string;
-  keyTakeaway: string;
-  classicExample: string;
-  modernExample: string;
-  pitfall: string;
-  payoff: string;
-  visualMetaphor: string;
-  visualMetaphorUrl?: string;
-  diveDeeperMechanism: string;
-  diveDeeperOriginStory: string;
-  diveDeeperPitfallsNuances: string;
-  extraContent?: string;
-  targetPersona: TargetPersona[];
-  startupPhase: StartupPhase[];
-  problemCategory: string[];
-  superModel: boolean;
-}
+import type { KnowledgeContent } from '@phoenix/core';
 
 export type SprintStage = 
   | 'problem-intake' 

@@ -7,6 +7,7 @@ import { SessionManager } from './session-manager';
 import type { 
   Session, 
   CoreMessage, 
+  Message,
   SessionArtifact, 
   PhoenixPhase,
   SessionConfig,
@@ -16,7 +17,6 @@ import type {
 // Mock Supabase
 const mockSupabaseInsert = vi.fn();
 const mockSupabaseUpdate = vi.fn();
-const mockSupabaseSelect = vi.fn();
 
 const createChainableMock = (finalResult: any) => {
   return {
@@ -78,10 +78,11 @@ const mockSessionData: Session = {
   config: {
     enableConversationBranching: true,
     performanceTracking: true,
-    preferredModel: 'gpt-4.1',
-    maxFrameworks: 3,
-    frameworkSelectionMode: 'auto',
+    defaultModel: 'gpt-4.1',
   },
+  metadata: {},
+  startedAt: new Date('2024-01-01T00:00:00Z'),
+  lastActivityAt: new Date('2024-01-01T01:00:00Z'),
   createdAt: new Date('2024-01-01T00:00:00Z'),
   updatedAt: new Date('2024-01-01T01:00:00Z'),
 };
@@ -126,7 +127,7 @@ describe('SessionManager', () => {
 
   beforeEach(() => {
     vi.clearAllMocks();
-    sessionManager = new SessionManager();
+    sessionManager = new SessionManager('http://localhost:54321', 'test-key');
 
     // Reset mock implementations
     mockSupabaseClient.from.mockImplementation((table: string) => {
@@ -145,13 +146,13 @@ describe('SessionManager', () => {
 
   describe('Constructor', () => {
     it('should initialize successfully with required environment variables', () => {
-      expect(() => new SessionManager()).not.toThrow();
+      expect(() => new SessionManager('http://localhost:54321', 'test-key')).not.toThrow();
     });
 
     it('should throw error when Supabase URL is missing', () => {
       delete process.env.NEXT_PUBLIC_SUPABASE_URL;
       
-      expect(() => new SessionManager()).toThrow('Missing Supabase configuration');
+      expect(() => new SessionManager('', '')).toThrow('Missing Supabase configuration');
       
       // Restore for other tests
       process.env.NEXT_PUBLIC_SUPABASE_URL = mockEnv.NEXT_PUBLIC_SUPABASE_URL;
@@ -163,7 +164,7 @@ describe('SessionManager', () => {
     const config: SessionConfig = {
       enableConversationBranching: true,
       performanceTracking: true,
-      preferredModel: 'gpt-4.1',
+      defaultModel: 'gpt-4.1',
     };
 
     it('should create a new session successfully', async () => {
@@ -305,9 +306,13 @@ describe('SessionManager', () => {
 
   describe('addMessage', () => {
     const sessionId = 'session-123';
-    const message: CoreMessage = {
+    const message: Omit<Message, 'id' | 'createdAt'> = {
+      sessionId,
       role: 'user',
       content: 'This is a test message',
+      isActiveBranch: true,
+      metadata: {},
+      performanceMetrics: {}
     };
 
     it('should add a message to session', async () => {
@@ -339,7 +344,7 @@ describe('SessionManager', () => {
     });
 
     it('should add message with parent for branching', async () => {
-      const messageWithParent: CoreMessage = {
+      const messageWithParent: Omit<Message, 'id' | 'createdAt'> = {
         ...message,
         parentMessageId: 'parent-123',
       };
@@ -383,7 +388,7 @@ describe('SessionManager', () => {
     });
 
     it('should retrieve messages with limit', async () => {
-      const result = await sessionManager.getConversationMessages(sessionId, 1);
+      const result = await sessionManager.getConversationMessages(sessionId, 'message-1');
 
       expect(result).toHaveLength(2); // Mock data returns full array
       expect(mockSupabaseClient.from).toHaveBeenCalledWith('messages');
@@ -410,7 +415,7 @@ describe('SessionManager', () => {
       stakeholders: ['founder', 'team'],
       constraints: ['time', 'budget'],
       successCriteria: ['user satisfaction'],
-      urgency: 'high' as const,
+      urgency: 'immediate' as const,
       complexity: 'complex' as const,
       decisionType: '1' as const,
       keyInsights: ['insight 1', 'insight 2'],
@@ -435,12 +440,18 @@ describe('SessionManager', () => {
         error: null,
       });
 
-      const result = await sessionManager.saveArtifact(
+      const artifact: SessionArtifact = {
+        id: '',  // Will be assigned by the method
         sessionId,
         artifactType,
         content,
-        phaseCreated
-      );
+        phaseCreated,
+        version: 1,
+        isCurrent: true,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      };
+      const result = await sessionManager.saveArtifact('session-123', artifact);
 
       expect(result.id).toBe('artifact-789');
       expect(result.sessionId).toBe(sessionId);
@@ -456,8 +467,19 @@ describe('SessionManager', () => {
         error: { message: 'Artifact save failed' },
       });
 
+      const artifact: SessionArtifact = {
+        id: '',
+        sessionId,
+        artifactType,
+        content,
+        phaseCreated,
+        version: 1,
+        isCurrent: true,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      };
       await expect(
-        sessionManager.saveArtifact(sessionId, artifactType, content, phaseCreated)
+        sessionManager.saveArtifact('session-123', artifact)
       ).rejects.toThrow();
     });
   });
@@ -495,14 +517,13 @@ describe('SessionManager', () => {
         error: null,
       }));
 
-      const result = await sessionManager.getSessionArtifacts(sessionId, undefined, true);
+      const result = await sessionManager.getSessionArtifacts(sessionId);
 
       expect(result).toEqual(currentArtifacts);
     });
   });
 
   describe('branchFromMessage', () => {
-    const sessionId = 'session-123';
     const messageId = 'message-456';
 
     it('should create branch from message', async () => {
@@ -524,7 +545,7 @@ describe('SessionManager', () => {
         }),
       });
 
-      await sessionManager.branchFromMessage(sessionId, messageId);
+      await sessionManager.branchFromMessage('session-123', messageId);
 
       expect(mockSupabaseUpdate).toHaveBeenCalledTimes(2);
     });
@@ -540,7 +561,7 @@ describe('SessionManager', () => {
       });
 
       await expect(
-        sessionManager.branchFromMessage(sessionId, messageId)
+        sessionManager.branchFromMessage('session-123', messageId)
       ).rejects.toThrow();
     });
   });
@@ -570,8 +591,22 @@ describe('SessionManager', () => {
     it('should handle concurrent session operations', async () => {
       const promises = [
         sessionManager.getSession('session-123'),
-        sessionManager.addMessage('session-123', { role: 'user', content: 'Message 1' }),
-        sessionManager.addMessage('session-123', { role: 'user', content: 'Message 2' }),
+        sessionManager.addMessage('session-123', { 
+          sessionId: 'session-123',
+          role: 'user', 
+          content: 'Message 1',
+          isActiveBranch: true,
+          metadata: {},
+          performanceMetrics: {}
+        }),
+        sessionManager.addMessage('session-123', { 
+          sessionId: 'session-123',
+          role: 'user', 
+          content: 'Message 2',
+          isActiveBranch: true,
+          metadata: {},
+          performanceMetrics: {}
+        }),
       ];
 
       const results = await Promise.all(promises);
@@ -598,7 +633,14 @@ describe('SessionManager', () => {
         error: null,
       });
 
-      const result = await sessionManager.addMessage('session-123', largeMessage);
+      const result = await sessionManager.addMessage('session-123', {
+        sessionId: 'session-123',
+        role: largeMessage.role,
+        content: largeMessage.content,
+        isActiveBranch: true,
+        metadata: {},
+        performanceMetrics: {}
+      });
 
       expect(result.content).toBe(largeMessage.content);
     });
@@ -621,7 +663,14 @@ describe('SessionManager', () => {
         error: null,
       });
 
-      const result = await sessionManager.addMessage('session-123', messageWithSpecialChars);
+      const result = await sessionManager.addMessage('session-123', {
+        sessionId: 'session-123',
+        role: messageWithSpecialChars.role,
+        content: messageWithSpecialChars.content,
+        isActiveBranch: true,
+        metadata: {},
+        performanceMetrics: {}
+      });
 
       expect(result.content).toBe(messageWithSpecialChars.content);
     });

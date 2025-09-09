@@ -420,8 +420,10 @@ export interface PhaseTransition {
  */
 export interface ValidationResult {
   isValid: boolean;
+  isReady: boolean;
   score: number;
   requiredElements: ValidationElement[];
+  elements: ValidationElement[];
   missingElements?: string[];
   warnings?: string[];
 }
@@ -433,6 +435,7 @@ export interface ValidationElement {
   name: string;
   required: boolean;
   present: boolean;
+  isPresent: boolean;
   score: number;
   details?: string;
 }
@@ -521,7 +524,7 @@ export interface PhaseHandler {
   /**
    * Get the next phase this handler can transition to
    */
-  getNextPhase(context: PhaseContext): PhoenixPhase | null;
+  getNextPhase(context: PhaseContext): Promise<PhoenixPhase | null>;
 }
 
 /**
@@ -558,7 +561,7 @@ export interface ISessionManager {
   createSession(userId: string, config?: SessionConfig): Promise<Session>;
   getSession(sessionId: string): Promise<Session | null>;
   updateSession(sessionId: string, updates: Partial<Session>): Promise<Session>;
-  addMessage(sessionId: string, message: Omit<Message, 'id' | 'createdAt'>): Promise<string>;
+  addMessage(sessionId: string, message: Omit<Message, 'id' | 'createdAt'>): Promise<Message>;
   getConversationMessages(sessionId: string, messageId?: string): Promise<CoreMessage[]>;
   branchFromMessage(sessionId: string, messageId: string): Promise<{ newBranchId: string; parentMessageId: string }>;
   saveArtifact(sessionId: string, artifact: SessionArtifact): Promise<SessionArtifact>;

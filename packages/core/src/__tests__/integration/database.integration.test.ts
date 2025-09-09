@@ -219,7 +219,7 @@ describe('Database Integration Tests', () => {
         createClient: vi.fn(() => mockSupabaseClient),
       }));
 
-      await sessionManager.branchFromMessage(parentMessageId);
+      await sessionManager.branchFromMessage(testSession.id, parentMessageId);
 
       expect(mockSupabaseClient.from).toHaveBeenCalledWith('messages');
     });
@@ -283,6 +283,7 @@ describe('Database Integration Tests', () => {
       };
       
       const savedArtifact = await sessionManager.saveArtifact(
+        testSession.id,
         artifactToSave
       );
 
@@ -510,12 +511,23 @@ describe('Database Integration Tests', () => {
 
       const validationResult: ValidationResult = {
         isValid: true,
+        isReady: true,
         score: 85,
         requiredElements: [
           {
             name: 'problem_statement',
             required: true,
             present: true,
+            isPresent: true,
+            score: 90
+          }
+        ],
+        elements: [
+          {
+            name: 'problem_statement',
+            required: true,
+            present: true,
+            isPresent: true,
             score: 90
           }
         ]
@@ -610,7 +622,7 @@ describe('Database Integration Tests', () => {
           stakeholders: ['founder', 'investors'],
           constraints: ['6 months'],
           successCriteria: ['product-market fit'],
-          urgency: 'high',
+          urgency: 'immediate',
           complexity: 'complex',
           decisionType: '1',
           keyInsights: ['high churn', 'b2c signals'],
@@ -746,13 +758,16 @@ describe('Database Integration Tests', () => {
         keyInsights: ['high churn', 'b2c signals'],
       };
 
-      const savedArtifact = await sessionManager.saveArtifact({
+      const savedArtifact = await sessionManager.saveArtifact(createdSession.id, {
+        id: '',
         sessionId: createdSession.id,
         artifactType: 'problem_brief',
         content: problemBrief,
         phaseCreated: 'problem_intake',
         version: 1,
-        isCurrent: true
+        isCurrent: true,
+        createdAt: new Date(),
+        updatedAt: new Date()
       });
       expect(savedArtifact.artifactType).toBe('problem_brief');
 
@@ -767,11 +782,20 @@ describe('Database Integration Tests', () => {
       // 5. Transition to next phase
       const transitionValidation: ValidationResult = {
         isValid: true,
+        isReady: true,
         score: 85,
         requiredElements: [{
           name: 'problem_statement',
           required: true,
           present: true,
+          isPresent: true,
+          score: 90
+        }],
+        elements: [{
+          name: 'problem_statement',
+          required: true,
+          present: true,
+          isPresent: true,
           score: 90
         }]
       };

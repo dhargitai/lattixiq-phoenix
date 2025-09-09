@@ -183,7 +183,7 @@ export async function POST(req: NextRequest) {
             error: error.message,
             code: error.code,
             details: error.context,
-            suggestions: error.suggestions
+            suggestions: error.recoverySuggestions
           } as ErrorResponse,
           { status }
         );

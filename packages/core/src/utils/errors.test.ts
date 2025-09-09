@@ -3,7 +3,7 @@
  */
 
 import { describe, it, expect } from 'vitest';
-import { PhoenixError, ErrorCode } from './errors';
+import { PhoenixError, ErrorCode, createErrorResponse, isRetryableError } from './errors';
 
 describe('PhoenixError', () => {
   describe('Constructor', () => {
@@ -82,22 +82,22 @@ describe('PhoenixError', () => {
     });
 
     it('should serialize error without context', () => {
-      const error = new PhoenixError('No context', ErrorCode.VALIDATION_FAILED);
+      const error = new PhoenixError(ErrorCode.VALIDATION_ERROR, 'No context');
       
       const json = error.toJSON();
       
       expect(json.context).toBeUndefined();
-      expect(json.retryable).toBe(false);
+      expect(json.isRetryable).toBe(false);
     });
   });
 
   describe('toString', () => {
     it('should provide readable string representation', () => {
-      const error = new PhoenixError('String test', ErrorCode.AI_REQUEST_FAILED);
+      const error = new PhoenixError(ErrorCode.AI_MODEL_ERROR, 'String test');
       
       const str = error.toString();
       
-      expect(str).toBe('PhoenixError [AI_REQUEST_FAILED]: String test');
+      expect(str).toBe('PhoenixError [AI_MODEL_ERROR]: String test');
     });
   });
 });
@@ -105,7 +105,7 @@ describe('PhoenixError', () => {
 describe('createErrorResponse', () => {
   it('should create error response from PhoenixError', () => {
     const context = { sessionId: 'session-123' };
-    const error = new PhoenixError('Phoenix error', ErrorCode.SESSION_NOT_FOUND, context, true);
+    const error = new PhoenixError(ErrorCode.SESSION_NOT_FOUND, 'Phoenix error', context, true);
     
     const response = createErrorResponse(error);
     
@@ -176,18 +176,18 @@ describe('createErrorResponse', () => {
 
 describe('isRetryableError', () => {
   it('should identify retryable PhoenixError', () => {
-    const retryableError = new PhoenixError('Retry me', ErrorCode.AI_REQUEST_FAILED, undefined, true);
-    const nonRetryableError = new PhoenixError('Dont retry', ErrorCode.VALIDATION_FAILED, undefined, false);
+    const retryableError = new PhoenixError(ErrorCode.AI_MODEL_ERROR, 'Retry me', undefined, true);
+    const nonRetryableError = new PhoenixError(ErrorCode.VALIDATION_ERROR, 'Dont retry', undefined, false);
     
     expect(isRetryableError(retryableError)).toBe(true);
     expect(isRetryableError(nonRetryableError)).toBe(false);
   });
 
   it('should identify retryable error codes', () => {
-    const timeoutError = new PhoenixError('Timeout', ErrorCode.TIMEOUT_ERROR);
-    const rateLimitError = new PhoenixError('Rate limit', ErrorCode.RATE_LIMIT_EXCEEDED);
-    const aiError = new PhoenixError('AI failed', ErrorCode.AI_REQUEST_FAILED);
-    const dbError = new PhoenixError('DB failed', ErrorCode.DATABASE_ERROR);
+    const timeoutError = new PhoenixError(ErrorCode.TIMEOUT_ERROR, 'Timeout');
+    const rateLimitError = new PhoenixError(ErrorCode.RATE_LIMIT_ERROR, 'Rate limit');
+    const aiError = new PhoenixError(ErrorCode.AI_MODEL_ERROR, 'AI failed');
+    const dbError = new PhoenixError(ErrorCode.DATABASE_ERROR, 'DB failed');
     
     expect(isRetryableError(timeoutError)).toBe(true);
     expect(isRetryableError(rateLimitError)).toBe(true);
@@ -196,10 +196,10 @@ describe('isRetryableError', () => {
   });
 
   it('should identify non-retryable error codes', () => {
-    const validationError = new PhoenixError('Validation', ErrorCode.VALIDATION_FAILED);
-    const authError = new PhoenixError('Auth', ErrorCode.AUTHENTICATION_FAILED);
-    const notFoundError = new PhoenixError('Not found', ErrorCode.SESSION_NOT_FOUND);
-    const configError = new PhoenixError('Config', ErrorCode.INVALID_CONFIGURATION);
+    const validationError = new PhoenixError(ErrorCode.VALIDATION_ERROR, 'Validation');
+    const authError = new PhoenixError(ErrorCode.AUTHENTICATION_ERROR, 'Auth');
+    const notFoundError = new PhoenixError(ErrorCode.SESSION_NOT_FOUND, 'Not found');
+    const configError = new PhoenixError(ErrorCode.PHASE_VALIDATION_FAILED, 'Config');
     
     expect(isRetryableError(validationError)).toBe(false);
     expect(isRetryableError(authError)).toBe(false);
@@ -222,8 +222,8 @@ describe('isRetryableError', () => {
   it('should respect explicit retryable flag over default behavior', () => {
     // Normally validation errors are not retryable
     const retryableValidationError = new PhoenixError(
+      ErrorCode.VALIDATION_FAILED,
       'Special validation error', 
-      ErrorCode.VALIDATION_FAILED, 
       undefined, 
       true // Explicitly marked as retryable
     );
@@ -251,7 +251,7 @@ describe('Error Context Handling', () => {
       },
     };
     
-    const error = new PhoenixError('Complex context', ErrorCode.AI_REQUEST_FAILED, complexContext);
+    const error = new PhoenixError(ErrorCode.AI_MODEL_ERROR, 'Complex context', complexContext as any);
     
     expect(error.context).toEqual(complexContext);
     
@@ -266,7 +266,7 @@ describe('Error Context Handling', () => {
       data: { value: 42 },
     };
     
-    const error = new PhoenixError('Function context', ErrorCode.UNKNOWN, contextWithFunctions);
+    const error = new PhoenixError(ErrorCode.VALIDATION_ERROR, 'Function context', contextWithFunctions);
     
     // The context is stored as-is
     expect(error.context).toEqual(contextWithFunctions);
@@ -286,7 +286,7 @@ describe('Error Context Handling', () => {
     };
     circularContext.self = circularContext; // Create circular reference
     
-    const error = new PhoenixError('Circular context', ErrorCode.UNKNOWN, circularContext);
+    const error = new PhoenixError(ErrorCode.VALIDATION_ERROR, 'Circular context', circularContext);
     
     expect(error.context).toBe(circularContext);
     
@@ -297,15 +297,15 @@ describe('Error Context Handling', () => {
 
 describe('Error Message Formatting', () => {
   it('should handle empty error messages', () => {
-    const error = new PhoenixError('', ErrorCode.VALIDATION_FAILED);
+    const error = new PhoenixError(ErrorCode.VALIDATION_ERROR, '');
     
     expect(error.message).toBe('');
-    expect(error.toString()).toBe('PhoenixError [VALIDATION_FAILED]: ');
+    expect(error.toString()).toBe('PhoenixError [VALIDATION_ERROR]: ');
   });
 
   it('should handle very long error messages', () => {
     const longMessage = 'x'.repeat(10000);
-    const error = new PhoenixError(longMessage, ErrorCode.UNKNOWN);
+    const error = new PhoenixError(ErrorCode.UNKNOWN, longMessage);
     
     expect(error.message).toBe(longMessage);
     expect(error.message.length).toBe(10000);
@@ -313,7 +313,7 @@ describe('Error Message Formatting', () => {
 
   it('should handle error messages with special characters', () => {
     const specialMessage = 'Error with émojis 🚀 and spécial characters: áéíóú, 中文, العربية';
-    const error = new PhoenixError(specialMessage, ErrorCode.UNKNOWN);
+    const error = new PhoenixError(ErrorCode.UNKNOWN, specialMessage);
     
     expect(error.message).toBe(specialMessage);
     
@@ -323,7 +323,7 @@ describe('Error Message Formatting', () => {
 
   it('should handle multiline error messages', () => {
     const multilineMessage = 'Line 1\nLine 2\r\nLine 3\n\nLine 5';
-    const error = new PhoenixError(multilineMessage, ErrorCode.UNKNOWN);
+    const error = new PhoenixError(ErrorCode.UNKNOWN, multilineMessage);
     
     expect(error.message).toBe(multilineMessage);
   });
@@ -331,7 +331,7 @@ describe('Error Message Formatting', () => {
 
 describe('Error Inheritance and Stack Traces', () => {
   it('should maintain proper inheritance chain', () => {
-    const error = new PhoenixError('Inheritance test', ErrorCode.UNKNOWN);
+    const error = new PhoenixError(ErrorCode.VALIDATION_ERROR, 'Inheritance test');
     
     expect(error instanceof PhoenixError).toBe(true);
     expect(error instanceof Error).toBe(true);
@@ -341,7 +341,7 @@ describe('Error Inheritance and Stack Traces', () => {
 
   it('should capture stack trace correctly', () => {
     function createError() {
-      return new PhoenixError('Stack test', ErrorCode.UNKNOWN);
+      return new PhoenixError(ErrorCode.VALIDATION_ERROR, 'Stack test');
     }
     
     function wrapperFunction() {
@@ -360,7 +360,7 @@ describe('Error Inheritance and Stack Traces', () => {
     // Create error in try-catch
     let caughtError;
     try {
-      throw new PhoenixError('Try-catch test', ErrorCode.VALIDATION_FAILED);
+      throw new PhoenixError(ErrorCode.VALIDATION_ERROR, 'Try-catch test');
     } catch (e) {
       caughtError = e;
     }
@@ -370,7 +370,7 @@ describe('Error Inheritance and Stack Traces', () => {
     
     // Create error in Promise rejection
     const rejectedPromise = Promise.reject(
-      new PhoenixError('Promise test', ErrorCode.AI_CALL_FAILED)
+      new PhoenixError(ErrorCode.AI_MODEL_ERROR, 'Promise test')
     );
     
     return expect(rejectedPromise).rejects.toThrow('Promise test');
@@ -405,7 +405,7 @@ describe('Edge Cases and Robustness', () => {
       deepContext = deepContext.nested;
     }
     
-    const error = new PhoenixError('Deep context', ErrorCode.PHASE_TRANSITION_FAILED, deepContext);
+    const error = new PhoenixError(ErrorCode.PHASE_VALIDATION_FAILED, 'Deep context', deepContext);
     
     expect(error.context).toBeDefined();
     expect(() => error.toJSON()).not.toThrow();

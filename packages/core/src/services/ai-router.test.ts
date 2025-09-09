@@ -114,8 +114,15 @@ describe('AIRouter', () => {
         { role: 'user', content: 'Test message' },
       ];
       const phaseContext: PhaseContext = {
+        sessionId: 'test-session',
+        userId: 'test-user',
         currentPhase: 'problem_intake',
         phaseState: { step: 1 },
+        messages: [],
+        artifacts: [],
+        config: {},
+        createdAt: new Date(),
+        updatedAt: new Date(),
       };
 
       const context = aiRouter.assembleContext(messages, undefined, undefined, phaseContext);
@@ -185,6 +192,7 @@ describe('AIRouter', () => {
           selectionRank: 1,
           selectionReason: 'Core framework for problem analysis',
           wasApplied: false,
+          selectedAt: new Date(),
         },
       ];
 
@@ -214,11 +222,50 @@ describe('AIRouter', () => {
     it('should generate non-streaming response successfully', async () => {
       const mockResult = {
         text: 'Generated response',
+        content: [{ type: 'text' as const, text: 'Generated response', providerMetadata: {} }],
+        reasoning: [],
+        reasoningText: undefined,
+        files: [],
         usage: {
           totalTokens: 100,
           promptTokens: 50,
           completionTokens: 50,
+          inputTokens: 50,
+          outputTokens: 50,
         },
+        finishReason: 'stop' as const,
+        responseMessages: [],
+        toolCalls: [],
+        toolResults: [],
+        warnings: undefined,
+        response: {
+          headers: {},
+          id: 'test-id',
+          modelId: 'gpt-4.1',
+          timestamp: new Date(),
+          messages: [],
+          body: undefined
+        },
+        experimental_providerMetadata: {},
+        experimental_telemetry: undefined,
+        sources: [],
+        staticToolCalls: [],
+        dynamicToolCalls: [],
+        staticToolResults: [],
+        dynamicToolResults: [],
+        steps: [],
+        totalUsage: {
+          totalTokens: 100,
+          promptTokens: 50,
+          completionTokens: 50,
+          inputTokens: 50,
+          outputTokens: 50,
+        },
+        providerMetadata: {},
+        experimental_output: undefined,
+        request: {
+          body: 'test-body'
+        }
       };
       vi.mocked(generateText).mockResolvedValue(mockResult);
 
@@ -257,15 +304,73 @@ describe('AIRouter', () => {
           yield 'chunk1';
           yield 'chunk2';
         },
-      };
+      } as any;
       const mockResult = {
         textStream: mockTextStream,
-        finishReason: 'stop',
+        content: Promise.resolve([{ type: 'text' as const, text: 'streamed content', providerMetadata: {} }]),
+        text: Promise.resolve('streamed content'),
+        reasoning: Promise.resolve([]),
+        reasoningText: Promise.resolve(undefined),
+        files: Promise.resolve([]),
+        finishReason: Promise.resolve('stop' as const),
         usage: Promise.resolve({
           totalTokens: 150,
           promptTokens: 75,
           completionTokens: 75,
+          inputTokens: 75,
+          outputTokens: 75,
         }),
+        fullStream: mockTextStream,
+        toolCalls: Promise.resolve([]),
+        toolResults: Promise.resolve([]),
+        responseMessages: Promise.resolve([]),
+        warnings: Promise.resolve(undefined),
+        response: Promise.resolve({
+          headers: {},
+          id: 'test-stream-id',
+          modelId: 'gpt-4.1',
+          timestamp: new Date(),
+          messages: [],
+          body: undefined
+        }),
+        experimental_providerMetadata: {},
+        experimental_telemetry: undefined,
+        sources: Promise.resolve([]),
+        staticToolCalls: Promise.resolve([]),
+        dynamicToolCalls: Promise.resolve([]),
+        staticToolResults: Promise.resolve([]),
+        dynamicToolResults: Promise.resolve([]),
+        steps: Promise.resolve([]),
+        totalUsage: Promise.resolve({
+          totalTokens: 150,
+          promptTokens: 75,
+          completionTokens: 75,
+          inputTokens: 75,
+          outputTokens: 75,
+        }),
+        providerMetadata: Promise.resolve({}),
+        experimental_partialOutputStream: {
+          async *[Symbol.asyncIterator]() {
+            yield 'partial1';
+            yield 'partial2';
+          },
+        } as any,
+        experimental_output: undefined,
+        consumeStream: async () => {},
+        toUIMessageStream: () => ({
+          async *[Symbol.asyncIterator]() {
+            yield { type: 'text', text: 'ui stream chunk' };
+          },
+        } as any),
+        request: Promise.resolve({
+          body: 'test-body'
+        }),
+        toUIMessageStreamResponse: () => new Response(),
+        pipeUIMessageStreamToResponse: () => new Response(),
+        toTextStreamResponse: () => new Response(),
+        onFinish: () => Promise.resolve(),
+        pipeDataStreamToResponse: () => new Response(),
+        pipeTextStreamToResponse: () => new Response()
       };
       vi.mocked(streamText).mockResolvedValue(mockResult);
 
@@ -402,12 +507,20 @@ describe('AIRouter Integration', () => {
         selectionRank: 1,
         selectionReason: 'Perfect for startup pivot decisions',
         wasApplied: false,
+        selectedAt: new Date(),
       },
     ];
 
     const phaseContext: PhaseContext = {
+      sessionId: 'test-session',
+      userId: 'test-user',
       currentPhase: 'framework_selection',
       phaseState: { selectedFrameworks: 1 },
+      messages: [],
+      artifacts: [],
+      config: {},
+      createdAt: new Date(),
+      updatedAt: new Date(),
     };
 
     // Test model selection

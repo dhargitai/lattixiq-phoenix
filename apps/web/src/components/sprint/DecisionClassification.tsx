@@ -26,7 +26,7 @@ const classifyDecision = (factors: DecisionFactors): 'type-1' | 'type-2' => {
   return 'type-1';
 };
 
-const getDecisionFactors = (diagnosticResponses: Record<string, string | number | boolean>): DecisionFactors => {
+const getDecisionFactors = (diagnosticResponses: Record<string, string | number | boolean | string[]>): DecisionFactors => {
   // Map diagnostic responses to decision factors
   const reversibility = (() => {
     const response = diagnosticResponses.reversibility as string;

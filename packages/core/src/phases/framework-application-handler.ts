@@ -60,7 +60,7 @@ export class FrameworkApplicationHandler extends BasePhaseHandler {
     );
   }
 
-  getNextPhase(_context: PhaseContext): PhoenixPhase | null {
+  async getNextPhase(_context: PhaseContext): Promise<PhoenixPhase | null> {
     return 'commitment_memo_generation';
   }
 

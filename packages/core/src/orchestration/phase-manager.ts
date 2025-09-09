@@ -119,8 +119,10 @@ export class PhaseManager {
     if (!definition) {
       return {
         isValid: false,
+        isReady: false,
         score: 0,
         requiredElements: [],
+        elements: [],
         missingElements: ['Phase definition not found'],
         warnings: [`Unknown phase: ${currentPhase}`],
       };
@@ -156,6 +158,7 @@ export class PhaseManager {
         name: elementName,
         required: true,
         present: isPresent,
+        isPresent: isPresent,
         score: elementScore,
         details: isPresent ? 'Element found' : 'Element missing',
       });
@@ -175,8 +178,10 @@ export class PhaseManager {
 
     return {
       isValid,
+      isReady: isValid,
       score: averageScore,
       requiredElements: elements,
+      elements: elements,
       missingElements: missingElements.length > 0 ? missingElements : undefined,
       warnings: warnings.length > 0 ? warnings : undefined,
     };

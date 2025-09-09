@@ -1,22 +1,23 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { ProblemIntakeForm } from './ProblemIntakeForm';
 import { useSprintStore } from '../../lib/stores/useSprintStore';
 import { useChat } from 'ai/react';
 
 // Mock the AI SDK
-jest.mock('ai/react');
-const mockUseChat = useChat as jest.MockedFunction<typeof useChat>;
+vi.mock('ai/react');
+const mockUseChat = useChat as any;
 
 // Mock the store
-jest.mock('../../lib/stores/useSprintStore');
-const mockUseSprintStore = useSprintStore as jest.MockedFunction<typeof useSprintStore>;
+vi.mock('../../lib/stores/useSprintStore');
+const mockUseSprintStore = useSprintStore as any;
 
 describe('ProblemIntakeForm', () => {
-  const mockAppend = jest.fn();
-  const mockSetProblemInput = jest.fn();
-  const mockSetError = jest.fn();
-  const mockSetCurrentStage = jest.fn();
-  const mockMarkStageCompleted = jest.fn();
+  const mockAppend = vi.fn();
+  const mockSetProblemInput = vi.fn();
+  const mockSetError = vi.fn();
+  const mockSetCurrentStage = vi.fn();
+  const mockMarkStageCompleted = vi.fn();
 
   beforeEach(() => {
     mockUseChat.mockReturnValue({
@@ -24,11 +25,11 @@ describe('ProblemIntakeForm', () => {
       append: mockAppend,
       isLoading: false,
       input: '',
-      setInput: jest.fn(),
-      handleSubmit: jest.fn(),
-      handleInputChange: jest.fn(),
-      reload: jest.fn(),
-      stop: jest.fn(),
+      setInput: vi.fn(),
+      handleSubmit: vi.fn(),
+      handleInputChange: vi.fn(),
+      reload: vi.fn(),
+      stop: vi.fn(),
       error: undefined
     });
 
@@ -43,7 +44,7 @@ describe('ProblemIntakeForm', () => {
   });
 
   afterEach(() => {
-    jest.clearAllMocks();
+    vi.clearAllMocks();
   });
 
   it('should render the problem intake form', () => {
@@ -111,11 +112,11 @@ describe('ProblemIntakeForm', () => {
       append: mockAppend,
       isLoading: true,
       input: '',
-      setInput: jest.fn(),
-      handleSubmit: jest.fn(),
-      handleInputChange: jest.fn(),
-      reload: jest.fn(),
-      stop: jest.fn(),
+      setInput: vi.fn(),
+      handleSubmit: vi.fn(),
+      handleInputChange: vi.fn(),
+      reload: vi.fn(),
+      stop: vi.fn(),
       error: undefined
     });
 
@@ -152,11 +153,11 @@ describe('ProblemIntakeForm', () => {
       append: mockAppend,
       isLoading: false,
       input: '',
-      setInput: jest.fn(),
-      handleSubmit: jest.fn(),
-      handleInputChange: jest.fn(),
-      reload: jest.fn(),
-      stop: jest.fn(),
+      setInput: vi.fn(),
+      handleSubmit: vi.fn(),
+      handleInputChange: vi.fn(),
+      reload: vi.fn(),
+      stop: vi.fn(),
       error: undefined
     });
 

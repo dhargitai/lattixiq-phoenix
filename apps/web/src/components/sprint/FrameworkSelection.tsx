@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { useSprintStore } from '../../lib/stores/useSprintStore';
-import type { KnowledgeContent } from '../../lib/stores/useSprintStore';
+import type { KnowledgeContent } from '@phoenix/core';
 
 interface SearchFilters {
   contentType: string[];

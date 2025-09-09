@@ -21,7 +21,9 @@
       "Bash(pnpm -w test)",
       "Bash(turbo run typecheck:*)",
       "Bash(turbo build:*)",
-      "Bash(pnpm turbo build:*)"
+      "Bash(pnpm turbo build:*)",
+      "Bash(pnpm turbo typecheck:*)",
+      "Bash(pnpm:*)"
     ],
     "deny": [],
     "ask": []

@@ -122,18 +122,18 @@ export class SessionManager implements ISessionManager {
     return this.transformMessage(data);
   }
 
-  async branchFromMessage(messageId: string): Promise<Session> {
+  async branchFromMessage(sessionId: string, messageId: string): Promise<{ newBranchId: string; parentMessageId: string }> {
+    // Verify message exists and belongs to the session
     const { data: messageData, error: messageError } = await this.supabase
       .from('messages')
       .select('session_id')
       .eq('id', messageId)
+      .eq('session_id', sessionId)
       .single();
 
     if (messageError || !messageData) {
-      throw new Error(`Message not found: ${messageId}`);
+      throw new Error(`Message not found or doesn't belong to session: ${messageId}`);
     }
-
-    const sessionId = messageData.session_id;
     
     const { error: deactivateError } = await this.supabase
       .from('messages')
@@ -159,16 +159,23 @@ export class SessionManager implements ISessionManager {
       })
       .eq('id', sessionId);
 
-    return this.loadSession(sessionId);
+    // Generate a new branch ID (could be a UUID in a real implementation)
+    const newBranchId = `branch-${Date.now()}`;
+    
+    return {
+      newBranchId,
+      parentMessageId: messageId
+    };
   }
 
   async saveArtifact(
-    artifact: Omit<SessionArtifact, 'id' | 'createdAt' | 'updatedAt'>
+    sessionId: string,
+    artifact: SessionArtifact
   ): Promise<SessionArtifact> {
     const { error: updateError } = await this.supabase
       .from('session_artifacts')
       .update({ is_current: false })
-      .eq('session_id', artifact.sessionId)
+      .eq('session_id', sessionId)
       .eq('artifact_type', artifact.artifactType)
       .eq('is_current', true);
 
@@ -179,7 +186,7 @@ export class SessionManager implements ISessionManager {
     const { data, error } = await this.supabase
       .from('session_artifacts')
       .insert({
-        session_id: artifact.sessionId,
+        session_id: sessionId,
         artifact_type: artifact.artifactType,
         content: artifact.content,
         phase_created: artifact.phaseCreated,

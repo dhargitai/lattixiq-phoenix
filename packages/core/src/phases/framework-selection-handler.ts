@@ -48,7 +48,7 @@ These frameworks will help structure your thinking. Let's apply them to your spe
     return this.createValidationResult(true, elements);
   }
 
-  getNextPhase(_context: PhaseContext): PhoenixPhase | null {
+  async getNextPhase(_context: PhaseContext): Promise<PhoenixPhase | null> {
     return 'framework_application';
   }
 

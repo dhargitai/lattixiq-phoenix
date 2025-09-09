@@ -126,7 +126,7 @@ describe('ProblemIntakeHandler', () => {
         expect(content.stakeholders).toContain('team');
         expect(content.constraints).toContain('6 months');
         expect(content.successCriteria).toContain('product-market fit');
-        expect(content.urgency).toBe('high');
+        expect(content.urgency).toBe('immediate');
         expect(content.complexity).toBe('complex');
       }
     });
@@ -170,12 +170,17 @@ describe('ProblemIntakeHandler', () => {
   describe('validateReadiness', () => {
     it('should validate readiness with complete problem brief', async () => {
       const contextWithArtifact: PhaseContext = {
+        sessionId: 'session-123',
+        userId: 'user-123',
         currentPhase: 'problem_intake',
         phaseState: { step: 'complete' },
         messages: [
           { role: 'user', content: 'I need help...' },
           { role: 'assistant', content: 'Response...' },
         ],
+        config: {},
+        createdAt: new Date(),
+        updatedAt: new Date(),
         artifacts: [{
           id: 'artifact-1',
           sessionId: 'session-123',
@@ -186,7 +191,7 @@ describe('ProblemIntakeHandler', () => {
             stakeholders: ['founders', 'investors', 'team'],
             constraints: ['6 months runway', 'team resistance'],
             successCriteria: ['product-market fit', 'positive unit economics'],
-            urgency: 'high' as const,
+            urgency: 'immediate' as const,
             complexity: 'complex' as const,
             decisionType: '1' as const,
             keyInsights: ['enterprise churn at 15%', 'consumer signals positive'],
@@ -211,10 +216,15 @@ describe('ProblemIntakeHandler', () => {
 
     it('should identify missing problem statement', async () => {
       const contextWithoutArtifacts: PhaseContext = {
+        sessionId: 'test-session',
+        userId: 'test-user',
         currentPhase: 'problem_intake',
         phaseState: { step: 'initial' },
         messages: [{ role: 'user', content: 'Hello' }],
         artifacts: [],
+        config: {},
+        createdAt: new Date(),
+        updatedAt: new Date(),
       };
 
       const result = await handler.validateReadiness(contextWithoutArtifacts);
@@ -227,9 +237,14 @@ describe('ProblemIntakeHandler', () => {
 
     it('should identify incomplete problem brief', async () => {
       const contextWithIncompleteArtifact: PhaseContext = {
+        sessionId: 'session-123',
+        userId: 'user-123',
         currentPhase: 'problem_intake',
         phaseState: { step: 'gathering' },
         messages: [{ role: 'user', content: 'Test message' }],
+        config: {},
+        createdAt: new Date(),
+        updatedAt: new Date(),
         artifacts: [{
           id: 'artifact-1',
           sessionId: 'session-123',
@@ -240,7 +255,7 @@ describe('ProblemIntakeHandler', () => {
             stakeholders: [],
             constraints: [],
             successCriteria: [],
-            urgency: 'medium' as const,
+            urgency: 'short-term' as const,
             complexity: 'moderate' as const,
             decisionType: '1' as const,
             keyInsights: [],
@@ -264,8 +279,13 @@ describe('ProblemIntakeHandler', () => {
 
     it('should consider interaction quality in validation', async () => {
       const contextWithMinimalInteraction: PhaseContext = {
+        sessionId: 'session-123',
+        userId: 'user-123',
         currentPhase: 'problem_intake',
         phaseState: { step: 'complete' },
+        config: {},
+        createdAt: new Date(),
+        updatedAt: new Date(),
         messages: [
           { role: 'user', content: 'Help' },
         ], // Only 1 message - insufficient interaction
@@ -279,7 +299,7 @@ describe('ProblemIntakeHandler', () => {
             stakeholders: ['stakeholder1'],
             constraints: ['constraint1'],
             successCriteria: ['success1'],
-            urgency: 'high' as const,
+            urgency: 'immediate' as const,
             complexity: 'complex' as const,
             decisionType: '1' as const,
             keyInsights: ['insight1'],
@@ -301,8 +321,13 @@ describe('ProblemIntakeHandler', () => {
   describe('getNextPhase', () => {
     it('should return diagnostic_interview for complete problem intake', () => {
       const completeContext: PhaseContext = {
+        sessionId: 'session-123',
+        userId: 'user-123',
         currentPhase: 'problem_intake',
         phaseState: { step: 'complete' },
+        config: {},
+        createdAt: new Date(),
+        updatedAt: new Date(),
         messages: [],
         artifacts: [{
           id: 'artifact-1',
@@ -314,7 +339,7 @@ describe('ProblemIntakeHandler', () => {
             stakeholders: ['stakeholder1'],
             constraints: ['constraint1'],
             successCriteria: ['success1'],
-            urgency: 'high' as const,
+            urgency: 'immediate' as const,
             complexity: 'complex' as const,
             decisionType: '1' as const,
             keyInsights: ['insight1'],
@@ -334,10 +359,15 @@ describe('ProblemIntakeHandler', () => {
 
     it('should return null for incomplete problem intake', () => {
       const incompleteContext: PhaseContext = {
+        sessionId: 'test-session',
+        userId: 'test-user',
         currentPhase: 'problem_intake',
         phaseState: { step: 'initial' },
         messages: [],
         artifacts: [],
+        config: {},
+        createdAt: new Date(),
+        updatedAt: new Date(),
       };
 
       const nextPhase = handler.getNextPhase(incompleteContext);
@@ -517,8 +547,13 @@ describe('ProblemIntakeHandler', () => {
 });
 
 const basicContext: PhaseContext = {
+  sessionId: 'test-session',
+  userId: 'test-user',
   currentPhase: 'problem_intake',
   phaseState: { step: 'initial' },
   messages: [],
   artifacts: [],
+  config: {},
+  createdAt: new Date(),
+  updatedAt: new Date(),
 };

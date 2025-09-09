@@ -60,7 +60,7 @@ export class CommitmentMemoHandler extends BasePhaseHandler {
     );
   }
 
-  getNextPhase(_context: PhaseContext): PhoenixPhase | null {
+  async getNextPhase(_context: PhaseContext): Promise<PhoenixPhase | null> {
     return null;
   }
 
