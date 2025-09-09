@@ -599,6 +599,7 @@ export class FrameworkSelector implements IFrameworkSelector {
       id: `${sessionId}-${candidate.content.id}-${Date.now()}`,
       sessionId,
       knowledgeContentId: candidate.content.id,
+      title: candidate.content.title,
       relevanceScore: candidate.similarity,
       scoreBreakdown: candidate.scoreBreakdown,
       selectionRank: index + 1,

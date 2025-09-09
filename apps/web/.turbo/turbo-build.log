@@ -7,25 +7,44 @@
      · cpus: 4
 
    Creating an optimized production build ...
- ✓ Compiled successfully in 1474ms
+ ✓ Compiled successfully in 6.7s
    Linting and checking validity of types ...
-   Collecting page data ...
-   Generating static pages (0/5) ...
-   Generating static pages (1/5) 
-   Generating static pages (2/5) 
-   Generating static pages (3/5) 
- ✓ Generating static pages (5/5)
-   Finalizing page optimization ...
-   Collecting build traces ...
 
-Route (app)                                 Size  First Load JS
-┌ ○ /                                    5.45 kB         107 kB
-└ ○ /_not-found                            992 B         102 kB
-+ First Load JS shared by all             101 kB
-  ├ chunks/699-a6e31c756a77a2ff.js       45.3 kB
-  ├ chunks/acf35fb8-4e7197f2c6ec5d78.js  54.2 kB
-  └ other shared chunks (total)          1.83 kB
+Failed to compile.
 
+./src/app/api/search/semantic/route.ts
+269:14  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
 
-○  (Static)  prerendered as static content
+./src/app/api/sprint/route.test.ts
+113:13  Warning: 'response' is assigned a value but never used.  @typescript-eslint/no-unused-vars
 
+./src/app/api/sprint/route.ts
+9:22  Warning: 'convertToModelMessages' is defined but never used.  @typescript-eslint/no-unused-vars
+26:11  Warning: 'SprintResponse' is defined but never used.  @typescript-eslint/no-unused-vars
+57:7  Warning: 'supabase' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+307:14  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/sprint/page.tsx
+19:5  Warning: 'completedStages' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+47:9  Warning: 'canGoNext' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+48:9  Warning: 'canGoPrevious' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+50:9  Warning: 'handleNext' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+56:9  Warning: 'handlePrevious' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/sprint/CommitmentMemo.tsx
+300:6  Warning: React Hook useEffect has a missing dependency: 'generateCommitmentMemo'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./src/components/sprint/DiagnosticInterview.tsx
+59:5  Warning: 'diagnosticResponses' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/sprint/FrameworkSelection.tsx
+216:37  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./src/components/sprint/ProblemBrief.tsx
+184:6  Warning: React Hook useEffect has a missing dependency: 'generateProblemBrief'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./src/components/sprint/SprintProgress.tsx
+31:49  Warning: 'index' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+ ELIFECYCLE  Command failed with exit code 1.

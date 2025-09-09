@@ -293,9 +293,12 @@ export interface ProblemBriefContent {
   constraints: string[];
   successCriteria: string[];
   urgency: 'immediate' | 'short-term' | 'long-term';
+  urgencyLevel?: 'immediate' | 'short-term' | 'long-term'; // Alias for urgency
   complexity: 'simple' | 'moderate' | 'complex';
   decisionType: '1' | '2' | 'hybrid';
   keyInsights: string[];
+  targetPersona?: TargetPersona; // Target persona for framework selection
+  startupPhase?: StartupPhase; // Startup phase for framework selection
 }
 
 /**
@@ -447,6 +450,7 @@ export interface FrameworkSelection {
   id: string;
   sessionId: string;
   knowledgeContentId: string;
+  title: string; // Framework title from KnowledgeContent
   relevanceScore: number;
   scoreBreakdown: FrameworkScoreBreakdown;
   selectionRank: number;
@@ -689,6 +693,7 @@ export interface CoreMessage {
   parentMessageId?: string;
   phaseNumber?: number;
   createdAt?: Date;
+  metadata?: Record<string, any>; // Additional metadata
 }
 
 /**
@@ -770,6 +775,7 @@ export interface PhaseContext {
   userId: string;
   currentPhase: PhoenixPhase;
   phaseState: Record<string, any>;
+  phaseData: Record<string, any>; // Additional phase data
   messages: CoreMessage[];
   artifacts: SessionArtifact[];
   config: SessionConfig;

@@ -138,6 +138,7 @@ describe('PhaseManager', () => {
         userId: 'user-123',
         currentPhase: 'problem_intake',
         phaseState: { step: 'complete' },
+        phaseData: {},
         artifacts: [{
           id: 'artifact-1',
           sessionId: 'session-123',
@@ -181,6 +182,7 @@ describe('PhaseManager', () => {
         userId: 'user-123',
         currentPhase: 'problem_intake',
         phaseState: { step: 'initial' },
+        phaseData: {},
         artifacts: [],
         messages: [],
         config: {
@@ -208,6 +210,7 @@ describe('PhaseManager', () => {
           questionsAsked: 5,
           insightsGathered: 3,
         },
+        phaseData: {},
         artifacts: [{
           id: 'artifact-1',
           sessionId: 'session-123',
@@ -248,6 +251,7 @@ describe('PhaseManager', () => {
           step: 'complete',
           frameworksSelected: 2,
         },
+        phaseData: {},
         artifacts: [],
         config: {
           defaultModel: 'gemini-2.5-flash'
@@ -258,6 +262,7 @@ describe('PhaseManager', () => {
           id: 'selection-1',
           sessionId: 'session-123',
           knowledgeContentId: 'framework-1',
+          title: 'Test Framework',
           relevanceScore: 0.85,
           scoreBreakdown: {
             directRelevance: 0.9,

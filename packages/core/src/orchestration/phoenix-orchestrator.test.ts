@@ -62,6 +62,7 @@ describe('PhoenixOrchestrator', () => {
       id: 'selection-1',
       sessionId: 'session-123',
       knowledgeContentId: 'framework-1',
+      title: 'Test Framework',
       relevanceScore: 0.85,
       scoreBreakdown: {
         directRelevance: 0.9,

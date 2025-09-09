@@ -29,6 +29,15 @@ import { PhaseManager } from './phase-manager';
 import { PhoenixError, ErrorCode } from '../utils/errors';
 import { PerformanceTracker } from '../utils/performance-tracker';
 
+// Phase handlers
+import { ProblemIntakeHandler } from '../phases/problem-intake-handler';
+import { DiagnosticInterviewHandler } from '../phases/diagnostic-interview-handler';
+import { TypeClassificationHandler } from '../phases/type-classification-handler';
+import { FrameworkSelectionHandler } from '../phases/framework-selection-handler';
+import { FrameworkApplicationHandler } from '../phases/framework-application-handler';
+import { CommitmentMemoHandler } from '../phases/commitment-memo-handler';
+import type { PhaseHandler } from '../types';
+
 /**
  * Message processing configuration
  */
@@ -196,15 +205,20 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
 
     // Step 6: Process message through current phase handler
     this.performanceTracker.startOperation('phase_processing');
-    const phaseResponse = await this.phaseManager.processPhaseMessage(
-      session.currentPhase,
+    const phaseHandler = await this.getPhaseHandler(session.currentPhase);
+    const phaseResponse = await phaseHandler.processMessage(
       message,
       phaseContext
     );
     
     // Merge any framework selections from phase response
     if (phaseResponse.frameworkSelections) {
-      frameworkSelections = phaseResponse.frameworkSelections;
+      // Filter out partial selections that don't have required fields
+      const validSelections = phaseResponse.frameworkSelections.filter(
+        (selection): selection is FrameworkSelection => 
+          selection.id !== undefined && selection.title !== undefined
+      );
+      frameworkSelections.push(...validSelections);
     }
     this.performanceTracker.endOperation('phase_processing');
 
@@ -265,9 +279,15 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
 
     // Step 10: Update session artifacts if needed
     if (phaseResponse.artifacts && phaseResponse.artifacts.length > 0) {
-      this.performanceTracker.startOperation('artifact_storage');
-      await this.storeSessionArtifacts(sessionId, phaseResponse.artifacts);
-      this.performanceTracker.endOperation('artifact_storage');
+      const validArtifacts = phaseResponse.artifacts.filter(
+        (artifact): artifact is SessionArtifact => 
+          artifact.id !== undefined && artifact.sessionId !== undefined
+      );
+      if (validArtifacts.length > 0) {
+        this.performanceTracker.startOperation('artifact_storage');
+        await this.storeSessionArtifacts(sessionId, validArtifacts);
+        this.performanceTracker.endOperation('artifact_storage');
+      }
     }
 
     // Step 11: Compile orchestration result
@@ -279,7 +299,10 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
       previousPhase: transitionResult ? session.currentPhase : undefined,
       phaseTransition: transitionResult,
       frameworkSelections,
-      artifacts: phaseResponse.artifacts || [],
+      artifacts: (phaseResponse.artifacts?.filter(
+        (artifact): artifact is SessionArtifact => 
+          artifact.id !== undefined && artifact.sessionId !== undefined
+      ) || []),
       metrics: this.compileMetrics(aiResponse.metrics),
       conversationBranch: config.parentMessageId ? {
         parentMessageId: config.parentMessageId,
@@ -418,6 +441,7 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
       userId: session.userId,
       currentPhase: session.currentPhase,
       phaseState: session.phaseStates?.[session.currentPhase] || {},
+      phaseData: session.phaseStates?.[session.currentPhase] || {},
       messages,
       artifacts: artifacts.filter(a => a.isCurrent),
       config: session.config,
@@ -658,19 +682,45 @@ export class PhoenixOrchestrator implements IPhoenixOrchestrator {
   private getDefaultModelForPhase(phase: PhoenixPhase): AIModelType {
     switch (phase) {
       case 'problem_intake':
-        return 'gemini-flash'; // Quick responses for intake
+        return 'gemini-2.5-flash'; // Quick responses for intake
       case 'diagnostic_interview':
-        return 'gpt-4'; // Analysis for understanding problems
+        return 'gpt-4.1'; // Analysis for understanding problems
       case 'type_classification':
-        return 'gpt-4'; // Analysis for classification
+        return 'gpt-4.1'; // Analysis for classification
       case 'framework_selection':
-        return 'gemini-pro'; // Deep thinking for selection
+        return 'gemini-2.5-pro'; // Deep thinking for selection
       case 'framework_application':
-        return 'gemini-pro'; // Deep thinking for application
+        return 'gemini-2.5-pro'; // Deep thinking for application
       case 'commitment_memo_generation':
-        return 'gemini-pro'; // Deep thinking for final output
+        return 'gemini-2.5-pro'; // Deep thinking for final output
       default:
-        return 'gpt-4';
+        return 'gpt-4.1';
+    }
+  }
+
+  /**
+   * Get phase handler for specific phase
+   */
+  private async getPhaseHandler(phase: PhoenixPhase): Promise<PhaseHandler> {
+    switch (phase) {
+      case 'problem_intake':
+        return new ProblemIntakeHandler();
+      case 'diagnostic_interview':
+        return new DiagnosticInterviewHandler();
+      case 'type_classification':
+        return new TypeClassificationHandler();
+      case 'framework_selection':
+        return new FrameworkSelectionHandler();
+      case 'framework_application':
+        return new FrameworkApplicationHandler();
+      case 'commitment_memo_generation':
+        return new CommitmentMemoHandler();
+      default:
+        throw new PhoenixError(
+          ErrorCode.VALIDATION_ERROR,
+          `Unknown phase: ${phase}`,
+          { context: 'PhoenixOrchestrator.getPhaseHandler' }
+        );
     }
   }
 

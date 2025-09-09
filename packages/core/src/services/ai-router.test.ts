@@ -118,6 +118,7 @@ describe('AIRouter', () => {
         userId: 'test-user',
         currentPhase: 'problem_intake',
         phaseState: { step: 1 },
+        phaseData: {},
         messages: [],
         artifacts: [],
         config: {},
@@ -178,6 +179,7 @@ describe('AIRouter', () => {
           id: 'framework-1',
           sessionId: 'session-1',
           knowledgeContentId: 'First Principles Thinking',
+          title: 'First Principles Thinking',
           relevanceScore: 0.85,
           scoreBreakdown: {
             directRelevance: 0.9,
@@ -493,6 +495,7 @@ describe('AIRouter Integration', () => {
         id: 'framework-1',
         sessionId: 'session-1',
         knowledgeContentId: 'OODA Loop',
+        title: 'OODA Loop',
         relevanceScore: 0.92,
         scoreBreakdown: {
           directRelevance: 0.95,
@@ -516,6 +519,7 @@ describe('AIRouter Integration', () => {
       userId: 'test-user',
       currentPhase: 'framework_selection',
       phaseState: { selectedFrameworks: 1 },
+      phaseData: {},
       messages: [],
       artifacts: [],
       config: {},
