@@ -2,3 +2,45 @@
 > @phoenix/web@0.1.0 typecheck /Users/diatigrah/Projects/lattixiq-pheonix/apps/web
 > tsc --noEmit
 
+src/app/api/sprint/route.test.ts(68,38): error TS2345: Argument of type '{ toTextStreamResponse: Mock<() => Response>; }' is not assignable to parameter of type 'StreamTextResult<ToolSet, unknown>'.
+  Type '{ toTextStreamResponse: Mock<() => Response>; }' is missing the following properties from type 'StreamTextResult<ToolSet, unknown>': content, text, reasoning, reasoningText, and 24 more.
+src/components/sprint/ProblemIntakeForm.test.tsx(5,25): error TS2307: Cannot find module 'ai/react' or its corresponding type declarations.
+src/components/sprint/ProblemIntakeForm.test.tsx(53,72): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/ProblemIntakeForm.test.tsx(54,78): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/ProblemIntakeForm.test.tsx(55,55): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/ProblemIntakeForm.test.tsx(126,26): error TS2339: Property 'toBeDisabled' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/ProblemIntakeForm.test.tsx(141,47): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/ProblemIntakeForm.test.tsx(142,68): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(29,3): error TS2304: Cannot find name 'beforeEach'.
+src/components/sprint/SprintNavigation.test.tsx(37,63): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(38,63): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(44,45): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(45,45): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(58,28): error TS2339: Property 'toBeDisabled' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(70,28): error TS2339: Property 'toBeDisabled' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(82,64): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(118,68): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(119,67): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(125,74): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement | null>'.
+src/components/sprint/SprintNavigation.test.tsx(126,73): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement | null>'.
+src/components/sprint/SprintNavigation.test.tsx(182,49): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintNavigation.test.tsx(194,24): error TS2339: Property 'toBeDisabled' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(18,3): error TS2304: Cannot find name 'beforeEach'.
+src/components/sprint/SprintProgress.test.tsx(31,46): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(42,48): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(43,44): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(44,48): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(45,47): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(46,53): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(47,45): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(48,49): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(78,33): error TS2339: Property 'toHaveClass' does not exist on type 'Assertion<HTMLDivElement | null>'.
+src/components/sprint/SprintProgress.test.tsx(89,43): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(90,41): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(91,43): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(92,40): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<HTMLElement>'.
+src/components/sprint/SprintProgress.test.tsx(161,28): error TS2339: Property 'toHaveClass' does not exist on type 'Assertion<Element | null>'.
+src/components/sprint/SprintProgress.test.tsx(165,26): error TS2339: Property 'toHaveClass' does not exist on type 'Assertion<Element | null>'.
+src/components/sprint/SprintProgress.test.tsx(169,28): error TS2339: Property 'toHaveClass' does not exist on type 'Assertion<Element | null>'.
+src/components/sprint/SprintProgress.test.tsx(182,26): error TS2339: Property 'toBeInTheDocument' does not exist on type 'Assertion<Element | null | undefined>'.
+ ELIFECYCLE  Command failed with exit code 2.

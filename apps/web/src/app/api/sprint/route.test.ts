@@ -27,7 +27,7 @@ vi.mock('@phoenix/core/orchestration/phoenix-orchestrator', () => ({
 
 vi.mock('@phoenix/core/utils/errors', () => ({
   PhoenixError: class PhoenixError extends Error {
-    constructor(public code: string, message: string, public context?: any, public recoverable?: boolean, public suggestions?: string[]) {
+    constructor(public code: string, message: string, public context?: Record<string, unknown>, public recoverable?: boolean, public suggestions?: string[]) {
       super(message);
     }
   },
@@ -47,7 +47,12 @@ const mockStreamText = vi.mocked((await import('ai')).streamText);
 const mockOrchestrator = vi.mocked((await import('@phoenix/core/orchestration/phoenix-orchestrator')).PhoenixOrchestrator);
 
 describe('Phoenix Sprint API Endpoint', () => {
-  let orchestratorInstance: any;
+  let orchestratorInstance: {
+    createSession: ReturnType<typeof vi.fn>;
+    processMessage: ReturnType<typeof vi.fn>;
+    branchConversation: ReturnType<typeof vi.fn>;
+    healthCheck: ReturnType<typeof vi.fn>;
+  };
 
   beforeEach(() => {
     // Reset mocks

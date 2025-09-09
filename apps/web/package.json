@@ -7,6 +7,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:quiet": "eslint . --quiet",
@@ -49,6 +52,8 @@
     "eslint-config-next": "15.4.5",
     "prettier": "^3.6.2",
     "tailwindcss": "^4.1.12",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4",
+    "jsdom": "^25.0.1"
   }
 }

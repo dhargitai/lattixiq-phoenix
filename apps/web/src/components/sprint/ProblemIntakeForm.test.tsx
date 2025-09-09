@@ -2,15 +2,15 @@ import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { ProblemIntakeForm } from './ProblemIntakeForm';
 import { useSprintStore } from '../../lib/stores/useSprintStore';
-import { useChat } from 'ai/react';
+import { useChat } from '@ai-sdk/react';
 
 // Mock the AI SDK
-vi.mock('ai/react');
-const mockUseChat = useChat as any;
+vi.mock('@ai-sdk/react');
+const mockUseChat = vi.mocked(useChat);
 
 // Mock the store
 vi.mock('../../lib/stores/useSprintStore');
-const mockUseSprintStore = useSprintStore as any;
+const mockUseSprintStore = vi.mocked(useSprintStore);
 
 describe('ProblemIntakeForm', () => {
   const mockAppend = vi.fn();
@@ -40,7 +40,7 @@ describe('ProblemIntakeForm', () => {
       setError: mockSetError,
       setCurrentStage: mockSetCurrentStage,
       markStageCompleted: mockMarkStageCompleted,
-    } as any);
+    });
   });
 
   afterEach(() => {
@@ -72,7 +72,7 @@ describe('ProblemIntakeForm', () => {
       setError: mockSetError,
       setCurrentStage: mockSetCurrentStage,
       markStageCompleted: mockMarkStageCompleted,
-    } as any);
+    });
 
     render(<ProblemIntakeForm />);
     
@@ -134,7 +134,7 @@ describe('ProblemIntakeForm', () => {
       setError: mockSetError,
       setCurrentStage: mockSetCurrentStage,
       markStageCompleted: mockMarkStageCompleted,
-    } as any);
+    });
 
     render(<ProblemIntakeForm />);
     

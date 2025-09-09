@@ -258,30 +258,30 @@ export function FrameworkSelection() {
       const data = await response.json();
       
       // Transform API results to match KnowledgeContent interface
-      const frameworks: KnowledgeContent[] = data.results.map((result: any) => ({
-        id: result.id,
-        title: result.title,
-        type: result.type,
+      const frameworks: KnowledgeContent[] = data.results.map((result: Record<string, unknown>) => ({
+        id: result.id as string,
+        title: result.title as string,
+        type: result.type as any,
         embedding: [], // Not needed for UI
         language: 'en',
-        mainCategory: result.metadata.mainCategory,
-        subcategory: result.metadata.subcategory,
-        hook: result.content.hook,
-        definition: result.content.definition,
+        mainCategory: (result.metadata as any).mainCategory,
+        subcategory: (result.metadata as any).subcategory,
+        hook: (result.content as any).hook,
+        definition: (result.content as any).definition,
         analogyOrMetaphor: '', // Not returned by API
-        keyTakeaway: result.content.keyTakeaway,
-        classicExample: result.content.classicExample,
-        modernExample: result.content.modernExample,
-        pitfall: result.content.pitfall,
-        payoff: result.content.payoff,
+        keyTakeaway: (result.content as any).keyTakeaway,
+        classicExample: (result.content as any).classicExample,
+        modernExample: (result.content as any).modernExample,
+        pitfall: (result.content as any).pitfall,
+        payoff: (result.content as any).payoff,
         visualMetaphor: '', // Not returned by API
         diveDeeperMechanism: '', // Not returned by API
         diveDeeperOriginStory: '', // Not returned by API
         diveDeeperPitfallsNuances: '', // Not returned by API
-        targetPersona: result.metadata.targetPersona,
-        startupPhase: result.metadata.startupPhase,
-        problemCategory: result.metadata.problemCategory,
-        superModel: result.metadata.superModel,
+        targetPersona: (result.metadata as any).targetPersona,
+        startupPhase: (result.metadata as any).startupPhase,
+        problemCategory: (result.metadata as any).problemCategory,
+        superModel: (result.metadata as any).superModel,
       }));
 
       setSearchResults(frameworks);
@@ -303,7 +303,7 @@ export function FrameworkSelection() {
     performSearch(searchQuery, filters);
   };
 
-  const handleFilterChange = (filterType: keyof SearchFilters, value: any) => {
+  const handleFilterChange = (filterType: keyof SearchFilters, value: unknown) => {
     const newFilters = { ...filters, [filterType]: value };
     setFilters(newFilters);
   };

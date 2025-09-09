@@ -29,18 +29,27 @@ interface SprintResponse {
   content: string;
   currentPhase: string;
   previousPhase?: string;
-  frameworkSelections?: any[];
+  frameworkSelections?: Array<{
+    id: string;
+    knowledgeContentId: string;
+    relevanceScore: number;
+    scoreBreakdown: Record<string, unknown>;
+  }>;
   conversationBranch?: {
     parentMessageId: string;
     branchMessageId: string;
   };
-  metrics?: any;
+  metrics?: {
+    duration: number;
+    tokensUsed: number;
+    cost: number;
+  };
 }
 
 interface ErrorResponse {
   error: string;
   code: string;
-  details?: any;
+  details?: Record<string, unknown>;
   suggestions?: string[];
 }
 

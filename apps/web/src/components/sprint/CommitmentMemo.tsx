@@ -13,13 +13,13 @@ interface EditableCommitmentMemoProps {
 function EditableCommitmentMemo({ memo, onSave, onCancel }: EditableCommitmentMemoProps) {
   const [editedMemo, setEditedMemo] = useState<CommitmentMemo>(memo);
 
-  const handleFieldChange = (field: string, value: any) => {
+  const handleFieldChange = (field: string, value: string) => {
     if (field.includes('.')) {
       const [parent, child] = field.split('.');
       setEditedMemo(prev => ({
         ...prev,
         [parent]: {
-          ...prev[parent as keyof CommitmentMemo] as any,
+          ...(prev[parent as keyof CommitmentMemo] as Record<string, unknown>),
           [child]: value
         }
       }));

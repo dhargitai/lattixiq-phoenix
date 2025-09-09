@@ -23,7 +23,8 @@
       "Bash(turbo build:*)",
       "Bash(pnpm turbo build:*)",
       "Bash(pnpm turbo typecheck:*)",
-      "Bash(pnpm:*)"
+      "Bash(pnpm:*)",
+      "Bash(git diff-tree:*)"
     ],
     "deny": [],
     "ask": []

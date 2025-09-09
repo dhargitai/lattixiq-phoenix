@@ -58,7 +58,7 @@ interface KnowledgeContentResult {
 interface ErrorResponse {
   error: string;
   code: string;
-  details?: any;
+  details?: Record<string, unknown>;
   suggestions?: string[];
 }
 
@@ -93,7 +93,7 @@ async function generateEmbedding(text: string): Promise<number[]> {
 /**
  * Build SQL filters from request filters
  */
-function buildFilters(filters?: SemanticSearchRequest['filters']): { where: string; params: any[] } {
+function buildFilters(filters?: SemanticSearchRequest['filters']): { where: string; params: unknown[] } {
   const conditions = [];
   const params = [];
   let paramIndex = 1;
@@ -194,27 +194,27 @@ async function executeSemanticSearch(
     }
 
     // Transform results to expected format
-    return data.map((row: any) => ({
-      id: row.id,
-      title: row.title,
-      type: row.type,
-      similarity: parseFloat(row.similarity),
+    return data.map((row: Record<string, unknown>) => ({
+      id: row.id as string,
+      title: row.title as string,
+      type: row.type as string,
+      similarity: parseFloat(row.similarity as string),
       content: {
-        hook: row.hook,
-        definition: row.definition,
-        keyTakeaway: row.key_takeaway,
-        classicExample: row.classic_example,
-        modernExample: row.modern_example,
-        pitfall: row.pitfall,
-        payoff: row.payoff,
+        hook: row.hook as string,
+        definition: row.definition as string,
+        keyTakeaway: row.key_takeaway as string,
+        classicExample: row.classic_example as string,
+        modernExample: row.modern_example as string,
+        pitfall: row.pitfall as string,
+        payoff: row.payoff as string,
       },
       metadata: {
-        mainCategory: row.main_category,
-        subcategory: row.subcategory,
-        targetPersona: row.target_persona,
-        startupPhase: row.startup_phase,
-        problemCategory: row.problem_category,
-        superModel: row.super_model,
+        mainCategory: row.main_category as string,
+        subcategory: row.subcategory as string,
+        targetPersona: row.target_persona as string[],
+        startupPhase: row.startup_phase as string[],
+        problemCategory: row.problem_category as string[],
+        superModel: row.super_model as boolean,
       },
     }));
   } catch (error) {

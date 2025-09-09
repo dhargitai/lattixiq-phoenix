@@ -13,7 +13,7 @@ interface ProblemBriefEditorProps {
 function ProblemBriefEditor({ brief, onSave, onCancel }: ProblemBriefEditorProps) {
   const [editedBrief, setEditedBrief] = useState<ProblemBrief>(brief);
 
-  const handleFieldChange = (field: keyof ProblemBrief, value: any) => {
+  const handleFieldChange = (field: keyof ProblemBrief, value: string | string[]) => {
     setEditedBrief(prev => ({
       ...prev,
       [field]: value
