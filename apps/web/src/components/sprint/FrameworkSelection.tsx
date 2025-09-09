@@ -353,7 +353,7 @@ export function FrameworkSelection() {
         <div>
           <h3 className="font-bold">Framework Selection</h3>
           <div className="text-sm">
-            I've found relevant mental models and frameworks for your decision. Select 2-4 frameworks that resonate with your situation.
+            I&apos;ve found relevant mental models and frameworks for your decision. Select 2-4 frameworks that resonate with your situation.
           </div>
         </div>
       </div>

@@ -59,7 +59,7 @@ function ProblemBriefEditor({ brief, onSave, onCancel }: ProblemBriefEditorProps
           {/* Stakes */}
           <div>
             <label className="label">
-              <span className="label-text font-medium">What's at Stake</span>
+              <span className="label-text font-medium">What&apos;s at Stake</span>
             </label>
             <textarea
               className="textarea textarea-bordered w-full h-24"
@@ -323,7 +323,7 @@ export function ProblemBriefComponent() {
               d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" 
             />
           </svg>
-          <span>Unable to generate problem brief. Please ensure you've completed the problem input and decision classification steps.</span>
+          <span>Unable to generate problem brief. Please ensure you&apos;ve completed the problem input and decision classification steps.</span>
         </div>
         
         <div className="flex justify-center">
@@ -371,7 +371,7 @@ export function ProblemBriefComponent() {
               <div>
                 <h3 className="font-bold">Review Your Problem Brief</h3>
                 <div className="text-sm">
-                  I've generated a comprehensive problem brief based on your inputs. Please review and confirm or edit as needed.
+                  I&apos;ve generated a comprehensive problem brief based on your inputs. Please review and confirm or edit as needed.
                 </div>
               </div>
             </div>
@@ -438,7 +438,7 @@ export function ProblemBriefComponent() {
 
                 {/* Stakes */}
                 <div>
-                  <h4 className="font-semibold text-base-content/80 mb-2">What's at Stake</h4>
+                  <h4 className="font-semibold text-base-content/80 mb-2">What&apos;s at Stake</h4>
                   <p className="text-sm bg-base-200 p-3 rounded-lg">{problemBrief.stakes}</p>
                 </div>
 
